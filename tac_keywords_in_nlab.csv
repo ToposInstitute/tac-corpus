@@ -1,0 +1,2115 @@
+keyword,in_nlab
+$ 1 $-cat group,False
+$*$-autonomous category,False
+$2$-metric space,False
+$3$-permutable variety,False
+$\ast$-autonomous and dialogue category,False
+$\ell$-algebra,False
+$\infty$-category,False
+$\lambda\mu$-calculus,False
+$\omega$-category,False
+$\pi$-pretopos,False
+$\pi_2$,False
+$a_\infty$-algebra,False
+$a_\infty$-category,False
+$a_\infty$-functor,False
+$a_\infty$-morphism,False
+$a_\infty$-transformation,False
+$c^*$-algebra,False
+$c^\infty$-ring,False
+$g$-spectra,False
+$l_\infty$-algebra,False
+$n$-category,False
+$r_1$-space,False
+$t_0$ m-poset,False
+$t_{0}$ m-topological space,False
+${\mathcal v}$-orthogonal object,False
+"($\infty$,n)-category",False
+(bi)comodule algebra,False
+(cartesian) distributive law,False
+(co)homology,False
+(co)monad,False
+(co)monadicity,False
+(co)pointed endofunctor,False
+(co)span,False
+(co)tabulator,False
+(co-) lax idempotent pseudomonad,False
+(effective) codescent morphism,False
+(effective) descent morphism,False
+(local) factorization system,False
+(op)monoidal monad,False
+(planar) polycategory,False
+(pre-)hilbert category,False
+(reflexive) coequalizer,False
+(reflexive) graph,False
+(reflexive) relation,False
+(regularly) monadic functor,False
+(strictly) locally finitely presentable category,False
+(strong) completenes,False
+(symmetric) categorical group,False
+"(t,v)-algebra",False
+"(t,v)-category",False
+"(∞,1)-category",False
+*-algebra,False
+*-autonomous,False
+*-autonomous category,False
+*-category,False
+*-monoid,False
+.omega-category,False
+18d15,False
+2 limit,False
+2- track,False
+2-algebra,False
+2-bicategory,False
+2-bundle,False
+2-categorification,False
+2-category,True
+2-crossed complex,True
+2-crossed module,True
+2-dimensional universal algebra,False
+2-exact sequence,False
+2-exactnes,False
+2-fibration,False
+2-functor,True
+2-graded classical yang-baxter equation,False
+2-group,True
+2-groupoid,True
+2-groups (categorical groups),False
+2-monad,True
+2-vector space,True
+2affine set,False
+[n;m]-type,False
+\'etale groupoid,False
+a8 ring,False
+a_\infty-category,False
+a_\infty-functor,False
+a_\infty-transformation,False
+abelian categorification,False
+abelian category,True
+abelian object,False
+absolute colimit,True
+absolute cr-epic,False
+absolutely homologous chain map,False
+abstract core algebra,False
+abstract elementary class,True
+abstract homotopy theory,False
+abstract krivine structure,False
+abstract normal subobject,False
+accessible category,True
+action,True
+action accessible,False
+action accessible category,False
+action of an object,False
+action representable,False
+actor,False
+acyclic model,False
+additive and finite product category,False
+additive category,True
+adhesive category,True
+adjoint,True
+adjoint action,True
+adjoint functor,True
+adjoint triangle,False
+adjunctible map,False
+adjunction,True
+adjunction-like law,False
+admissible pair,False
+admissible reflection,False
+admissible reflexive graph,False
+affine connection,True
+affine manifold,False
+affine space,True
+alexandroff-discrete space,False
+algebra,True
+algebra object,False
+algebra over monad,False
+algebraic category,True
+algebraic exponentiation,False
+algebraic invariants of category,False
+algebraic k-theory,True
+algebraic kan extension,False
+algebraic operad,False
+algebraic quantum field theory,False
+algebraic real analysis,False
+algebraic set theory,True
+algebraic stack,True
+algebraic structure,True
+algebraic theory,True
+algebraic weak factorisation system,False
+algebraically closed,False
+allegory,True
+almost cocyclic flow,False
+alster's condition dieudonne plank,False
+anafunctor,True
+analytic functor,False
+andr'e/quillen homology,False
+andré-quillen cohomology,False
+ann category,False
+anr-space,False
+applicative morphism,False
+approach space,True
+arakelov compactification,False
+arakelov geometry,True
+arithmetic universe,False
+arithmetical and protomodular category,False
+arithmetical category,False
+arrow interval,False
+artin glueing,False
+artin-mazur codiagonal,False
+artin-mazur total simplicial set,False
+associated pairs of subcategory,False
+association scheme,False
+associative algebra,False
+associative double semigroup,False
+atom,True
+atomic,False
+aufhebung,True
+augmented directed complex,False
+augmented virtual double category,True
+automatum,False
+autonomou,False
+axiom of choice,True
+axiom of comprehension,False
+axiomatic arithmetic,False
+axiomatic cohesion,False
+axiomatic domain theory,False
+axiomatizability,False
+azumaya algebra,True
+back and forth lemma,False
+baer invariant,False
+baer sum,True
+balance,False
+balanced morphism,False
+balanced vop-category,False
+banach bundle,True
+banach space,True
+barr,False
+barr exact,False
+barr-exact category,False
+base cancellation,False
+basis,True
+beck condition,False
+beck's theorem,False
+beck-chevalley condition,True
+beck�s theorem,False
+benabou-roubaud theorem,True
+biadjoint biequivalence,False
+biadjunction,True
+bialgebra,True
+bialgebroid,True
+bicalculus of fraction,False
+bicategories of fraction,False
+bicategory,True
+bicategory of fraction,False
+bicateogry,False
+biequivalence,False
+biextension,False
+biform,False
+biframe,False
+bimodule,True
+bimodule coalgebra,False
+bimonad,False
+bimonoid,True
+bimonoidal,False
+bimonoidal category,False
+bimorphism,True
+bimultiplier,False
+binar (set with one binary operation),False
+binary composition,False
+binary product,False
+bipartite state transition system,False
+birkhoff subcategory,False
+birkhoff's theorem,True
+bisimplicial presheaf,False
+bisimulation,True
+bispace,False
+bitopological space,True
+black box,False
+black box functor,False
+boardman-vogt tensor product,True
+boolean algebra of idempotent,False
+boolean category,True
+boolean flow,False
+boolean ring,True
+bottleneck,False
+boundary,True
+bousfield localization,True
+braid group,True
+braided monoidal category,True
+braided monoidal n-category,False
+braiding,True
+branching,True
+brauer group,True
+brauerian representation,False
+brown representability,False
+brown's p functor,False
+brown-loday lemma,False
+bundle fibration,False
+bundle gerbe,True
+burnside-frobenius lemma,False
+butterfly,True
+c*-correspondence,False
+c-system,False
+calculus of fraction,False
+call-by-name,False
+call-by-push-value,True
+call-by-value,False
+cancellative category,False
+cardinality,False
+cartan determinant conjecture,False
+cartan matrix,False
+cartesian bicategory,True
+cartesian closed,False
+cartesian closed category,True
+cartesian closed topological hull,False
+cartesian closednes,False
+cartesian differential category,True
+cartesian fibration,True
+cartesian lifting,False
+cartesian monad,True
+cartesian morphism,True
+cat-group,False
+cat^1-associative algebra,False
+categorical crossed module,False
+categorical galois theory,True
+categorical geometry,False
+categorical group,False
+categorical logic,False
+categorical model,False
+categorical model theory,False
+categorical probability,False
+categorical probability theory,False
+categorical proof theory,False
+categorical representation,False
+categorical ring,False
+categorical semantic,False
+categorical trace,True
+categories of fraction,False
+categories of interest,False
+categories of partial map,False
+categories of presheaf,False
+categories over a base,False
+categories with limit,False
+categorification,False
+categorified algebra,False
+category,True
+category of canonical orbit,False
+category of epimorphism,False
+category of fraction,False
+category of graph,False
+category of interest,False
+category of monomorphism,False
+category of morphism,False
+category of path,False
+category of relative point,False
+category of ring,False
+category of sheaf,False
+category of small category,False
+category theory,True
+cauchy complete,False
+cauchy completion,False
+cauchy-complete bicategory,False
+causal structure,True
+ccd,False
+central extension,True
+central relations and center,False
+centraliser,False
+centrality,False
+centrality of equivalence relation,False
+centralizer,True
+centre,False
+chain complex,True
+chain functor,False
+change of base,False
+characteristic subobject,False
+chern-simons theory,True
+chromatic scale,False
+chu category,False
+chu construction,True
+chu space,False
+chu-space,False
+chu-span,False
+circuit,False
+circuit diagram,False
+ck-machine,False
+classical completion,False
+classical logic,True
+classifiable subalgebra,False
+classification,False
+classifying category,False
+classifying geometrical category,False
+classifying space,True
+classifying spaces of discrete group,False
+classifying topos,True
+clifford system,False
+clifford theory,False
+clone,True
+closed,False
+closed bicategory,False
+closed category,True
+closed interval,False
+closed left ideal,False
+closed midpoint algebra,False
+closed model category,False
+closed monoidal category,True
+closed morphism,True
+closed multicategory,False
+closed subcategory,False
+closeness space,False
+closure,False
+closure operator,True
+closure space,False
+clot,False
+club,True
+cluster-tilting subcategory,False
+co-category,False
+co-groupoid,False
+coaction,False
+coalgebra,True
+coalgebraic real analysis,False
+coalgebroid,False
+coarse-graining,False
+cobordism,True
+cocartesian fibration,False
+cocategory,True
+cocommutative hopf algebra,False
+cocomplete,False
+cocompletenes,False
+cocompletion,True
+cocontinuou,False
+codensity,False
+codescent object,False
+codomain functor,False
+coequalizer,True
+coequalizer completion,False
+coextensivity,False
+cofibrant generation,False
+cofibration,True
+cofibration category,True
+cofree cartesian differential category,False
+cofree coalgebra,True
+cogenerator,True
+cohereditary operator,False
+coherence,False
+coherence theorem,True
+coherent category,True
+coherent domain,False
+coherent functor,True
+coherent logic,True
+coherent space,True
+coherent unit action,False
+cohesion,False
+cohomological descent,True
+cohomological dimension,True
+cohomology,True
+cohomology categorical group,False
+cohomology of crossed module,False
+cohomotopy functor,False
+cole spectrum,False
+colimit,True
+colimit of representable functor,False
+colimiting cone,False
+collage construction,False
+collapsing scheme,False
+colocalization,True
+colored operad,False
+coloured operad,False
+combinatorial homology,False
+combinatorial model category,True
+combinatorial spectra,False
+combinatorial structure,False
+combinatoric,False
+comma category,True
+comma object,True
+commutative $c^*$-algebra,False
+commutative associative algebra,False
+commutative cube,False
+commutative diagram,True
+commutative frobenius object,False
+commutative semigroup,False
+commutative shell,False
+commutativity of bilimit,False
+commutator,True
+commuting morphism,False
+comodule,True
+comonad,True
+comonoid,True
+comonoidal monad,False
+comorphism,True
+compact,False
+compact closed category,True
+compact closure,False
+compact hausdor. space,False
+compact hausdorff space,False
+compact lie group,True
+compact morphism,False
+compact ordered space,True
+compact quantum group,False
+compact regular frame,False
+compact space,True
+compactification,True
+compactnes,False
+companion,False
+comparison theorem,True
+compatibility resolution,False
+compatible system,False
+complement,True
+complemented sublocale,False
+complemented subtopos,False
+complete distributivity,False
+complete object,False
+complete partial order,False
+complete q-category,False
+complete scale,False
+complete segal space,True
+complete spread,True
+completely distributive,False
+completely distributive q-category,False
+completely distributive quantale-enriched category,False
+completenes,False
+completion,True
+completion of metric space,False
+complex manifold,True
+complicial identity,False
+complicial set,True
+component,False
+composition of homotopy,False
+comprehensive factorization,False
+computer algebra,False
+comp�pair,False
+comp�subgroup,False
+conceptual completenes,False
+concrete geometrical category,False
+concurrency,False
+concurrent game semantic,False
+concurrent process,False
+conditional expectation,True
+conditional product distribution,False
+conformal,False
+congruence,True
+congruence distributivity,False
+congruence modularity,False
+conjoint,False
+conjugacy class of subgroup,False
+conjugation,False
+connected object,True
+connection,True
+connective spectrum,True
+connes fusion tensor product,False
+constructible cosheaf,False
+construction datum,False
+constructive complete distributivity,False
+constructive mathematics,True
+context,True
+contextual category,False
+continuation,False
+continuation passing style,False
+continuous $g$-spectrum,False
+continuous lattice,False
+continuous quantale-enriched category,False
+continuous real-valued function,False
+continuous t-norm,False
+contravariant functor,True
+contravariant powerset,False
+control theory,True
+convergence,True
+convolution,False
+convolution tensor product,False
+copower object,False
+copresentable object,False
+copresheaf monad,False
+core,True
+cored category,False
+coreflection,False
+coreflective hull,False
+corelation,False
+coring,True
+cosheaf,True
+cosheaf homology,False
+cosheafification,False
+cospan,True
+cospan category,False
+cototal span,False
+cotriple,False
+cotriple homology,False
+countable localic meets of subspace,False
+countable neighbourhood property,False
+covariant presheaf,False
+cover,True
+cover relation,False
+covering,True
+covering morphism,False
+covering projection,False
+covering space,True
+critical lemma,False
+crossed bimodule,False
+crossed internal category,False
+crossed module,True
+crossed n-cube,True
+crossed product,False
+crossed resolution,False
+crossed square,True
+crown,False
+cubical category,True
+cubical nerve,False
+cubical omega-category,False
+cubical set,True
+cubical t-complex,True
+cuntz-krieger algebra,False
+curry-howard isomorphism,False
+curvature,True
+cyclic homology,True
+cyclic object,True
+cyclic operad,True
+cyclic spectrum,False
+cyclic system,False
+cylinder object,True
+cylinders and homotopy,False
+d-space,False
+d\'{e}calage,False
+dagger category,True
+dagger pivotal category,False
+dagger-compact category,True
+data migration,False
+data structure,False
+database,False
+databasis,False
+data�specification,False
+day convolution,True
+dcc category,False
+de morgan topos,True
+de rham cohomology,False
+decorated corelation,False
+decorated cospan,True
+dedekind category,False
+dedekind completion,True
+deductive system,True
+deep inference,False
+definable operation,False
+deformation theory,True
+delocalization,False
+delta-generated space,False
+deltum,False
+dendriform algebra,False
+denotational semantic,False
+dense map,False
+density,True
+dependent product,True
+dependent type theory,True
+derivation,True
+derivator,True
+derived kan extension,False
+descent,True
+descent category,False
+descent datum,False
+descent object,True
+descent theory,False
+diagonal functor,True
+diagram,True
+diagram category,False
+diagram chasing,True
+diagram-chasing,False
+dialectica category,False
+dialectica construction,False
+dialectica interpretation,True
+dicovering,False
+differentiable stack,True
+differential bundle,False
+differential calculus,True
+differential category,False
+differential equation,True
+differential form,True
+differential linear logic,False
+differential operator,True
+differential restriction category,False
+difunctional relation,False
+dijkgraaf-witten invariant,False
+dimension rig,False
+direct image,True
+directed algebraic topology,False
+directed complex,False
+directed homotopy,False
+directed topology,False
+discrete,False
+discrete dynamical system,False
+discrete fibration,True
+discrete model structure,False
+discrete opfibration,False
+disk,False
+distribution,True
+distributive category,True
+distributive law,True
+distributivity,False
+distributor,False
+doi-koppinen hopf module,False
+dold-kan theorem,False
+domain,True
+domain functor,False
+domain theory,True
+double category,True
+double complex,True
+double copresheaf monad,False
+double dual,False
+double dualization,False
+double groupoid,True
+double lie-rinehart algebra,False
+double limit,False
+double loop space,False
+double monad,False
+double poisson algebra,False
+double presheaf monad,False
+double track,False
+drinfeld double,False
+dual object,False
+duality,True
+duality theory,False
+dualizable,False
+duoid,False
+duoidal,False
+dynamic set,False
+dynamical system,True
+e1�space,False
+effective descent,False
+effective descent morphism,False
+effective f-descent,False
+effective orbifold,False
+effectivization,False
+ehresmann sketch,False
+eilenberg moore algebra,False
+eilenberg--moore category,False
+eilenberg-mac lane space,True
+eilenberg-moore algebra,False
+eilenberg-moore completion,False
+eilenberg-moore construction,False
+eilenberg-moore object,False
+eilenberg-zilber map,True
+electric circuit,False
+elementary equivalence,True
+elementary linear logic,False
+elementary topos,False
+embeddability into a group,False
+embedding,True
+embedding theorem,False
+endomorphism ring,True
+enriched category,True
+enriched category theory,True
+enriched graph,False
+enriched localization,False
+enriched model category,True
+enriched monoidal category,False
+enriched orthogonality,False
+enriched sheaf,False
+enrichment,False
+entrance path category,False
+entwining structure,True
+epimorphic functor,False
+epimorphic hull,False
+epimorphism,True
+epireflective subcategory,False
+equational class,False
+equational logic,False
+equational presentation,False
+equational subcategory,False
+equipment,False
+equivalence,True
+equivalence of category,False
+equivalent category,False
+equivariant derived category,True
+equivariant group cohomology,False
+equivariant homotopy theory,True
+equivariant operad,False
+equivariant stable homotopy category,True
+ergodic action,False
+essential morphism,False
+euclidean principle,False
+euler characteristic,True
+euler form,False
+evrard's theorem,False
+ex2-category,False
+exact,False
+exact category,True
+exact cell,False
+exact completion,False
+exact functor,True
+exact mal'cev category,False
+exact sequence,True
+exactnes,False
+exactness condition,False
+exactness property,True
+excision,True
+existentially,False
+exponentiability,False
+exponentiable,False
+exponentiable and cartesian multicategory,False
+exponentiable map,False
+exponentiable morphism,False
+exponentiable space,False
+extension,True
+extension by 0,False
+extension system,True
+extensional,False
+extensive category,True
+extensive quantity,False
+exterior derivative,False
+extra law,False
+extremally disconnected frame,False
+extremally disconnected space,False
+extriangulated category,False
+factor set,False
+factorisation system,False
+factorization,False
+factorization algebra,True
+factorization lifting,False
+factorization system,True
+factorization systems in a 2-category,False
+faithful amnestic functor,False
+familial 2-functor,False
+familially representable functor,False
+family of adjunctions between slice category,False
+fc-polycategory,False
+fell topology,False
+fermat real,False
+fibered category,False
+fibered derivator,False
+fibered multicategory,False
+fiberwise duality,False
+fibrant object,True
+fibration,True
+fibration of point,False
+fibre space,False
+fibred and cofibred category,False
+fibred category,False
+fibrewise sober,False
+filtered,False
+filtered colimit,False
+final coalgebra,False
+final functor,True
+final maps and discrete fibration,False
+final morphism,False
+finitary functor,True
+finite coproduct,False
+finite derivation type,False
+finite discrete $g$-set,False
+finite product,True
+finite product sketch,False
+finite topos,False
+finitely bounded functor,False
+finitely generatd object,False
+finitely generated object,True
+finitely presentable morphism,False
+finitely presentable object,False
+finitely presented scale,False
+finiteness,False
+first neighbourhood of the diagonal,False
+fixed category,False
+fixed point,True
+flat,False
+flat algebra,False
+flat functor,True
+flow,False
+flow on compact space,False
+fold,False
+folding operation,False
+folk model category structure,False
+forbidden suborder,False
+form,True
+formal concept analysis,True
+formal theory of monad,False
+forward cauchy weight,False
+fourier transform,True
+frame,True
+free a_\infty-category,False
+free algebra,False
+free bicommutative hopf monoid,False
+free cocompletion,True
+free construction,False
+free lattice,False
+free monoid,True
+free object,True
+free scale,False
+free triple,False
+free �-lattice,False
+freyd conjecture,False
+frobeniu,False
+frobenius algebra,True
+frobenius law,False
+frobenius monad,True
+frobenius monoid,False
+frobenius object,False
+frobenius pseudomonoid,True
+frobenius reciprocity,True
+fubini,False
+full embedding,False
+function space,True
+functor,True
+functor category,True
+functorial semantic,False
+fundamental category,True
+fundamental group,True
+fundamental localizer,False
+fundamental progroupoid,False
+funny tensor product,True
+fusion,False
+fusion operator,False
+fuzzy relation,False
+galoi,False
+galois connection,True
+galois entwining,False
+galois groupoid,False
+galois theory,True
+game,False
+game semantic,False
+gamma ring,False
+gamma space,False
+gauge theory,True
+gauge-invariance,False
+gelfand-neumark-stone duality,False
+general recursive function,False
+generalised smooth space,False
+generalised van kampen theo� rem,False
+generalized congruence,False
+generalized covering map,False
+generalized functor,False
+generalized multicategory,True
+generalized ring,True
+generalized van kampen theorem,False
+generating family,False
+generating hypothesi,False
+generator,True
+generators and relation,False
+generic solution,False
+geometric algebra,True
+geometric logic,False
+geometric morphism,True
+gerbe,True
+gerbe module,False
+girard quantale,False
+girard quantaloid,False
+giry monad,True
+gleason cover,False
+global analytic geometry,True
+global phase,False
+globular complex,False
+globular higher dimensional category,False
+globular set,True
+glueing,False
+goguen category,False
+good effective orbifold atlas,False
+good theory of ideal,False
+goursat category,False
+"gr\""obner bases for polynomial ideal",False
+graded bialgebra,False
+graded categorical group,False
+graded hopf algebra,False
+graded monad,True
+graded monoidal functor,False
+graph,True
+graph complex,True
+graph rewrite,False
+graph rewriting,False
+graphical calculus,False
+graphical method,False
+graphs and evolutive set,False
+graphs of group,False
+gray tensor product,True
+gray-category,True
+gromov norm,False
+grothendieck category,True
+grothendieck completion,False
+grothendieck construction,True
+grothendieck derivator,False
+grothendieck duality,True
+grothendieck fibration,True
+grothendieck group,True
+grothendieck topology,True
+grothendieck topos,True
+grothendieck's six-functor-formalism,False
+group,True
+group action,False
+group actions on bicategory,False
+group algebra,True
+group cohomology,True
+group completion,True
+group extension,True
+group universal category,False
+groupoid,True
+groupoid action,False
+groupoid sheaf,False
+guarded equation,False
+half compatible action,False
+hall algebra,True
+harmonic,False
+harmonic scale,False
+harrison homology,False
+hasse diagram,True
+hecke algebra,True
+higgin,False
+higgins commutator,False
+high and wide subcategory,False
+higher adele,False
+higher categorical structure,False
+higher category,False
+higher category theory,True
+higher central extension,True
+higher dimensional automatum,False
+higher dimensional transition system,True
+higher extension,False
+higher gauge theory,False
+higher homotopy van kampen theorem,True
+higher local field,True
+higher operad,False
+higher order logic,False
+higher representation,False
+higher segal object,False
+higher span,False
+higher structure,True
+higher topos theory,True
+higher vector bundle,False
+higher-dimensional algebra,False
+higher-dimensional category,False
+higher-order chain rule,False
+hilbert module,True
+hilbert's theorem 90,True
+hilsum--skandalis morphism,False
+history,False
+hochschild homology,False
+holomorphic gerbe,False
+holomorphic vector bundle,True
+holonomy,True
+hom-functor,True
+homogeneous split epimorphism,False
+homological algebra,True
+homological category,True
+homological descent,False
+homological diagram lemma,False
+homological dimension,False
+homology,True
+homology group,False
+homology theory,False
+homotopical algebra,True
+homotopical excision,False
+homotopy,True
+homotopy 2�type,False
+homotopy 3-type,True
+homotopy addition lemma,False
+homotopy algebra,True
+homotopy bicategory,False
+homotopy category,True
+homotopy colimit,False
+homotopy fibrant replacement of a functor,False
+homotopy fibre,False
+homotopy fixed point,True
+homotopy limit,True
+homotopy limits and colimit,False
+homotopy pullback,True
+homotopy pushout,False
+homotopy relation,False
+homotopy slouse,False
+homotopy structure,False
+homotopy theory,True
+homotopy type,True
+homotopy type theory,True
+hopf,False
+hopf algebra,True
+hopf algebroid,True
+hopf category,False
+hopf formula,False
+hopf galoi,False
+hopf group algebra,False
+hopf module,True
+hopf monad,True
+hopf monoid,True
+hopf polyad,False
+huq,False
+hypercrossed complex,True
+hypergraph category,True
+i-module,False
+icon,True
+ideal,True
+ideal completion,True
+ideal determination,False
+ideal determined category,False
+ideal of morphism,False
+ideal of null morphism,False
+ideal-determined,False
+idempotent,True
+idempotent approximation,False
+idempotent core,False
+idempotent monad,True
+idempotent splitting completion,False
+incidence algebra,False
+incomplete relative homological category,False
+ind-category,False
+ind-object,True
+indecomposable projective,False
+indexed category,True
+induced representation,True
+inductive groupoid,False
+inertia groupoid,False
+infinite dimensional groupoid,False
+infinite-category,False
+infinity category,False
+infinity operad,False
+initial extension,False
+initial maps and discrete opfibration,False
+initial representable functor,False
+initially dense object,False
+injective,False
+injective (projective) rc-module,False
+injective hull,True
+injective object,True
+injective scale,False
+injective subcategory problem,False
+injectivity,False
+injectivity class,False
+inner anodyne morphism,False
+inseparable-separable factorization,False
+integration,False
+intercategory,True
+interchange law,False
+interleaving,False
+internal action,False
+internal algebra,False
+internal automorphism,False
+internal boolean algebra,False
+internal category,True
+internal crossed module,True
+internal fibration,False
+internal group,False
+internal groupoid,False
+internal preorder,False
+internal relation,True
+internal sets and component,False
+internally enriched hom,False
+interpolation property,False
+invariant vector field,False
+inverse category,False
+inverse semicategory,False
+inverse semigroup,True
+invertibility hypothesi,False
+involutive category,False
+involutive monoidal category,False
+involutive quantale,False
+involutive quantaloid,False
+isbell adjunction,False
+isomorphism theorem,False
+isotropy,False
+isotropy group,False
+iterated integral,True
+iterated monoidal category,True
+iterative algebra,False
+jet,False
+join,True
+join completion,False
+joins of simplicial set,False
+jointed oplax morphism,False
+jointly epic pair,False
+jointly epic split extension,False
+joyal species,False
+jónsson-tarski variety,False
+k-z doctrine,False
+kan adjunction,False
+kan complex,True
+kan extension,True
+kan-injectivity,False
+kan-injectivity logic,False
+kantorovich-rubinstein distance,False
+karoubi envelope,True
+kleisli algebra,False
+kleisli bicategory,False
+kleisli category,True
+kleisli cocompletion,False
+kleisli extension,False
+knot,True
+kochen-specker theorem,True
+koszul duality,True
+kullback-leibler divergence,False
+kuratowski-mrówka theorem,False
+kz doctrine,False
+kz-doctrine,False
+kz-monad,False
+l-algebra,False
+l-ring,False
+l_\infty-algebra,False
+lagrangian relation,False
+laplacian,False
+lattice,True
+lattice-ordered abelian group,False
+lawvere metric space,False
+lawvere theory,True
+lawvere-tierney topology,True
+lax $\lambda$-algebra,False
+lax algebra,False
+lax and colax functor,False
+lax categorification,False
+lax distributive law,False
+lax epimorphism,False
+lax functor,True
+lax gray product,False
+lax limit,False
+lax monad,False
+lax monad extension,False
+lax monads and algebra,False
+lax pullback complement,False
+lax slouse,False
+lax-idempotent monad,False
+left cancellative small category,False
+left determined model category,False
+left exact functor,False
+left exact kan extension,False
+left-tensored category,False
+leibniz algebra,True
+leinster construction,False
+length,True
+lextensive category,False
+lie 2-algebra,True
+lie 2-group,True
+lie algebra,True
+lie algebra cohomology,True
+lie groupoid,True
+lifting,False
+lifting theorem,False
+limit,True
+limit closure,False
+limit doctrine,False
+limit of coalgebra,False
+limit preserving functor,False
+limit sketch,False
+limits and colimit,False
+line object,True
+linear algebra over polynomial ring,False
+linear connection,False
+linear decomposition,False
+linear distributive category,False
+linear equation,True
+linear logic,True
+linear track extension,False
+linearly compact k-module,False
+linearly compact vector space,False
+linearly distributive,False
+linearly distributive category,True
+link,True
+lipschitz extension,False
+local operator,False
+locale,True
+localic group,True
+localisation,False
+localization,True
+localization theory,False
+locally algebraically cartesian closed,False
+locally algebraically cartesian closed category,False
+locally biclosed monoidal category,False
+locally bounded category,True
+locally cartesian closed category,True
+locally cartesian-closed category,False
+locally closed sublocale,False
+locally closed subtopos,True
+locally compact space,False
+locally complete inductive groupoid,False
+locally conected topos,False
+locally d-presentable category,False
+locally finitely presentable category,True
+locally isomorphic,False
+locally multipresentable category,False
+locally noetherian,False
+locally posetal 2-category,True
+locally presentable,False
+locally presentable category,True
+locally quasi-compact space,False
+locally ranked category,False
+locally small,False
+long cohomology sequence,False
+loop space,True
+low-dimensional topology,True
+lower vietoris topology,False
+lubin-tate spectrum,False
+lukasiewicz logic,False
+lusternik-schnirelmann category,False
+m �set,False
+m-continuous map,False
+m-poset,False
+m-set,False
+m-topological space,False
+mac lane cohomology,False
+mackey functor,True
+mackey space,False
+mackey topology,False
+macneille completion,True
+magnitude,False
+majority algebra,False
+majority category,False
+majority term,False
+mal'cev,False
+mal'cev and protomodular category,False
+mal'cev and protomodular variety,False
+mal'cev category,True
+mal'cev condition,False
+mal'cev object,False
+mal'cev operation,False
+mal'cev sequence,False
+mal'cev variety,True
+mal'cev variety of universal algebra,False
+manifold calculus,True
+mapping cone,True
+marked category,False
+markov proces,False
+markov process,False
+matrix algebra,True
+maurer-cartan equation,True
+maximal rigid subcategory,False
+measurable cardinal,True
+measures of information,False
+medial rule,False
+merge-bicategory,False
+metastably locally compact,False
+metric,False
+metric space,True
+metrisable,False
+metrization theorem,True
+microcosm principle,True
+midpoint algebra,False
+minimal operator,False
+minor scale,False
+modal logic,True
+model,True
+model category,True
+model fibration,False
+model structure,False
+model structure duality,False
+modular category,False
+modular operad,True
+modular tensor category,True
+modulation,False
+module,True
+module category,True
+moduli space,True
+monad,True
+monad morphism,False
+monad of effective descent type,False
+monad of internal groupoid,False
+monad of weak singleton,False
+monadic,False
+monadic adjunction,True
+monadic category,False
+monadic functor,True
+monadicity,False
+monetary value measure,False
+monoid,True
+monoid extension,False
+monoidal 2-category,False
+monoidal abelian category,False
+monoidal action,False
+monoidal adjunction,True
+monoidal bicategory,True
+monoidal biclosed category,False
+monoidal category,True
+monoidal centre,False
+monoidal closed category,False
+monoidal comonad,False
+monoidal double category,False
+monoidal equivalence,False
+monoidal functor,True
+monoidal kan extension,False
+monoidal model category,True
+monoidal pseudofunctor,False
+monoidale,False
+monoids in monoidal category,False
+monomorphism,True
+monopole,True
+monotone-light factorization,False
+monotone-light factorization system,False
+moore category,False
+moore complex,True
+morita equivalence,True
+morphism axiom,False
+morse theory,True
+motive,True
+multi-category,False
+multi-extension,False
+multi-functor,False
+multicategory,True
+multiderivator,False
+multifunctor,True
+multiple category,False
+multiple sequence alignment,False
+multiplicative graph,False
+multiplicative measure,False
+multiplier ideal sheaf,False
+multitensor,False
+multitopic category,False
+multivariable adjunction,False
+mutation mechanism,False
+mutation pair,False
+möbius category,False
+n-angulated category,True
+n-ary weak wreath product,False
+n-category,True
+n-fold vector bundle atlas,False
+n-permutable and mal'cev variety,False
+n-permutable category,False
+natural system,False
+naturally mal'cev and additive category,False
+naturally mal'cev category,False
+naturally weakly mal'cev category,False
+nature of space,False
+nearly presentable object,False
+nearly representable,False
+nearly representable functor,False
+near�module,False
+near�ring,False
+nerve,True
+nerve of a bicategory,False
+nerve of a category,False
+network,False
+network theory,False
+nilpotency,False
+no-lost-variable,False
+non-abelian 2-bundle,False
+non-abelian bundle gerbe,False
+non-abelian differential cohomology,False
+non-abelian tensor product,False
+non-archimedean approach space,False
+non-localic boolean topos,False
+non-pointed coincidence of commutator,False
+nonabelian derived functor,False
+noncommutative blowing up,False
+noncommutative c*-algebra,False
+noncommutative geometry,True
+non�abelian tensor product of group,False
+normal,False
+normal category,False
+normal epimorphism,False
+normal form,True
+normal monomorphism,True
+normal morphism,False
+normal object,False
+normal projection,False
+normal real-valued function,False
+normal subobject,True
+normality,False
+normality inside union,False
+normalizer,True
+normally ordered product,False
+normed abelian group,False
+normed vector space,False
+nucleus of a locale,False
+numeral,True
+o-operator,False
+observable type,False
+omega-category,True
+omega-complex,False
+omega-graph,False
+omotopy theory,False
+one way site,False
+open map,True
+open morphism,True
+open space,False
+operad,True
+operad module,False
+opetope,True
+opetopic set,False
+oplax action,False
+oplax double category,False
+oplax transformation,False
+opmonoidal functor,False
+opposite category,True
+optimal transport,False
+orbifold,True
+orbifold construction,False
+order-enriched category,False
+ordered compact space,False
+ordered set,False
+ordered sheaf,False
+ordered space,False
+ordered topological space,False
+ordered wedge,False
+ordinal sequence,False
+oriented manifold,False
+oriented singular homology,False
+orthogonal subcategory,False
+orthogonality,True
+orthomodular lattice,True
+othogonality,False
+overt space,True
+p_\wedge$-cat,False
+pair of compatible action,False
+parallel section,False
+parallel transport,True
+parameterized boolean flow,False
+parametric polymorphism,False
+parametric right adjoint,True
+parametrized monad,False
+parity complex,True
+parity game,False
+partial combinatory algebra,True
+partial map,False
+partial morphism,False
+partial morphism category,False
+partial morphism classifier,False
+partial omega-category,False
+partial order,True
+partial product,False
+partial sup lattice,False
+partial topos,False
+partially multiplicative graph,False
+partially ordered monoid,False
+partially ordered semigroup,False
+passive linear network,False
+pasting diagram,True
+pasting scheme,True
+path,True
+path 2-groupoid,False
+path object,False
+peano algebra,False
+pedigrad,False
+peiffer element,False
+perfect,False
+perfect map,False
+perfect topos,False
+periodic and cocyclic flow,False
+permutation representation,True
+persistence,False
+persistent homology,True
+petit topos,False
+phase,True
+phased biproduct,False
+phased coproduct,False
+phylogenetic tree,False
+picard groupoid,True
+picard-vessiot theory,False
+pie limit,False
+point cloud,False
+pointed endofunctor,True
+pointed protomodular,False
+pointwise kan extension,False
+poisson algebra,True
+polarized category,False
+polarized linear logic,False
+polycategory,True
+polygraph,True
+polymodule cooperad,False
+polynomial functor,True
+polynomial monad,True
+polytopic set,False
+poset,False
+pospace,True
+possible world,False
+postnikov invariant,False
+postulated colimit,False
+power monad,False
+power series,True
+powerdomain,False
+powerlocale,False
+pre-lie$_\infty$-algebra,False
+preadditive,False
+precontinuous category,False
+precrossed module,False
+predicate transformer,False
+predicativity,False
+prefibration,False
+pregroupoid,False
+premonoidal category,True
+preorder,True
+presentation,False
+preservation and reflection of normal subobject,False
+preservation of homology,False
+presheaf,True
+presheaf category,False
+presheaf monad,False
+presheaf topos,False
+presheaves of category,False
+presheaves of spectra,False
+pretopos,True
+pretopos completion,True
+pretriangulated dg-category,True
+priestley space,False
+prime filter,False
+prime lambda term,False
+principal bundle,True
+principle of minimum power,False
+pro-category,False
+pro-etale topology,False
+proarrow equipment,False
+probability. stochastic automatum,False
+product,False
+product commutes with coequalizer,False
+product measure,False
+product of families of type,False
+product preserves coequalizer,False
+profinite group,True
+profinite space,True
+profunctor,True
+projective,False
+projective geometry,True
+projective module,True
+projective object,True
+projectivity,False
+prolongation by 0,False
+promonoidal category,True
+proof net,True
+proof theory,True
+prop,True
+proper,False
+proper map,True
+property,False
+prospace,False
+protoadditive functor,False
+protoarithmetical category,False
+protolocalisation,False
+protomodular,False
+protomodular category,True
+proximity,False
+pro�abelian group,False
+pro�category,False
+pro�group,False
+pro�object,False
+pro�set,False
+pseudo double category,False
+pseudo-distributive law,True
+pseudo-exponentiable,False
+pseudo-extranatural,False
+pseudo-functor,False
+pseudo-slouse,False
+pseudo-triangulated category,False
+pseudoadjunction,True
+pseudocategory,False
+pseudodistributive law,False
+pseudofiltered colimit,False
+pseudofunctor,True
+pseudomonad,False
+pseudomonoid,True
+pull-back,False
+pullback,True
+pure monomorphism,False
+pure morphism,True
+pushforward,True
+pushout,True
+q-category,True
+q-closure space,False
+q-distributor,False
+q-interior space,False
+q-powerset,False
+quadratic differential form,False
+quality,False
+quandle,True
+quantale,True
+quantale completion,False
+quantale module,False
+quantale-enriched category,False
+quantales and quantaloid,False
+quantaloid,True
+quantic nucleus,False
+quantification formula,False
+quantifier,False
+quantum category,False
+quantum double,False
+quantum group,True
+quantum groupoid,False
+quantum logic,True
+quantum spin chain,False
+quantum theory,False
+quasi-bialgebra,False
+quasi-category,True
+quasi-local-compactnes,False
+quasi-ultrametric space,False
+quasiadhesive category,False
+quasicategory,False
+quasigroup,True
+quasimetric,False
+quasitopo,False
+quasitriangular,False
+quasivariety,False
+quillen closed model category,False
+quillen model category,False
+quillen model structure,False
+quillen theorem b,False
+quillen's theorem a,False
+quotient,False
+quotient category,True
+quotient completion,False
+quotient map,False
+quotient vector bundle,False
+radical theory,False
+radon-nikodym derivative,False
+rank,True
+rational functions and the rational monad,False
+realizability topos,True
+realizations of chain functors as spectra,False
+recognizable forest,False
+recognizable language,False
+recursive type,False
+rederivator,False
+reeb graph,False
+reeb space,False
+reedy category,True
+reedy model category,False
+refective subcategory,False
+reflection,True
+reflection with stable unit,False
+reflective and coreflective subcategory,False
+reflective subcategory,True
+reflective subfibration,False
+reflexive coequalizer,True
+reflexive graph,True
+regular $\mathcal{q}$-distributor,False
+regular category,True
+regular completion,False
+regular factorization,False
+regular monad,False
+regular operad,False
+regular span,False
+regular ultrafilter,False
+relation,True
+relation algebra,False
+relational database,False
+relational presheaf,False
+relational theory,False
+relational variable set,False
+relative cell complex,False
+relative entropy,True
+relative homological algebra,False
+relative homological category,False
+relative internal action,False
+relative scheme,True
+relative semi-abelian category,False
+representability,False
+representable,False
+representable functor among varieties of algebra,False
+representation,True
+representation of action,False
+representation theorem,False
+representation theory,True
+representative functional,False
+reshetikhin-turaev theory,False
+resolution,True
+restriction category,True
+reversibility,False
+rewrite system,False
+rewriting,True
+rewriting theory,False
+rig,True
+rig category,True
+right fibred right adjoint,False
+right kan extension,False
+rigid,False
+rigid subcategory,False
+ring,True
+ring of continuous function,False
+ring of continuous real-valued function,False
+ring spectra,False
+ring spectrum,True
+ring-group extension,False
+ring-like stack,False
+s-t-span,False
+salamander lemma,True
+saturation,False
+scale,False
+scattered frame,False
+schanuel topos,True
+schemoid,False
+schizophrenic object,False
+schneider's structure theorem,False
+schreier-mac lane extension theorem,False
+scott complete category,False
+scwol,False
+second chern class,False
+segal category,True
+segal space,True
+segal's nerve functor,False
+self-similar groupoid action,False
+self-similarity,False
+semi-abelian,False
+semi-abelian and strongly protomodular category,False
+semi-abelian category,True
+semi-direct product,False
+semi-left-exact reflection,True
+semi-simple scale,False
+semi-simplicial set,True
+semiabelian category,False
+semicomodule,False
+semicoring,False
+semidirect product,True
+semigroup,True
+semigroup action,False
+semilattice,True
+semimodule,False
+semimonoidal category,False
+semiprojective object,False
+semiring,False
+semisimple category,True
+semiunit,False
+separable algebra,True
+separable category,False
+separable fibre functor,False
+separable frobenius monoidal functor,False
+separable functor,True
+separable morphism,False
+separable object,False
+separated,False
+separated map,False
+separated morphism,True
+separated object,False
+sequential,False
+serre-swann theorem,False
+set functor,False
+shape,True
+shape equivalence,False
+sheaf,True
+sheaf theory,False
+sheafification,True
+sheaves on topological groupoid,False
+shifting lemma,False
+short exact sequence,False
+shukla,False
+sierpinski space,True
+sifted colimit,True
+signal-flow diagram,False
+simple group,True
+simple module,False
+simple scale,False
+simplex-generated space,False
+simplicial 2�category,False
+simplicial algebra,False
+simplicial approximation,False
+simplicial category,True
+simplicial commutative algebra,False
+simplicial descent category,False
+simplicial group,True
+simplicial lie algebra,True
+simplicial loop group,False
+simplicial nerve,False
+simplicial object,True
+simplicial presheaf,True
+simplicial resolution,True
+simplicial set,True
+simplicial sheaf,True
+simplicially enriched category,True
+sinister morphism,False
+site,True
+site characterization,False
+six-operations formalism,False
+sketch,True
+sketch model,False
+skew monoidal category,False
+skew monoidale,False
+skew-monoidal category,False
+slice category,False
+slices and coslice,False
+slicing site,False
+small,False
+small category,True
+small category without loop,False
+small functor,False
+small homset,False
+small map,False
+small object argument,True
+small presentable,False
+smith,False
+smith commutator,False
+smooth precosheaf,False
+smooth topos,True
+snail lemma,False
+snake lemma,True
+sober lambda calculus,False
+sober object,False
+sober space,False
+soundnes,False
+span,True
+span 18d05,False
+span category,False
+span construction,False
+spark character,False
+spark complex,False
+spark homomorphism,False
+spark homotopy,False
+special directed colimit,False
+special homogeneous surjection,False
+specialization order,True
+species of structure,False
+specification structure,False
+spectra,False
+spectral sheaf,False
+spectral space,False
+spectrum,True
+split coequalizer,True
+split cube,False
+split exact sequence,True
+split extension,False
+split extension classifier,False
+split fibration,False
+split monomorphism,True
+split short five lemma,False
+splitting mixed abelian group,False
+spread,False
+stability of coequalizers under product,False
+stability under pullback/pushout,False
+stabilization,True
+stable derivator,True
+stable homotopy,False
+stable homotopy category,True
+stable homotopy one-type,False
+stably compact space,True
+stably-vertical morphism,False
+stack,True
+stack completion,False
+star-autonomou,False
+star-autonomous category,True
+star-multiplicative graph,False
+star-regular category,False
+state sum invariants of manifold,False
+stirling number,False
+stone duality,True
+stone topological algebra,False
+stone-cech compactification,True
+stone-weierstrass theorem,True
+strange attractor,False
+strata extension,False
+stratified precubical set,False
+stratified space,True
+strict $\infty$-groupoid,False
+"strict (m, n)-category",False
+strict 2-category,True
+strict solution,False
+strict ω-category,False
+strict ω-groupoid,False
+strictification,False
+strictly unital higher category,False
+string diagram,True
+strong amalgamation property,False
+strong dinaturality,False
+strong epimorphism,True
+strong homotopy kernel,False
+strong monad,True
+strong monomorphism,True
+strong normalization,False
+strongly fibered space,False
+strongly protomodular category,False
+strongly separable morphism,False
+strongly unital category,False
+structure,True
+structure and semantic,False
+structure theorem,False
+structured object,False
+subobject,True
+subobject classifier,True
+subpregroups of the lambek pregroup,False
+subspace topology,True
+subtractive category,False
+subtractive variety,True
+subtype,False
+sup-lattice,False
+superalgebra,False
+supergeometry,True
+supported crown,False
+suprema of equivalence relation,False
+surface holonomy,False
+sweedler's fundamental theorem,False
+symbolic dynamic,False
+symmetric ${\cal q}$-category,False
+symmetric algebra,True
+symmetric categorical group,False
+symmetric frobenius algebra,False
+symmetric monoidal,False
+symmetric monoidal bicategory,False
+symmetric monoidal category,True
+symmetric monoidal closed category,False
+symmetric quandle,False
+symmetric spectra,True
+symmetry,True
+syntactic characterization,False
+syntactic congruence,False
+synthetic dfferential geometry,False
+synthetic differential calculus,False
+synthetic differential geometry,True
+synthetic domain theory,True
+t-category,False
+t-horn,False
+tabulation,False
+tac,False
+tambara functor,True
+tamsamani weak 2-category,False
+tangent category,True
+tangent structure,False
+tangle,True
+tangle algebra,False
+tannaka,False
+tannaka duality,True
+tannaka reconstruction,False
+tannakian category,True
+tate object,False
+tate vector space,False
+taxon,False
+taxonomy,False
+temporal doctrine,False
+tensor,True
+tensor and (co)limit,False
+tensor category,True
+tensor product,True
+tensorial strength,True
+tensorpr oduct,False
+term condition,False
+terminal coalgebra,False
+terminal object,True
+the 2-categorical trace,False
+the 3-character,False
+the 3-cocycle condition,False
+the 3-representation of a group in a 3-category,False
+the adding infinitesimal functor,False
+the deleting infinitesimal functor,False
+the induced strict 2-categorical action,False
+the spectrum of a frame,False
+theory of bicycle,False
+theory of communication,False
+theory of description,False
+theory of presheaf type,True
+theta-category,False
+thin element,True
+thin filler,False
+thin square,False
+thin structure,False
+tileorder,True
+time flow,False
+toeplitz algebra,False
+topological abelian group,True
+topological algebra,True
+topological category,False
+topological complexity,False
+topological data analysis,True
+topological field theory,False
+topological functor,False
+topological geometrical category,False
+topological properties in $(\betum,False
+topological quantum field theory,True
+topological space,True
+topological stack,True
+topological theory,False
+topological vector space,True
+topology,True
+topos,True
+topos theory,False
+torsor,True
+total category,True
+total homology,False
+total span,False
+totally below,False
+totally cocomplete,False
+totally continuou,False
+totally convex module,False
+totally distributive,False
+tower,True
+tower extension,False
+trace,True
+traced monoidal category,True
+track category,False
+transformation,False
+translate,False
+tree,True
+triangle,True
+triangulated category,True
+tricategory,True
+triple,True
+triple category,True
+triple complex,False
+tropical algebra,False
+truncation poset,False
+tube algebra,False
+two out of three property,False
+two-sided enrichment,False
+type theory,True
+typed lambda calculus,False
+ultrafilter,True
+ultrafilter monad,False
+ultrametric space,False
+ultraproduct,True
+unary algebra,False
+unconditional exactness property,False
+uniform completenes,False
+uniform completion,False
+uniform sup semi-lattice,False
+unique path lifting property,False
+uniqueness of gluing,False
+unital,False
+unital and subtractive category,False
+unital and subtractive category/variety,False
+unital category,True
+universal algebra,True
+universal construction,True
+universal covering space,True
+universal locally connected refinement,False
+universal measure,False
+universal property,False
+universal strict general actor,False
+universalizer,False
+universe category,False
+update,False
+urysohn-type lemma,False
+utomorphism group,False
+v-category,False
+v-matrix,False
+van kampen theorem,True
+variety,True
+variety of right loop,False
+variety of universal algebra,False
+vector bundle,True
+vector field,True
+vector lattice,False
+verdier duality,True
+vietoris functor,False
+von neumann algebra,True
+von neumann core,False
+von neumann regular,False
+von neumann ring,False
+walk,False
+warping,False
+wasserstein space,False
+wave equation,True
+weak $\infty$-groupoid,False
+weak adjoint,False
+weak bialgebra,True
+weak braided monoidal category,False
+weak colimit,True
+weak cubical category,False
+weak distributive law,False
+weak double category,False
+weak double functor,False
+weak equivalence,True
+weak factorization system,True
+weak hopf algebra,False
+weak limit,True
+weak pullback,False
+weak reflection,False
+weak torsion,False
+weak unit,False
+weakly mal'cev category,False
+weighted (co)limit,False
+weighted bilimit,False
+weighted colimit,True
+weighted homotopy colimit,False
+weighted limit,True
+weighted limits and colimit,False
+weil algebra,True
+well-generated triangulated category,True
+well-supported compact closed category,False
+weyl algebra,True
+whitehead theorem,True
+wiring diagram,False
+wirthmuller isomorphism,False
+witt group,False
+witt vector,False
+word problem,False
+wreath,False
+yang-baxter equation,True
+yetter's invariant,False
+yetter-drinfel'd module,False
+yoneda embedding,True
+yoneda lemma,True
+yoneda structure,True
+yoneda-morphism,False
+yoneda-system,False
+zappa-szep product,False
+zariski closure,False
+zassenhaus lemma,False
+zero dimensional locale,False
+zero-dimensional frame,False
+zero-dimensional locale,False
+zoom operator,False
