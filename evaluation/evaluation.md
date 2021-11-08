@@ -28,12 +28,16 @@ Results
 
 The following results were obtained comparing Parmenides against OpenTapioca:
 
-| Precision | 0.08 |
-| Recall    | 0.74 |
-| F1        | 0.15 |
+| Metric    | Score |
+|-----------|-------|
+| Precision | 0.08  |
+| Recall    | 0.74  |
+| F1        | 0.15  |
 
 The following results were obtained comparing Parmenides against DyGIE++:
 
-| Precision | 0.01 |
-| Recall    | 0.57 |
-| F1        | 0.03 |
+| Metric    | Score |
+|-----------|-------|
+| Precision | 0.01  |
+| Recall    | 0.57  |
+| F1        | 0.03  |
