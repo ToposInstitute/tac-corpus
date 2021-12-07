@@ -66,8 +66,20 @@ We also ran the same experiment with cleaned, normalized keywords.
 | Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
 |-----------------|------------|---------|-------------|-----------|----------|
 | True Positives  | **771**    | 97      | 206         | 88        | 208      |
-| False Positives | 52764      | 1226    | **1084**    | 713       | **691**  |
+| False Positives | 52764      | 1226    | 1084        | 713       | **691**  |
 | False Negatives | **1092**   | 1766    | 1657        | 1775      | 1655     |
 | Precision       | 0.01       | 0.07    | 0.16        | 0.11      | **0.23** |
 | Recall          | **0.41**   | 0.05    | 0.11        | 0.05      | 0.11     |
 | F1              | 0.03       | 0.06    | 0.13        | 0.07      | **0.15** |
+
+The results below are for Parmenides with a filter applied on the cleaned,
+normalized keywords, for comparison and experimentation.
+
+| Metric          | Parmenides |
+|-----------------|------------|
+| True Positives  | 766        |
+| False Positives | 19646      |
+| False Negatives | 1097       |
+| Precision       | 0.04       |
+| Recall          | 0.41       |
+| F1              | 0.07       |
