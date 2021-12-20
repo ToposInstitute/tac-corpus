@@ -83,3 +83,22 @@ normalized keywords, for comparison and experimentation.
 | Precision       | 0.04       |
 | Recall          | 0.41       |
 | F1              | 0.07       |
+
+Compounds
+---------
+
+A similar experiment uses compounds extracted from the text by SpaCy. These are
+all two-word phrases identified as compounds by the SpaCy dependency parser,
+and then cleaned of LaTeX markup. Otherwise, the evaluation is the same as
+before.
+
+Only the filtered Parmenides is evaluated here.
+
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
+|-----------------|------------|---------|-------------|-----------|----------|
+| True Positives  | **825**    | 21      | 135         | 21        | 153      |
+| False Positives | 19587      | 1302    | 1155        | 780       | **746**  |
+| False Negatives | **904**    | 1708    | 1594        | 1708      | 1576     |
+| Precision       | 0.04       | 0.02    | 0.10        | 0.03      | **0.17** |
+| Recall          | **0.48**   | 0.01    | 0.08        | 0.02      | 0.09     |
+| F1              | 0.07       | 0.01    | 0.09        | 0.02      | **0.12** |
