@@ -102,3 +102,14 @@ Only the filtered Parmenides is evaluated here.
 | Precision       | 0.04       | 0.02    | 0.10        | 0.03      | **0.17** |
 | Recall          | **0.48**   | 0.01    | 0.08        | 0.02      | 0.09     |
 | F1              | 0.07       | 0.01    | 0.09        | 0.02      | **0.12** |
+
+Combining the author keywords and the compounds gives the following results:
+
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
+|-----------------|------------|---------|-------------|-----------|----------|
+| True Positives  | 1440       | 113     | 289         | 103       | 306      |
+| False Positives | 18972      | 1210    | 1001        | 698       | 593      |
+| False Negatives | 1942       | 3269    | 3093        | 3279      | 3076     |
+| Precision       | 0.07       | 0.09    | 0.22        | 0.13      | 0.34     |
+| Recall          | 0.43       | 0.03    | 0.09        | 0.03      | 0.09     |
+| F1              | 0.12       | 0.05    | 0.12        | 0.05      | 0.14     |
