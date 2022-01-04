@@ -3,7 +3,7 @@
 (cartesian) distributive law
 (co)homology
 (co)monadicity
-(co)monad
+co)monad
 (co)pointed endofunctor
 (co)span
 (co)tabulator

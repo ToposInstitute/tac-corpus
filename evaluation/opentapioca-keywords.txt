@@ -1,762 +1,630 @@
 and
-c
 category
+c
 a
-are
+be
 e
-categories
-s
-algebras
-g
 set
+s
 structure
-t
-x
-modules
-objects
-any
-functors
-v
+algebras
 functor
+g
+object
+module
+t
+morphism
+x
+ring
+monoid
+model
+any
+v
 algebra
-morphisms
+groupoid
+associate
 m
+equivalence
 not
-sets
 equivalent
 categorical
 l
 b
-associated
-structures
-rings
-object
 q
 d
-model
-monoids
+map
 bicategory
 algebraic
 to be
-equivalence
+operad
+limit
+model category
 h
 lax
 f
-groupoids
-monoid
-homotopy
-morphism
-cat
-groupoid
-model category
-n
-ring
-maps
-models
-limits
-module
-p
-r
-bicategories
-operads
-compact
-composition
-equivalences
-order
 double category
-sigma
-tensor product
-lambda
+homotopy
+cat
+span
+application
+product
+n
 adjunction
+composition
+p
+diagram
+variety
+r
+bicategorie
+fibration
+monoidal category
+pullback
+compact
+tensor product
+order
+lie
+sigma
+topological space
+dual
+lambda
+unit
 omega
 j
 cauchy
+section
+graph
 normal
-spans
-application
-lie
-diagrams
+small category
+axiom
 full
-products
 descent
-dual
+stack
 than
-operad
+epimorphism
 associative
-map
-topological spaces
+locale
+pair
+exist
+crossed module
+duality
+distributive law
+simplicial set
 abelian
+symmetric monoidal category
 second
-varieties
-applications
+sketch
+arrow
 combinatorial
-product
+factorization system
 phi
 hopf
-span
-double categories
-axioms
+enriched category
 frobenius
-duality
-unit
-monoidal category
-fibrations
-being
 double
-pullbacks
 i
-variety
+subobject
+kan extension
 presheaf
-section
+commutator
 nerve
-distributive law
-fibration
-monoidal categories
-data
+consequence
+datum
+coequalizer
 cohomology
 category theory
-pullback
 formal
-pair
-limit
-graphs
-simplicial sets
-diagram
-locales
+homomorphism
+monomorphism
+function
+inverse
 if
 quillen
 an
-exist
 grothendieck
 eilenberg
-coequalizers
 analogous
-symmetric monoidal category
-arrows
-small categories
+semi - abelian category
+vector space
 full subcategory
 coalgebras
-epimorphisms
-monomorphisms
 unital
-stacks
-factorization system
-small category
+frame
 calculus
-adjunctions
-crossed module
-graph
-kan extensions
-sketches
-algebraically
-spectrum
-associate
-stack
-epimorphism
-z
-consequence
-invertible
-subobjects
-finitely presentable
-u
-light
-vector spaces
-indexed
-sections
-commutator
-homotopy theory
-crossed modules
-enriched category
-interpretation
-homotopy category
-model categories
-abelian groups
-2-functor
-closed category
-multicategories
-homomorphisms
-enriched categories
-fold
-coefficients
-units
 take
-representation
-exists
-inverse
-locale
-semi-abelian category
-conjecture
-functions
-symmetric monoidal categories
-braided
-branching
-pairs
-quantale
-simplicial set
-information
-there exists
+homotopy category
+element
+index
+coefficient
+algebraically
+natural transformation
+spectrum
+z
+invertible
 complete category
-manifold
+abelian group
+algebraic theory
+finitely presentable
+internal category
+quantale
+fold
+u
+abelian category
+light
+factor
+monoidal functor
 polynomial
-elements
+homotopy theory
+quantaloid
+conjecture
+interpretation
+braid
+2 - functor
+closed category
+hausdorff space
+multicategorie
+metric space
+vector bundle
+representation
+scheme
+measure
+information
+there exist
+algebraic structure
+lax functor
+cofibration
+square
+subgroup
+kernel
+branching
+galois theory
+manifold
+category of set
 hausdorff
+regular category
+cover
 sheaf
 cartesian closed
 tau
+homotopy type
 hopf algebra
 rho
-compositions
-factorization systems
 mod
-framed
-topological space
-sketch
-arrow
-algebraic theory
-natural transformations
-internal categories
+internal groupoid
+generator
+exact category
+finite set
+projection
 hopf algebras
 ary
 coalgebra
-metric spaces
-quantaloid
 localic
 hilbert
 realizability
 bal
-generators
-abelian categories
-pointed objects
+orbifold
+exact sequence
+cubical set
+point object
 a grothendieck
-1-cell
-cofibrations
-galois theory
-monoidal functor
-finite sets
-totally
-distributive laws
-commutators
-kernel
-subobject
-homotopies
-internal groupoids
-differential geometry
-vector bundles
-cubical sets
-full subcategories
-exact category
-function
-factors
-equivalence of categories
+end
+1 - cell
+bimodule
+equivalence of category
 characteristic
-chain complexes
+extensive category
+totally
+sphere
+homotopie
+approximation
+approximate
+monic
+differential geometry
+markov process
+argument
+finite group
+full subcategorie
+central extension
+chain complex
 total
-schemes
+exact completion
 o
 dedekind
 algebraic geometry
-axiom
-2-vector
-monic
+2 - vector
 manifolds
-orbifolds
-fibrant objects
-end
-lax functors
-kan extension
+lie groupoid
+fibrant object
+preorder
+cartesian closed category
+classify space
 par
-regular category
-projections
+coherence theorem
+accessible category
+functor category
 analogy
-homomorphism
 centre
+closure operator
 algebraic topology
-continuous maps
+continuous map
+cone
 permutable
+automorphism
 fibre
-hausdorff space
-inverses
+support
+associator
+pseudofunctor
+tangent bundle
 fibred
-measures
-frame
-finite group
+centralizer
+comodule
 morita equivalence
 reflective subcategory
-cartesian closed category
-algebraic structure
-consequences
-central extensions
+principal bundle
+focus
+pseudomonoid
+algebra structure
 torsion
-extensive category
-accessible categories
-projective objects
-natural transformation
-category of sets
-exact completion
-hausdorff spaces
-subgroups
-homotopy type
+join
+projective object
+ultrafilter
+category of module
 tannaka
 boolean algebras
-square
+index category
 lie algebras
-approximation
-semi-abelian categories
-element
-approximate
+braided monoidal category
+inverse semigroup
 forgetful functor
-closed categories
-tangent bundle
+close category
 möbius
 dually
-exact sequences
-abelian category
+smooth manifold
+additive category
 homological algebra
-profunctors
+profunctor
 yoneda
-focus
-duals
-algebra structure
-squares
-lies
 for some
-classifying spaces
-algebraic theories
-subgroup
-monoidal functors
-continuous functions
+tower
+distributive category
+continuous function
+lawvere theory
+terminal object
 bialgebras
-covers
 fibres
 equivalently
 artin
-measure
+cokernel
 chain
 lie algebra
-dualizing
-algebraic structures
-internal category
+m - set
+dualize
 yang
-associators
-braided monoidal category
-cone
 structural
 associativity
-join
+homotopy equivalence
 holonomy
-cobordisms
-associates
+cobordism
 representable functor
 yoneda embedding
 convolution
-centralizers
+vector field
+deformation
 c^*$-algebras
-lie groupoid
-ringed
+triangulated category
 euler characteristic
-markov processes
-smooth manifolds
-argument
-vector bundle
+tensor category
 carboni
-lax functor
-bimodules
+exact functor
+character
+simplicial group
 synthetic differential geometry
-coherence theorem
 categorically
-functor categories
-ultrafilter
-lawvere theories
-quillen's
-complete categories
+semidirect product
+powerset
+quillen 's
 areas
-sphere
-cover
-support
-category of modules
-takes
-3-dimensional
-factor
+3 - dimensional
+opetope
 reasoning
-approach spaces
-feynman diagrams
-principal bundle
+approach space
+feynman diagram
 fundamental groupoid
 equivalence relation
 science
-scheme
-quantaloids
-homotopy types
-dualities
-deformation
+bundle gerbe
+cocycle
+bijection
 topological group
 chain rule
+faithful functor
 lefschetz
+string diagram
+injective hull
+probability distribution
+smash product
 jointly
-triangulated categories
-spheres
-bimodule
-tensor category
+codensity monad
 arithmetic
-preorders
-vector space
 boolean algebra
-exact functors
-character
 decidable
-pseudomonoid
-3-category
+3 - category
 frobenius algebra
-equalizers
-differential forms
+equalizer
+homotopy group
+differential form
 prime
 bilinear
 schanuel
 inverse image
 ni
-homotopy categories
-semidirect product
 o(n
-coefficient
-distributive category
 von neumann
 normalization
-powerset
-compact spaces
-terminal objects
-preorder
-closure operators
+compact space
+cycle
+category of representation
 secondly
-combinatorics
-closure operator
-category of small categories
-automorphism
+combinatoric
+category of small category
 building
+set theory
 mean
-directed algebraic topology
-indexed category
-exact sequence
+direct algebraic topology
 double groupoid
-tensor products
-regular categories
 subobject classifier
-metric space
 crossed product
 model theory
-automorphisms
 epi
-higher category theory
-classifying topos
+high category theory
+classify topo
 mono
 epic
 quantum harmonic oscillator
-cokernel
 inner
-inverse semigroups
-pseudofunctors
-vector fields
-arguments
+stone space
+quiver
 snake lemma
-faithful functor
-quantales
-comodule
+adhesive category
+equivalence class
 gelfand
-codensity monad
-comodules
 axiom of choice
-polynomials
-pseudofunctor
+normalizer
+biproduct
 kapranov
-markov process
-m-set
 frobenius algebras
 chevalley
 closed model category
 connes
-additive categories
-additive category
-discrete spaces
+invert
+discrete space
 multicategory
-0-cell
-homotopy groups
-homotopy classes
-simplicial groups
-sketched
+center
+0 - cell
+suspension
+cw - complex
+homotopy class
 design
-towers
-tower
-categories of sets
 string
-coherence theorems
-loop spaces
-algebraic k-theory
-extensive categories
+loop space
+algebraic k - theory
+pairing
 free category
 so(n
-coequalizer
+natural number object
 domain theory
-quantifiers
-category of representations
-branched
-cardinals
+quantifier
+discrete object
+branch
+grothendieck topology
+cardinal
 compactness
 at
 fixed point
-kernels
+differential operator
+cocomplete category
 stone duality
-set theory
 colocalization
+commutative monoid
 modelling
+amalgamation property
 semilattice
-opetopes
+quasigroup
+weak inverse
 u(1
-pseudomonoids
-indexed categories
+braiding
+free monoid
+adjoint functor
 g. m. kelly
-homotopy equivalence
-homotopy equivalences
-stone spaces
-quiver
+global section
+cap
+hom - category
 approximable
+mapping
 area
 natural deduction
-bundle gerbes
-approximations
+quotient category
 convex
-functor category
+brauer group
 deformation theory
 categorical algebra
-cocycles
+completely distributive lattice
 mac lane
-inverse semigroup
+cover space
 group theory
 bruno
-monomorphism
-injective hulls
 joint
-string diagrams
-smash products
 1)-categories
 parallel transport
-lie groups
-projection
-probability distribution
-index
-holonomies
-lie groupoids
+lie group
+simplicial category
+holonomie
 segal space
-normalizers
-bijection
 mt
+arity
 chemical
-cofibration
 brauer
 leibniz algebras
 csp
+extranatural transformation
 pie
 formally
+vector    bundle
 δ
-orbifold
 permutative
 c*-algebras
-inverting
-preadditive categories
-principal bundles
+preadditive category
+bousfield localization
 intuitionistic logic
 comma category
-center
 essentially unique
-suspension
-cw-complexes
-pointed spaces
-local homeomorphisms
-crossed  modules
-mapping cones
-denotational semantics
-pointed sets
-regular and exact completions
-simplicial group
-a,b
-finite groups
-ultrafilters
-conjectured
-distributive categories
+pointed space
+local homeomorphism
+cross   module
+map cone
+convolution product
+denotational semantic
+logic , and
+pointed set
+regular and exact completion
+discrete group
+a , b
+lax - natural transformation
 regular cardinal
-godel's
-pairing
-natural numbers objects
-quantified
-cycles
-central extension
+godel 's
+quantify
+integral domain
 essentially surjective functor
-exact completions
-uniform spaces
+uniform space
 des
-cones
-exact categories
-topological abelian groups
+topological abelian group
+globular set
 analogously
+kan complex
 cosheaf
 free group
 braid group
-underlying set
-classifying space
-ends
-cokernels
-cocomplete category
-equalisers
-cycle
-fixpoints
-flat modules
-k}$ forms
-commutative monoid
+homeomorphism
+underlie set
+rewrite system
+equaliser
+fixpoint
+flat module
+k}$ form
 fi
+derive functor
 van kampen theorem
-heyting algebras
-m-sets
-amalgamation property
-lax natural transformations
-opetope
+heyte algebras
+lax natural transformation
 quasitopos
-terminal object
-supports
 tychonoff
-galois extensions
-modeled
+galois extension
 equivariant stable homotopy theory
-quasigroups
-weak inverse
-reflective subcategories
-braidings
-c* -algebras
-approximated
-small sets
-abelian varieties
-direct products
-free monoid
+reflective subcategorie
+rotation
+c * -algebras
+small set
+abelian variety
+direct product
+projector
 compact closed category
-call-by-push-value
+call - by - push - value
 additive functor
-adjoint functors
-galois theories
-grothendieck topology
-constructive set theories
-folds
-global sections
-cap
+constructive set theory
+infinite set
+gauge theory
 tarski
 forall
 classical logic
-quotient categories
-categories of modules
-linear equations
+linear equation
 free object
-shuffles
-bundle gerbe
-tricategories
+shuffle
+tricategorie
 tricategory
-banach spaces
+banach space
 ball
-mathematical structures
-brauer groups
+mathematical structure
 dual category
-distributive lattices
+distributive lattice
 initial object
-discrete objects
-internal sets
+internal set
 modulo
-internal groupoid
 connected category
-differential operator
 retract
 sl_n
 differentiable stack
-vector field
 fibred category
-completely distributive lattices
+couple
+final functor
+bimonoidal category
 dynkin diagram
 projective geometry
-bijections
-abelian group
 andré joyal
-strong epimorphisms
-covering spaces
-category of set
-adhesive category
-adhesive categories
+strong epimorphism
 weak homotopy equivalence
-string diagram
 yoneda lemma
-probability distributions
+allegory
+injective object
 dualization
-equivalence class
-closed maps
-equivalence classes
-exact   completion
+closed map
+exact    category
+exact    completion
 goursat
+strong monomorphism
 applicative
-one-to-one correspondence
+homogeneous space
+one - to - one correspondence
 supercommutative algebras
-modelized
-simplicial categories
-families of sets
+modelize
+family of set
 diagonal functor
 serre
-cocycle
 conditional expectation
 measurement
 macneille completion
 leibniz
-quasi-category
-mapping
-centralizer
-bibundles
-the elements
+quasi - category
+strict n - category
+bibundle
+the element
 ann
 fan
 final object
+pull - back
 drinfel'd
 deligne
-factored
 gap
 simplex category
-diffeological spaces
+diffeological space
 topological vector space
 euler
-arities
-six operations
+six operation
 invertibility
-biproducts
-meet-semilattices
+meet - semilattices
 complete lattice
-injective hull
-hom-categories
 indexing category
 koszul
+abstraction
+graph of group
+grothendieck category
+schema
 group object
-associator
-biproduct
-smash product
-reflexive spaces
-quasicategories
-extranatural transformations
+reflexive space
+quasicategorie
+monoid in a monoidal category
 grothendieck construction
-pre-lie algebra
+pre - lie algebra
 arithmetical
-probability measures
+probability measure
+segal category
 bialgebra
 algorithm
-deciding
-vector   bundle
-vector   bundles
-tensor categories
+decide
 reshetikhin
-fusion categories
-symmetric monoidal) categories
-crossed-product
-k-homology
-bousfield localization
-set of sets
+fusion category
+symmetric monoidal ) category
+cross - product
+k - homology
+set of set
 structure sheaf
 singular homology
 riemann surface
@@ -764,433 +632,329 @@ colorable
 persistent homology
 logic and
 empty set
-slanted products
-whitehead's theorem
-atoms
-coequalizing
+slanted product
+whitehead 's theorem
+atom
+coequalize
 structurally
-inverted
 gauge group
 chern
-characteristic classes
+characteristic class
 weil
 cartesian product
-convolution product
 promonoidal category
 existential quantification
-characteristics
 algorithmically
-logic, and
-joined
-kuratowski's
-m$-sets
-pointed  sets
-algebraic  structure
+kuratowski 's
+m$-set
+point   set
+algebraic   structure
 sketchable
-discrete groups
-logics, and
-pairings
 direct image
-pseudo-riemannian metric
-commutator subgroups
+pseudo - riemannian metric
+commutator subgroup
 whitehead theorem
-five-lemma
-cw complexes
+five - lemma
+cw complex
 compact lie group
 equivariant cohomology
 u(n
 su(n
 spin(n
-lax-natural transformations
-lax-natural  transformations
-lax-natural transformation
-proof-net
-lawvere theory
-cardinalities
-cartesian closed categories
+lax - natural   transformation
+proof - net
+cardinality
 rewriting system
-product types
-monoidal  category
+product type
+monoidal   category
 categorical trace
-geometry  of interaction
-inverse  semigroup
+geometry   of interaction
+inverse   semigroup
 existential quantifier
 enumerable
-open  maps
+open   map
 monos
-proper maps
-discrete object
+proper map
 perturbation
 submanifold
-discrete group
-integral domain
 conservative functor
 empty graph
-a$, $b
+a$ , $ b
 a + b
-grothendieck topologies
-e}, set
-dense'' functors
-becoming
-homotopy     category
-grothendieck     topologies
-empty) categories
+e } , set
+dense '' functor
+become
+homotopy      category
+grothendieck      topology
+empty ) category
 nous
-characters
 circle
-globular set
-open maps
-kan complexes
+open map
 hierarchy problem
 identity element
-braid
-braids
-linear orderings
-ordering
-homeomorphisms
-accessible) categories
-accessible category
-saturated sets
-rewrite system
+linear ordering
+accessible ) category
+saturated set
 sheaf cohomology
 cech cohomology
 laplace operator
-differential operators
 simplicial localization
 modeling
-coequalisers
+coequaliser
 subspace topology
-suspensions
 general topology
-binary functions
-finitely generated modules
+binary function
+finitely generate module
 proof theory
 decidability
-relative homologies
-derived functors
+relative homology
 entity
 compactly
-cartesian) products
+cartesian ) product
 linear functional
-cartesian-closed category
+cartesian - closed category
 wave equation
 inverse limit
 up
 p. t. johnstone
 azumaya algebras
 simplicial homology
-informations
-equivariant  stable homotopy theory
-geared
-lax) natural transformations
-isotopies
-quasigroup
+equivariant   stable homotopy theory
+gear
+lax ) natural transformation
+isotopie
 tour
 group cohomology
 simple lie group
-chern-simons theory
+chern - simons theory
 jacobi identity
 stasheff
 lie algebra cohomology
 homeomorphic
-concrete categories
+concrete category
 schwanzl
 1)-category
 existentially
-small) categories
-hopf's
+small ) category
+hopf 's
 subfunctor
 abelianization
-there exist
-enumerative combinatorics
-kleisli  category
-rotation
-rotations
+enumerative combinatoric
+kleisli   category
 noncommutative geometry
 noncommutative topology
-endofunctions
-group of diffeomorphisms
-approximates
+endofunction
+group of diffeomorphism
 sigma$-algebras
-preimages
+preimage
 triangle inequality
-amalgamation properties
-functor   category
-projectors
-projector
+functor    category
 inner product
 jointed
-operational semantics
+operational semantic
 strong monad
-equivalences   of categories
-equivalence  of categories
+equivalence    of category
+equivalence   of category
 trivial topology
 homotopy lifting property
 homotopy extension property
 kleisli category
-set theories
 cst
-infinite sets
-infinite set
 burnside
-feynman rules
+feynman rule
 circle group
 permutation
-gauge theories
 singer
 discrete category
-globular sets
 ana
-supported
-free actions
+free action
 clopen
-stone space
 conformal
-rational conformal field theories
+rational conformal field theory
 fuchs
-comma-category
-complete) categories
+comma - category
+complete ) category
 one to one correspondence
 alexandrov space
-join) semilattice
-quivers
-chain homotopies
+join ) semilattice
+chain homotopie
 affine logic
-hom-category
-double   category
-mappings
-sequent-calculus
-cocomplete categories
+double    category
+sequent - calculus
 intricately
 tannakian category
-manifolds with boundary
-non-associative algebras
-algebra structures
-cubical set
+manifold with boundary
+non - associative algebras
 witten
 function space
-modelled
-cohomology rings
+cohomology ring
 maxwell
 tropical geometry
-affine spaces
+affine space
 adjunctible
 right adjunctible
-additive'' categories
+additive '' category
 identity map
-euclidean spaces
-differentiable maps
+euclidean space
+differentiable map
 retraction
-equivalences of categories
-derived functor
-cw-complex
 symmetric group
-rewriting systems
 morse theory
 g$-spectrum
 profinite group
 devinatz
-pre-hilbert spaces
-generator
+pre - hilbert space
 mate
-distributive laws between monads
+distributive law between monad
 van kampen theorems
-covered
 dieudonne
-exact functor
-couples
-commutative diagrams
+commutative diagram
 projection formula
 s. mac lane
 charles ehresmann
 five lemma
-final functor
-closed) categories
-bimonoidal categories
-centers
+close ) category
 finite field
 hall algebras
 hall algebra
-normal extensions
-truth-values
-upper sets
+normal extension
+truth - value
+upper set
 power set
 free module
-finitely  presentable
-ribbon categories
+finitely   presentable
+ribbon category
 john baez
-rigid monoidal categories
-restrictions-of-scalars
-model  category
+rigid monoidal category
+restriction - of - scalar
+model   category
 rewrite
-gödel's
-stochastic processes
+gödel 's
+stochastic process
 cayley graph
 zariski topology
-semidirect products
-bousfield   localization
+bousfield    localization
 bisimilar
-full   subcategory
+full    subcategory
 bisimulation
-bousfield localizing
-finitely   presentable
-enriched  categories
-chain-complex
-convolution products
+bousfield localize
+finitely    presentable
+enriched   category
+chain - complex
 functional analysis
-natural number objects
 knot groups
 localisation
 von neumann algebra
-mac lane's
+mac lane 's
 loop group
 group functor
 hopf algebraic
 symmetric algebra
-fixed-point
+fix - point
 conjunction
 sphere spectrum
-focused
-chain  complexes
+chain   complex
 simple algebraic
-allegories
-partial functions
-triangulated category
-monics
-injective objects
-cartesian monoidal categories
-categories of representations
+partial function
+cartesian monoidal category
 schwartz
 associativity property
 ising
 kuratowski
-commutative monoids
-injective object
-closed monoidal categories
-exact   categories
-regular   category
-exact   category
-allegory
+close monoidal category
+regular    category
 permutability
-strong monomorphism
 strict initial object
 semilattices
-homogeneous spaces
 operator algebra
-homogeneous space
-supermanifolds
-superspaces
+supermanifold
+superspace
 cochain complex
-indexed   categories
-fibered categories
-weak inverses
-derived category
+index    category
+fibered category
+derive category
 equivariant sheaf
 mapping class group
-curves
+curve
 weierstrass
-order-theoretic
-bimorphisms
+order - theoretic
+bimorphism
 monoidal monad
 ultraproduct
 ultraproducts
-substitutes
-codensity monads
-kan fibrations
+substitute
+kan fibration
 karoubi
 algebraic space
 day convolution
 effective topos
-smooth manifold
 azumaya algebra
-lawvere-tierney topology
-adjoint functor
-bousfield localizations
+lawvere - tierney topology
 cofinality
-deformations
-strong monomorphisms
 c*-algebra
 projective line
-finite set
 right inverse
-faithful functors
-kan complex
-focussing
-couple
-double  category
-schur's lemma
-arithmetic varieties
+focusse
+double   category
+schur 's lemma
+arithmetic variety
 rig category
-analytic spaces
-analytic functions
-enriched   categories
-gauge theory
-moduli spaces
-real vector spaces
-strict n-categories
+analytic space
+analytic function
+enriched    category
+moduli space
+real vector space
 cohen
-strict n-category
 fibrancy
-strict 2-category
-quotient category
-localised
+strict 2 - category
+localise
 category algebraically
 cartesian closedness
 w$-algebras
-abstract elementary classes
+abstract elementary class
 aecs
-categories. algebras
-n $a
+category . algebras
+n $ a
 gauge
-connected spaces
-covering space
-contractible spaces
+connected space
+contractible space
 monodromy
-fiber products
-pull-back
-universal covering spaces
+fiber product
+universal covering space
 monoidal natural transformation
 cyclic homology
-local diffeomorphisms
-differential graded lie algebra
+local diffeomorphism
+differential grade lie algebra
 algebraic group
 affine scheme
 reductive group
-ind-schemes
+ind - scheme
 indexing
-caps
-simplicial spaces
+simplicial space
 lg
-powersets
-cartesian categories
+cartesian category
 galois connection
-normalizer
-integral domains
 joins
 fibre product
-braided monoidal categories
-bicomplete categories
+bicomplete category
 shape theory
-global section
-homotopy group
 neutral
 hopf algebroid
-simplicially-enriched categories
-euler   characteristic
+simplicially - enrich category
+euler    characteristic
 linear combination
 kleene
 drinfeld
 linearized topological space
-bloch's
-horizontal compositions
-birkhoff's theorem
-homeomorphism
+bloch 's
+horizontal composition
+birkhoff 's theorem
 cartan
-grothendieck's
+grothendieck 's
 simplicial lie algebras
-bilinear maps
+bilinear map
 simplicial lie algebra
-meet-semilattice
+meet - semilattice
 chern class
 malgrange
 atiyah
@@ -1199,92 +963,66 @@ line bundle
 holomorphic vector bundle
 cotangent bundle
 beilinson
-mac~lane
-bimonoidal category
-abstraction
-topological properties
-comparison) theorems
-graph of groups
-graphs of groups
+mac ~ lane
+topological property
+comparison ) theorem
 laxly
-grothendieck categories
 cobordism hypothesis
 so(2
 simple algebra
 simple algebras
-schemas
-schema
-opposite) category
+opposite ) category
 birational geometry
 projective variety
 log
-galois groups
+galois group
 differential galois theory
 module algebras
 weil algebras
-abstractions
 fin
-substitutions
-pseudo-distributive law
+substitution
+pseudo - distributive law
 partial order
 te
-yetter-drinfeld modules
-quasi-hopf algebra
+yetter - drinfeld module
+quasi - hopf algebra
 linear algebra
 symplectic vector space
 richard brauer
-mapped
 topological field
 pontryagin duality
-final functors
-vopenka's principle
-brauer group
-symmetric-monoidal-category
+vopenka 's principle
+symmetric - monoidal - category
 feynman
 rewriting
 leibniz algebra
-rewrite rules
-schwartz spaces
+rewrite rule
+schwartz space
 nuclear spaces
 laurent schwartz
-arity
-monoid objects
+monoid object
 fixing
-regular} categories
+regular } category
 complete theory
-tangent bundles
 algebras over an operad
-theorems (noether
+theorem ( noether
 algebra over an operad
-extranatural transformation
-game   semantics
-game semantics
+game    semantic
+game semantic
 polar decomposition
-dagger categories
-free monoids
-grothendieck category
-lying
+dagger category
 divisor
-monoids in a monoidal category
-simplicial category
-pre-lie algebras
-polish spaces
-pull-backs
+pre - lie algebras
+polish space
 e = set
 projective space
 involutive category
 color
-complex vector spaces
-segal categories
-monoid in a monoidal category
-segal category
+complex vector space
 bijectively
-spanning
 robert macpherson
 compositional
-quillen adjunctions
+quillen adjunction
 categorical homotopy theory
-opposite categories
-t-norm
-completely distributive lattice
-braiding
+opposite category
+t - norm

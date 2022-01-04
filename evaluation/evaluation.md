@@ -113,3 +113,30 @@ Combining the author keywords and the compounds gives the following results:
 | Precision       | 0.07       | 0.09    | 0.22        | 0.13      | 0.34     |
 | Recall          | 0.43       | 0.03    | 0.09        | 0.03      | 0.09     |
 | F1              | 0.12       | 0.05    | 0.12        | 0.05      | 0.14     |
+
+Excluded Keywords
+-----------------
+
+By excluding author keywords that don't appear in the text, it is possible to
+improve recall for some systems. In this case, all keywords have been
+lemmatized before comparison.
+
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
+|-----------------|------------|---------|-------------|-----------|----------|
+| True Positives  | **936**    | 110     | 220         | 79        | 200      |
+| False Positives | 17351      | 1199    | 808         | 722       | **699**  |
+| False Negatives | **134**    | 960     | 850         | 991       | 870      |
+| Precision       | 0.05       | 0.08    | 0.21        | 0.10      | **0.22** |
+| Recall          | **0.87**   | 0.10    | 0.21        | 0.10      | 0.22     |
+| F1              | 0.10       | 0.09    | **0.21**    | 0.08      | 0.20     |
+
+Combining these with compounds:
+
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
+|-----------------|------------|---------|-------------|-----------|----------|
+| True Positives  | 1835       | 127     | 327         | 93        | 297      |
+| False Positives | 16452      | 1182    | 701         | 708       | 602      |
+| False Negatives | 745        | 2453    | 2253        | 2487      | 2283     |
+| Precision       | 0.10       | 0.10    | 0.32        | 0.12      | 0.33     |
+| Recall          | 0.71       | 0.05    | 0.13        | 0.04      | 0.12     |
+| F1              | 0.18       | 0.07    | 0.18        | 0.06      | 0.17     |

@@ -13,22 +13,22 @@ weak
 model
 homotopy
 regular
+category
 grothendieck
 the
+equivalence
 universal
-semi-abelian
+semi - abelian
 and
 group
-category
 abelian
-pointed
-generalized
+point
+generalize
 symmetric monoidal
 descent
-symmetric monoidal closed
+symmetric monoidal close
 to
 symmetric
-equivalence
 hopf
 free
 double
@@ -38,22 +38,23 @@ $
 factorization
 a
 chu
-crossed
+cross
 strict
+category of
 distributive
 discrete
 normal
 homological
-enriched
+enrich
 cartesian
+base
 presheaf
 locally finitely presentable
 protomodular
-closed
+close
 natural
+2 - category
 bicategory
-category of
-base
 kan
 differential
 enriched category
@@ -63,19 +64,21 @@ binary
 local
 boolean
 `
+be
 coherence
 small
-2-category
 quotient
-classifying
+classify
 exact
 ground
 linear
 lie
 exactness
-directed
+monad
+direct
 metric
 vector
+inverse
 cartesian differential
 as
 axiomatic
@@ -92,21 +95,20 @@ product
 bicategorical
 categorical galois
 continuous
-filtered
+filter
 opmonoidal
-directed algebraic
+direct algebraic
 equational
 globular
-monad
 structural
 tensor
-eilenberg-moore
+eilenberg - moore
 kleisli
-dualizing
+groupoid
+dualize
 computer
 complete
 locally cartesian closed
-inverse
 combinatorial model
 quantum
 bisimplicial
@@ -126,10 +128,11 @@ composite
 partial
 module
 synthetic differential
-closed symmetric monoidal
+close symmetric monoidal
 \cal
 $ \cal
 thin
+unit
 in
 epimorphic
 monoidal biclosed
@@ -142,24 +145,24 @@ closure
 higher dimensional
 a$
 category of finite
-sifted
+sift
 structure of
 path
 domain
-connected
-finitely generated projective
-two-sided
+connect
+finitely generate projective
+two - sided
 homotopy double
 hausdorff
 codescent
 support
-higher-dimensional
+higher - dimensional
 right
 theory of lie
 generic
 braided monoidal
 positive
-partially ordered
+partially order
 von neumann
 cohomology
 birkhoff 's variety
@@ -168,41 +171,40 @@ geometrical
 theory of
 span
 chain
-induced
-set-theoretic
-groupoid
-higher category
+induce
+set - theoretic
+high category
 subtractive
 unital
 with
 familial
 stable
-locally connected
-star-autonomous
+locally connect
+star - autonomous
 stone
 algebra
+morphism
 reflexive
-indexed
+index
 finitely presentable
 projective model
-bicategories of
+bicategorie of
 restriction
 coherent
-set-valued
+set - value
 compact hausdorff
 covariant
 logical
 where the
 partial map
 injective
-submultiplicative order-preserving
+submultiplicative order - preserving
 probability
 snake
 * -autonomous
 -autonomous
 lax monoidal
 diagonal
-is
 quillen model
 leibniz
 spectral
@@ -212,71 +214,72 @@ skew monoidal
 model category
 '
 uniform
-infinite-dimensional
+infinite - dimensional
+adjunction
 monoidal model
 binary product
 tangent
 feynman
 noether isomorphism
-2-category of
+2 - category of
+define
 word
 free double
-∞- and n-cube
-∞- and n-fold vector
+∞- and n - cube
+∞- and n - fold vector
 defect
 spherical fusion
-generalised orbifolds of reshetikhin-turaev
+generalise orbifold of reshetikhin - turaev
 modular tensor category
 arithmetic
 chevalley
 coherently commutative monoidal
-) categories ,
+) category ,
 enchilada
-reduced-crossed-product
+reduce - cross - product
 bousfield localization of preadditive
 additive
 combinatorial model category
 preadditive
-shifted double poisson and shifted double lie-rinehart
+shift double poisson and shift double lie - rinehart
 symmetric monoidal abelian
 pair ( a
-infinity-category
-here extends
-including cells with empty horizontal
+infinity - category
+here extend
+include cell with empty horizontal
 virtual double
 space
 partial morphism
 real world
-l-separated
+l - separated
 ∞-topos
 reflective
-proofs
+proof
 ` boolean category
 a *
 ` ` boolean category
 comma
 petit
 gros
-embeds .
+embed .
 affine
-finite products
-2-crossed
+finite product
+2 - cross
 localization
 combinatorial groupoid
 bianchi
 homotopy addition
-induced crossed
-of mapping cones
-stable homotopy category of -1-connective
+induce cross
+of mapping cone
+stable homotopy category of -1 - connective
 infinite loopspace
--1-connective
+-1 - connective
 promonoidal
 strong promonoidal
-called "
-be
+call "
 orthomudular
 lattice of quantic
-in prime characteristics
+in prime characteristic
 andre
 over
 presheaf category
@@ -284,78 +287,76 @@ finite sum
 calculus of
 deduction
 medial
-` templates
-tilings of
+` template
+tiling of
 double order
 singular chain
-oriented singular chain
-brown-grossman fundamental
-ranks of weak
-complemented
+orient singular chain
+brown - grossman fundamental
+rank of weak
+complement
 compatible
-generalized non-abelian tensor product of
+generalized non - abelian tensor product of
 lambek 's bilinear
-tensor-par fragment of linear
+tensor - par fragment of linear
 lax operad
 first order
 pure relational
 degenerate
 simplicial commutative
 categorical theory of
-pseudo-riemannian
-free or totally free 2-crossed
+pseudo - riemannian
+free or totally free 2 - cross
 free simplicial
 construction
 e
-pro-arrow
-categories of
-enriched accessible
+pro - arrow
+enrich accessible
 exact protomodular
 projective
-localizations of maltsev
-$ g$ induced representations
+localization of maltsev
+$ g$ induce representation
 topological hausdorff
-if the following
+if the follow
 \to
 \bi{rel
-following
-gray-category
+follow
+gray - category
 edge symmetric double
 connection
 mixed abelian
 \bf
-coequalizers of equivalence
+coequalizer of equivalence
 class of
 discrete conduché
-2-categories .
+2 - category .
 similar
-units
-non-commutative negation-free multiplicative linear
+non - commutative negation - free multiplicative linear
 bcst
-proof-theoretic
-non-symmetric linearly distributive
+proof - theoretic
+non - symmetric linearly distributive
 weak finite
 von neumann regular
 semiprime
-enriched lawvere
+enrich lawvere
 stirling
-cardinalities of contravariant
+cardinality of contravariant
 series
 numerical
 lambda
-universally quantified conditional
+universally quantify conditional
 endomorphism
 euclidean
-homotopy theoretical constructions of path and cylinder
+homotopy theoretical construction of path and cylinder
 discrete object of
 quillen 's model
 system of differential
 solution
 varietal
-regular epireflective subcategories of presheaf
+regular epireflective subcategorie of presheaf
 central
-congruence-modular
-algebraically-central
+congruence - modular
+algebraically - central
 notion of normal
 left exact conservative
 $ { \cal m}$-complete
@@ -363,14 +364,14 @@ strictly $ { \cal m}$-continuous
 balanced monoidal
 balanced
 by
-2-dimensional analogue of abelian
-joyal-tierney
-typed )
+2 - dimensional analogue of abelian
+joyal - tierney
+type )
 relational
-monoidal closed
+monoidal close
 side
 $ v_0
-branched
+branch
 \times
 universal closure
 regular and exact
@@ -381,28 +382,27 @@ cls of closure
 cartesian closed topological
 congruence distributive
 fibration of pointed
-finite-limits preserving )
+finite - limit preserve )
 colimit of
 internal categorical
 execution
 w.r.t
-categories is
+category be
 topological abelian
 augmented symmetric simplicial
 hereditary quotient
 pullback along
 universal quotient
-are
-induced geometric morphism of presheaf
+induce geometric morphism of presheaf
 category of grothendieck
-greatest fixed point
+great fix point
 alternation hierarchy
-least fixed point
-prove new ones
+least fix point
+prove new one
 hurwitz action of
 ramification
-ramified
-collapsing
+ramify
+collapse
 rewrite
 \cal a]$
 , \cal a
@@ -412,17 +412,17 @@ or cofibre sequence
 riemannian
 laplace
 simplicial model category
-2-category opmon of monoidal
-u-split
+2 - category opmon of monoidal
+u - split
 triple
-multiplicative fragment of non-commutative
+multiplicative fragment of non - commutative
 abstract stone
 contravariant powerset
-self-adjoint
+self - adjoint
 reflective and coreflective full subcategory of
 discrete dynamical
 cyclic
-space-time
+space - time
 traffic
 category .
 privileged
@@ -431,14 +431,14 @@ goguen
 $ { \mathcal l}$-fuzzy
 injectivity
 $ \lambda$-presentable
-finitely generated
+finitely generate
 -descent
 commutative rings)$^op$-indexed
 flat
-finitely generated flat
+finitely generate flat
 cauchy complete
 $ l$-colocalization
-normal , pseudo-algebra
+normal , pseudo - algebra
 ` whitman theorem
 cut
 deductive
@@ -446,46 +446,46 @@ deductive
 perfect
 $ \lambda / q\lambda$
 lie algebra
-nonabelian derived
+nonabelian derive
 information
-entity-relationship-attribute
-` weak n-category
+entity - relationship - attribute
+` weak n - category
 strong amalgamation
-quasi-groups
+quasi - group
 not
 exponential
 decomposable
 lax higher dimensional
 opetope .
 category opetope of
-beck-chevalley-type
+beck - chevalley - type
 synthetic theory of
 terminal object
 tychonoff
 scott 's continuous
-graded categorical
-pointed varieties of universal
+grade categorical
+pointed variety of universal
 notion of
 extended cubical site
 augmented ) simplicial
 extended cubical
 ...
-branching and the merging semi-cubical
+branching and the merging semi - cubical
 augmented simplicial
 equivariant
 formal wirthmuller isomorphism
 wirthmuller
-` dualizing object
-horizontal ( 1-cell )
-quasigroups
+` dualize object
+horizontal ( 1 - cell )
+quasigroup
 multiplication
 own .
-` 2-vector space
+` 2 - vector space
 double powerlocale
-upper and lower powerlocale
-constructing factorization
+upper and low powerlocale
+construct factorization
 locally presentable
-existentially closed
+existentially close
 moore
 baer extension
 flatness
@@ -494,184 +494,184 @@ simplicial approximation
 homotopy theory of topological
 theory
 theory of baer
-product-regular
-finitely-complete
-coequalizers of kernel
+product - regular
+finitely - complete
+coequalizer of kernel
 analysis of
 enumerative
 parametric
 higher dimensional category
 axiomatic arithmetic of finite combinatorial
-sup-preserving
-encoded
-yang-baxter
+sup - preserving
+encode
+yang - baxter
 invertible distributive
 coalgebra
 preordered abelian
-semi-abelian monadic
-protomodular quasivarieties .
-integers
-braided categorical
+semi - abelian monadic
+protomodular quasivarietie .
+integer
+braid categorical
 categorical group of
-well-behaved
+well - behave
 brown
 $ \lambda$-small
 homotopy category of
-$ \phi$-weighted
+$ \phi$-weighte
 $ \phi$
 nonstandard
-zero self-distance
+zero self - distance
 triangle
-, the so-called
-semi-direct
-semi-abelian category
+, the so - call
+semi - direct
+semi - abelian category
 groupoid enriched
-baues-jibladze descent
+baues - jibladze descent
 unital commutative
 pasting
-call-by-name
-call-by-value and call-by-name
+call - by - name
+call - by - value and call - by - name
 semantic machine
 semantic machine code
 map on
 additive functor
 base quantaloid
-generalized monotone-light
+generalized monotone - light
 commutative semiprime
 commutative semiprime ring
 commutative separable
 $ \sigma$-family of
 up to appropriate
 homotopy equivalence
-semantics are
+semantic be
 quillen model category
-generating
+generate
 constructive set
-interpreting set-theoretic
+interpret set - theoretic
 ` categorification
 rudimentary
 coproduct
 between
-category-theoretic
+category - theoretic
 mackey
-pullback and finite coproduct preserving
+pullback and finite coproduct preserve
 principal
-( replacing
+( replace
 non reversible )
 ordinary and higher dimensional category
 additive equational
 category of topological
-is a
-` dimension-by-dimension ''
-` ` dimension-by-dimension ''
-2d-multitopic
+be a
+` dimension - by - dimension ''
+` ` dimension - by - dimension ''
+2d - multitopic
 theory of categorical
 crossed module of
-natural numbers
+natural number
 minimal
 representation
 strict ) categorical
 homotopy groupoid of a
 map
 bulk and boundary factorisation
-two-dimensional rational conformal field
+two - dimensional rational conformal field
 relative modular
 tft construction of
 construction of a free restriction
 free restriction
 free stable semilattice
 construction of a free stable semilattice
-sup-lattice-enriched
+sup - lattice - enrich
 orthomodular
 pointed subtractive
 finitely complete
-pointed jónsson-tarski
+point jónsson - tarski
 exponentiability
 specialization
 top
-free a_\infty-category
-differential graded k-quiver
+free a_\infty - category
+differential grade k - quiver
 cubical face
 thin filler
-first-order classical affine
-categorical models of linear
+first - order classical affine
+categorical model of linear
 dialectica
-non-cyclic
+non - cyclic
 formal concept
 natural deduction
 full intuitionistic linear
 multiplicative linear
 free * -autonomous
 identity
-2-categorical
+2 - categorical
 tannakian
 cosemigroup
-2-dimensional separable algebra
+2 - dimensional separable algebra
 universal monoidal
 topology
-non-associative
+non - associative
 additive model
 simplicial abelian
 coherent unit
 hopf algebra
 weak cubical
 ` formal cospan '
-structure of n-cubical
-weak n-category of
+structure of n - cubical
+weak n - category of
 bundle
 comprehension
-s-valued
-bounded topos
-bounded
+s - value
+bound topos
+bound
 theoretical computer
 abstract core
-recursively-defined distributive
+recursively - define distributive
 tac
 function
 tricategory of
 pseudonatural
 notion of cartesian
-locally ordered
+locally order
 guarded system of recursive
 iterative
-category of eilenberg-moore
-dual unit-ball
-polarized notion of two-player
+category of eilenberg - moore
+dual unit - ball
+polarized notion of two - player
 multiplicative structure of linear
-topos of
+topo of
 on a
 classical
 spatial
-theories of continuum
-parametrized spectra .
-parametrized
+theory of continuum
+parametrized spectrum .
+parametrize
 symmetric categorical
-pseudo-exponentiable
+pseudo - exponentiable
 dual category of affine
 forgetful functor d --&gt ;
 forgetful
 reciprocal stability
-abstract closed
-equations in
+abstract close
+equation in
 linear abadi and plotkin
-` fundamental pushout toposes
+` fundamental pushout topos
 a previous
 weak double
 eight coherence
 pseudodistributive
 cartesian bicategory
 comonoid
-compact 0-dimensional topological
-all surjections
+compact 0 - dimensional topological
+all surjection
 \alpha(x )
 \mathbb{x}$.
 approach
-accessible set-valued
+accessible set - value
 weak preservation of
 quasivariety of universal
-lax extensions of monad
-directed '' topological
-directed ''
+lax extension of monad
+direct '' topological
+direct ''
 internal reflexive
 weakly mal'cev
 weakly mal'tsev
@@ -680,52 +680,51 @@ $ t_0 $
 convolution
 v
 unary universal
-pullbacks of regular
+pullback of regular
 full reflective regular
 differential combinator .
 "
 mx
 cellular
 the cellular
-the directed
+the direct
 for word
-introduced
+introduce
 differentiable
 determined
 representable
-t-lax
-non-finite profinite
-adjointable maps ,
+t - lax
+non - finite profinite
+adjointable map ,
 an involutive
-morphisms
 pre-)hilbert
 elementary linear
-homotopical invariants of glued
+homotopical invariant of glue
 state
-encoding control flow
-admits
-asynchronous transition system , admits
-slice-category
-rings of continuous
-covered
-absolute cr-epic
-preserving functors are
-triangulated closed symmetric monoidal
+encode control flow
+admit
+asynchronous transition system , admit
+slice - category
+ring of continuous
+cover
+absolute cr - epic
+preserve functor be
+triangulate closed symmetric monoidal
 f_*,f^!)$ ,
 f^*$
 co)endomorphism
-proving
-results
+prove
+result
 constant
 locally
 split short five
 object a
 double central
-separable and covering
+separable and cover
 intermediate class of
 completeness / cocompleteness
-non-abelian snake
-star-multiplicative
+non - abelian snake
+star - multiplicative
 internal precrossed
 that
 algebras over a suitable
@@ -734,50 +733,49 @@ monadic schizophrenic object
 permutative
 lawvere
 profunctorial
-schreier-mac lane extension
+schreier - mac lane extension
 combinatorial category
 each other
 ( and these
 doctrinal
 deterministic
-notion richer than
+notion rich than
 ccd
 hopf algebra $
 möbius
 canonical algebra
 reedy model
-invariants of whitney stratified
+invariant of whitney stratify
 homotopy theory of smooth transversal
 semigroup
 accessible
 class of weak
 autonomous monoidal
-list-arithmetic
+list - arithmetic
 construction of arithmetic
 left adjoint
 symbolic
 completely
-based
-` maximal-normal''-type
-` ` maximal-normal''-type
-functors
-gives
-internal precrossed and crossed
+` maximal - normal''-type
+` ` maximal - normal''-type
+functor
+give
+internal precrosse and cross
 categorical semidirect
 a `
 ` bundle category
-first-order chain
+first - order chain
 ` ` bundle category
 notion of involutive
 order of
 topological locally finitely
 dimensional transition
-small-orthogonality
+small - orthogonality
 involutive quantaloid $
 symmetrisation
-pointed irreducible
+point irreducible
 bilinear and trilinear
-3-term lie infinity
+3 - term lie infinity
 adhesive
 actually isomorphic
 reflective and coreflective
@@ -789,62 +787,61 @@ fourier
 ` punctual local connectedness
 punctual local connectedness
 punctual local
-communicating
+communicate
 braided strict monoidal
 commutative frobenius
 subcanonical site $
-bi-finite hilbert
+bi - finite hilbert
 diagonal simplicial
 oplax / lax
 vertical
-topos-theoretic
+topos - theoretic
 etale
-lefschetz fixed point
+lefschetz fix point
 semantic
 treelike
 combinatorial
 categorical structure and
 abstract partial map
 freyd
-skew-monoidal
+skew - monoidal
 itself
 laxified version of monoidal
-$ r$-modules for
+$ r$-module for
 biadjoint
-inverses
-those inverses
+those inverse
 relative cell
 tannaka
 cocategory
 linearly distributive
-2-category of closed
+2 - category of close
 distribution
 physical extensive
-schwartz distributions of compact
-` short-distance ''
-` ` short-distance ''
-` ` long-distance ''
-` long-distance ''
-iterating street 's weak wreath product
-2-category of weak distributive
+schwartz distribution of compact
+` short - distance ''
+` ` short - distance ''
+` ` long - distance ''
+` long - distance ''
+iterate street 's weak wreath product
+2 - category of weak distributive
 weak distributive
 colax idempotent
 right kan
 of equational
 lawvere 's elementary
-our lax functors will
+our lax functor will
 to satisfy
 will
 monad $
-quantale-enriched
+quantale - enrich
 quantale
-set-monad
+set - monad
 compact
 morphism of commutative
 monoidal category of abelian
 regular injective
 pure
-smith is huq
+smith be huq
 binary ( huq or smith )
 h
 gumm
@@ -853,7 +850,7 @@ higgins
 ursini
 in the
 cardinal κ .
-recently introduced
+recently introduce
 author .
 horizontal lax
 vertical normal lax
@@ -861,10 +858,10 @@ adjoint
 secondly
 difunctional
 subvariety of
-preserves
+preserve
 quantum homogeneous
 ergodic
-differential graded
+differential grade
 characteristic
 weakly globular double
 strict double
@@ -878,24 +875,23 @@ categorical isbell completion
 class of homotopy
 equivariant sheaf
 open topological
-topos of equivariant
-gelfand-neumark
+topo of equivariant
+gelfand - neumark
 $ n$
 vacant $ n$-tuple
-yang-baxter type
-the resulting category of spaces
-both are
+yang - baxter type
+the result category of space
+both be
 codensity
 ` constant object '
 ` completion
 cat
-traced $ * $ -autonomous
-takahashi 's tensor-like
+trace $ * $ -autonomous
+takahashi 's tensor - like
 bimonoid
 duoidal category $ \cal
 horizontal
 gray tensor product of
-2-categories
 strictification
 partial combinatory
 gerbe
@@ -907,30 +903,30 @@ $ t$-density .
 pointwise kan
 diagrammatic
 absolute
-generalized quillen model
-pre-cohesive geometric
+generalize quillen model
+pre - cohesive geometric
 recognition
 ` geometric realization
 homotopically meaningful ` geometric realization
 sequential
 diagonal lifting
 notion of factorization
-algebras of $ n$-by-$n$
+algebra of $ n$-by-$n$
 gelfand
-works as
+work as
 measure
 coordinate projective
 ` projection '
 kullback -- leibler
-self-dual categorical
-non-abelian
+self - dual categorical
+non - abelian
 to folklore
 reedy category
 semidirect product of
 rig
 analytic
 fibration
-gray-enriched
+gray - enriched
 mapping
 over cat
 gauge
@@ -938,51 +934,51 @@ grothendieck group
 ` ` base change ''
 ` base change ''
 balanced effective descent
-regular epi-mono
+regular epi - mono
 class of regular
-strict 2-categorical
-pseudo-triangulated
+strict 2 - categorical
+pseudo - triangulate
 groupoid principal
-epimorphic pairs of
-change-of-base
+epimorphic pair of
+change - of - base
 language of
 open dynamical
-monad-theoretic
+monad - theoretic
 universal ambient
-structures within
+structure within
 ` ` limit
-syntactically oriented framework of
+syntactically orient framework of
 concrete
 polynomial
-global and local symmetries of
+global and local symmetry of
 transformation
 on
 and tsou sheung
-non-abelian surface
+non - abelian surface
 can
-of 2-dimensional
-3-dimensional categorical
+of 2 - dimensional
+3 - dimensional categorical
 via
-generalized covering space
+generalize cover space
 unique lifting
 choice
 weak factorization
 list of
 property
-stone-cech
+stone - cech
 transport of algebraic
 topological group
 universal covering
-universal locally connected
+universal locally connect
 between such
 monoidal natural transformation
 for a
 day reflection
-differential graded lie
+differential grade lie
 deligne
-simplicial set of g-valued differential
+simplicial set of g - value differential
 second cohomology categorical
-symmetric g-categorical
+symmetric g - categorical
 functorial
 ) .
 cocontinuous linear
@@ -991,69 +987,68 @@ sufficient
 internal axiom of
 associative
 split extension
-is direct sum rather than the usual
-real-valued functions of
+be direct sum rather than the usual
+real - value function of
 control
-` signal-flow
-` signal-flow diagrams
-monads
+` signal - flow
+` signal - flow diagram
 $ \lambda$-filtered
-fibrant-cofibrant
-reduced segal
+fibrant - cofibrant
+reduce segal
 segal group action "
-group-like , reduced segal
+group - like , reduce segal
 slice category of simplicial
-q-powersets of q-typed
+q - powerset of q - type
 skeletal
 accessibility
 trivial
 accessibility rank of weak
 number of
 monoidal differential
-categorical models of differential linear
+categorical model of differential linear
 galois
-pseudo-filtered
+pseudo - filter
 commutation of
 slice
-covariant category-valued
-covariant category-valued pseudofunctor
-n-globular
+covariant category - value
+covariant category - value pseudofunctor
+n - globular
 : x\to a$
 x\to
 limit
 sup
 coincidental part of the
-homotopy types of their classifying
-homotopy theory of higher categorical
+homotopy type of their classifying
+homotopy theory of high categorical
 notion of characteristic
 ` weak
-diagrams of weak braided monoidal
-diagrams of
+diagram of weak braided monoidal
+diagram of
 homotopy colimit
 subcategory
 bicomplete
 proximity dedekind vector
-arriving
-contravariant identity-on-objects involutive
+arrive
+contravariant identity - on - object involutive
 's
 global
-baez-crans 2-vector
-homotopy invariants
-2-group
-2-vector spaces of
+baez - crans 2 - vector
+homotopy invariant
+2 - group
+2 - vector space of
 and a
-sl-functor
+sl - functor
 q^
-enriched yoneda
+enrich yoneda
 m.
 fermat
 singular
 smooth
 diffeological
-quasi-topos
+quasi - topos
 subject to a
-is subject to a
-compact closed
+be subject to a
+compact close
 local ( or stalkwise ) joyal
 joyal model
 easy
@@ -1064,16 +1059,14 @@ and the
 $ linloc$ ,
 spectrum of
 sober
-adjunction
-contravariant global sections
-f-valued continuous
+contravariant global section
+f - value continuous
 continuity condition
 and the category
 ;
 fiber
 quotient vector
-n-angulated
-morphism
+n - angulate
 relative exact homological
 categorical principal
 isbell
@@ -1081,42 +1074,40 @@ gleason
 fibred
 adjoint triangle theorem of
 biadjoint triangle
-cohomology of bounded below
+cohomology of bound below
 euler characteristic and
-equational subcategories of
+equational subcategorie of
 small model
-v$-enriched categories
-categories
-equivalences
+v$-enriched category
 commutator of
-subobjects
+subobject
 coterminal
-epimorphisms
+epimorphism
 approximate
-dual notion of co-mal'tsev
+dual notion of co - mal'tsev
 notion of mal'tsev
-notion of 2-metric
-2-metric
+notion of 2 - metric
+2 - metric
 approximate categorical
-notions of metrized
+notion of metrize
 c ,
-edge-labelled
+edge - label
 nonnegative
-cartan-eilenberg
+cartan - eilenberg
 kan 's combinatorial
-braided
+braid
 the spirit of
-hopf monads in
+hopf monad in
 and hopf
 invertibility
 monoidal model category
-s-enriched
-non-negatively graded chain complexes of lie
-hypercrossed complexes of lie
+s - enrich
+non - negatively grade chain complex of lie
+hypercrossed complex of lie
 bilinear
-cocomplete symmetric monoidal closed
-star-shaped cattani-sassone transition
-meet-semilattice
+cocomplete symmetric monoidal close
+star - shaped cattani - sassone transition
+meet - semilattice
 composable adjunction
 schanuel and street
 holomorphic bundle
@@ -1127,42 +1118,42 @@ first order ) neighbour
 levi
 weakly orthogonal
 length
-presheaf 2-monad
-constructing spectral
-equations
+presheaf 2 - monad
+construct spectral
+equation
 finitary
-finite-dimensional , semi-simple
+finite - dimensional , semi - simple
 symmetric frobenius
 such
 property .
 homotopical
 weak cofibration
 multiplier ideal
-smooth quasi-projective
-picard-vessiot
+smooth quasi - projective
+picard - vessiot
 differential galois
 difference galois
 galois theory of artinian simple module
 codomain
-` ` entries-only ''
+` ` entry - only ''
 microcosm principle of
-joyal 's species of
-` entries-only ''
-algebraic definitions of
+joyal 's specie of
+` entry - only ''
+algebraic definition of
 microcosm
 epic
 monic
-kz-monadic
-order-enriched
-posets
-used
+kz - monadic
+order - enrich
+poset
+use
 witt
-witt vectors :
+witt vector :
 $ e_\leq$-injective
 internal equivalence
-` monoid-like ''
-transferred model
-c-systems
+` monoid - like ''
+transfer model
+c - system
 cartesian closed category
 locally cartesian closed category
 universe category
@@ -1170,93 +1161,91 @@ markov
 isotropy
 faa di bruno
 comonad
-topos m-set of
+topo m - set of
 shifted operadic deformation
 homotopy ( n+1)-algebra
 skew
 deformation of tube
-twisting of graded monoidal
-crossed module of hopf
+twisting of grade monoidal
+cross module of hopf
 strict symmetric monoidal
-groupoids
 inductive
 ; h
-quasi-hopf
+quasi - hopf
 engineering
 passive linear
 mechanical , hydraulic , thermodynamic and chemical
 spark
-frobenius structures of
-1-dimensional
+frobenius structure of
+1 - dimensional
 factorisation
 from a
-2-vector
-2-vector space of parallel
-homotopy fixed
-higher
-topological data
+2 - vector
+2 - vector space of parallel
+homotopy fix
+high
+topological datum
 persistence
-interleaving
+interleave
 assignment
 a sense
 inner
 wide , or fat join
 stability
-adjunctions
 double power locale
 classical descent
-weighted
-triangulated
+weight
+triangulate
 canonical
 tate
-ordered tensor
+order tensor
 tate vector
 equivariant brauer
-brauer-clifford
+brauer - clifford
 h.
 invertible
-2-category of coloured
+2 - category of coloured
 weak duality
 strict duality
 dual cocartesian
-maps between fibrant
+map between fibrant
 linear logic multiplicative
-mathematical notions of smooth
+mathematical notion of smooth
 differential linear
 epsilon
 monotone continuous
-compact ordered
+compact order
 abstract
-pros
+pro
 free and minimal way .
-free globularly generated double
+free globularly generate double
 zassenhaus
 phd
 internal automorphism
 internal object
-1-cat
+1 - cat
 induction on
-finite-dimensional
-higher categorical
-m$ is a
-parametrized spectrum
-group-like
+finite - dimensional
+high categorical
+m$ be a
+parametrize spectrum
+group - like
 any
 homomorphism
 homological diagram
-self-dual
+self - dual
 noetherian
 planar
 *
 operadic
-parametrized $ \infty$-categorical
-equivariant simplicially enriched operadic
+parametrize $ \infty$-categorical
+equivariant simplicially enrich operadic
 extranatural
-2-dimensional analogue of extranatural
-2-category of lax
+2 - dimensional analogue of extranatural
+2 - category of lax
 strict )
 lax natural
-lie 2-group
+lie 2 - group
 produce
 concurrent game
 categorical congruence
@@ -1268,56 +1257,53 @@ structural differential
 algebraically
 rfra
 abstract span of
-right fibred right
+right fibre right
 multimonoidal
 $ \infty$-category $
-pre-lie
+pre - lie
 majority
 complete metric
 short
-cases
+case
 e$
-extriangulated
+extriangulate
 bar / cobar
 comprehensive factorization
-barr-exact category
+barr - exact category
 horizontal bicategory and object
 -scheme
 abelian symmetric monoidal
 sense
 involutive
-anti-linear
+anti - linear
 -algebras .
 complex vector
 involutive category
-brown-loday non-abelian tensor
-internal crossed
+brown - loday non - abelian tensor
+internal cross
 intrinsic
-segal   enriched
-pre-cartesian double category
-pre-exponentiable
+segal    enrich
+pre - cartesian double category
+pre - exponentiable
 simplicial set
 monoid of continuous
 cohesive
-monoidal indexed
+monoidal index
 simplex category
 excision
 weiss manifold
-network-style diagrammatic
+network - style diagrammatic
 compositional
-constructing compositional
+construct compositional
 chemical reaction
 black boxing
 diagram of simplicial combinatorial model
 categorical homotopy
 notion of quillen model
 quillen
-defined
 restriction category as
 notion of partial map
 folk model category
 gray tensor
 join of
-cyclic double multicategory    of multivariable
-unit
-defining
+cyclic double multicategory     of multivariable
