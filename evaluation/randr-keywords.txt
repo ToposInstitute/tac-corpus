@@ -2766,7 +2766,7 @@ e be a topos
 bianchi identity
 bianchi
 weil
-become formulate
+becomes formulate
 new and simple
 induce cross
 topologically

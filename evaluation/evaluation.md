@@ -117,26 +117,26 @@ Combining the author keywords and the compounds gives the following results:
 Excluded Keywords
 -----------------
 
-By excluding author keywords that don't appear in the text, it is possible to
-improve recall for some systems. In this case, all keywords have been
-lemmatized before comparison.
+By excluding author keywords that don't appear in the text, it is possible to improve recall for
+some systems. In this case, all keywords have been lemmatized before comparison. At this point, we
+also evaluate an implementation of TextRank (pytextrank).
 
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
-|-----------------|------------|---------|-------------|-----------|----------|
-| True Positives  | **936**    | 110     | 220         | 79        | 200      |
-| False Positives | 17351      | 1199    | 808         | 722       | **699**  |
-| False Negatives | **134**    | 960     | 850         | 991       | 870      |
-| Precision       | 0.05       | 0.08    | 0.21        | 0.10      | **0.22** |
-| Recall          | **0.87**   | 0.10    | 0.21        | 0.10      | 0.22     |
-| F1              | 0.10       | 0.09    | **0.21**    | 0.08      | 0.20     |
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
+|-----------------|------------|---------|-------------|-----------|----------|----------|
+| True Positives  | **936**    | 110     | 220         | 79        | 200      | 150      |
+| False Positives | 17351      | 1199    | 808         | 722       | **699**  | 11565    |
+| False Negatives | **134**    | 960     | 850         | 991       | 870      | 920      |
+| Precision       | 0.05       | 0.08    | 0.21        | 0.10      | **0.22** | 0.01     |
+| Recall          | **0.87**   | 0.10    | 0.21        | 0.10      | 0.22     | 0.14     |
+| F1              | 0.10       | 0.09    | **0.21**    | 0.08      | 0.20     | 0.02     |
 
 Combining these with compounds:
 
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
-|-----------------|------------|---------|-------------|-----------|----------|
-| True Positives  | **1835**   | 127     | 327         | 93        | 297      |
-| False Positives | 16452      | 1182    | 701         | 708       | **602**  |
-| False Negatives | **745**    | 2453    | 2253        | 2487      | 2283     |
-| Precision       | 0.10       | 0.10    | 0.32        | 0.12      | **0.33** |
-| Recall          | **0.71**   | 0.05    | 0.13        | 0.04      | 0.12     |
-| F1              | **0.18**   | 0.07    | **0.18**    | 0.06      | 0.17     |
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
+|-----------------|------------|---------|-------------|-----------|----------|----------|
+| True Positives  | **1835**   | 127     | 327         | 93        | 297      | 203      |
+| False Positives | 16452      | 1182    | 701         | 708       | **602**  | 11512    |
+| False Negatives | **745**    | 2453    | 2253        | 2487      | 2283     | 2377     |
+| Precision       | 0.10       | 0.10    | 0.32        | 0.12      | **0.33** | 0.02     |
+| Recall          | **0.71**   | 0.05    | 0.13        | 0.04      | 0.12     | 0.08     |
+| F1              | **0.18**   | 0.07    | **0.18**    | 0.06      | 0.17     | 0.03     |
