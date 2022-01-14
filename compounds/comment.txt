@@ -1,4 +1,4 @@
-I was able to have a look at the pairs you sent me and I have following comments:
+Katerina wrote: I was able to have a look at the pairs you sent me and I have following comments:
 
 1. Not all of them are binary phrases. 
 Some of them have more than two words so our approach does not work on them.
