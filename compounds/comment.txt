@@ -1,0 +1,14 @@
+Katerina wrote: I was able to have a look at the pairs you sent me and I have following comments:
+
+1. Not all of them are binary phrases. 
+Some of them have more than two words so our approach does not work on them.
+
+2. From the rest, almost half of it does not have pretrained embeddings, 
+i.e. they are not included in the version of Wikipedia that GloVe was trained on
+
+3. From a quick manual look it seems that many of these terms are so specific 
+(or context specific, e.g. “About”) that our approach does not stand a chance to do anything reasonable.
+
+4. However Katerina did produce GLove vectors for half of the nLab names of page, the file nlab_phrases_with_embeddings
+But our method described in https://aclanthology.org/W19-4311.pdf does not seem to work. anything I can do?
+
