@@ -140,3 +140,17 @@ Combining these with compounds:
 | Precision       | 0.10       | 0.10    | 0.32        | 0.12      | **0.33** | 0.02     |
 | Recall          | **0.71**   | 0.05    | 0.13        | 0.04      | 0.12     | 0.08     |
 | F1              | **0.18**   | 0.07    | **0.18**    | 0.06      | 0.17     | 0.03     |
+
+Modified Nouns
+--------------
+
+We also evaluate versus phrases consisting of adjectives and nouns. 
+
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
+|-----------------|------------|---------|-------------|-----------|----------|----------|
+| True Positives  | **2535**   | 85      | 224         | 74        | 206      | 216      |
+| False Positives | 15752      | 1224    | 804         | 727       | **693**  | 11499    |
+| False Negatives | **567**    | 3017    | 2878        | 3028      | 2896     | 2886     |
+| Precision       | 0.14       | 0.06    | 0.22        | 0.09      | **0.23** | 0.02     |
+| Recall          | **0.82**   | 0.03    | 0.07        | 0.02      | 0.07     | 0.07     |
+| F1              | **0.24**   | 0.04    | 0.11        | 0.04      | 0.10     | 0.03     |
