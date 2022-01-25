@@ -154,3 +154,15 @@ We also evaluate versus phrases consisting of adjectives and nouns.
 | Precision       | 0.14       | 0.06    | 0.22        | 0.09      | **0.23** | 0.02     |
 | Recall          | **0.82**   | 0.03    | 0.07        | 0.02      | 0.07     | 0.07     |
 | F1              | **0.24**   | 0.04    | 0.11        | 0.04      | 0.10     | 0.03     |
+
+This can be combined with the other benchmarks to produce the following
+results:
+
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
+|-----------------|------------|---------|-------------|-----------|----------|----------|
+| True Positives  | **4041**   | 188     | 469         | 146       | 422      | 377      |
+| False Positives | 14246      | 1121    | 559         | 655       | **477**  | 11338    |
+| False Negatives | **1302**   | 5155    | 4874        | 5197      | 4921     | 4966     |
+| Precision       | 0.22       | 0.14    | 0.46        | 0.18      | **0.47** | 0.03     |
+| Recall          | **0.76**   | 0.04    | 0.09        | 0.03      | 0.08     | 0.07     |
+| F1              | **0.34**   | 0.06    | 0.15        | 0.05      | 0.14     | 0.04     |
