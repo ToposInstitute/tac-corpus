@@ -1,168 +1,71 @@
 Methods
 -------
 
-To evaluate Parmenides against another phrase extraction method, both
-Parmenides and the point of comparison are used to generate the set of phrases
-that are extracted for each document in the corpus. This results in two sets of
-phrases for each document: the set of phrases that Parmenides retrieved, and
-the set of phrases that are, for the purposes of this evaluation, considered
-relevant. Each phrase that occurs in both sets is considered a true positive; a
-phrase that occurs only in the retrieved set is a false negative, and a phrase
-that occurs only in the relevant set is a false negative. The false positives,
-false negatives, and true positives for each document and each point of
-comparison can be found in `results.full.json`. 
+Each experiment below compares the results of several keyphrase extraction
+algorithms against a different gold/silver standard. For each evaluation, we
+calculate the number true positives, false positives, and false negatives,
+which allows us to calculate precision, recall, and F1. 
 
-To calculate the overall results, we sum the number of false negatives, false
-positives, and true positives for the entire corpus, and use these to calculate
-precision, recall, and F1. We also provide summaries for the frequency with
-which particular phrases appear as false negatives, false positives, and true
-positives. There is one summary file for each experiment:
-`opentapioca.summary.json` and `dygiepp.summary.json`. For example, against
-DyGIE++, "monoidal" was found as a true positive 20 times (identified by both
-Parmenides and DyGIE++), "category" was found as a false positive 455 times
-(identifier by Parmenides but not by DyGIE++), and "of" was found as a false
-negative 14 times (found by DyGIE++ but not by Parmenides). 
-
-Results
--------
-
-The following results were obtained comparing Parmenides against OpenTapioca:
-
-| Metric    | Score |
-|-----------|-------|
-| Precision | 0.08  |
-| Recall    | 0.74  |
-| F1        | 0.15  |
-
-The following results were obtained comparing Parmenides against DyGIE++:
-
-| Metric    | Score |
-|-----------|-------|
-| Precision | 0.01  |
-| Recall    | 0.57  |
-| F1        | 0.03  |
+In all of these evaluations, keyphrases are identified at the corpus level, not
+at the document or sentence level.
 
 Author Keywords
 ---------------
 
-We also ran similar experiments against author-selected keywords. These
-experiments cover the whole corpus and are not evaluated against specific
-documents. All three keyword extraction models are tested against the gold
-standard of author-selected keywords.
+The first experiment compares each algorithm against the set of keywords
+selected by the authors that actually appear in the text of the corpus. 
 
-We have also tested filtered versions of DyGIE++ and OpenTapioca.
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | TextRank |
+|-----------------|------------|---------|-------------|----------|
+| True Positives  | 940        | 98      | 218         | 552      |
+| False Positives | 18668      | 671     | 653         | 10470    |
+| False Negatives | 130        | 972     | 852         | 518      |
+| Precision       | 0.05       | 0.13    | 0.25        | 0.05     |
+| Recall          | 0.88       | 0.09    | 0.20        | 0.52     |
+| F1              | 0.09       | 0.11    | 0.22        | 0.09     |
 
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
-|-----------------|------------|---------|-------------|-----------|----------|
-| True Positives  | **455**    | 59      | 138         | 60        | 138      |
-| False Positives | 53080      | 1264    | 1152        | **741**   | 761      |
-| False Negatives | **1506**   | 1902    | 1823        | 1901      | 1823     |
-| Precision       | 0.01       | 0.04    | **0.11**    | 0.07      | 0.15     |
-| Recall          | **0.23**   | 0.03    | 0.07        | 0.03      | 0.07     |
-| F1              | 0.02       | 0.04    | **0.08**    | 0.04      | 0.10     |
+Compounds and Modified NPs
+--------------------------
 
-We also ran the same experiment with cleaned, normalized keywords.
+The second experiment compares each algorithm against the set of phrases
+identified by spaCy using simple regular expressions over part-of-speech tags
+and relation labels. Any sequence consiting of an adjective followed by a noun
+or two nouns with a compound relation are included.
 
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
-|-----------------|------------|---------|-------------|-----------|----------|
-| True Positives  | **771**    | 97      | 206         | 88        | 208      |
-| False Positives | 52764      | 1226    | 1084        | 713       | **691**  |
-| False Negatives | **1092**   | 1766    | 1657        | 1775      | 1655     |
-| Precision       | 0.01       | 0.07    | 0.16        | 0.11      | **0.23** |
-| Recall          | **0.41**   | 0.05    | 0.11        | 0.05      | 0.11     |
-| F1              | 0.03       | 0.06    | 0.13        | 0.07      | **0.15** |
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | TextRank |
+|-----------------|------------|---------|-------------|----------|
+| True Positives  | 2226       | 83      | 339         | 979      |
+| False Positives | 17382      | 686     | 532         | 10043    |
+| False Negatives | 841        | 2984    | 2728        | 2088     |
+| Precision       | 0.11       | 0.11    | 0.39        | 0.09     |
+| Recall          | 0.73       | 0.03    | 0.11        | 0.32     |
+| F1              | 0.20       | 0.04    | 0.17        | 0.14     |
 
-The results below are for Parmenides with a filter applied on the cleaned,
-normalized keywords, for comparison and experimentation.
+Author Keywords + Compounds
+---------------------------
 
-| Metric          | Parmenides |
-|-----------------|------------|
-| True Positives  | 766        |
-| False Positives | 19646      |
-| False Negatives | 1097       |
-| Precision       | 0.04       |
-| Recall          | 0.41       |
-| F1              | 0.07       |
+Next we compare the union of author keywords, compounds, and modified noun
+phrases.
 
-Compounds
----------
+| Metric          | Parmenides | DyGIE++ | OpenTapioca | TextRank |
+|-----------------|------------|---------|-------------|----------|
+| True Positives  | 2728       | 159     | 442         | 1290     |
+| False Positives | 16880      | 610     | 429         | 97320    |
+| False Negatives | 958        | 3527    | 3244        | 2396     |
+| Precision       | 0.14       | 0.21    | 0.51        | 0.12     |
+| Recall          | 0.74       | 0.04    | 0.12        | 0.35     |
+| F1              | 0.23       | 0.07    | 0.19        | 0.18     |
 
-A similar experiment uses compounds extracted from the text by SpaCy. These are
-all two-word phrases identified as compounds by the SpaCy dependency parser,
-and then cleaned of LaTeX markup. Otherwise, the evaluation is the same as
-before.
+OpenTapioca
+-----------
 
-Only the filtered Parmenides is evaluated here.
+Finally, we look at OpenTapioca as its own gold standard.
 
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
-|-----------------|------------|---------|-------------|-----------|----------|
-| True Positives  | **825**    | 21      | 135         | 21        | 153      |
-| False Positives | 19587      | 1302    | 1155        | 780       | **746**  |
-| False Negatives | **904**    | 1708    | 1594        | 1708      | 1576     |
-| Precision       | 0.04       | 0.02    | 0.10        | 0.03      | **0.17** |
-| Recall          | **0.48**   | 0.01    | 0.08        | 0.02      | 0.09     |
-| F1              | 0.07       | 0.01    | 0.09        | 0.02      | **0.12** |
-
-Combining the author keywords and the compounds gives the following results:
-
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean |
-|-----------------|------------|---------|-------------|-----------|----------|
-| True Positives  | 1440       | 113     | 289         | 103       | 306      |
-| False Positives | 18972      | 1210    | 1001        | 698       | 593      |
-| False Negatives | 1942       | 3269    | 3093        | 3279      | 3076     |
-| Precision       | 0.07       | 0.09    | 0.22        | 0.13      | 0.34     |
-| Recall          | 0.43       | 0.03    | 0.09        | 0.03      | 0.09     |
-| F1              | 0.12       | 0.05    | 0.12        | 0.05      | 0.14     |
-
-Excluded Keywords
------------------
-
-By excluding author keywords that don't appear in the text, it is possible to improve recall for
-some systems. In this case, all keywords have been lemmatized before comparison. At this point, we
-also evaluate an implementation of TextRank (pytextrank).
-
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
-|-----------------|------------|---------|-------------|-----------|----------|----------|
-| True Positives  | **936**    | 110     | 220         | 79        | 200      | 150      |
-| False Positives | 17351      | 1199    | 808         | 722       | **699**  | 11565    |
-| False Negatives | **134**    | 960     | 850         | 991       | 870      | 920      |
-| Precision       | 0.05       | 0.08    | 0.21        | 0.10      | **0.22** | 0.01     |
-| Recall          | **0.87**   | 0.10    | 0.21        | 0.10      | 0.22     | 0.14     |
-| F1              | 0.10       | 0.09    | **0.21**    | 0.08      | 0.20     | 0.02     |
-
-Combining these with compounds:
-
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
-|-----------------|------------|---------|-------------|-----------|----------|----------|
-| True Positives  | **1835**   | 127     | 327         | 93        | 297      | 203      |
-| False Positives | 16452      | 1182    | 701         | 708       | **602**  | 11512    |
-| False Negatives | **745**    | 2453    | 2253        | 2487      | 2283     | 2377     |
-| Precision       | 0.10       | 0.10    | 0.32        | 0.12      | **0.33** | 0.02     |
-| Recall          | **0.71**   | 0.05    | 0.13        | 0.04      | 0.12     | 0.08     |
-| F1              | **0.18**   | 0.07    | **0.18**    | 0.06      | 0.17     | 0.03     |
-
-Modified Nouns
---------------
-
-We also evaluate versus phrases consisting of adjectives and nouns. 
-
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
-|-----------------|------------|---------|-------------|-----------|----------|----------|
-| True Positives  | **2535**   | 85      | 224         | 74        | 206      | 216      |
-| False Positives | 15752      | 1224    | 804         | 727       | **693**  | 11499    |
-| False Negatives | **567**    | 3017    | 2878        | 3028      | 2896     | 2886     |
-| Precision       | 0.14       | 0.06    | 0.22        | 0.09      | **0.23** | 0.02     |
-| Recall          | **0.82**   | 0.03    | 0.07        | 0.02      | 0.07     | 0.07     |
-| F1              | **0.24**   | 0.04    | 0.11        | 0.04      | 0.10     | 0.03     |
-
-This can be combined with the other benchmarks to produce the following
-results:
-
-| Metric          | Parmenides | DyGIE++ | OpenTapioca | D++ Clean | OT Clean | TextRank |
-|-----------------|------------|---------|-------------|-----------|----------|----------|
-| True Positives  | **4041**   | 188     | 469         | 146       | 422      | 377      |
-| False Positives | 14246      | 1121    | 559         | 655       | **477**  | 11338    |
-| False Negatives | **1302**   | 5155    | 4874        | 5197      | 4921     | 4966     |
-| Precision       | 0.22       | 0.14    | 0.46        | 0.18      | **0.47** | 0.03     |
-| Recall          | **0.76**   | 0.04    | 0.09        | 0.03      | 0.08     | 0.07     |
-| F1              | **0.34**   | 0.06    | 0.15        | 0.05      | 0.14     | 0.04     |
+| Metric          | Parmenides | DyGIE++ | TextRank |
+|-----------------|------------|---------|----------|
+| True Positives  | 871        | 95      | 462      |
+| False Positives | 18737      | 674     | 10560    |
+| False Negatives | 157        | 933     | 566      |
+| Precision       | 0.04       | 0.12    | 0.04     |
+| Recall          | 0.85       | 0.09    | 0.45     |
+| F1              | 0.08       | 0.11    | 0.08     |
