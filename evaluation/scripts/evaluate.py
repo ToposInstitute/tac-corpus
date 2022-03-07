@@ -42,70 +42,6 @@ parser.add_argument('--textrank', '-r', nargs='*', action='store',
     help="parse predictions using textrank", type=str,
 )
 
-class SimpleExtractor(Extractor):
-    """
-    A simple Parmenides terminology extractor.
-    """
-
-    def extract(self, tree):
-
-        for subtree in tree.subtrees():
-            if subtree.term:
-                yield subtree
-
-class SimpleParser:
-    """
-    A simple Parmenides-based parser that simple iterates over all extracted
-    terms in the text. 
-    """
-
-    def __init__(self, settings_dict=None):
-
-        default_settings = {
-            'EXTRACTOR': SimpleExtractor,
-            'DEFAULT_LANGUAGE': 'en_core_web_trf',
-            'TERM_FILTER': lambda term: len(term) < 6,
-        }
-
-        if settings_dict:
-            default_settings.update(settings_dict)
-
-        init(dictionary=default_settings)
-
-        self.processor = import_class(settings.PROCESSOR)()
-
-    def __del__(self):
-
-        try:
-            cleanup()
-        except ImportError:
-            pass
-
-    def __call__(self, text):
-
-        results = self.parse(text)
-
-        for result in results:
-            if result is None:
-                continue
-
-            yield result
-
-    def parse(self, text):
-
-        document = Document(
-            identifier=None,
-            title=None,
-            sections=[section('Main', text)],
-            collections=['parmenides'],
-        )
-
-        return self.processor.process(document)
-
-    def parse_sentence(self, text):
-
-        return next(self.parse(text))
-
 def normalize(keyword):
 
     doc = nlp(keyword.strip())
@@ -117,11 +53,14 @@ def main():
     options = parser.parse_args()
 
     gold = set()
+    gold_separated = defaultdict(set)
     predicted = defaultdict(set)
 
     # GOLD
     if options.csv_gold:
         for filename in options.csv_gold:
+            basename = os.path.basename(filename)
+            rootname = os.path.splitext(basename)[0]
             print("Parsing gold CSV: %s" % filename)
             with open(filename, newline='') as infile:
                 reader = csv.reader(infile)
@@ -129,14 +68,18 @@ def main():
                     if row[0]:
                         keyword = normalize(row[0])
                         gold.add(keyword)
+                        gold_separated[rootname].add(keyword)
 
     if options.text_gold:
         for filename in options.text_gold:
+            basename = os.path.basename(filename)
+            rootname = os.path.splitext(basename)[0]
             print("Parsing gold text: %s" % filename)
             with open(filename) as infile:
                 for line in tqdm(infile):
                     keyword = normalize(line)
                     gold.add(keyword)
+                    gold_separated[rootname].add(keyword)
 
     # PREDICTIONS
     if options.text:
@@ -167,6 +110,16 @@ def main():
 
     for name, evaluation in predicted.items():
         show_results(name, evaluation, gold)
+
+    for name, keywords in predicted.items():
+        with open(name + '.keywords', 'w') as outfile:
+            for keyword in keywords:
+                outfile.write(keyword + '\n')
+
+    for name, keywords in gold_separated.items():
+        with open(name + '.keywords', 'w') as outfile:
+            for keyword in keywords:
+                outfile.write(keyword + '\n')
 
 def phrase_filter(phrase):
 
