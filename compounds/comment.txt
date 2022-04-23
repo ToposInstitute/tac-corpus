@@ -11,4 +11,9 @@ i.e. they are not included in the version of Wikipedia that GloVe was trained on
 
 4. However Katerina did produce GLove vectors for half of the nLab names of page, the file nlab_phrases_with_embeddings
 But our method described in https://aclanthology.org/W19-4311.pdf does not seem to work. anything I can do?
+=================
+
+author_frequencies were calculated by Jacob and sent by email on 22nd Feb 2022.
+Can we use it as seed for our glossary?
+Need a linker to WikiData, @Tim said he had a linker.
 
