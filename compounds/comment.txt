@@ -17,3 +17,4 @@ author_frequencies were calculated by Jacob and sent by email on 22nd Feb 2022.
 Can we use it as seed for our glossary?
 Need a linker to WikiData, @Tim said he had a linker.
 
+hyperdoctrine not in dictionary, but in 10K GLove embeddings.
