@@ -2,7 +2,6 @@
 Analysis
 action
 adjunction
-adjunction
 algebroid
 bicategory
 bifunctor
@@ -40,12 +39,10 @@ field
 flow
 formula
 functor
-functor
 geometry
 gerbe
 graph
 group
-groupoid
 groupoid
 homology
 ideal
@@ -56,7 +53,6 @@ injectivity
 interval
 invariant
 isomorphism
-isomorphism
 lemma
 limit
 locale
@@ -65,14 +61,12 @@ logic
 matrix
 metric
 module
-module
 monad
 monadicity
 monoid
 morphism
 operad
 operation
-operator
 operator
 point
 polyad
