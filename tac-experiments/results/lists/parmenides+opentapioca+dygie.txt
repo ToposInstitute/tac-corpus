@@ -1,0 +1,41 @@
+gauge
+2 - vector
+abelian
+fibred
+associative
+prime
+meet - semilattice
+topological group
+epic
+chain
+simplex category
+structural
+algebraic
+compositional
+double
+combinatorial
+retraction
+dualize
+categorical
+index
+closed model category
+mapping
+bilinear
+coalgebra
+arithmetic
+permutative
+compact
+inner
+rewrite
+presheaf
+branched
+lie algebra
+invertibility
+normal
+unital
+invertible
+finitely presentable
+algebraically
+realizability
+lambda
+retract

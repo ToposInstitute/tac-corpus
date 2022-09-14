@@ -1,0 +1,622 @@
+abstract partial map category
+jointly strongly epimorphic pair
+other intermediate limit
+i.e. , object
+all the useful category
+every pair
+those strict interval
+loc_s
+every small model category
+two similar notion
+i.e. , colimit
+canonical pullback - induce composition
+both a restriction
+l - comodule
+ours
+d_nng_n
+every regular epimorphism
+two give poly - bicategorie
+two
+every codescent morphism
+s(x,0)=x
+essentially the same language
+every algebraically exact category
+lax monoidal structure
+lax operad action
+certain exponentiable morphism
+c(a_i
+other functor category
+two model category structure
+preord(c
+respectively the system
+linearly distributive ( co)monad
+r(s
+k^t
+t_0
+explicit new example
+two useful grading
+both bi(co)algebroid
+precisely those
+any diagram
+any category
+loc_e
+open " subobject
+several non - equivalent notion
+direct homotopy equivalence
+cov(b
+any small cancellative category
+left - invariant linear ordering
+multiple sequence alignment
+kar(c_d
+its subvariety
+ordinary cubical set
+spec(z
+those 2 - monad
+all cocontinuous linear functor
+parametrize spectrum object
+any subobject
+at least a weak pullback
+their commutation relation
+only certain categorical property
+finitary regular monad t
+n - fold loop space
+all push - out
+any slice category
+new 1 - morphism
+two usually distinct subcategorie
+pseudo - exponentiable object
+a_0
+many previous construction
+alg(t , v
+respectively lax natural transformation
+few know computable example
+only pushout
+all completeness / cocompleteness assumption
+certain projective effacement
+closed convex subset
+their relation
+similar freeness result
+all the map
+all object
+two factorization system
+any suitable category
+4.3
+vertical normal lax functor
+no distinction
+pro - pointed set
+their connection
+exactly the relationship
+all colimit
+both notion
+exactly the point
+ten
+s - value lax functor
+both an abelian category
+both
+two generic construction
+alg(p
+free regular and exact completion
+non - expansive function
+very general ` category
+complete skeletal q - category
+any pointed factor permutable category
+chu(d
+non pointed protomodular category
+two possible notion
+2 - form
+three equivalent necessary condition
+non - archimedian
+useful abstract conceptualization
+all functor
+other
+diverse cross product construction
+its implication
+no assumed prerequisite
+m - stuff type
+1,1
+five
+either factor class
+all limit
+no non trivial internal group
+even a functor
+universal quotient map
+suitable preservation / reflection property
+all category
+just the combination
+two isomorphic construction
+namely the property
+k - finiteness
+semi - abelian monadic category
+semi - simplicial version
+1 ) a new characterization
+posgr_v
+six
+q - powerset
+f_z
+monoidal index category
+sheaf - equivalence
+its full sub-2 - category
+well - know cohomology group
+all exist model
+extended cubical set
+two other interesting reflective subcategorie
+i. category
+thus model
+high excision condition
+most weak double category
+spl(c^d
+all homotopy colimit
+he
+various explicit calculation
+exactly the nerve
+h^3(z
+multi - sorted algebraic theory
+any field
+hom(-,x
+all natural endotransformation
+ring - group
+any model
+i.e. a special kind
+local cartesian closure
+cross q - module
+f(n
+all quotient
+ner(b
+all algebraic system
+two basic way
+their place
+then approximate categorical structure
+its group
+precisely the pushout
+small involutive and integral quantaloid
+weak right adjoint
+precisely the distributive law
+two recent idea
+loc_f
+nonequilibrium steady state
+all exactness condition
+all morphism
+their category
+no x
+no reference
+database - design
+m_{pq
+equivariant sheaf topos
+g - value differential form
+infinitely many distinct close class
+their degenerate 2 - simplice
+any exact category
+also all kind
+precisely the counit
+any strict monoidal simplicial category
+all the equivalence
+its origin
+two other condition
+well functoriality and stability property
+which
+discrete dynamical system
+s^x
+induce natural transformation
+those equipment
+t([m],[0
+any pointed category
+several new exactness condition
+e_n
+filtered topological space
+qvbun^{op
+h(c
+two main construction
+several new feature
+ourselves
+top^{op
+familiar coherence result
+precisely the structure
+non - abelian differential cocycle
+two brief application
+top
+any h - bimodule coalgebra
+non - archimedean
+multicolored bottleneck distance
+namely leave exact conservative functor
+they
+new 1 - cell
+those skew monoidale
+another model
+every system
+any pointed endofunctor t
+another type
+top(m
+x+y
+several know structure
+any symmetric monoidal closed category
+possible such axiomatisation
+categorical semidirect product
+concrete and abstract cell complex
+classical glueing theorem
+absolute cr - epic space
+eight
+precisely which
+any precosheaf
+several exact sequence
+certain 2 - categorical colimit
+separable prextensive category
+those simplicial set
+internal comma object
+no canonical axiomatisation
+either ` lax
+inner anodyne morphism
+other key aspect
+network - style diagrammatic language
+its bicategory
+maybe more general one
+enough 2 - cell
+e.g. surjective pairing
+all arrow
+i.e. , the equivalence class
+suitable grade categorical group
+at least one
+precisely the functor
+near - module
+both left and right adjoint
+three
+four
+n+1 commuting action
+every span
+its connection
+any bicategory
+i.e. , the regularity
+both alg(t
+co)limits
+all natural transformation
+i.e. an infinite set
+all simplicial set
+various 2 - category
+two - dimensional generalization
+d - coalgebra object
+aut(x
+only preservation
+several common metric
+his definition
+several new situation
+f^{-1}(iso
+co)monad
+every internal reflexive graph
+his tensor product
+three similar one
+lax(d
+two interesting result
+semiunital semimonoidal category
+v - n - category
+every internal biequivalence
+cat(e
+both majority
+many geometric category
+respective homotopy category
+two possible structure
+every geometric morphism
+every reflexive strong relation
+k - cobordism
+other concrete example
+all the weight
+all
+0 - ary term
+also , the language
+neither the axiom
+lax pullback complement
+every x
+c_{fc},w
+any normal subobject
+any bundle
+precisely the categorical version
+precisely the second factor
+their behaviour
+several semantic domain
+all precontinuous category
+its all axiom
+all lax pullback complement
+both real and complex supermanifold
+all pointed object
+enrich locally presentable category
+its coreflective hull
+only a subset
+its fibration
+two duplicial object
+anti - linear involution
+monoidal 1 - cell
+any double complex
+left and right adjunctible map
+another more computational proof
+non - standard solution
+weak left adjoint
+various model category structure
+i - normal extension
+formal functorial extension
+his pioneering study
+d_0
+those morphism
+n - permutable variety
+weak cubical category
+any lax functor
+all suprema
+what
+u}x
+two new model
+namely those
+two relate universal property
+that is , the map
+three main ingredient
+then a sufficient criterion
+no notion
+precisely the variety
+universal spectral vector bundle
+any extension
+2 ) a setting
+two cross module
+those approach space
+any homological category
+p_m(a
+three different notion
+e}_lnt
+mono(f_n
+map(b)(t
+classical enrich category
+high cubical cospan
+another look
+any finite product
+that is , a term
+two new characterization
+any ( large ) limit
+spec(l
+any single free algebra
+op - canonical ( t
+those abstract action core
+i.e. those
+sm - ideal
+any operad
+any cover
+various know stability result
+g a family
+one side
+alg(t
+p),h
+s(x
+isometric , weakly continuous representation
+core algebra revisit
+pointwise pseudo - kan extension
+trivial vector bundle
+certain universal property
+more than one
+themselves
+s[t_1
+v_0
+another motivation
+n - cubical cospan
+all complex
+ω - category
+something
+their concept
+i.e. reasoning
+their ring
+two different approach
+precisely category
+those b
+bicategorically cartesian lifting
+all semi - abelian category
+t_1
+act(-,x
+any non - negative integer
+z[a
+short affine map
+end(m
+regular epireflective subcategorie
+any t
+cubical face operation
+many infinity - category
+certain homotopy class
+every algebraically - central extension
+those aspect
+any high categorical structure
+high categorical commutator
+both the query language
+all the morphism
+free filter - colimit completion
+a^t
+quasi - coherent sheaf
+its site
+suitable binary function
+non - symmetric operad
+precisely the condition
+four characterization theorem
+n - ary operation
+both the module
+every bicategory
+all isomorphism
+certain quotient category
+i.e. a lax monoidal action
+sufficient intrinsic condition
+any pointed regular category
+all endofunction
+several coherence theorem
+non - pointed additive category
+non - abelian magnetic flux
+those complex
+g_h
+interesting open problem
+when the coequalizer
+idempotent natural endomorphism
+arbitrary monoidal functor
+their ( multi-)2 - cell
+non - localic boolean subtripose
+cat(c
+vol . 16
+several know concept
+aut(c
+every set h
+all sm - ideal
+nonnegative real number
+faa(x
+certain braid skew monoidal structure
+n - cube
+hot_a
+enough categorical structure
+g - cross extension
+every small category
+three result
+certain special type
+both a tensor
+those compactification
+two forthcoming paper
+locally complete inductive groupoid
+all subgroup
+those functor
+two constructive set theory
+sober spectral vector bundle
+cubical topological cospan
+another proof
+one of the important property
+a_1(q
+various other kind
+either
+certain homotopical invariant
+any reflective subfibration l
+another bicategory
+correspondingly that
+any morphism
+gpd(e
+their non reversible homotopie
+also quantum theory
+third
+two index functor
+two such category
+d_{ls}a
+exactly weak ( n+1)-categories
+certain ` fundamental pushout topos
+any composition
+only the constant
+three independent but important area
+its action
+all distributive law
+another concept
+that part
+any operation
+all the usual exactness property
+its set
+those system
+strict and weak duality involution
+semantic interpretation a hypergraph functor
+any composition law
+cc(c
+those
+abelian action core
+several new way
+right fibred right adjoint
+pt(c
+act(g
+explicit site characterization
+pu(pl(x
+its relationship
+separate extensional object
+those graph morphism
+enrich strong monomorphism
+all iso - full subcategorie
+two alternate proof
+1 - manifold
+their normal - order power
+sufficiently many effective descent morphism
+right regular span
+k - linear representation
+which part
+precisely the category
+any class
+first
+recursively - define distributive law
+precisely the injective hull
+namely lax monoidal pseudofunctor
+every finitely generate subobject
+internal object action
+q - poset
+any cartesian differential category
+several classical property
+complete algebraic lattice
+full strength equivariant universal coefficient
+various different definition
+ana - bicategory
+internal precrosse and cross module
+quotient geometric theory
+both transformation
+suitable deformation functor
+every fibre
+precisely the module
+horizontal t - morphism
+three slightly different notion
+both the usual tensor product
+two full subcategorie
+every small range category
+topological group and ring structure
+another
+any tensor product
+adjoint functor factorization result
+several classically important result
+cartesian partial map category
+similarly , ( co)homology
+three different construction
+adequate algebraic model
+poly - bicategorie
+their special case
+topological group structure
+ideal determine variety
+all equivalence relation
+both a category
+certain proof - theoretic technique
+open " subset
+every guard system
+two such monad
+affine ind - scheme
+pre - exponentiable object
+one
+both a topological vector space
+sqr(m
+several free construction
+d_sa
+eventually cyclic boolean flow
+transfer model structure
+two new nerve
+any total category
+no
+physical extensive quantity
+d}_0
+all subcategorie
+any functor
+any object
+associativity type condition
+especially its package
+tf_a
+q_0
+groupoid principal bundle
+their closure property
+every full subcategory
+tamb_{ls}(a
+all complication
+parameter space s
+three variable
+another notion
+abelian sheaf cohomology
+two main theorem
+its dual category
+certain stability property
+all the category
+opmonoidal 1 - cell
+any 2 - category
+type lambda calculus
+i.e. a bifunctor
+homotopy weight limit
+additional triviality condition
+those subgroupoid
+cat_s
+both extensive category
+then circuit
+free monoidal category
+4.2
+0 - separate object
+who
+key structural aspect

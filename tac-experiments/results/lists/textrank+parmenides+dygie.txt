@@ -1,0 +1,123 @@
+segal
+chu
+gray - category
+codomain
+proof
+condition
+lawvere
+theorem
+split extension
+finite product
+distribution
+exactness
+those inverse
+slice
+internalization
+weight
+representable
+construction
+formal concept
+space
+endomorphism
+composite
+action
+constant
+left
+relation
+tangent
+accessibility
+cross
+brown
+persistence
+solution
+quotient
+extension
+comprehension
+thin filler
+property
+isotropy
+rig
+choice
+tannakian
+triple
+pro
+stone
+locally cartesian closed category
+domain
+triangle
+closure
+identity
+cartesian bicategory
+preserve
+point
+projective
+injectivity
+study
+q - module
+equation
+left adjoint
+galois
+group
+state
+effective descent morphism
+kan
+restriction
+kleisli
+flatness
+partial map
+isbell
+lie 2 - group
+binary product
+bcst
+monoidal model category
+probability
+finite sum
+differentiation
+regular epimorphism
+adjoint
+truncation
+inclusion
+fiber
+lattice
+2 - category
+comonad
+multiplication
+coherence
+tensor
+semigroup
+tac
+ccd
+result
+semantic
+monad
+bundle
+2 - group
+set - monad
+geometry
+connection
+integer
+internal equivalence
+dagger
+topo
+length
+homotopy colimit
+presheaf category
+exponential
+natural number
+transformation
+2 - metric
+side
+base
+high category
+strictification
+serie
+factorization
+cartesian
+field
+theory
+sup
+adjointness
+rfra
+idempotent
+path
+universe category

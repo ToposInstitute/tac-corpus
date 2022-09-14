@@ -1,0 +1,2495 @@
+" )
+" complete
+" linear dual
+$
+$ A$
+$ C$
+$ E$
+$ E_\leq$-injective hulls
+$ F$
+$ G$ induced representations are
+$ L$-colocalization
+$ L$-localizations
+$ LinLoc$ , which
+$ R$-modules for which
+$ Set$
+$ T$ , even when
+$ T_0 $ objects
+$ V$-monad
+$ V_0 $
+$ Vect_k$
+$ X \to N
+$ \Lambda/q\Lambda$ coefficients
+$ \Phi$-atomic weights
+$ \aleph_1$-ary quasivariety
+$ \cal C$
+$ \cal M$
+$ \infty$-category $ C$
+$ \lambda$-filtered colimits
+$ \lambda$-presentable domains
+$ \lambda$-small objects
+$ \mathcal{D}$
+$ \phi$-weighted colimits
+$ f_*$
+$ is
+$ n$ factors
+$ { \mathcal L}$-fuzzy relations
+'
+' ,
+' and
+' or
+(
+( and these companions
+( comonads )
+( dual
+( large
+( replacing the
+(co)completion ,
+(co)endomorphism algebra
+(pre-)Hilbert categories
+)
+) $
+) and
+) are
+) categories , Perm
+) in
+*
+* -autonomous category
+* -autonomous monoidal categories
+* -autonomous structure
+* -autonomous structures
+* -categories
++
+,
+, ...
+, K]_{U}$
+, \cal A
+, \cal A]$
+, and [C
+, and by
+, and its dual
+, every
+, exponentiable
+, first
+, globular
+, in
+, medial
+, regular
+, single-output
+, such
+, the so-called classifying
+, topological
+-- of the category
+-1-connective spectra
+-algebras .
+-autonomous category
+-autonomous monoidal categories
+-autonomous structure
+-autonomous structures
+-descent morphisms
+.
+...
+... ,
+.~ Ursini .
+0-cell
+0-cells
+0-cohomology
+0-dimensional topological spaces
+1-arrows
+1-cat groups
+1-dimensional sphere
+1-morphisms
+2-categorical approach
+2-categories
+2-categories .
+2-category
+2-category K
+2-category Opmon of monoidal categories
+2-category biequivalent
+2-category of algebras
+2-category of categories
+2-category of closed categories
+2-category of closed multicategories
+2-category of coloured operads
+2-category of weak distributive laws
+2-cells
+2-crossed modules
+2-dimensional analogue of abelian groups
+2-dimensional analogue of extranatural transformation
+2-dimensional separable algebra condition
+2-dimensional vision of groups
+2-graph
+2-group
+2-group G
+2-groupoid
+2-metric space
+2-monad
+2-monads
+2-morphisms
+2-sphere
+2-vector bundle
+2-vector space of parallel sections
+2-vector spaces of intertwiners
+29,13
+2D-multitopic category
+3-dimensional
+3-dimensional categorical structure
+3-representation
+3-term Lie infinity algebras
+:
+: Loc_F
+: X\to A$ the
+: \bi{Rel
+;
+;   (
+; 1 forming
+A , \cal A
+AECs
+Adhesive categories
+Algebraic Topology
+Andre/Quillen cohomology
+Ass
+Azumaya algebra
+B , which completely encodes
+B)$ to
+BCST
+BCST ]
+BILL
+Baer Extension Theory
+Baez-Crans 2-vector spaces
+Barr
+Barr-exact category E
+Bartlett 's string diagram formalism
+Baues-Jibladze descent theorem
+Beck-Chevalley-type condition
+Bianchi Identity
+Bicat
+Bicategories of spans
+Birkhoff 's Variety Theorem
+Birkhoff 's variety theorem
+Boolean algebra
+Boolean algebras
+Boolean subtopos
+Bourn
+Bousfield localization of preadditive categories
+Brauer-Clifford groups
+Brown representability
+Brown-Grossman fundamental group
+Brown-Loday non-abelian tensor product
+C
+C , sending
+C$ -scheme
+C(A_i
+C-systems
+CAT
+CCD sup-lattices
+CLS of closure spaces
+COMMUTATIVE RINGS)$^op$-indexed category
+Calculus of Structures
+Call-by-push-value
+Cartan-Eilenberg structure
+Cartesian differential categories
+Cat for
+Categorical groups
+Cauchy complete objects
+Chevalley
+Chevalley criterion
+Chu Spaces
+Chu categories
+Chu category
+Chu construction
+Chu-construction
+Clapp
+Coarse-graining
+Codescent morphisms
+Com
+Commutator theory
+Computer Science
+Con
+Connections
+Control theory
+Crans
+Cubical sets
+D
+D-ideals
+DT
+D]_lnt
+Databases
+Day Reflection Theorem
+Decomposable functors
+Dedekind category
+Dedekind completion
+Deligne 2-groupoid
+Descent II
+Deterministic automata
+Dialectica construction
+Differential Linear Logic
+Directed Algebraic Topology
+Distributive laws
+Dold-Kan type equivalence
+Domain Theory
+E
+E/M
+ELL
+Eilenberg-Moore algebras
+Eilenberg-Moore object
+Elementary Linear Logic
+Entity-Relationship-Attribute ideas
+Eq(C )
+Euclidean principle
+Euler characteristic and dimension
+Exact sequences
+Exponentiable spaces
+Extended cubical sets
+Extremal ,
+Extremal , regular
+F-valued continuous functions
+FCA
+FILL
+Faa di Bruno construction
+Fermat spaces
+Feynman categories
+Feynman diagrams
+Fg
+Filtered colimits
+Finitary monads
+Finite Sum sketches
+Fiore
+Formal Concept Analysis
+Fourier theory
+Freyd conjecture
+Frobenius
+Frobenius algebra
+Frobenius law
+Frobenius objects
+Frobenius operations
+Frobenius structure
+Frobenius structures
+Frobenius structures of spheres
+Full Intuitionistic Linear Logic
+G-crossed extensions
+G-uniformity
+Galois connection
+Galois descent theory
+Galois theory of Artinian simple module algebras
+Gelfand spectrum
+Gelfand-Neumark duality
+Generalized operads
+Geometry
+Gerstenhaber
+Girard quantale
+Gleason cover
+Globular complexes
+Goguen categories
+Gray tensor product
+Gray tensor product of 2-categories
+Gray-categories
+Gray-category A
+Gray-enriched categories
+Grothendieck categories
+Grothendieck construction
+Grothendieck group construction
+Grothendieck site
+Grothendieck topologies
+Grothendieck topology
+Grothendieck topos
+Grothendieck toposes
+Groupoidification
+Gumm .
+H
+H.
+Hausdorff space
+Higgins
+Higher categorical structures
+Hirai and Koichi .
+Homotopy Addition Lemma
+Hopf
+Hopf algebra
+Hopf algebra $ H$
+Hopf algebra structures
+Hopf algebras
+Hopf formulae
+Hopf modules
+Hopf monad
+Hopf monads
+Hopf monads in Span|V
+Hopf monoids
+Huq
+Huq commutators
+Hurwitz action of homeomorphisms
+Injectivity
+Involutive category theory
+Isbell duality
+Iterative algebras
+Joyal 's species of structures
+Joyal model structure
+Joyal-Tierney theorem
+KZ-doctrine
+KZ-doctrines
+KZ-monadic subcategories
+Kan 's combinatorial spectra
+Kan adjunction
+Kan extensions
+Kan-injectivity
+Kleisli bicategory
+Kleisli category
+Kullback -- Leibler divergence
+L
+L-completeness
+L-separated maps
+LFP
+Lack
+Lambek
+Lambek 's Bilinear Logic
+Laplace operator
+Lawvere
+Lawvere 's elementary doctrines
+Lawvere theories
+Lax(B
+Lefschetz fixed point theorem
+Lefschetz number
+Leibniz algebra
+Leibniz type
+Leinster
+Levi category
+Lie
+Lie 2-group G
+Lie 3-algebras
+Lie algebra homology
+Lie algebras
+Lie groupoid
+Lie groups
+Linear Abadi and Plotkin Logic
+Linear Logic multiplicative disjunction
+Linear bicategories
+Loc_F
+Locally finitely presentable categories
+M
+M$ is a model
+M-algebra
+M-subobjects
+MD-sketches
+Mackey functors
+Mal'tsev
+Maps
+Mariano
+Markov process
+Medial rule
+Model categories
+MonC
+Monadic
+Monoidal differential categories
+Moore categories
+Moore complex
+Morita duality
+Morita equivalence
+Morita equivalent
+Möbius category
+Networks
+Noether Isomorphism Theorems
+Noether isomorphism theorems
+Noetherian forms
+Non-abelian Snake Lemma
+Normal monomorphisms
+Novikov
+Opetope .
+Orzech
+Our first
+PL
+PROP
+PROs ,
+PU
+Panaite and
+Pare
+Paré
+Passive linear networks
+Pedicchio
+Permutative
+Persistence
+PhD thesis
+PhD thesis ,
+Picard-Vessiot rings
+Pierce
+Poly-bicategories
+Projectivity
+Protomodular categories
+Protomodularity
+Q
+Q-Cat
+Q-distributor
+Q-modules
+Q-posets
+Q-powersets of Q-typed sets
+Quantum categories
+Quillen 's model structure
+Quillen adjunctions
+Quillen equivalences
+Quillen model categories
+Quillen model category structures
+Quillen model structure
+R
+RFRA
+Reedy category axioms
+Reedy model structures
+Rel
+Representables
+Restriction categories
+Riemannian manifold
+Runkel
+S
+S-enriched category
+S-valued distributions
+SCC
+Schanuel and Street model
+Schlank
+Schreier-Mac Lane extension theorem
+Schwartz distributions of compact support
+Schweigert
+Scott
+Scott 's continuous lattices
+Segal
+Segal   enriched categories
+Segal conditions
+Segal group
+Segal group action " structure
+Set-monad
+Set-monad T
+Set-monads
+Set-valued presheaves
+Sheaves
+Shulman
+Sifted colimits
+Sl-monoid
+Smith is Huq property
+Snake Lemma
+Span construction
+Span|Cat
+Split Short Five Lemma
+Stable Connected Codiscreteness
+Stable derivators
+Stirling functions
+Stone
+Stone duality
+Stone spaces
+Stone-Cech compactifications
+Sufficient Cohesion
+Symbolic dynamics
+Symmetric monoidal closed categories
+T
+T$-topos
+T-algebra
+T-algebras
+T-category
+T-lax algebra
+TAC
+TAC paper
+TDA
+TFT construction of Fuchs
+T_G$
+Takahashi 's tensor-like product
+Tangent categories
+Tannaka adjunction
+Tannaka duality
+Tate objects
+Tate vector spaces
+Theorem B.
+Theoretical Computer Science
+This
+Tholen
+Tilings of rectangles
+Topological Data Analysis
+Topological cospans
+Transformation groupoids
+Turaev-Viro state sum construction
+Tychonoff space
+U-split epimorphisms
+Uniqueness
+Universal algebra
+Ursini
+Ursini commutator
+U}X$
+V
+V ]
+V$-enriched categories .
+V-Cat
+V-Mod
+V-functors
+V-modules
+V-relations
+Vaquie
+Vect
+Verschiebung
+Walters
+Weiss manifold calculus
+Wirthmuller isomorphism
+Witt vectors
+X
+X\to A\times
+Yang-Baxter equation
+Yang-Baxter type equation
+Yoneda Lemma
+Z-modules
+Zambrano
+Zariski
+Zassenhaus Lemma
+[
+\Gammaa$
+\Theta of
+\alpha(x ) =
+\bf Warf
+\cal A$
+\cal E$
+\cal K$
+\cal M$
+\cong
+\exists\forall$-formula
+\mathbb{X}$. Note
+\omega-categories
+\times \cal
+\to
+`
+` 2-vector space '
+` Boolean category ''
+` Michael coverings
+` Michael coverings '
+` Nullstellensatz
+` Nullstellensatz '
+` Whitman theorem ''
+` ` Boolean category ''
+` ` Whitman theorem ''
+` ` base change '' transformations
+` ` bundle category ''
+` ` dimension-by-dimension '' decompositions
+` ` entries-only '' characterisation
+` ` limit type
+` ` long-distance '' maps
+` ` maximal-normal''-type equivalence
+` ` short-distance '' maps
+` ` weak temporal doctrine ''
+` base change '' transformations
+` bundle category ''
+` categorification
+` categorification '
+` category
+` completion '
+` constant object ' functors
+` dimension-by-dimension '' decompositions
+` dualizing object '
+` entries-only '' characterisation
+` formal cospan ' category
+` fundamental pushout toposes '
+` geometric realization '
+` long-distance '' maps
+` maximal-normal''-type equivalence
+` monoid-like '' objects
+` projection ' structure
+` punctual local connectedness
+` punctual local connectedness '
+` short-distance '' maps
+` signal-flow diagrams
+` signal-flow diagrams '
+` templates ''
+` topos
+` weak '
+` weak n-category '
+` weak temporal doctrine ''
+a
+a * -autonomous
+a bicategory .
+a field
+a kind
+a natural
+a previous paper
+a property
+a special commutative
+a stochastic
+a strong
+abelian algebras
+abelian categories
+abelian category
+abelian groups
+abelian sheaf cohomology
+abelian symmetric monoidal category
+absolute CR-epic spaces
+absolute colimit
+abstract Krivine structure
+abstract Stone duality
+abstract clones
+abstract closed interval
+abstract core algebra
+abstract partial map categories
+abstract span of categories
+accessibility properties
+accessibility rank of weak equivalences
+accessible functor
+accessible set-valued functors
+action
+action on
+action representability
+actions
+actually isomorphic .
+addition
+additive categories
+additive equational category
+additive functor F
+additive model category
+adjoint
+adjoint functors
+adjoint in
+adjoint morphisms
+adjoint triangle theorem of Dubuc
+adjointness
+adjointness conditions
+adjunction
+adjunction between
+adjunctions
+admits
+admits a
+affine category
+algebra
+algebra structure
+algebra via
+algebra which has
+algebraic K-theory
+algebraic categories
+algebraic definitions of operads
+algebraic geometry
+algebraic invariants
+algebraic lattices
+algebraic objects
+algebraic operads
+algebraic structure
+algebraic structures
+algebraic theories
+algebraic theory
+algebraic topology
+algebraically cartesian
+algebraically-central extension
+algebras
+algebras of $ n$-by-$n$ matrices
+algebras over a suitable monad
+all
+also to reobtain
+alternation hierarchy
+alternation hierarchy problem
+ambiguity
+an
+an equivalence
+ana-bicategory
+anafunctors
+analogue
+analogue of the
+analysis of endofunctors
+analytic spectrum
+and
+and Hopf categories
+and Tsou Sheung Tsun
+and Vitale
+and a Tannakian
+and adjointable maps ,
+and composition
+and of
+and quantic
+and the
+and the category
+and the category of
+ann-categories
+anti-linear involutions
+any abelian
+applications
+approach
+approach spaces
+approach to
+approaches
+approximate categorical structures
+are
+are downward
+are familiar with the topological
+arithmetic universes
+arriving at
+arrows
+as
+as a
+as an
+as the
+as theories
+associative algebras
+asynchronous transition system , admits a
+atlases
+augmented ) simplicial site
+augmented simplicial nerves
+augmented symmetric simplicial sets
+author .
+automata
+automorphism
+automorphisms
+autonomous monoidal bicategory
+axiomatic approach
+axiomatic arithmetic of finite combinatorial toposes
+axiomatic framework
+axiomatic theory
+axioms
+b
+balanced coalgebroid
+balanced effective descent morphisms
+balanced monoidal category
+base manifold
+base quantaloid
+base ring
+base space
+based on
+be
+be a
+between such categories
+bi-finite Hilbert modules
+bi-inclusion
+biadjoint biequivalence
+biadjoint triangle theorem
+bialgebroids
+bicategorical
+bicategorical localisation
+bicategorical localization
+bicategorically cartesian liftings
+bicategories
+bicategories of fractions
+bicategory
+bicategory C
+bicategory MonicSp(Csp(T )
+bicategory MonicSp(Csp(T ) )
+bicategory of
+bicategory of monads
+bicategory of relations
+bicomplete categories
+biextension
+biframe
+bifunctor
+bilinear and trilinear maps
+bilinear maps
+bimodules
+bimonad
+bimonads
+bimonoid structures
+bimonoidal functor
+bimorphisms
+binary ( Huq or Smith ) commutators
+binary operation
+binary product
+binary product structure
+binary product structures
+binary products
+binary relations
+bisemimodules
+bisimplicial presheaves
+bisimplicial set
+bisimplicial sets
+black boxing problem
+both
+both are easily
+bounded topos
+bounded topos E
+braided categorical group
+braided monoidal
+braided monoidal category
+braided strict monoidal categories
+braiding
+branched covers
+branching and the merging semi-cubical nerves
+bulk and boundary factorisation constraints
+bundle gerbes
+by
+by a
+call-by-name paradigms
+call-by-value and call-by-name paradigms
+called
+called " existential
+can be
+canonical algebra morphism
+canonical triangulations
+capacitors
+cardinal κ .
+cardinalities of contravariant functors
+cartesian
+cartesian bicategories
+cartesian bicategory
+cartesian bicategory B
+cartesian closed category category
+cartesian closed topological hull
+cartesian differential categories
+cartesian fibration
+cartesian liftings
+cartesian structure
+categorical Galois theory
+categorical Isbell completion construction
+categorical algebra
+categorical approach
+categorical commutator
+categorical congruence distributivity
+categorical congruence modularity
+categorical definition
+categorical description of $ { \mathcal L}$-fuzzy relations
+categorical framework
+categorical group
+categorical group of derivations
+categorical groups
+categorical homotopy theory
+categorical level
+categorical logic
+categorical model
+categorical models of differential linear logic
+categorical models of linear logic
+categorical principal bundle
+categorical semantics
+categorical semidirect products
+categorical structure and properties
+categorical theory of space
+categorical topology
+categories
+categories is
+categories is an
+categories of models
+categorification
+category
+category .
+category Cat
+category End(M
+category Opetope of opetopes
+category Q-Dist of Q-categories
+category if
+category of
+category of (semi)normed spaces
+category of Eilenberg-Moore algebras
+category of Gray-categories
+category of Grothendieck toposes
+category of algebras
+category of categories
+category of finite cardinals
+category of finite ordinals
+category of gerbe modules
+category of modules
+category of pointed spaces
+category of smooth manifolds
+category of topological objects
+category theory
+category-theoretic structures
+central extension
+certain
+chain
+chain   complexes
+chain complexes
+change-of-base functors
+characteristic zero
+characteristics .
+characterizable
+characterization
+characterizations
+characterize exponentiability
+characterized
+chemical reaction networks
+choice
+choice of
+chu category
+class of functors
+class of homotopy types
+class of regular epimorphisms
+class of weak equivalences
+classes
+classical Model Theory
+classical analysis
+classical descent theory
+classifying space
+classifying spaces
+classifying topos
+closed bicategories
+closed category
+closed maps
+closed model category structures
+closed structure
+closed symmetric monoidal category
+closed symmetric monoidal structure
+closure operator
+closure operators
+coalgebra
+coalgebra morphism
+coalgebra structures
+coalgebras
+cobordisms
+cocategory objects
+cocomplete .
+cocomplete linear category
+cocomplete symmetric monoidal closed category
+cocontinuous linear functors
+codensity monad
+codescent objects
+codomain
+codomain functor
+codomains
+coequalizer
+coequalizers
+coequalizers of equivalence relations
+coequalizers of kernel pairs
+cofibrant
+cofibrations
+coherence conditions
+coherence theorem
+coherent site
+coherent spaces
+coherent unit actions
+coherent way-and
+coherently commutative monoidal categories
+cohesive topos
+cohomology functors
+cohomology of bounded below complexes
+cohomology rings
+coincidental part of the structure
+colax idempotent pseudomonads
+colimit
+colimit of representables
+colimits
+collapsing schemes
+combination
+combinatorial category Disk
+combinatorial descriptions
+combinatorial groupoid theory
+combinatorial model
+combinatorial model   category
+combinatorial model category
+combinatorial model category structures
+combinatorics
+comma category
+communicating systems
+commutation of limits
+commutative Frobenius algebras
+commutative divisor
+commutative integral quantale
+commutative monads
+commutative monoid
+commutative monoids
+commutative ring
+commutative rings
+commutative semigroups
+commutative semiprime ring
+commutative semiprime ring R
+commutative shells
+commutative square
+commutative Δ-separable Frobenius algebras
+commutator conditions
+commutator of a
+commutator subgroups
+como
+comonad
+comonad Faa
+comonoid homomorphisms
+compact 0-dimensional topological spaces
+compact Hausdorff space
+compact Hausdorff spaces
+compact closed bicategory
+compact fibres
+compact ordered spaces
+compact smooth manifold
+compatible actions
+complemented subtoposes
+complete Segal
+complete distributivity
+complete metric spaces
+complete spreads
+completely algebraic
+completion
+complex vector spaces
+complexes
+complicial identities
+complicial sets
+composable adjunction morphisms
+composite
+composite VY
+composition
+compositional semantics
+comprehension scheme
+comprehensive factorization system
+computer science
+concrete functors
+concurrent game    semantics
+conditions encoded
+congruence distributive property
+congruence-modular variety
+connected components
+connection pair
+connectors
+consequences
+constant 0
+constructible
+constructing compositional semantics
+constructing factorization systems
+constructing spectral spaces
+construction
+construction data
+construction of a free restriction category
+construction of a free stable semilattice fibration
+construction of arithmetic universes
+constructive set theories
+constructs
+continuity
+continuity condition relative
+continuous maps
+continuous t-norm
+contravariant functor
+contravariant global sections functor
+contravariant identity-on-objects involutive endofunctor
+contravariant powerset
+contravariant powerset functor
+convergence
+convolution monoidal
+coordinate projective line
+copairing
+coproduct
+coproducts
+coreflection
+coreflections
+correspondences
+corresponding
+cosemigroup structures
+cospans
+coterminal morphisms
+covariant category-valued pseudofunctor
+covariant involution
+covariant presheaves
+covered by
+coverings
+criteria
+criterion
+crossed Q-modules
+crossed bimodules
+crossed module
+crossed module of Hopf monoids
+crossed module of groups
+crossed modules
+crossed product
+cubical face operations
+cubical nerve
+cubical omega-categories
+cubical sets
+cut elimination
+cyclic double multicategory    of multivariable adjunctions
+cyclic flows
+dagger
+dagger adjoints
+dagger categories
+dagger colimits
+dagger limits
+data
+decomposition
+decomposition of a
+deduction rule
+deductive system
+defect TQFT
+definable dominance domain
+defined
+defined category
+defining isomorphisms
+deformation of tube algebra
+degenerate elements
+dense subspace
+descent category
+descent morphism
+descent morphisms
+descent theory
+description
+determined 2-cell
+diagonal functor
+diagonal lifting property
+diagonal simplicial set
+diagram of simplicial combinatorial model categories
+diagrammatic criterion
+diagrams
+diagrams of categories
+diagrams of weak braided monoidal categories
+diexact
+diffeological spaces
+difference Galois theory
+different
+differentiable stack
+differential
+differential Galois theory
+differential category
+differential combinator .
+differential geometry
+differential graded Lie algebra
+differential graded approach
+differential graded k-quiver Q
+differential graded k-quivers Q
+differentiation operation
+difunctional
+difunctional relation
+dimensional transition systems
+directed '' cubes
+directed '' topological spaces
+directed graph
+directed homology
+directed homotopy
+discrete Conduché fibrations
+discrete category
+discrete dynamical systems
+discrete fibrations
+discrete functor
+discrete object of objects
+discrete objects
+discrete opfibrations
+distribution theory
+distributive lattice
+distributive law
+distributive laws
+distributivity
+distributors
+doctrinal approach
+domain theory
+double categories
+double central extensions
+double complex
+double dual
+double groupoid
+double monad
+double order structures
+double powerlocale PX
+dual $ H^*$ of $ H$
+dual category of affine spaces
+dual cocartesian fibration
+dual notion of co-Mal'tsev object
+dual unit-ball functor
+dualities
+dualizing object
+duoidal category $ \cal F$
+each
+each object
+each other )
+edge
+edge symmetric double category
+edge-labelled trees
+effective descent morphisms
+effective descent morphisms is
+eight coherence conditions
+electrical circuits
+embeds .
+enchilada categories
+encoding control flow .
+endodistributor
+endofunctor
+endofunctors
+endomodule
+endomorphism
+endomorphism monoid
+engineering applications
+enlargement
+enriched 2-categories
+enriched Lawvere theory
+enriched Yoneda lemma
+enriched accessible categories
+enriched category
+enriched category theory
+enriched functors
+enriched graphs
+enriched orthogonality
+enriched sheaf theory
+enrichment
+enumerative combinatorics
+epic cospans
+epimorphic extension
+epimorphic hull
+epimorphic pairs of arrows
+epimorphism
+epimorphisms
+epimorphisms .
+epsilon product
+equalizers
+equational hull
+equational structures
+equational subcategories of varieties
+equational theories
+equations
+equations .
+equipment
+equipped
+equivalence
+equivalence .
+equivalence classes
+equivalence relations
+equivalence theorem
+equivalences and
+equivalent
+equivariance
+equivariant
+equivariant Brauer groups
+equivariant Morita equivalence
+equivariant Serre-Swan theorem
+equivariant sheaf toposes
+equivariant simplicially enriched operadic world
+ergodic action
+etale groupoids
+exact
+exact Maltsev categories
+exact completion
+exact endofunctors
+exact protomodular categories
+exactness conditions
+examples
+excision conditions
+execution paths
+existential quantifier
+existentially closed embeddings
+expectation
+exponentiable objects
+exponential principle
+extended cubical site K
+extension
+extension map
+extension systems
+extranatural transformation
+extriangulated category
+f
+factorisation system
+factorization system
+factorization systems
+factors
+familial 2-functors
+familial representability
+fc-multicategory
+fiber F
+fibrant objects
+fibrant-cofibrant objects
+fibration
+fibration of
+fibration of pointed objects
+fibrations
+fibred category
+fibred topology
+fibres
+field
+field of
+field of characteristic 0
+filtered colimits
+filtered opca
+final
+finite
+finite automata
+finite biproducts
+finite category
+finite colimits
+finite coproducts
+finite coproducts .
+finite disks
+finite equivariant Hilbert modules
+finite group G
+finite loop spaces
+finite partitions
+finite products
+finite products '
+finite spaces
+finite spectra
+finite sums
+finite-dimensional , semi-simple algebra
+finite-dimensional , semi-simple algebras
+finite-dimensional structures
+finite-limits preserving ) functor
+finitely complete categories
+finitely generated flat modules
+finitely generated modules
+finitely generated projective modules
+finitely presentable category
+finitely presentable objects
+finitely-complete category
+first order ) neighbour relation
+first order sentences
+first-order chain rule
+first-order classical affine logic
+five-lemma
+flat functors
+flat modules
+flatness .
+flow
+flows
+folk model category structure
+for
+for $
+for a
+for a comonad
+for the
+for word rewriting
+forgetful functor
+forgetful functor D --&gt ; Set
+formal Wirthmuller isomorphism theorem
+framework
+free * -autonomous category
+free 2-category
+free A_\infty-category FQ
+free M-algebra
+free actions
+free adjunction
+free algebras
+free and minimal way .
+free double categories
+free functors
+free globularly generated double categories
+free monoid
+free monoids
+free or totally free 2-crossed module
+free restriction category
+free simplicial groups
+free stable semilattice fibration
+from a symmetric
+full reflective regular subcategory
+full subcategories
+full subcategory
+function space
+functor
+functorial section
+functors
+functors of universe categories
+functors on
+gauge theory
+generalised orbifolds of Reshetikhin-Turaev theory
+generalized Quillen model category
+generalized V-matrices
+generalized covering space theory
+generalized domains
+generalized metric space
+generalized metric spaces
+generalized monotone-light factorizations
+generalized multicategories
+generalized multicategory
+generalized non-abelian tensor product of groups
+generalized operads
+generalized spaces
+generating class
+generic constructions
+generic morphisms
+geometric contexts
+geometric logic
+geometric morphism
+geometrical category
+geometrical notion
+geometries
+gerbal representation
+gerbal representations
+gerbe modules
+given
+gives rise
+global and local symmetries of structures
+global section
+globular nerve
+globular operads
+globularily
+gms
+graded categorical groups
+graph
+graphs
+greatest fixed point constructor
+gros toposes
+ground category
+ground ring
+group
+group action
+group actions
+group algebra
+group orbifolds
+group representations
+group theory
+group-like , reduced Segal space
+group-like structures
+groupoid
+groupoid G
+groupoid actions
+groupoid enriched categories
+groupoid principal bundles
+groupoids
+groupoids and
+groups
+guarded system of recursive equations
+has
+here extends the
+hereditary quotient maps
+higher Hopf formulae
+higher category theory
+higher dimensional analogues
+higher dimensional automata
+higher dimensional category theory
+higher invariants
+higher-dimensional categories
+holomorphic bundle 2-gerbe
+holomorphic vector bundle
+hom-objects
+hom-set
+homological algebra
+homological category
+homological diagram lemmas
+homology
+homomorphism theorems
+homomorphisms
+homomorphisms .
+homomorphisms of C-systems
+homotopical invariants of glued spaces
+homotopical structure
+homotopically meaningful ` geometric realization '
+homotopies
+homotopy (n+1)-algebra structure
+homotopy 2-types
+homotopy categories
+homotopy category
+homotopy category of spectra
+homotopy classes
+homotopy colimit construction
+homotopy colimits
+homotopy double groupoid
+homotopy equivalence ,
+homotopy fixed points
+homotopy groupoid of a space
+homotopy groups
+homotopy invariants of
+homotopy theoretical constructions of path and cylinder objects
+homotopy theory
+homotopy theory of categories
+homotopy theory of higher categorical structures
+homotopy theory of operads
+homotopy theory of simplicial sets
+homotopy theory of smooth transversal maps
+homotopy theory of topological spaces
+homotopy type
+homotopy types
+homotopy types of their classifying spaces
+horizontal ( 1-cell ) compositions
+horizontal bicategory and object category
+horizontal lax transformations
+horizontal monoid
+hypercrossed complexes of Lie algebras
+hypergraph
+idempotent monad
+idempotent natural endomorphisms
+idempotent pseudomonad
+identity functor
+if
+in
+in Galois
+in Top
+in rings
+including cells with empty horizontal target
+inclusion
+inclusion functor
+indexed and fibered categories
+indexed categories
+indexed category theory
+indexed functors
+indexed inclusion
+induced Ff
+induced crossed   modules
+induced functor
+induced functors
+induced geometric morphism of presheaf toposes
+induces
+induction on dimension
+inductive functors
+inductive groupoids
+inductors
+inertia groupoid
+infima
+infinite loopspace machines
+infinite-dimensional categories
+infinite-dimensional spaces
+infinitesimals
+infinity-category theory
+information systems
+injective hull
+injective hulls
+injectivity
+injectivity classes
+inner fibrations
+integers that
+integrals
+intercategory
+interchanges
+interleaving distance
+intermediate class of morphisms
+internal
+internal Hom
+internal automorphism groups
+internal axiom of choice
+internal biequivalence
+internal categorical structures
+internal categories
+internal category
+internal co-categories
+internal crossed square
+internal equivalence
+internal equivalence relation
+internal equivalence relations
+internal equivalences
+internal group
+internal groupoid .
+internal groupoids
+internal object actions
+internal partial orders
+internal precrossed and crossed modules
+internal precrossed module
+internal preorders
+internal profunctors
+internal relations
+internal structure
+internal suplattices
+internalizations .
+interpreting set-theoretic structures
+intertwiners
+intrinsic approach
+introduced by
+invariants of Whitney stratified manifolds
+inverse
+inverse   semigroup theory
+inverse semigroup
+inverse semigroups
+inverses .
+invertibility hypothesis
+invertible
+invertible 2-cells
+invertible distributive law
+involutive quantaloid $ Q$
+involutive structures
+is
+is a `
+is a natural
+is direct sum rather than the usual tensor
+is equivalent to
+is necessarily
+is not
+is subject to a coherence
+is the
+isomorphic
+isomorphism
+isomorphisms
+isotopies
+isotropy
+isotropy group
+it
+iterating Street 's weak wreath product construction
+its
+itself .
+join of
+kernel-congruence
+lambda calculi
+language of operads
+lattice of quantic conuclei
+lattice operations
+lattices
+lax Rel-monads
+lax algebras
+lax cone
+lax epimorphisms
+lax extension
+lax extensions
+lax extensions of monad functors
+lax functor
+lax functors
+lax higher dimensional structure
+lax limit
+lax monads
+lax monoidal pseudofunctors
+lax monoidal structures
+lax morphisms
+lax natural transformations and
+lax operad actions
+laxified version of monoidal category
+least fixed point constructor
+left adjoint
+left adjoint arrow
+left exact conservative functor
+length functor
+limit closures
+limits
+linear equations
+linear logic
+linear operators
+linearly distributive categories
+list of necessary
+list-arithmetic pretopos
+local ( or stalkwise ) Joyal equivalences
+local diffeomorphisms
+local equivalences
+local maps
+local nature
+locale
+locales
+localization
+localizations
+localizations of Maltsev varieties
+locally
+locally cartesian closed category
+locally cartesian closed category category
+locally connected domain
+locally connected topos
+locally finitely presentable categories
+locally finitely presentable category
+locally lipschitzian
+locally ordered bicategories
+locally partially ordered bases
+locally presentable categories
+logic
+logical formalism
+logical structure
+loop-free
+mLL
+machine
+majority term
+manifold
+many
+map
+map on homology
+mapping space
+maps
+maps between fibrant objects
+maps of truncation posets
+mathematical notions of smooth maps
+mathematics
+measure .
+measures
+mechanical , hydraulic , thermodynamic and chemical components
+meet-semilattice
+meet-semilattice S
+meet-semilattices
+method
+method allows also to reobtain
+metric jets
+metric map
+metric space
+metric spaces
+microcosm principle
+microcosm principle of Baez-Dolan
+minimal pre-numeral
+mixed abelian groups
+model
+model categories
+model category
+model category structure
+model category structures
+model enrichment
+model structure
+model structures
+models
+modest
+modifications
+modular tensor category C
+module
+module categories
+module category
+module structure
+modules
+modules over
+monad
+monad $ \mathbb
+monad T
+monad morphisms
+monad-theoretic context
+monadic formalism
+monadic schizophrenic object biadjunction
+monads
+monic spans
+monograph
+monoid of continuous endomorphisms
+monoidal
+monoidal   category
+monoidal bicategory
+monoidal biclosed category
+monoidal biclosed structure
+monoidal categories
+monoidal category
+monoidal category of abelian groups
+monoidal closed category
+monoidal fibrations
+monoidal functor
+monoidal indexed categories
+monoidal model categories
+monoidal model category
+monoidal model category S
+monoidal monad
+monoidal natural transformation between
+monoidal structure
+monoidal structures
+monoids
+monomorphism
+monomorphisms
+monos
+monotone continuous maps
+morphism
+morphism axiom
+morphism of commutative monoids
+morphisms
+much
+multicategories
+multimonoidal monads
+multiplication
+multiplication map
+multiplicative fragment of non-commutative logic
+multiplicative linear logic
+multiplicative structure of linear logic
+multiplier ideal sheaves
+multitensors
+n$-permutable quasivarieties
+n-Tate
+n-angulated categories
+n-categories
+n-category
+n-globular operads
+n-permutable .
+natural
+natural deduction formulation
+natural dualities
+natural endotransformations
+natural equivalence
+natural isomorphism
+natural numbers objects
+natural transformations
+necessarily
+nerve
+nerve $ NI$.
+nerve functor
+network-style diagrammatic languages
+non reversible ) and
+non-abelian algebra
+non-abelian surface holonomy
+non-associative algebras
+non-commutative negation-free multiplicative linear logic
+non-finite profinite group
+non-negatively graded chain complexes of Lie algebras
+non-symmetric linearly distributive categories
+nonabelian derived functors
+noncommutative surface
+nondeterministic and stochastic automata
+nonnegative real
+nonstandard constructions
+nonstandard methods
+norm
+normal
+normal , pseudo-algebra structure
+normal epimorphisms
+normal monomorphisms
+normal subobjects
+normalization
+not necessarily
+notion
+notion of 2-metric space
+notion of Mal'tsev object
+notion of Quillen model category
+notion of cartesian bicategory
+notion of characteristic subobject
+notion of factorization system
+notion of involutive quantale
+notion of normal functor
+notion of partial map category
+notion of resolution
+notions
+notions of metrized categories
+number of orbits
+numerals
+numerical functions
+object
+object A classifies
+object images
+objects
+of
+of 2-dimensional cells
+of Grothendieck
+of Mal'tsev
+of a
+of actions is the
+of an involutive
+of categories
+of equational presentation
+of injective
+of left Yetter-Drinfeld modules
+of mapping cones of
+of models
+of modules
+of paths
+of the
+of their
+on
+on a
+on a small
+one
+one multiplicative graph
+only
+only if
+only if the following
+open dynamical systems
+open topological groupoids
+operad
+operad Phyl
+operad action
+operad module
+operadic nerve
+operads
+opetopes
+opfibrations
+oplax/lax adjunctions
+opmonoidal functors
+opmonoidal monad
+opmonoidal monads
+opposite functors
+or cofibre sequence of
+orbifolds
+order of tensoring
+order-enriched category
+ordered tensor product
+ordinary and higher dimensional Category Theory
+oriented singular chain complexes
+original
+orthomodular lattice
+orthomudular lattices
+other
+our lax functors will be
+out
+over Cat .
+own .
+pair ( A ,
+parallelism
+parametric representations
+parametricity
+parametrized $ \infty$-categorical perspective
+parametrized spectra
+parametrized spectrum objects
+partial
+partial algebras
+partial combinatory algebras
+partial map categories
+partial map category
+partial morphism category
+partial topos
+partially ordered compact spaces
+partially ordered monoid
+partially ordered monoids
+particular that
+passing
+past-similarity
+pasting theory
+path groupoid
+path spaces
+pcas
+perfect maps
+permutative categories
+persistence modules
+petit toposes
+phylogenetics
+physical extensive quantities
+planar polycategories
+po-monoids
+pointed Jónsson-Tarski varieties
+pointed categories
+pointed category
+pointed endofunctor
+pointed irreducible coalgebras
+pointed objects
+pointed spaces
+pointed subtractive varieties
+pointed varieties of universal algebras
+points
+points that
+pointwise Kan extension
+polar decomposition
+polarized notion of two-player games
+polygraphs
+polynomial 2-monad
+polynomials
+poset
+positive cone
+positive integers
+pre-Lie 2-algebra
+pre-Lie algebra
+pre-cartesian double category D
+pre-cohesive geometric morphism
+pre-exponentiable objects
+preadditive categories
+precosheaves
+prederivators
+pregroup
+preordered abelian groups
+present
+present article
+preserves finite
+preserving functors are composed
+presheaf 2-monad P
+presheaf categories
+presheaf category
+presheaf of groups
+presheaf topos
+presheaf toposes
+presheaves
+pretopology
+pretorsion theory
+prime filters
+primitives
+principal bundle
+priori
+privileged directions
+pro-arrow equipment
+probability distributions
+probability monad
+processes
+produce a
+product monads
+product projections
+product types
+product-regular epi
+products
+profunctorial approach
+projections
+projective model structure
+projective model structures
+projective modules
+projective objects
+projectivity
+promonoidal functors
+proof-theoretic techniques
+proofs
+proofs in
+property
+property ,
+property .
+proposition
+protomodular
+protomodular categories
+protomodular category
+protomodular quasivarieties .
+prove
+prove new ones in
+proved
+provides
+proving the
+proximity Dedekind vector lattices
+pseudo-Riemannian metric
+pseudo-exponentiable objects
+pseudo-filtered colimits
+pseudo-monad
+pseudo-triangulated categories
+pseudodistributive law
+pseudogroupoids
+pseudomonad
+pseudomonads
+pseudonatural transformations
+pullback
+pullback along embeddings
+pullback and finite coproduct preserving functors
+pullbacks
+pullbacks of regular epimorphisms
+punctual local connectedness
+punctual local connectedness '
+pure monomorphism
+pure relational language
+push-outs
+pushout
+pushouts
+q^ *
+quantale
+quantale V
+quantale-enriched categories
+quantales
+quantaloid
+quantaloid Q
+quantum $ G$-homogeneous spaces
+quantum algebra
+quantum homogeneous space
+quasi-Hopf algebra
+quasi-groups ,
+quasi-schemoid
+quasi-topos theory
+quasi-variety
+quasigroups
+quasigroups isotopies
+quasitopos
+quasivariety of universal algebras
+quintessential localizations
+quotient algebras
+quotient categories
+quotient geometric theories
+quotient maps
+quotient monads
+quotient unital   $ A_\infty$-category $ \cd=$`$\cc/\cb$ '
+quotient vector bundles
+quotients
+ramification groupoid
+ramified covers
+ranks of weak limits
+rarely
+real world data
+real-valued functions of time
+realizability toposes
+recall
+recently introduced by
+reciprocal stability law
+recognition principle
+recursion
+recursively-defined distributive laws
+reduced Segal space
+reduced-crossed-product functor
+reflection
+reflections
+reflective and coreflective full subcategory of presheaves
+reflective and coreflective subcategories
+reflective subfibration
+reflexive coequalizers
+regular and exact completions
+regular categories
+regular category
+regular epi-mono factorizations
+regular epimorphism
+regular epimorphism topology
+regular epimorphisms
+regular epireflective subcategories of presheaf categories
+regular injective object
+regular operad
+regular patterns
+relational sums
+relations generated
+relationships
+relative Mal'tsev axiom
+relative category
+relative cell complexes
+relative entropy
+relative exact homological category
+relative modular group
+relative nerve
+relative points
+relative regular Mal'tsev categories
+remove
+representable T-categories
+representation theory
+resistors
+restriction
+restriction categories
+restriction category as a
+results .
+retract
+retraction
+retraction r
+rewrite system
+ribbons
+rig category
+right Kan extensions
+right adjoint
+right fibred right adjoints
+rigs
+ring
+ring theory
+rings
+rings of continuous functions
+said
+satisfies
+second cohomology categorical group
+second homotopy modules
+secondly ,
+self-adjoint
+self-dual categorical approach
+self-dual context
+semantic characterizations
+semantic machine code
+semantic machine code "
+semantics
+semantics are given
+semi-abelian categories
+semi-abelian category
+semi-abelian category A
+semi-abelian category V
+semi-abelian monadic categories
+semi-direct products
+semialgebra
+semidirect product of categories
+semigroup
+semigroup actions
+semiprime ring
+sense
+separable and covering morphisms
+sequential multicategories
+series expansion
+set-theoretic structures
+set-theoretic terms
+set-valued functor
+shifted double Poisson and shifted double Lie-Rinehart structures
+shifted operadic deformation complex
+short
+short maps
+show
+side condition
+sifted
+sifted colimits
+similar
+similar to
+simplex category Δ
+simplicial
+simplicial Lie algebra
+simplicial Lie algebras
+simplicial abelian groups
+simplicial algebra
+simplicial approximation techniques
+simplicial commutative algebra
+simplicial diagrams
+simplicial functor
+simplicial group
+simplicial groupoids
+simplicial language
+simplicial model category structure
+simplicial nerve
+simplicial presheaves
+simplicial replacement
+simplicial set
+simplicial set .
+simplicial set of g-valued differential forms
+simplicial sets
+simplicial spaces
+singular chain complexes
+singular spaces
+situations
+skeletal Q-categories
+skew monoidal categories
+skew monoidal category
+skew monoidales
+skew-monoidal category
+sl
+sl-functor Rel
+slice category
+slice category of simplicial spaces
+slice-category construction
+slice-category projections
+small
+small categories
+small category
+small model category
+small sums
+small-orthogonality class
+smash
+smooth manifolds
+smooth quasi-projective variety
+snake lemma
+sober spectral
+solution manifold
+some cases
+space
+space X
+space-time models
+spaces
+span construction
+spans
+spark complex
+spatial background
+special
+specialization order
+spectra
+spectral spaces
+spectrum
+spectrum of $
+spherical fusion categories
+split cubes
+split epimorphisms
+split extension classifier
+split extensions
+split monomorphisms
+stability result
+stable homotopy      category
+stable homotopy category of -1-connective spectra
+stable isomorphisms
+stable units
+stacks
+star-autonomous comonads
+star-autonomous structure
+star-multiplicative graph
+star-shaped Cattani-Sassone transition systems
+starting
+state space
+steps
+strict
+strict ) categorical groups
+strict 2-categorical action
+strict 2-category
+strict 3-category
+strict action
+strict analogue
+strict double categories
+strict duality involution
+strict intervals
+strict omega-categories
+strict omega-category
+strict symmetric monoidal category
+strictification functor
+strictly $ { \cal M}$-continuous functors
+strictness
+strong amalgamation property
+strong promonoidal
+structural 2-cells
+structural cubes
+structural differential geometry
+structural organisation
+structure
+structure maps
+structure of n-cubical cospans
+structure of time
+structures
+structures within structures
+study of
+subalgebras
+subcanonical site $ S$
+subcategory
+subcategory of
+subject to a coherence
+submanifold
+submonads
+submonoid
+submultiplicative order-preserving functions
+submultiplicative order-preserving maps
+subobjects
+subobjects under
+subtopos
+subtoposes
+subtractive categories
+subtractive category
+subvariety of semilattices
+such
+such a structure
+such as
+sup lattices
+sup-lattice-enriched category
+sup-lattices
+sup-preserving
+support .
+support map
+suprema
+surjections
+surjective fibrations
+surjective homomorphism
+surjective homomorphisms
+surjective pairing
+sx
+symmetric
+symmetric Frobenius structures
+symmetric G-categorical group
+symmetric cat-groups
+symmetric categorical groups
+symmetric kernel
+symmetric monoidal
+symmetric monoidal abelian category
+symmetric monoidal bicategory
+symmetric monoidal categories
+symmetric monoidal category
+symmetric monoidal closed categories
+symmetric monoidal closed category
+symmetric monoidal closed category $ V$
+symmetric multicategories
+symmetric quandles
+symmetric spectra
+symmetrisation comonad
+syntactically oriented framework of institutions
+synthetic differential geometry
+synthetic theory of distributions
+system of differential equations
+systems
+t$ satisfying
+t_1
+tangent category
+tangent functor
+tangential
+tangles .
+tannakian category
+tannakian subcategory
+techniques
+tensor product
+tensor product of Gray-categories
+tensor product of sketches
+tensor product of sup-lattices
+tensor products
+tensor-par fragment of linear logic
+tensors
+terminal object '
+terminal objects
+terms
+that
+that $
+that under
+the
+the Ursini
+the approximate
+the category of left Yetter-Drinfeld modules
+the conditions there involving
+the following
+the resulting category of spaces with
+the sense
+the sense of
+the span
+the spirit of Zunino
+the subcategories
+the tangent
+them
+theorem
+theories
+theories of continuum physics
+theories of tangles
+theory
+theory .
+theory of Baer invariants
+theory of Lie algebras
+theory of categorical groups
+theory of derivators
+theory of systems
+these
+they
+thin elements
+thin filler conditions
+thin structure
+this
+those
+those inverses .
+three
+thus be pivotal
+tileorders
+time
+to
+to $
+to an
+to be
+to consider
+to folklore but
+to give
+to hold
+to non-topos
+to satisfy .
+to semi-direct
+to the $
+together with
+topological
+topological Hausdorff groups
+topological abelian groups
+topological functor
+topological group
+topological group structures
+topological locally finitely
+topological locally transitive groupoid
+topological space
+topological spaces
+topological structures
+topological theories
+topology
+topos
+topos $ Shv(\cal C)$ of sheaves
+topos M-Set of M-sets
+topos T
+topos of equivariant sheaves
+topos of sheaves
+topos theory
+topos-theoretic perspective
+toposes (
+torsion
+torsion bundle gerbe
+torsor
+traced $ * $ -autonomous category
+traffic networks
+transferred model structures
+transformations
+transformations and
+transport of algebraic structures
+treelike structures
+triangle inequality
+triangulated categories
+triangulated closed symmetric monoidal category
+tricategory of bicategories
+triple T
+triple morphisms
+triples
+tripos
+trivial cofibrations
+truncation posets
+twisted vector bundles
+twisting of graded monoidal categories
+two
+two-dimensional rational conformal field theories
+two-sided
+two-sided   enrichment
+two-sided actions
+typed ) matrices
+u
+ultrafilter monad
+unary universal algebras
+unconditional exactness
+uniform completion
+uniform structure
+unique lifting properties
+unit interval
+unital categories
+unital commutative quantale
+unital quantale
+unitary isomorphism
+units .
+universal algebra
+universal algebras
+universal ambient structure
+universal closure operators
+universal covering spaces
+universal locally connected refinements
+universal monoidal category
+universal quotient maps
+universally quantified conditional equations
+universe category functors
+up to appropriate notions
+upper and lower powerlocale constructions
+use an explicit
+vacant $ n$-tuple groupoids
+variable
+varietal case
+varieties
+vector
+vector field
+vector lattice
+vector lattices
+vector spaces
+vertical
+vertical morphisms
+vertical normal lax functors
+via the
+virtual double category
+von Neumann algebra
+von Neumann axiom
+von Neumann regular extension
+w.r.t .
+walks
+we establish the
+we find further
+weak
+weak 2-categories
+weak cofibration category
+weak cubical category
+weak distributive laws
+weak double category
+weak dual
+weak duality involution
+weak equivalences
+weak factorization systems
+weak finite limits
+weak n-category
+weak n-category of cobordisms
+weak preservation of limits
+weakly Mal'cev category
+weakly globular double categories
+weakly orthogonal category
+weight
+weighted bilimits
+well-behaved lattice
+when link homology is
+where
+where the subcategories
+where the variable
+which
+wide , or fat join operation
+will be
+with
+with respect
+word problem
+work
+works as a
+x\leq
+zero self-distance law
+{
+{ \cal
+} \to
+ω-categories
+∞- and n-cube categories
+∞- and n-fold vector bundles
+∞-categories
+∞-topos E

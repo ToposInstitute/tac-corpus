@@ -1,0 +1,5 @@
+monoidal natural transformation
+full
+be
+involutive category
+natural deduction

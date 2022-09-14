@@ -1,0 +1,2743 @@
+geometric reasoning
+another classical theorem
+natural example
+factorization monad
+every pseudomonad
+exponentiability characterization
+many variety
+left properness
+locally compact abelian group
+two morphism
+general module
+abstract notion
+certain kind
+certain algebraic structure
+p compactness
+category - theoretic term
+inner fibration
+that statement
+nonlinear component
+bicat
+weakly associative lattice
+bicategorical structure
+quadratic module
+hull
+categorical completion
+topological object
+base category k
+protoadditive functor
+suitable symmetric monoidal category
+folklore
+only one element
+set - value sheaf
+skew pseudo
+invertible counit
+many bicategorical notion
+any concrete geometrical category
+mnd
+two nonequivalent concept
+direct graph
+22
+numeral
+evaluation
+familiar term
+grade module
+face
+any order
+recursively enumerable subset
+category theoretic argument
+reflective and coreflective subcategorie
+its fundamental property
+their semantic
+fraction
+simultaneously reflective and coreflective category
+several method
+horizontal unit
+regular monomorphism
+locale presentation
+internal relation
+certain pullback
+trivial cofibration
+abelian symmetric quandle
+its trace
+loop
+author
+unital and subtractive category
+all presheaf category
+appropriately define opposite functor
+r - injective
+surface holonomy
+smallness
+basic category
+basic game - theoretic construction
+homotopy limit
+shift double poisson
+cofree cartesian differential category
+their representability
+suitable condition
+math
+traditional database
+commutative quasi
+algebraic superscheme
+their structure
+unitary isomorphism
+any q - distributor
+strange attractor
+finite union
+topological application
+transition function
+1979
+domain theoretic model
+countable coproduct
+unitary module
+any monoidal object
+every map
+spectral space
+refinement
+non - abelian surface holonomy
+discrete fibration
+coterminal morphism
+their associate model
+tiling
+concept
+iteration
+partially order compact space
+new technique
+symmetric categorical group
+set - value presheave
+continuous lifting
+different reason
+oplax / lax adjunction
+prop
+internal partial order
+formal ball
+rule
+its range
+concurrent arrow
+stress
+essential localization
+orbit
+oplax natural transformation
+symmetric monoidal abelian category
+homotopical context
+2 - crossed complex
+negation
+magnetic monopole
+second order differential operator
+companion
+probability theory
+v - n - cat
+duplication
+locally order bicategorie
+high dimension
+interconnection
+initial datum
+coherent 2 - group
+sense
+wave
+multitensor
+every internal locale
+colored operad
+i.e. , category
+other part
+duoidal category
+its vertical arrow category
+homotopical homology
+n - permutable category
+tensoriality
+its another particular instance
+empty horizontal target
+certain characterization
+high central extension
+semantic characterization
+etale groupoid
+planar graph
+its 2 - coskeleton
+high categorical structure
+locally finitely multipresentable category
+1993
+several kind
+two monad
+ordinary equivalence
+domain equation
+construct
+tileorder
+fx
+smooth object
+partial product
+bimodule butterfly
+apex n
+strikingly different property
+their algebra
+transfinite composition
+cross complex
+certain p
+one category
+intuitionistic set theory
+two process algebra
+equivalent construction
+finitely generate tower
+infinite graph
+category - theoretic structure
+self - homotopy equivalence
+finitely complete category
+that limitation
+cosheaf space
+1 - cocycle
+every difunctional relation
+planar rooted tree
+its skeletal filtration
+ass
+locale b
+cohomotopy functor
+general dimension k
+extra assumption
+all pullback
+general algebra
+deletion
+involutive functor category
+horn
+just face
+space - time model
+generalised orbifold
+computer science
+similar diagram
+special case
+subcanonical one - way site
+weak preservation
+algebraic majority category
+infima
+appropriate ring
+two - sided enrichment
+further property
+coloured operad
+various ring
+corelation
+finite sample
+future paper
+several appropriate category
+their relationship
+three type
+κ - ary site
+merge - bicategorie
+pointed variety
+2 - morphism
+certain structure
+only the suprema
+any ideal determine category
+its subset
+several reformulation
+covering
+coalgebra structure
+qua generalized domain
+universal object
+cofibre and fibre sequence
+modest and natural assumption
+relationship
+so - equip endomodule
+epimorphic cover
+place
+symplectic linear algebra
+technique
+fibred and cofibred category
+categorical fibration
+positive characteristic
+internal hom
+left cancellative small category
+all co
+idempotent relation
+discrete r - module
+abstract category
+signal - flow diagram
+any map
+every 1 - skeletal object
+certain cocategory object
+constancy
+sequence
+locale theory
+2014
+extra reflexivity condition
+corollary
+other work
+tm
+subtractivity
+injection
+various level
+quantum groupoid
+cohesive category
+noncommutative ring
+system
+joint probability distribution
+simplicial combinatorial model category
+coreflector
+infomorphism
+strongly protomodular category
+cocompleteness
+horizontal morphism
+lax module
+certain quotient
+ccd sup
+coprime
+dense inclusion
+k - reflexive space
+contravariant powerset functor
+fill
+t - horn
+simplicial object
+s a topos
+1 - dimensional holonomie
+static program analysis
+fundamental group
+that property
+open question
+indeed a hypergraph functor
+quotient theory
+that category
+semi - tropical module structure
+standard lattice - theoretic definition
+analog
+polarization
+schemoid
+infinity
+characteristic subobject
+compositional semantic
+fibred sum
+proper class
+pseudo - filtered colimit
+characterisation
+separatedness
+internal automorphism group
+no such meaningful partition
+storage
+bialgebroid
+open subset
+kawamata log terminal pair
+n - category
+every iterative algebra
+its isotropy group
+inner and outer biderivation
+equality
+comonadic resolution
+general recursion
+subset
+enrich factorization system
+close point
+either sketch
+congruence lattice
+discrete subjacent b
+two circuit
+special attention
+3 - dimensional cell
+its 2 - coboundary
+reindexe
+at least one know example
+positive integer
+pcas
+similar problem
+cartesian multicategorie
+nonflat connection
+modification
+boolean flow
+cellular pointed map
+medial quasi
+one group
+decomposable functor
+every product - regular epi
+yet another description
+various type
+shape
+2005
+relational variable set
+substitude
+topology
+all weight
+ordinary factorization system
+special commutative bimonoid
+weak version
+monic skeleta
+contrast
+interaction
+po
+affine arithmetic variety
+fibrant - cofibrant object
+linearized locale
+symmetric kernel
+cofiber sequence
+locally presentable category
+every multiplicative graph
+inductive groupoid
+its strict version
+component
+one frame bicategory
+polynomial 2 - monad
+their fundamental category
+adjuction
+weak 2 - category
+various rank
+connect colimit
+envelope
+augmented symmetric simplicial set
+mild additional condition
+its algebra
+its completion
+previous work
+sufficient cohesion
+traditional covering space
+any subtractive normal category
+groupoid action
+many such lax extension
+which prederivator
+finite space
+quantum ( field ) theory
+induction
+integral
+finite cardinal
+pure morphism
+reasonable necessary condition
+hypergraph category
+interleave distance
+its double powerlocale px
+assignment
+its converse
+representation theoretic term
+bi
+new duoidal category
+their respective regular image
+many case
+applicative morphism
+closed surface
+coherent one
+conceptual proof
+disk
+two state
+many category
+small sheaf
+duality functor
+simple primitive
+pseudomonad theory
+turn
+any regular subtractive category
+equipment arrow
+several algebraic context
+dualizable object
+explicit detail
+two objective
+2 - vector space
+holomorphic and smooth gerbe
+cyclic operad
+its actor
+separate l - complete morphism
+cluster tilting subcategorie
+local datum
+groupoid enrich category
+quantum category
+member
+enrich graph
+that work
+degeneracy
+programming language
+poly
+2 - category theory
+v - category theory
+multicolored persistent homology
+relational sum
+module - equivalence
+formal context
+equational theory
+free completion
+countable product
+sinister transformation
+initial and final position
+cofibrant and fibrant object
+curvature
+right properness
+knot colouring
+its effect
+any groupoid g
+commutativity
+contravariant functor
+appropriate treatment
+n - fold vector bundle
+small open piece
+1 - cotabulator
+any two module
+every no - iteration pseudomonad
+protomodular setting
+density
+clean ring
+high order isotropy
+connector
+circuit theory
+adequate system
+coarse - graining
+vect
+causality
+other result
+his result
+pull - push map
+unique lifting property
+ordinary bicategorie
+any 2 - group
+unified and often simple proof
+certain pairing
+algebraic version
+characteristic subgroup
+all factorization
+commutative square
+other thing
+strong logical structure
+existence
+many practical case
+vertical and horizontal composition
+noetherian form
+mx , m
+open dynamical system
+homotopy bicategory
+class
+combinatorial description
+complex
+s - action
+classical descent theory
+base change
+instance
+semicounitary semicomodule
+simplicial diagram
+field operator
+strict omega - category
+upper real
+previous result
+inequality
+two sketch
+proposition 4.4
+communicate system
+various way
+union
+weak small limit
+appropriate condition
+embedding
+recognizable forest
+that assumption
+halifax
+two module
+every type
+symmetric cat - group
+subdivision
+familiar example
+three special coreflective subcategorie
+limit - sketch
+their calculus
+enrich 2 - category
+hopf monad
+unconditional exactness property
+attractive fixpoint
+wiring diagram
+their terminal
+double pushout rewrite rule
+finitely accessible category
+certain ( accessible ) category
+normality
+restricted diagram
+two equivalence relation
+one motivation
+conceptual completeness
+indexed enriched category theory
+suprema
+barr
+open topological groupoid
+classical geometry
+lax - idempotent
+pushout
+their value
+information system
+suitable generalization
+oplax functor
+sift - colimit
+new model
+three weakening
+kz doctrine
+necessary and sufficient condition
+one object
+contribution
+sobriety
+epimorphic property
+2003
+stable unit
+coquasitriangular structure
+451
+finite loop space
+suitable hypothesis
+that last assumption
+action accessible category
+convenient smoothness
+equational axiom
+stable local coequalizer
+new terminology
+merge area
+short five - lemma
+poly-2 - cell
+sl
+dagger limit
+its study
+graphlike structure
+surjection
+large one
+interpolative module
+pl
+infinite model
+parallel
+its dual
+2 - categorical structure
+no zeroary operation
+certain equational structure
+any dimension hypothesis
+monic span
+flat left module
+symmetric monoidal closed category
+range
+tangle
+orthomudular lattice
+various characterization
+endodistributor
+finite graph
+invertible associativity constraint
+generalized functor
+projectivity
+arbitrary coequalizer
+more composition operation
+extension system
+their approach
+various abstraction
+partial result
+epimorphic functor
+cut elimination
+locally compact locale
+exactly the weak dihomotopy equivalence
+linear logic
+their respective effectivization
+their apparent difference
+complete metric space
+classification
+suitable comparison
+wave front
+geometric technique
+algebraic category
+2002
+lambda calculus
+distribution theory
+precisely cartesian differential category
+certain bicategorie
+entropic category
+absolute homology
+different model category
+lextensive category
+closed structure
+one argument
+all finitely presentable morphism
+enrichment
+1 - cat group
+proof - net equivalence
+further work
+no coherence requirement
+lagrangian linear relation
+gauge covariance
+diexact
+monoidal structure
+augmented virtual double category
+fibrant operad
+input and output port
+spatial linearize locale
+universal algebras
+direct homotopy
+counterexample
+prime characteristic
+individual lax pullback complement diagram
+size restriction
+pdv
+scalar
+every object b
+finite model
+multivariable adjunction
+related preservation theorem
+1991
+all idempotent identity
+precision
+new invariant
+reduce representable
+metric n
+proof net
+pure subobject
+exponentiable object
+3rd cohomology class
+investigation
+overt discrete space
+operator
+generalized monotone - light factorization
+different context
+its over - category
+cospan
+pseudonatural transformation
+combinatorial groupoid theory
+smooth map
+interesting application
+open
+all the sphere
+capacitor
+more sophisticated technology
+one large rectangle
+simplicial groupoid
+algebraic model
+compatible pair
+resistor
+infinitesimal
+prior work
+2 - glueing
+locally index category
+pseudo and lax limit
+their type
+monoidal fibration
+da
+account
+gray
+various version
+several approach
+potential
+functoriality
+their codescent object
+enlargement
+old result
+simplicial approximation technique
+image
+generate cofibration
+extremal disconnectedness
+finitely many mark - point
+large signature
+modern differential geometry
+their universal property
+l - completeness
+fourth
+mutual inverse
+invertible object
+opfibration
+exponentiable space
+q - category
+additional hypothesis
+any regular cardinal
+link homology
+direct sum
+q - type set
+power
+finiteness
+erratic choice
+ia
+wide intersection
+method
+pseudo t
+two varietor
+right skew monoidale
+three other one
+four natural example
+projective module
+genuine monoid
+invertible 2 - cell
+control theory
+finitary functor
+double dualization
+internal profunctor
+1965
+counter
+semi - abelian variety
+trace
+all infima
+engineer
+internal presheave
+binary coproduct
+certain suitable subcategorie
+index symmetric monoidal category
+congruence
+enhance 2 - category
+flavor
+lax slice
+row - finite graph
+neighborhood
+congruence modular variety
+coinduction
+proximity
+symmetric multicategorie
+weak complicial set
+different category
+positive dimension
+topological and combinatorial persistence
+algebraic lattice
+strict natural transformation
+monoidal 2 - cell
+weak equivalence
+bimonad
+1999
+28
+abstract core algebra
+lift
+groupoidal weakly globular double category
+weak triple category
+reflexivization
+new one
+normed cubical set
+similar misbehavior
+one aspect
+its codomain
+wc
+critical dimension
+large end
+nucleus
+execution path
+lax algebras
+general bicategorie
+dimensional transition system
+exponentiation
+1 - cell isomorphism
+2011
+actor
+all these reflection
+stabilization
+2007
+branched cover
+canonical orbit
+open localic surjection
+weak hypothesis
+any pointed regular protomodular category
+branched covering
+exterior differentiation
+b - torsor
+parametric representation
+infinite - dimensional space
+their cobordism
+arrow interval
+finitary monad
+any such category
+iso class
+dimensional cube
+related concept
+meet
+subtractive span
+total operation
+non - abelian gerbe
+walk
+quotient map
+where l = o(g
+coloured region
+nonempty set
+early work
+several 1 - cell
+various concept
+equivalent condition
+natural equivalence
+computationally dense applicative morphism
+commutator condition
+t - lax algebra
+two bisimilar cubical transition system
+null value
+1 -&gt
+termination
+more intrinsic interest
+geometric structure
+degenerate boundary
+categorical ring
+jointly epic cospan
+every comonad
+every 2d tqft
+representable merge - bicategorie
+categorical cross module
+derive smooth manifold
+sinister morphism
+induce module
+butterfly
+fundamental system
+jointly monic span
+small simplicial category
+commutator theory
+divergence
+its continuity
+past - similarity
+topological quantum field theory
+core algebra
+two construction
+polycategorical dual
+certain identity
+strong one
+streamlined proof
+discrete locale
+arbitrary free monoid
+club
+oplax morphism
+sylleptic monoidal bicategory
+ann - category
+orient singular chain complex
+local cocompleteness
+decorate bicategorie
+treelike structure
+particular functor
+path - connect space
+categorical polynomial monad
+exactness condition
+two proof
+its identity object
+subsequent paper
+pointed irreducible coalgebra
+extremal solution
+several category
+skew - monoidal structure
+quantum structure
+process
+general manifold
+several related category
+previous paper
+two category
+characterizable fibrant object
+all quantifier
+transition
+its basic combinatorial structure
+difunctional relation
+representable poly - bicategorie
+suitably label polygon
+suitable construction datum
+their coherence property
+arithmetic universe
+homological degree
+convexity
+transform
+other example
+distributive space
+several different context
+cross - disciplinary connection
+two example
+internal preorder
+complex functor
+play
+adjoint couple
+various compactification
+hypothesis
+pseudo double category
+pull - back square
+strong normalization
+categorical structure
+recent year
+polycategorie
+strong compact closure
+submonad
+its left adjoint
+inner derivation
+new information
+free ( co)completion
+equivariance
+combinatorial specie
+left adjoint arrow
+cartesian closed monoidal category
+good equivariant cohomology theory
+quantum algebra
+c -&gt
+classical metric space
+effective quotient
+different version
+their modulation
+genetic
+their result
+finite - dimensional vector space
+curvature form
+poset
+any site
+dg vector space
+virtue
+tannakian duality
+2 - categorical duality
+superposition
+bound archimedean vector lattice
+one leg
+establish connection
+counital coring
+another definition
+properness
+weak braided monoidal category
+notion
+q one
+familial representability
+order tensor product
+all such functor
+colax idempotent pseudomonad
+sx
+what object
+its domain
+linear - distributive category
+collapse scheme
+detail
+sheafification
+two map
+isomorphic orbifold
+colorable rank
+path and cylinder object
+subsequent work
+generalized variety
+coproduct
+ei - category
+familial 2 - functor
+star - autonomous comonad
+therefore all infima
+homology
+its coproduct
+simple proof
+central importance
+jointly epimorphic pair
+only co - smash product
+strong shape equivalence
+sum
+lack
+unitary restriction category
+point - base reasoning
+semisimple abelian category
+vary risk
+small 2 - category
+dd
+various kind
+categorical proof theory
+infinite dimension
+protomodular category
+know approach
+push - forward
+extriangulate category
+horizontal bicategory
+varietor
+all locally finitely presentable category
+model structure
+their normed direct homology
+dualizable fiber
+genuine equivariant operad
+other 2 - category
+their further development
+finite power - like construction
+left invariant multiplicative vector field
+internal equivalence relation
+colimit
+commutative ring
+fc - multicategory
+parametric polymorphism
+distributor
+nonstandard construction
+pseudo - extranatural transformation
+input
+multiplicative vector field
+three application
+dual construction
+normed preordered abelian group
+1 - cell composition
+both these class
+creation and annihilation operator
+lax monoidal functor
+posemigroup
+quality type
+intertwiner
+convergence relation
+careful proof
+enchilada category
+two functor
+constraint
+coherence space
+its opposite
+coend
+classical result
+natural duality
+compact support
+non - negative real number
+commutation
+cauchy completion
+those rig
+normal functor
+sm - distributive join homomorphism
+target object
+ideal perfectly conductive wire
+partially strict tricategorie
+twisting
+2 - vector bundle
+different network model
+quantic conuclei
+oplax action
+2 - dimensional generalization
+issue
+combinatorial model category structure
+two notion
+reflexive coequalizer
+orthogonality
+simple computation
+bifibration
+tx
+k - reflexivity
+small coproduct
+arbitrary base category
+connect atomic morphism
+categorical version
+relative cell complex
+push - value
+no full strictification
+universal locally connect refinement
+algebra 2 - cell
+enrich factorization
+topological r - module
+cartesian monad
+their atomic number
+spectra
+usual product
+0 - skeletal boundary
+flow
+global or nonlocal geometric information
+measure theory
+snail lemma
+arbitrary set - value functor
+finite limit
+analogue
+any finitely generate boolean flow
+essentially algebraic theory
+any small category
+certain duality
+classical analysis
+commutative shell
+cokleisli category
+e / m
+quantic quantifier
+regular logic
+that morphism
+weak double category
+all dihomotopy type
+px
+reflection
+linear bicategorie
+many people
+exactly the spectral space
+monoid action
+circuit
+every star - multiplicative graph
+all algebraic lattice
+generalisation
+certain pair
+particular class
+every component
+finitary operation
+certain size condition
+z - module
+other category
+infinite loop space
+one unary relation
+its base manifold
+algebraic object
+more familiar term
+other categorical structure
+monadicity
+equational subcategorie
+clopen subset
+other way
+time
+rational function
+other word
+sketch model
+chemical reaction network
+matrix
+special property
+phylogenetic tree
+complete distributivity
+any model structure
+bundle gerbe module
+y - mnd
+lax idempotent pseudomonad
+its skeleton
+virtual double category
+verschiebung
+that prop
+weak wide pullback
+grade monoidal category
+rank
+transposition
+two polarity
+free product
+suitable choice
+simplice
+1970
+its sequent - calculus formulation
+its category
+topological functor
+combinatorial object
+gm
+one kind
+locally inductive functor
+generalized domain
+spectral vector bundle
+dualize object
+numerous author
+1974
+categorical model
+785
+various construction
+any gray - category
+universal closure operator
+semimonoid
+decorate cospan
+dynamical law
+intersection number
+presentation
+both these factorization
+monad approximation
+connect component
+lax transformation
+duality theory
+bound below complex
+enough projective
+interesting category
+misbehavior
+simple characterization
+no role
+evidence
+specific invariant
+infinitely differentiable function
+opmonoidal monad
+electrical engineering
+symmetric monoidal enrich functor
+topos theory
+exact endofunctor
+numerous result
+right - adjoint
+several technique
+traffic network
+comonoid homomorphism
+involution
+two other characterization
+more general pseudomonad
+cr
+high span
+strong such monad
+two subobject
+non - archimedian approach space
+their functor
+their key property
+all commutative ring
+special class
+all 2 - monad
+undesirable property
+high morphism
+weakly globular double category
+binary relation
+control flow
+all endomorphism
+low and upper set
+their adjoint
+three class
+finitely generate boolean flow
+their variant
+repulsive fixpoint
+taxonomy
+concrete geometrical category
+simple one
+ribbon tensor category
+2 - term
+label tree
+various standard model category
+any monoidal bicategory
+that locale
+its slice category
+finitely generate projective module
+most important example
+contraction
+homological dimension
+description
+polygraph
+finite coproduct
+their transformation
+classical invariant
+one symmetric monoidal model category
+parallelism
+24
+continuous endomorphism
+cohesive background
+decorate cospan category
+p+q compatible pseudomonoid structure
+grade categorical group
+pipe
+change
+geometricity result
+related construct
+computational density
+one way
+its idempotent 2 - cell
+all 2 - cell
+power object
+precisely that rank
+all horizontal unit
+categorical topology
+high gauge theory
+mild condition
+query
+symmetric sequence
+database
+three object
+2009
+black box
+all algebraically exact category
+mind
+use
+all the object
+more generality
+discrete opfibration
+high descent theory
+position
+enrich sketch
+isomorphism class
+standardization
+their morphism
+certain aspect
+classify one
+strong protomodularity
+protoarithmetical category
+topic
+base technique
+e.g. an ordered topological space
+one - object analogue
+close connection
+protomodular quasivarietie
+approximable concept
+all these structure
+homology theory
+order set
+multimonoidal monad
+ib
+other value
+associative coequalize multiplication
+complicial set
+one possible resolution
+2 - monad
+locally presentable one
+part
+mild assumption
+fubini
+fundamental category
+idea
+additional algebraic structure
+enriched and internal category
+ramified cover
+strictness
+additional equation
+reasonable property
+translation
+extensionality
+hopf bimonoid
+homotopy fix point
+chu category
+graph rewriting
+almost complex structure
+dendrotopic set
+every other generalized covering category
+more general network
+adjointable map
+two tensor
+one corollary
+nice feature
+y - int
+smooth function
+compact quantum group
+its 3 - coskeleton
+electrical circuit
+arbitrary morphism
+2 - crossed module
+globular cardinal
+2 - comonad
+local connectedness
+two step
+any small simplicial set
+compact metrizable space
+hence the direct tight span
+general result
+gt
+pointed subtractive variety
+descent theory
+da , v
+compact closedness
+further duality theorem
+any bialgebroid
+final and initial functor
+strong promonoidal functor
+universally quantify conditional equation
+collarable cospan
+dihomotopy
+every strong monoidal functor
+resp . noetherian
+injective space
+variety theorem
+certain fibredness property
+useful technical result
+increase strength
+homotopy functor
+subtopose
+both branch and merge nerve
+product measure
+one form
+binary term
+six condition
+l - complete morphism
+smooth transversal map
+various result
+fold vector bundle
+certain type
+previous construction
+coherent space
+two page
+triple vector bundle
+flat torsion - free connection
+independent interest
+quasivarietie
+pseudo - triangulated category
+various category
+involutive quantale
+non - canonical decomposition
+equivariant extension
+canonical triangulation
+strong natural number object
+those class
+l x l -&gt
+many monoidal structure
+modulation
+differential restriction structure
+monotone continuous map
+free functor
+presheaf - value diagram
+fundamental
+connect g
+any embedding
+other approach
+two variable
+those feature
+combinatorial aspect
+optransformation
+their associate normal subobject
+metrize category
+concrete datum
+various notion
+all operation
+linear relation
+two - player game
+pseudo
+all d
+coherence result
+similar theorem
+unital category
+1975
+linearly order set
+other mathematical structure
+derivation
+intercategory
+other application
+weak algebra morphism
+any such doctrine
+internal locale
+rectangle
+sort
+various algebraic invariant
+generalized persistence module
+simplified description
+purely categorical term
+only finite - dimensional structure
+tensoring
+combinatorial functor
+its internal structure
+generalized operad
+prime filter
+similarity
+any essentially affine category
+equivalent bicategorie
+other high homotopy groupoid
+composition - representative
+homotopical excision
+two family
+any protomodular category
+its nerve
+stable derivator
+sequential multicategorie
+further application
+cubical omega - category
+formula
+bulk and boundary factorisation constraint
+idempotent pseudomonad
+persistent localization
+all dimension
+semigroup theory
+variable
+its coreflective dual
+quotient monad
+reflexive relation
+derivator
+combinatorial model v - category
+boolean logic
+mutation mechanism
+non - abelian algebra
+two way
+non - exponentiable morphism
+prestack
+endofunctor
+opmonoidal 2 - cell
+two version
+general symmetric monoidal category
+all product projection
+generalized v - matrix
+their composite
+classical convolution
+exponentiability
+delta
+genuine equivariant symmetric monoidal category
+abstract sobriety
+right - semireplete factorization system
+two object
+new map
+strict action core
+that isomorphism
+any additive functor f
+hypercrossed complex
+locally discrete locale
+strong equivalence
+neither enrichment
+high isotropy
+enrich one
+effective descent type
+two md - sketch
+ω - groupoid
+bilimit
+convergent presentation
+cross complex method
+small part
+standard technique
+finite first moment
+uniqueness
+group homology
+its topology
+n composable lax monad morphism
+continuum physics
+categ
+contravariance
+association rule
+different kind
+certain presheaf topos
+paper
+powerlocale
+any free * -autonomous category
+convergence
+possible world
+tangent category
+their monoidal nature
+pointed g - space
+its cartesian structure
+g - uniformity
+polish
+disparate condition
+singular space
+discrete ( op)fibration
+output
+chain functor
+open isotropy action
+dimension
+injective space via adjunction
+every slicewise nearly representable functor
+pseudo equivalence relation
+redundancy
+semisimple representation
+all tree
+weak unit
+previous categorical model
+bisimplicial set
+geometric logic
+quasivariety
+any symmetric monoidal category
+quantum mechanic
+mixed distributive law
+resolution
+various representation
+which symmetric monoidal category
+decomposition
+metrization theorem
+monoidal abelian category
+2affine object
+all past - similar state
+3 - dimensional order space
+computational effect
+low - separation property
+considerable detail
+various completion operation
+twisted action
+iterative theory
+non - logical axiom
+differential grade category
+well - know characterization
+reduce product
+that class
+algebraic product
+constant cosheave
+persistence function
+two adjunction
+power close collection
+other colimit
+classical propositional logic
+their cell
+downset
+three characterization
+development
+monad y - mnd
+monad morphism
+coherent algebraic structure
+insertion
+network language
+causally distinct component
+symmetric operad
+more structure
+any congruence - modular variety
+its identity functor
+pushout - product
+different information
+pseudo map
+any hypergraph category
+sup lattice
+suitable category
+colored * -operad
+certain adjunction
+nonabelian derive functor
+two distributor
+complete partial order
+different notion
+proarrow equipment
+several situation
+1989
+n - globular operad
+nondeterministic and stochastic automaton
+just such a limit
+constructively completely distributive lattice
+presheave
+equivalence of datum - specification
+problem
+continuation
+that the result homotopy bicategory
+certain object
+new example
+boundary
+pretopologie
+certain hom - functor
+delocalization
+precosheave
+1 - to-1 correspondence
+0 - cohomology
+one result
+weak entwining operator
+codescent object
+continuous linear map
+every morphism
+quotient vector bundle
+familiar formula
+consider game
+enveloping monoidale
+simplicial abelian group
+s - enrich category
+particular case
+real coefficient
+vector space structure
+certain circumstance
+particular interest
+rel
+all its strong epimorphism
+appropriate set
+monetary value measure
+his phd thesis
+minimal subflow
+two topos
+certain property
+term
+compatible system
+many context
+new denotational value
+respectively , lax centre
+its thin element
+faa
+infinite dimensional manifold
+their distributor
+pu
+any finite group g
+related structure
+correspondence
+its presheaf category
+locally decidable topos
+continuity
+2012
+fan - covering
+finite colimit
+countable coproduct specification
+flat connection
+both structure
+conveniently smooth map
+locally small object
+obstruction
+transport
+constitutive relation
+galois entwining
+majority category
+two argument
+finite ordinal
+short map
+brown representability
+natural definition
+circuit diagram
+topological subgroup
+its image
+comajority category
+combinatorial group theory
+stable isomorphism
+polynomial monad
+site
+noncommutative duality
+semantic content
+rise
+every chain functor
+monoidal bicategorie
+weight colimit
+any topos
+restriction category
+split cube
+con
+foundation
+discourse
+bipartite projector
+pseudoepimorphism
+linear operator
+various fragment
+numerous example
+factor set
+s - value distribution
+hom
+any elementary topos
+approximable mapping
+additional operation
+distinguished subclass
+free globularly generate double category
+weak limit
+inspiration
+category e
+colimit preserve map
+topological geometrical category
+weak pullback
+persistence diagram
+countable indexing poset
+categorical quasigroup model theory
+representable identity
+zero - dimensional locale
+general technique
+compatible structure
+cartesian differential category
+that functor
+resistor network
+normal epimorphism
+interpolative semi
+pointed category
+any triangulate category
+both case
+certain equaliser
+different model
+equational presentation
+limit type
+semantic functor
+2 - cell
+their equivalence
+orthomodular sublattice
+categorical isotropy
+any finite group
+all direction
+cocommutative comonoid
+simplicial enrichment
+their categorical analogue
+many convenient formal property
+differential equation
+object q_0
+its universal property
+subbase
+connection form
+modern algebraic geometry
+potency object
+one circuit
+finite - dimensional representation
+many new one
+both category
+recent work
+16
+internal cross module
+proper smooth stack
+elementary topos
+free double category
+every range category
+base h(c)-coverings
+simplification
+many practical example
+connective
+subcanonical site
+several classical fact
+name
+those category
+their use
+strict double category
+formal way
+cell
+2 - dimensional analogue
+completely regular bispace
+flat functor
+cube
+what structure
+several aspect
+global phase
+extra structure
+advantage
+every internal category
+exact protomodular category
+its definition
+general endofunctor
+its significance
+small colimit
+semicomonoid
+all t
+co - equivalence relation
+prime z
+idempotent 2 - cell
+cartesian bicategorie
+pseudo - kan extension
+opmonoidal functor
+their colax - idempotent dual
+2001
+two special kind
+cosheave
+group action
+projective model structure
+semiunitary semimodule
+semantic domain
+black - boxing
+game
+weak model category
+hilbert space
+free cocompletion
+two weak factorization system
+closure space
+composition - representability
+non
+finite walkable graph
+structure - preserve i
+wreath
+universe category functor
+weak finite limit
+two distinct enrichment
+dynamic monetary value measure
+two - sided action
+d - space
+closedness property
+topological complexity
+elementary category theory
+multiple site
+set - theoretic term
+tame polynomial
+infinite - dimensional category
+kernel pair
+related field
+structure preserve adjunction
+either pullback
+its proof
+computational value
+noncommutative blowup
+relative category
+stratified covering
+certain example
+p : e
+suitable relation
+cyclic flow
+two projective object
+cohomology functor
+algebraic quantum field theory
+two different category
+automata
+both approach
+different phenomenon
+list - arithmetic pretopo
+restriction presheave
+perfect map
+that theory
+all the usual axiom
+global and local symmetry
+additional structure
+finitely many generator
+passive linear component
+internal categorical structure
+value
+certain exactness condition
+inversion
+st
+its non - equivariant version
+two question
+sufficient condition
+define adjunction
+several model
+linearly distributive category
+commutative cube
+bimonoid structure
+context
+its theory
+canonical arrow
+permutative category
+globular complex
+simplicial identity
+unified proof
+phase
+two give pseudomonad
+arbitrary natural transformation
+degree
+extended equivariant topological field theory
+differential category
+every vertical arrow
+special interest
+three kind
+strategy
+representability
+pro - arrow equipment
+subcategorie
+left or right exact functor
+both sense
+s - t - span
+order sheaf
+pullback diagram
+mathematic
+form
+high type term constructor
+k - quasi - completeness
+diexact category
+various concern
+completion
+network model
+pro - abelian group
+algebraic exactness
+homotopy - theoretic construction
+minor assumption
+machine behavior
+weak condition
+its homotopy category
+duality involution
+its open set
+axiomatizable class
+that article
+triad
+inference rule
+κ - small coproduct
+all 1 - cell
+denseness
+action core
+small datum
+discrete b
+no monotone - light factorization
+complexification
+trivialization
+natural isomorphism
+their interest
+homological category
+note
+access
+2 - dimensional cell
+coherence problem
+subtraction
+2 - cell - span
+its netwise form
+standard test object
+appropriate morphism
+codescent morphism
+formal consequence
+locally partially order reversible bicategorie
+ell
+factorization theorem
+mutation pair
+any regular epimorphism
+their homomorphism
+spn
+their classify space
+weak 2 - group
+1980
+lax morphism
+split epimorphism
+effective category
+its generalisation
+their localization
+frame bicategorie
+all remain result
+tuple
+different construction
+sober space
+certain limit
+fact
+prolongation
+granularity
+partial operation
+exact morphism
+downset lattice
+generic morphism
+weak factorization system
+invariant
+quite general quasi
+surface
+that lax morphism
+essentially affine category
+their composition
+coherently commutative monoidal category
+finitary variety
+their proof
+two mutually unbiased basis
+quasi - compact open set
+semi - direct product
+other geometry
+thirdly
+combination
+so call pseudogroupoid
+general bicomplete category
+all coequalizer
+arbitrary category
+compositorie
+no new result
+any compactification
+classical equality
+its regular and exact completion
+categorification
+numerous context
+number
+any bisimplicial set
+filter colimit
+pointed protomodular quasimonadic category
+change functor
+associative ring
+topological cospan
+associate module
+admissible object
+family
+its structure
+its complement
+ideal
+any split epimorphism
+product monad
+enriched category theory
+type
+direct colimit
+permutation representation
+their study
+counitary comodule
+variant
+groupoid morphism
+inverse category
+int
+finite biproduct
+structure 2 - group
+current
+certain situation
+fibered ( multi)derivator
+infinity category
+k = r(s
+local equivalence
+several appendix
+motivation
+md - sketch
+maximal rigid subcategorie
+many setting
+equivariant principal bundle
+strict unit
+planar polycategorie
+regular subtractive category
+effective orbifold
+several entry
+critical branching
+finitely many object
+good atlas
+ordinary category
+quasigroup isotopie
+endo-1 - cell
+reaction network
+small presheave
+commutative algebra
+its application
+all ultimately bicategorical ingredient
+commutative ring theory
+defect tqft
+reduce high operad
+initial and final face
+sup semi
+definition
+every topos
+finite diagram
+view
+all early characterization
+certain thin filler condition
+reflexive graph
+thin structure
+duality preserve exact functor
+topological and geometric context
+work
+split monomorphism
+any such monoidal biclosed structure
+norm
+their algebraic property
+symmetric spectrum
+quantale completion
+isotropy rank
+ergodic action
+simultaneous left and right adjoint
+relative computability
+exactly the globular complex
+collection
+countably many generator
+c - covering
+that algebraic model structure
+10
+relative internal action
+finitely many relation
+different entry
+open set
+graphic
+bisemimodule
+all other dimension
+co - smash product
+integration
+every combinatorial model category
+quotient triangulate category
+all surjection
+direct complex
+its closed complement
+surface holonomie
+linear functor
+2004
+partial topos
+two ann - category
+computad
+e - unitary semigroup
+internal functor
+sift colimit
+certain state
+suitable model
+its ind - category
+algebraic example
+concise proof
+universal cell
+fiber f
+f : d
+completeness
+surprisingly opulent structure
+isomorphic category
+track
+weak n
+its main advantage
+internal co
+193
+categorical logic
+maltsev variety
+certain category
+other model
+cobraiding
+local topos
+any monad
+finitary 2 - monad
+protomodularity
+pin symmetric monoidal category
+complete spread
+presheaf type
+semigroup action
+semigroup homomorphism
+classical and new theorem
+every category
+one - dimensional cohomology
+which tiling
+question
+analytic version
+generalization
+model category structure
+homomorphism theorem
+two proof technique
+any operad o
+e , m
+pasting theory
+semi
+past and future equivalence
+internal family
+closure property
+warp
+fix point
+2013
+lax 2 - functor
+compact fibre
+right action
+minimum
+strict one
+answer
+one such structure
+formal category
+trivial fibration
+transformation groupoid
+two application
+steady state
+tube algebra
+one advantage
+institution
+discreteness
+inverse semicategorie
+its algebraic theory
+ribbon
+synthetic domain theory
+topological theory
+vector lattice
+exclude middle
+base functor
+universal algebra
+tool
+explicit construction
+all the above construction
+left and right action
+technical issue
+cohesion
+2 - exact sequence
+difference
+most notion
+unstructured endo-1 - cell
+non - topos theorist
+infinity - category theory
+concurrency
+computation
+any ( elementary ) topos
+every small adhesive category
+preordered abelian group
+pasting and cancellation rule
+one assumption
+coslice
+topological structure
+homotopy local presentability
+certain inclusion
+growth
+voltage and current source
+algebraic weak factorisation system
+low - dimensional universal property
+etendue
+expectation
+vertical arrow
+vertical morphism
+move
+only the usual tensor product
+isbell adjunction
+privileged direction
+cotensor
+one triangle
+countably infinite arity
+any hypergraph functor
+concrete functor
+certain know construction
+magnitude
+two generalization
+intersection
+its tangent bundle
+ambiguity
+contravariant morphism
+quantum link invariant
+several consequence
+simple functor
+unoriented closed surface
+its kernel
+analogous result
+its description
+separate object
+normal subobject
+x y
+cohomology class
+local presentability
+arbitrary relational sum
+decade
+transversal homotopy monoid
+2018
+two hierarchy
+comajority
+various example
+proposition
+kernel object
+their definition
+corner
+partially order monoid
+binary product structure
+homotopical exactness
+later investigation
+more general kind
+engineering application
+word rewriting system
+any semi - abelian category
+categorical group
+2 - metric space
+decorate corelation category
+finite combinatorial topos
+necessary condition
+smoothness condition
+essence
+certain condition
+classifiable subalgebra
+old theorem
+certain map
+symbolic dynamic
+comparison
+locally posetal 2 - category
+further example
+unary operation
+actegorie
+second homotopy module
+finite derivation type
+intertwine theorem
+two such module
+essential associativity
+cartesian lifting
+special functor
+truncation poset
+many application
+specie
+surjective homomorphism
+relative point
+unital ring
+high invariant
+discrete cone
+coherent isomorphism
+equivalent formulation
+basic category theory
+hereditary and stable quotient map
+induce cross module
+slice - category projection
+anr - space
+their domain
+variation
+arithmetical category
+characterization theorem
+equipment
+bicategorical localization
+appropriate notion
+operation
+their object image
+several base point
+degroupoidification
+its metric jet tangent
+pasting scheme
+invariance
+y factor
+arbitrary monoidal category
+eight coherence condition
+conjoint
+vol
+pseudo morphism
+two concept
+various approach
+further investigation
+sub
+complex dynamical system
+interchange
+strong homotopy kernel
+particular example
+homotopy orthogonality
+slightly strong assumption
+entourage
+direct space
+primitive recursor
+zero
+differential module
+recursive equation
+index monoidal category
+diffeomorphism
+field k
+reduce simplicial set
+v - relation
+multiplicative linear logic
+counit
+kz - doctrine
+finite coproduct preserve functor
+its consequence
+observable quantity
+recursion
+two independent result
+strong stack
+its property
+orthomodular lattice
+their composable and commutative part
+no accident
+ring r
+non - negative integer
+transition functor
+degenerate element
+complicated calculation
+right adjoint
+differential linear logic
+horizontal lax transformation
+k - linear category
+locally inductive groupoid
+useful review
+well - know result
+equational category
+ordinary singular chain complex
+other area
+gleave
+parametrize flow
+reformulation
+which extent
+well - closedness
+non - archimedean approach space
+symmetry
+cauchy complete object
+coreflection
+naturally maltsev variety
+all contractible space
+non - commutative logic
+homotopy pushout
+biderivation
+normal local projection
+birkhoffian inclusion
+persistence module
+stuff type
+symmetric quandle
+2affine set
+complical identity
+ordinal
+exactly the epsilon - product
+arbitrary exact category
+3 - polygraph
+assumption
+accessible set - value functor
+abstract clone
+all congruence
+general semigroup
+several example
+prederivator
+unoriented surface
+various algebraic structure
+geometric context
+input and output datum
+non - trivial isotropy
+attendant notion
+geometric morphism
+set - theoretic structure
+compactification
+neither transformation
+orbital extensive category
+their property
+all structure
+stable one - type
+smoothness
+nno
+localization
+axiomatic cohesion
+precubical set
+stratified normal submersion
+universal property
+covariant presheave
+grade monoidal functor
+its double dual
+1981
+locally partially order basis
+compatibility condition
+any monoidal differential category
+various form
+coherent unit action
+generalised operad
+cat - operad
+generality
+opmonoidal arrow
+germ
+expert
+basis
+respect
+various basis
+modern theory
+general category
+many corollary
+relevant category
+compatibility
+certain homotopy pushout
+tree
+exactly what
+nonstandard method
+diagram category
+spherical fusion category
+linear path
+cartesian 2 - monad
+affine object
+bound morphism
+certain prominent monad
+two infinite set
+direct homotopie
+all its connective
+commute property
+level
+recent investigation
+parametricity
+several basic categorical property
+parallel section
+descent morphism
+gerbe module
+integration theory
+other group - like structure
+loop and suspension functor
+maltsev
+tqft
+self - similarity
+two other universal construction
+all quantic conuclei
+fourier - like transform
+polynomial functor
+cartesian left ( semi-)additive category
+additive connective
+enrich orthogonality
+cofree object
+nilpotent object
+sheaf category
+classical context
+namely , its codensity monad
+time evolution
+case
+295
+promultiplicative graph
+scalar element
+certain preservation property
+passive linear network
+single horizontal target
+smooth space
+lattice structure
+homotopy 2 - type
+copower object
+appl
+homotopic past
+torsor
+equationally presentable collection
+submultiplicative order - preserve function
+characterization
+coproduct preservation
+centrality
+intensive quality
+order compact space
+relevant information
+complicial identity
+generalize multicategorie
+lax epimorphism
+commutative unital ring
+different sort
+same relation
+effect
+frame tangle
+ordinary limit
+certain double category
+operad adjunction
+software engineering
+static module
+t - category
+arbitrary endo
+quintessential localization
+explicit formula
+diagrammatic term
+limited completeness
+other notion
+pasting diagram
+symmetric case
+interest
+two binary operation
+ring theory
+deterministic automaton
+lax double category
+aspect
+boolean category
+cocompletion
+invention
+those two case
+many important monad
+cut - elimination
+exactly those object
+initial and terminal object
+small sum
+isomorphism
+conformal field theory
+different level
+linearisation
+module category
+subtractive category
+any geometric morphism
+finite tree
+every object
+orient surface
+l - skeletal boundary
+symmetric simplicial set
+involutive structure
+only its external behavior
+groupoidification
+cofibrant homotopy
+closed bicategorie
+one dimension
+edge symmetric double category
+its own right
+linear system
+2- and 3 - cube
+monoidal object
+basic invariance theorem
+substance
+analogous property
+free simplicial group
+reflexive topological module
+what extent
+anafunctor
+biadjunction
+barrier
+that form
+its inverse image
+countable meet
+more algebraic structure
+triple morphism
+several variant
+well - pointed object
+thin element
+strict algebra
+intrinsic multiple conclusion
+adjunctible map
+distinct monad
+ring homomorphism
+weak morphism
+more recent notion
+skew - monoidal category
+action accessibility
+compatible action
+feedback
+involutive category theory
+iterator
+genome datum
+opetopic set
+every element
+quasi
+logic
+filter ring
+nilpotency
+structural differential geometry
+their concatenation
+nine coherence condition
+one essential point
+two representational result
+twist coefficient
+their point
+inductor
+sy
+regularity
+topological category
+its operational semantic
+object category
+only intuitionist model
+addition
+loop process
+its centre
+network
+all obstruction
+bipartite state transition system
+that paper
+any coherent category e
+action representability
+both side
+preservation
+375
+various other span
+quantale - enrich category
+group representation
+sequel paper
+conditional probability
+binary quadratic regular operad
+augment virtual double category
+omega - category
+index category theory
+weak distributive law
+triple complex
+balanced monoidal category
+1998
+bound vector
+contravariant and covariant presheave
+normal monomorphism
+adjoint morphism
+partial map category
+homotopy kernel
+regular epi - mono factorization
+its high isotropy group
+partial lattice
+general space
+relative entropy
+example
+representation theory
+all topological space
+its quotient
+many generalization
+loc
+traditional multi - variable calculus
+symmetric and braided analogue
+certain monad
+pretopology
+algebraic and logical development
+all previous example
+locally finitely presentable category
+practice
+dagger adjoint
+clutching and classification theorem
+its reflexion
+cross square
+effective orbifold groupoid
+decorate corelation
+involutive analog
+every completely distributive lattice
+decategorification
+lax extension
+precise classification theorem
+marked input and output terminal
+homotopy pullback
+its extension
+other context
+thin square
+real world datum
+embedding theorem
+horizontal transformation
+path space
+all ( small ) colimit
+successive approximation
+bagdomain datum
+its first column
+signature
+every left adjoint arrow
+bigroupoid
+special kind span
+opcartesian tabulation
+homotopy fibre
+linearly compact vector space
+n composable adjunction morphism
+f - value continuous function
+firstly
+generalized metric space
+uniform structure
+cubical t
+iii
+stability property
+its classify topos
+homology isomorphism
+absolute weight
+concrete example
+local section
+target
+decorate datum
+how coherent 2 - group
+monotone - light factorization
+label point cloud datum
+recent study
+many categorical property
+monoidal differential category
+calculation
+natural condition
+pp
+consideration
+constructive proof
+protocategory
+recognizablity
+two other recent approach
+structural aspect
+dense map
+many question
+different class
+abstract class
+high weight category
+equational consequence
+3rd
