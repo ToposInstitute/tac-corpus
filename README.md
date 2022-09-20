@@ -10,6 +10,8 @@ The corpus contains the following data files:
 - `tac.conll` contains an automatically annotated version of the corpus, with
   dependency structures and POS tags.
 - `tac.json` contains the original corpus, in JSON format.
+- `tac_metadata.json` contains the original corpus, in JSON format, with
+  additional metadata such as authors and keywords.
 - `tac_stats.json` contains some basic statistics about the corpus, including
   frequency of common words and parts of speech.
 
