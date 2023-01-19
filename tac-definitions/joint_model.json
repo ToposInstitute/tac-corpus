@@ -1,0 +1,610 @@
+[
+	{
+		"term": "model category",
+		"definition": "structures on the categories of    ( marked ) categories and   ( marked ) preadditive categories"
+	},
+	{
+		"term": "motivating application",
+		"definition": "a systematic construction of the equivariant coarse algebraic K - homology with coefficients in an additive category from its non - equivariant version"
+	},
+	{
+		"term": "Eq(C),ParOrd(C",
+		"definition": "full subcategories of internal equivalence relations of partial orders"
+	},
+	{
+		"term": "horizontal morphisms",
+		"definition": "the classical composition of the coend formula"
+	},
+	{
+		"term": "idempotent relations",
+		"definition": "the"
+	},
+	{
+		"term": "Kan extension",
+		"definition": "Left"
+	},
+	{
+		"term": "MD - sketches",
+		"definition": "a particular kind of Finite Sum sketches"
+	},
+	{
+		"term": "tileorders",
+		"definition": "Tilings of rectangles with rectangles the associated double order structures"
+	},
+	{
+		"term": "unramified a categorical theory of space",
+		"definition": "  see lawvere drawing on notions of separable from algebra and unramified from geometry"
+	},
+	{
+		"term": "a notion of   equipment",
+		"definition": "earlier notion of"
+	},
+	{
+		"term": "an axiomatic treatment",
+		"definition": "the class of ` -complexes ' which consists of all complexes representing partial -categories"
+	},
+	{
+		"term": "exponentiable spaces",
+		"definition": "the lax ( with respect to the unit law algebras"
+	},
+	{
+		"term": "enriched Lawvere theory",
+		"definition": "enrichment over a monoidal biclosed category V that is locally finitely presentable as a closed category"
+	},
+	{
+		"term": "The point",
+		"definition": "of groups"
+	},
+	{
+		"term": "monadic",
+		"definition": "The evident forgetful 2 - functor from   J - Colim to the 2 - category   Cat of small categories"
+	},
+	{
+		"term": "A balanced coalgebroid",
+		"definition": "a   V^op - category with extra structure ensuring that its category of representations is a balanced monoidal category"
+	},
+	{
+		"term": "  distributive",
+		"definition": "finite"
+	},
+	{
+		"term": "A closed",
+		"definition": "hull of the construct CLS of closure spaces and"
+	},
+	{
+		"term": "presheaf",
+		"definition": "a functor from"
+	},
+	{
+		"term": "side",
+		"definition": "the case of merging areas    of execution paths is similar and can be easily from"
+	},
+	{
+		"term": "\n des de do projectifs distingu\u00e9s sont d'indexation connexe resp . non vide",
+		"definition": "Nous donnons une caract\u00e9risation abstraite cat\u00e9gories mod\u00e8les des esquisses nt tous les c\u00f4nes"
+	},
+	{
+		"term": "   ",
+		"definition": "introduce the notion of an -graph being a unique composite '"
+	},
+	{
+		"term": "Ner(B",
+		"definition": "a subcomplex of its 2 - Coskeleton and itself isomorphic Coskeleton"
+	},
+	{
+		"term": "cosheaf spaces",
+		"definition": "related"
+	},
+	{
+		"term": "a normalisation theorem",
+		"definition": "    by which every type can be embedded as a subspace of a type formed     without comprehension , terms"
+	},
+	{
+		"term": "- Attribute ideas",
+		"definition": "commonly used to     specify and design information systems"
+	},
+	{
+		"term": "-",
+		"definition": "motivated both by the representability of a linear functional on an associative algebra , and , by the recognizability of a subset of a monoid"
+	},
+	{
+		"term": "a decomposition",
+		"definition": "the composition - representative subsets of the hom - set T([m],[0"
+	},
+	{
+		"term": "C^*(Y",
+		"definition": "X"
+	},
+	{
+		"term": "cubical sets",
+		"definition": "with connections and interchanges the extended cubical site K , corresponding to the augmented ,"
+	},
+	{
+		"term": "Linear bicategories",
+		"definition": "a generalization of ordinary bicategories in which there are two horizontal ( 1 - cell ) compositions corresponding to the ` ` tensor '' and ` ` par '' of"
+	},
+	{
+		"term": "morphism",
+		"definition": "lax 2 - functor may generalized to linear bicategories"
+	},
+	{
+		"term": "natural",
+		"definition": "the notion linear can only"
+	},
+	{
+		"term": "weak",
+		"definition": "a weak monoidal in which every morphism has an inverse and every object x a ` inverse ' : object y"
+	},
+	{
+		"term": "A coherent 2 - group",
+		"definition": "a weak 2 - group in which every object x is equipped with a   specified weak inverse x ' and isomorphisms i_x   : 1 -&gt ; x   x ' ,   e_x : x '  "
+	},
+	{
+		"term": "PU(PL(X",
+		"definition": "is"
+	},
+	{
+		"term": "Monoidal categories",
+		"definition": "monoidal objects in the monoidal bicategory of categories"
+	},
+	{
+		"term": "  kar(C_D",
+		"definition": "Eilenberg - Moore for D   that splits s spl(C^D)(((L s),t),((L',s'),t'))=C^D((L s)(L',s '"
+	},
+	{
+		"term": "A PROP",
+		"definition": "a way of encoding structure borne by an object of a symmetric monoidal category"
+	},
+	{
+		"term": "the PROP bialgebras",
+		"definition": "a composite of the PROP for coalgebras and that for algebras"
+	},
+	{
+		"term": "A pregroup",
+		"definition": "a partially ordered monoid in which every element has a left and a right adjoint"
+	},
+	{
+		"term": "internal",
+		"definition": "whose ( )    monoids"
+	},
+	{
+		"term": "Call by - push - value",
+		"definition": "a \" semantic machine code \" , providing a set of simple primitives from which both the call - by - value paradigms"
+	},
+	{
+		"term": "the identity",
+		"definition": "absolutely to"
+	},
+	{
+		"term": "a copower",
+		"definition": "object"
+	},
+	{
+		"term": "Bouc",
+		"definition": "characterized pullback and finite coproduct preserving functors between categories permutation"
+	},
+	{
+		"term": "The equivalence",
+		"definition": "FOLDS equivalence of the FOLDS - Specifications of the two concepts"
+	},
+	{
+		"term": "A quantaloid",
+		"definition": "a sup - lattice - enriched category ; our subject is that of categories , functors and distributors enriched in a base quantaloid Q."
+	},
+	{
+		"term": "The cyclic Chu - construction pullbacks",
+		"definition": "for    , generalizes the original Chu - construction for    symmetric monoidal closed categories , turns out to have a non cyclic counterpart"
+	},
+	{
+		"term": "Chu - spans",
+		"definition": "be as a natural generalization of 2 cell - spans    in base bicategory"
+	},
+	{
+		"term": "FILL",
+		"definition": "an intriguing variation of"
+	},
+	{
+		"term": "first",
+		"definition": "deals with higher cubical cospans in abstract categories"
+	},
+	{
+		"term": "stable isomorphisms",
+		"definition": "of 2 - groupoid , whose 1 - morphisms"
+	},
+	{
+		"term": "The core of a category",
+		"definition": "Core algebra revisited '' Theoretical Computer Science , Vol 375 , Issues 1 - 3 , pp 193 - 200 ) has the structure of an abstract core algebra ( first defined in the same place )"
+	},
+	{
+		"term": "groups",
+		"definition": "used for the study"
+	},
+	{
+		"term": "A)_mod B",
+		"definition": "A_^u(C , which associates with a given unital A_-category A the A_-category of unital A_-functors C   A , whose restriction to B is   contractible"
+	},
+	{
+		"term": "A weaker result",
+		"definition": "K^J admits a linear distributive structure , is also shown"
+	},
+	{
+		"term": "the basic tool",
+		"definition": "the study"
+	},
+	{
+		"term": "structures",
+		"definition": "of"
+	},
+	{
+		"term": "Parametric LAPL structures",
+		"definition": "constitute a general notion of model of    parametricity in"
+	},
+	{
+		"term": "whose approximation  ",
+		"definition": "a natural transformation with every component a regular epimorphism in X."
+	},
+	{
+		"term": "the V -",
+		"definition": "category ( that we call Tamb(A - equipped endomodules"
+	},
+	{
+		"term": "A differential category",
+		"definition": "an additive symmetric monoidal category with a comonad ( a \" coalgebra modality \" ) and a differential combinator"
+	},
+	{
+		"term": "A Cartesian differential category",
+		"definition": "a Cartesian left additive category which possesses a Cartesian differential operator"
+	},
+	{
+		"term": "topological",
+		"definition": "spaces equipped with a globular decomposition which is    directed analogue"
+	},
+	{
+		"term": "the embedding",
+		"definition": "extends to the category of Hilbert spaces and continuous linear"
+	},
+	{
+		"term": "Higher",
+		"definition": "allow"
+	},
+	{
+		"term": "Galois descent",
+		"definition": "a special case of Grothendieck descent"
+	},
+	{
+		"term": "Groupoidification",
+		"definition": "a form of categorification in which vector spaces are replaced by groupoids and linear operators are replaced by spans of groupoids"
+	},
+	{
+		"term": "degroupoidification '",
+		"definition": "a systematic process that turns groupoids and spans into vector spaces and linear operators"
+	},
+	{
+		"term": "a functor Cat",
+		"definition": "partial bi"
+	},
+	{
+		"term": "weak temporal doctrine",
+		"definition": "consists essentially of two indexed functors with the same codomain such that the induced functors have both left and right adjoints satisfying some exactness conditions ,"
+	},
+	{
+		"term": "The underlying module of H",
+		"definition": "the free module on the set of classes ,"
+	},
+	{
+		"term": "coherent categories",
+		"definition": "characterized as those for which   all finitely presentable morphisms have finitely generated ( resp . presentable ) objects"
+	},
+	{
+		"term": "the transversal monoids",
+		"definition": "isomorphic to the usual homotopy groups"
+	},
+	{
+		"term": "distributive",
+		"definition": "both a tensor and a par"
+	},
+	{
+		"term": "cartesian",
+		"definition": "every comonad has an Eilenberg - Moore object and every left adjoint arrow is"
+	},
+	{
+		"term": "Symbolic dynamics",
+		"definition": "partly the study a directed graph"
+	},
+	{
+		"term": "Faa a",
+		"definition": "comonad ( over the category of Cartesian left"
+	},
+	{
+		"term": "projective",
+		"definition": "constructs model structures on the categories of coalgebras and pointed irreducible coalgebras over operad whose components are , finitely generated in each dimension , and satisfy condition"
+	},
+	{
+		"term": "semantic",
+		"definition": "for any Grothendieck site ( C , J ) ,"
+	},
+	{
+		"term": "` ` embeddings",
+		"definition": "a special class"
+	},
+	{
+		"term": "algebraic",
+		"definition": "forgetful"
+	},
+	{
+		"term": "Tannaka duality",
+		"definition": "describes the relationship between algebraic objects in a given category and functors into that category"
+	},
+	{
+		"term": "weak product",
+		"definition": "the algebra of observable quantities"
+	},
+	{
+		"term": "cells",
+		"definition": "most weak double categories of interest possess , and which is sufficient to guarantee the strong representability of composites of modules between lax functors whose domain satisfies it"
+	},
+	{
+		"term": "A \u03ba - exact category a    \u03ba - ary site",
+		"definition": "an   exact    category universal is a site whose covering sieves are generated by    \u03ba - small families and which satisfies a solution - set condition for    finite limits relative to \u03ba"
+	},
+	{
+		"term": "A category",
+		"definition": "adhesive if it has all pullbacks , all push - outs along monomorphisms , and all exactness conditions between pullbacks and pushouts along monomorphisms which hold in a topos"
+	},
+	{
+		"term": "Cat",
+		"definition": "Lax_N(B  "
+	},
+	{
+		"term": "secondly",
+		"definition": "if and only if it is exact is a"
+	},
+	{
+		"term": "model structures",
+		"definition": "special cases of model structures for presheaf - valued diagrams X defined on a fixed presheaf of categories E which is enriched in simplicial sets"
+	},
+	{
+		"term": "weak equivalence",
+		"definition": "requires model structures for E - diagrams having weak equivalences defined by homotopy colimits , and a generalization of Thomason 's model structure for small categories to a model structure for presheaves of simplicial categories"
+	},
+	{
+		"term": "inevitable",
+		"definition": "the codensity monad of the inclusion of ( finite families of sets into ( families of sets"
+	},
+	{
+		"term": "the Grothendieck completion",
+		"definition": "Motivated by a question of Lawvere , we compare in the setting of V - Cat the setting of S - Indexed Cat for S a topos"
+	},
+	{
+		"term": "semirings",
+		"definition": "A - semicorings extend the classical notions of unital rings counital corings modules"
+	},
+	{
+		"term": "monoidal",
+		"definition": "that certain hom - functors are , Day for"
+	},
+	{
+		"term": "inducing geometric morphisms",
+		"definition": "the computationally dense ones"
+	},
+	{
+		"term": "The generalized model category",
+		"definition": "restricts to one on the full subcategory whose objects are the categories fibred in groupoids"
+	},
+	{
+		"term": "symmetric multicategories sequential multicategories",
+		"definition": "especially in relation with its structure whose arrows are sequences of concurrent arrows in a given category"
+	},
+	{
+		"term": "a generalized conditional",
+		"definition": "expectation as a presheaf for , not only works as a traditional conditional expectation given a -field but also is compatible with change of measure"
+	},
+	{
+		"term": "dynamic monetary value",
+		"definition": "measures as a presheaf for the category"
+	},
+	{
+		"term": "topological",
+		"definition": "A faithful functor B"
+	},
+	{
+		"term": "A topological functor E   1",
+		"definition": "the same thing as a ( large ) complete preorder , and   B is intuitively thought of as a \" complete preorder \""
+	},
+	{
+		"term": "additive",
+		"definition": "define a sheaf of categories of analytic functions"
+	},
+	{
+		"term": "coherent",
+		"definition": ", which means that they preserve finite limits and jointly strongly epimorphic pairs of arrows"
+	},
+	{
+		"term": "differential equations",
+		"definition": "an internal state is controlled inputs"
+	},
+	{
+		"term": "A bimodule butterfly",
+		"definition": "a specialization of a butterfly , i.e. a special kind of span or fraction , between the underlying complexes"
+	},
+	{
+		"term": "effect",
+		"definition": "An arbitrary Lie gives rise to a groupoid of germs of local diffeomorphisms over its base manifold"
+	},
+	{
+		"term": "tensoriality",
+		"definition": "a type of Tannakian duality"
+	},
+	{
+		"term": "Control theory",
+		"definition": "uses signal - flow diagrams ' to describe processes where real - valued functions of time are added , multiplied by scalars , differentiated and integrated , duplicated and deleted"
+	},
+	{
+		"term": "^(,0",
+		"definition": "   defined"
+	},
+	{
+		"term": "The general theory of storage",
+		"definition": "the results mentioned above , is developed in the opening sections of the paper and is then applied to the case of differential categories"
+	},
+	{
+		"term": "semireplete '",
+		"definition": "namely those that are isomorphisms do belong to M and ` left semistrict '"
+	},
+	{
+		"term": "A quasi - schemoid",
+		"definition": "a small category with a particular partition of the set of morphisms"
+	},
+	{
+		"term": "dagger",
+		"definition": "a contravariant identity - on - objects endofunctor"
+	},
+	{
+		"term": "model a small site",
+		"definition": ", in which the cofibrations are monomorphisms and the weak equivalences are local ( or stalkwise ) Joyal equivalences"
+	},
+	{
+		"term": "a notion of morphism for",
+		"definition": "yields both a category QVBun and a contravariant global sections functor C : QVBun^op Vect whose restriction to trivial vector bundles with fiber F coincides with the contravariant functor Top^op Vect of F - valued continuous functions"
+	},
+	{
+		"term": "LinLoc",
+		"definition": "obtain an adjunction between restricts to an equivalence of categories between"
+	},
+	{
+		"term": "relative",
+		"definition": "For a relative exact homological category ( over an arbitrary object in C , and show that they form an exact homological category"
+	},
+	{
+		"term": "A categorical principal bundle",
+		"definition": "a structure comprised of categories that is analogous to a classical principal bundle ; examples arise from"
+	},
+	{
+		"term": "a model category V",
+		"definition": "equipped with an Euler characteristic that is compatible with weak equivalences and fibrations in V , then our Euler characteristic of V - enriched categories is also compatible with weak equivalences and fibrations in the canonical model structure on the category of V - enriched categories"
+	},
+	{
+		"term": "Lie algebras",
+		"definition": "non - negatively graded chain complexes of Lie"
+	},
+	{
+		"term": "A map",
+		"definition": "a weak equivalence if and only if it induces an isomorphism after the identification of all past - similar states"
+	},
+	{
+		"term": "approach spaces",
+		"definition": "as those approach spaces having a tower consisting of topologies"
+	},
+	{
+		"term": "an axiomatic theory",
+		"definition": "based on the notions of   metric space and   space with first"
+	},
+	{
+		"term": "Levi category",
+		"definition": "the universal the fundamental groupoid of the corresponding graph of groups"
+	},
+	{
+		"term": "polynomial",
+		"definition": "a general condition for a monad which ensures the existence and relative properness"
+	},
+	{
+		"term": "an A_-category",
+		"definition": "the simplicial nerve of category"
+	},
+	{
+		"term": "Coarse - graining",
+		"definition": "a standard method of extracting a simpler Markov process from a more complicated one by identifying states"
+	},
+	{
+		"term": "Black - boxing",
+		"definition": "sends any open Markov process to the linear relation between input and output data that holds in"
+	},
+	{
+		"term": "the tangent functor",
+		"definition": "simplifies the formulation of the higher order chain rule"
+	},
+	{
+		"term": "A quantum category",
+		"definition": "an opmonoidal monad on the monoidale associated to a biduality R R^o , or enveloping monoidale , in a monoidal bicategory of modules ( V } ) for a monoidal category"
+	},
+	{
+		"term": "The Ehresmann - Schein - Nambooripad",
+		"definition": "asserts an equivalence between the category of"
+	},
+	{
+		"term": "a morphism",
+		"definition": "a circuit of this sort with marked input and output terminals"
+	},
+	{
+		"term": "composition",
+		"definition": "describes the process of attaching the outputs of one circuit to the inputs of another"
+	},
+	{
+		"term": "symmetric",
+		"definition": "that provides pull - push maps between - vector"
+	},
+	{
+		"term": "isotropy group",
+		"definition": "a presheaf of groups on C"
+	},
+	{
+		"term": "isotropy rank",
+		"definition": "the isotropy rank of a small category is the ordinal at which the sequence of quotients stabilizes"
+	},
+	{
+		"term": "Brauer - Clifford groups",
+		"definition": "equivariant Brauer groups for which a Hopf algebra acts or coacts nontrivially on the base ring"
+	},
+	{
+		"term": "- cat",
+		"definition": "internal object actions which are representable ( by internal automorphism groups"
+	},
+	{
+		"term": "A simple criterion",
+		"definition": "call F finitely bounded if for all objects X every finitely generated subobject of FX factorizes through the F - image of a finitely generated subobject of X."
+	},
+	{
+		"term": "structures induction",
+		"definition": "a priori produces only structures"
+	},
+	{
+		"term": "A distributor",
+		"definition": "a set - valued functor in two arguments , contravariant in one argument and covariant in the other"
+	},
+	{
+		"term": "Poly",
+		"definition": "- generalise planar polycategories in the same way as bicategories generalise categories"
+	},
+	{
+		"term": "merge - bicategories composition operations",
+		"definition": "a variant of , admits a natural monoidal closed structure , giving access to higher morphisms"
+	},
+	{
+		"term": "A Lie 2 - group G",
+		"definition": "category"
+	},
+	{
+		"term": "a",
+		"definition": "monad t on A in M together with p monoidal , and q opmonoidal structures"
+	},
+	{
+		"term": "The colimit characterization",
+		"definition": "allows the development of integration theory and the treatment of measures on spaces of measures , without measure theory"
+	},
+	{
+		"term": "Involutive category theory",
+		"definition": "provides a flexible framework to describe involutive structures on algebraic objects , such as anti - linear involutions on complex vector spaces"
+	},
+	{
+		"term": "field",
+		"definition": "develop the involutive analogs of colored operads and their algebras"
+	},
+	{
+		"term": "symmetric sequences",
+		"definition": "we obtain from a general product - exponential 2 - adjunction whose right adjoint forms involutive functor categories"
+	},
+	{
+		"term": "\" weak model category",
+		"definition": "weakening of the notion of Quillen model category"
+	}
+]
