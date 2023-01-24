@@ -2,6 +2,7 @@ import json
 import re
 import subprocess
 
+from bs4 import BeautifulSoup
 from spacy.language import Language
 from spacy_conll import init_parser
 from tqdm import tqdm
@@ -26,9 +27,11 @@ def filter_mathml(text):
     xml = subprocess.run(['latexml', '-'], input=content, capture_output=True,
                          encoding='UTF-8').stdout
 
-    print(xml)
+    soup = BeautifulSoup(xml, "xml")
 
-    return text
+    result = soup.get_text()
+
+    return result
 
 def main():
 
