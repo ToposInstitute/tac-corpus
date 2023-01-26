@@ -1,5 +1,9 @@
 # TAC corpus
 
+For the unmodified results of our 2022
+[paper](https://aclanthology.org/2022.wnut-1.2/), see
+[this](https://github.com/ToposInstitute/tac-corpus/tree/wnut) branch.
+
 This repository contains a corpus based on the contents of abstracts in _Theory
 and Applications of Categories_ (TAC) as of c. December 2020. This can be used
 as a training/testing corpus for mathematical NLP and machine learning
