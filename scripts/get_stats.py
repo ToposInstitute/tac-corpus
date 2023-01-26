@@ -65,8 +65,8 @@ def main():
             for sentence in doc.sents:
                 if not str(sentence).strip():
                     continue
-                if len(sentence) > 60:
-                    print(sentence)
+                #if len(sentence) > 60:
+                #    print(sentence)
                 sentence_lengths[len(sentence)] += 1
                 sentences += 1
                 tokens += len(sentence)
