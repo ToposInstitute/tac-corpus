@@ -1,0 +1,78 @@
+[
+  {
+    "sentence": "In particular, generalized congruences are used to provide a concrete construction of coequalizers in \u2062 C a t .",
+    "lemma": "\u2062 c"
+  },
+  {
+    "sentence": "We finally consider the special case where V is \u2062 C a t , and explain how the correspondence extends to pseudo maps of algebras.",
+    "lemma": "\u2062 c"
+  },
+  {
+    "sentence": "We give explicit formulae, as large ends, for the right adjoints g and \u2062 M o n G , and also for some related right adjoints, when they exist; as well as another explicit expression for \u2062 M o n G as a large limit, which uses a new representation of any (large) limit of monads of two special kinds, and an analogous result for general endofunctors.",
+    "lemma": "\u2062 m o"
+  },
+  {
+    "sentence": "Prior work towards the subject of higher-dimensional categories gives rise to several examples of a category over \u2062 C a t to which the slice-category construction can be lifted universally.",
+    "lemma": "\u2062 c"
+  },
+  {
+    "sentence": "We show that the (co)endomorphism algebra of a sufficiently separable \u201cfibre\u201d functor into \u2062 V e c t k , for k a field of characteristic 0, has the structure of what we call a \u201cunital\u201d von Neumann core in \u2062 V e c t k .",
+    "lemma": "\u2062 v"
+  },
+  {
+    "sentence": "For \u2062 V e c t k , this particular notion of algebra is weaker than that of a Hopf algebra, although the corresponding concept in \u2062 S e t is again that of a group.",
+    "lemma": "\u2062 v"
+  },
+  {
+    "sentence": "For \u2062 V e c t k , this particular notion of algebra is weaker than that of a Hopf algebra, although the corresponding concept in \u2062 S e t is again that of a group.",
+    "lemma": "\u2062 s"
+  },
+  {
+    "sentence": "It is well known that \u2243 \u2062 L a x N ( B , \u2062 C a t ) / \u2062 C a t B , where \u2062 C a t is the double category of small categories, functors, and profunctors.",
+    "lemma": "\u2062 c"
+  },
+  {
+    "sentence": "We show that there is a one-to-one correspondence between the quantum G -homogeneous spaces up to equivariant Morita equivalence, and indecomposable module C * -categories over \u2062 R e p ( G ) up to natural equivalence.",
+    "lemma": "\u2062 r"
+  },
+  {
+    "sentence": "We show that \u2062 u b a l is the smallest nontrivial reflective subcategory of \u2062 b a l , and that \u2062 u b a l consists of exactly those objects in \u2062 b a l that are epicomplete, a fact that includes a categorical formulation of the Stone-Weierstrass theorem for \u2062 b a l .",
+    "lemma": "\u2062 u"
+  },
+  {
+    "sentence": "We show that \u2062 u b a l is the smallest nontrivial reflective subcategory of \u2062 b a l , and that \u2062 u b a l consists of exactly those objects in \u2062 b a l that are epicomplete, a fact that includes a categorical formulation of the Stone-Weierstrass theorem for \u2062 b a l .",
+    "lemma": "\u2062 b"
+  },
+  {
+    "sentence": "It follows that \u2062 u b a l is the unique nontrivial reflective epicomplete subcategory of \u2062 b a l .",
+    "lemma": "\u2062 u"
+  },
+  {
+    "sentence": "We prove that the category \u2062 s p e c of Specker R -algebras is a mono-coreflective subcategory of \u2062 b a l that is co-epireflective in a mono-coreflective subcategory of \u2062 b a l consisting of what we term \u2113 -clean rings, a version of clean rings adapted to the order-theoretic setting of \u2062 b a l .",
+    "lemma": "\u2062 b"
+  },
+  {
+    "sentence": "We make this intuition precise by considering an enrichment base \u2062 Q B such that \u2062 Q B -enriched categories are faithful functors into B , and show that, in this context, a faithful functor is topological if and only if it is total (=totally cocomplete) in the sense of Street-Walters.",
+    "lemma": "\u2062 q b"
+  },
+  {
+    "sentence": "In the case of precosheaves on topological spaces, it is proved that any precosheaf with values in \u2062 P r o ( K ) is smooth, i.e. is strongly locally isomorphic to a cosheaf.",
+    "lemma": "\u2062 p r"
+  },
+  {
+    "sentence": ": (i) a linearized topological space is a spectral vector bundle, by which is meant a mildly restricted type of quotient vector bundle; (ii) a linearized locale is a locale \u0394 equipped with both a topological vector space A and a \u0394 -valued support map for the elements of A satisfying a continuity condition relative to the spectrum of \u0394 and the lower Vietoris topology on \u2062 S u b A ; (iii) we obtain an adjunction between the full subcategory of spectral vector bundles \u2062 Q V B u n \u03a3 and the category of linearized locales \u2062 L i n L o c , which restricts to an equivalence of categories between sober spectral vector bundles and spatial linearized locales.",
+    "lemma": "\u2062 s"
+  },
+  {
+    "sentence": "We show that the magnitude of that category is a known homological invariant of the algebra: writing \u03c7 A for the Euler form of A and S for the direct sum of the simple A -modules, it is \u2062 \u03c7 A ( S , S ) .",
+    "lemma": "\u2062 \u03c7 A"
+  },
+  {
+    "sentence": "A morphism in this category, termed a decorated corelation, comprises (i) a cospan X \u2192 N \u2190 Y in C such that the canonical copairing \u2192 + X Y N lies in E , together with (ii) an element of \u2062 F N .",
+    "lemma": "\u2062 f"
+  },
+  {
+    "sentence": "It is well known that a relation \u03d5 between sets is regular if, and only if, \u2062 K \u03d5 is completely distributive (cd), where \u2062 K \u03d5 is the complete lattice consisting of fixed points of the Kan adjunction induced by \u03d5 .",
+    "lemma": "\u2062 k \u03d5"
+  }
+]

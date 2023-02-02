@@ -1,7 +1,9 @@
 import json
 import re
 import spacy
+import subprocess
 
+from bs4 import BeautifulSoup
 from collections import defaultdict
 from datetime import datetime
 from spacy import displacy
@@ -11,9 +13,60 @@ MODEL = 'en_core_web_trf'
 
 nlp = spacy.load(MODEL)
 
+class Lists:
+
+    def __init__(self):
+
+        self.rootless = []
+        self.short = []
+        self.x_cats = []
+        self.dep_rels = []
+        self.persons = []
+        self.dates = []
+        self.monies = []
+
+    def save(self):
+
+        with open('lists/rootless.json', 'w') as outfile:
+            json.dump(self.rootless, outfile, indent=2)
+        with open('lists/short.json', 'w') as outfile:
+            json.dump(self.short, outfile, indent=2)
+        with open('lists/x_cats.json', 'w') as outfile:
+            json.dump(self.x_cats, outfile, indent=2)
+        with open('lists/dep_rels.json', 'w') as outfile:
+            json.dump(self.dep_rels, outfile, indent=2)
+        with open('lists/persons.json', 'w') as outfile:
+            json.dump(self.persons, outfile, indent=2)
+        with open('lists/dates.json', 'w') as outfile:
+            json.dump(self.dates, outfile, indent=2)
+        with open('lists/monies.json', 'w') as outfile:
+            json.dump(self.monies, outfile, indent=2)
+
 #EXCLUDE_CATEGORIES = re.compile(
 #    r'category:\W*(?:meta)|(?:empty)|(?:joke)|(?:svg)|(?:character tables)'
 #)
+
+def filter_mathml(text):
+
+    content = """
+\\documentclass{standalone}
+\\usepackage{amsmath,amssymb}
+
+\\begin{document}
+
+%s
+
+\\end{document}
+    """ % text
+
+    xml = subprocess.run(['latexml', '-'], input=content, capture_output=True,
+                         encoding='UTF-8').stdout
+
+    soup = BeautifulSoup(xml, "xml")
+
+    result = re.sub('\s+', ' ', soup.get_text())
+
+    return result
 
 def main():
 
@@ -39,6 +92,8 @@ def main():
     dep_examples = defaultdict(list)
     entity_examples = defaultdict(list)
 
+    lists = Lists()
+
     with open('tac_metadata.json') as infile:
 
         data = json.load(infile)
@@ -48,11 +103,14 @@ def main():
             documents += 1
 
             content = article['abstract']
+            content = filter_mathml(content)
 
             #if EXCLUDE_CATEGORIES.search(content):
             #    removed += 1
             #    continue
 
+            if not content:
+                continue
             doc = nlp(content)
 
             html = displacy.render(doc, style="dep", page=True, minify="true")
@@ -71,6 +129,11 @@ def main():
                 sentences += 1
                 tokens += len(sentence)
                 current_entity = []
+                # HERE
+                if 'ROOT' not in [token.dep_ for token in sentence]:
+                    lists.rootless.append(str(sentence))
+                if len(sentence) < 5:
+                    lists.short.append(str(sentence))
                 for token in sentence:
                     lemmas.add(token.lemma_)
                     pos[token.pos_] += 1
@@ -80,6 +143,11 @@ def main():
                             'sentence': str(sentence),
                             'value': str(token),
                         })
+                    if token.pos_ == 'X':
+                        lists.x_cats.append({
+                            'sentence': str(sentence),
+                            'token': str(token),
+                        })
                     tag[token.tag_] += 1
                     tag_stats[token.tag_][token.lemma_] += 1
                     if len(tag_examples[token.tag_]) < 20:
@@ -88,6 +156,11 @@ def main():
                             'value': str(token),
                         })
                     deps[token.dep_] += 1
+                    if token.dep_ == 'dep':
+                        lists.dep_rels.append({
+                            'sentence': str(sentence),
+                            'token': str(token),
+                        })
                     if token.head.i < token.i:
                         dep_stats[token.dep_][token.head.lemma_ + ' ' + token.lemma_] += 1
                     else:
@@ -110,11 +183,28 @@ def main():
                         except IndexError:
                             pass
                         entity_stats[token.ent_type_][entity_lemma] += 1
+                        if token.ent_type_ == 'PERSON':
+                            lists.persons.append({
+                                'sentence': str(sentence),
+                                'lemma': entity_lemma,
+                            })
+                        elif token.ent_type_ == 'DATE':
+                            lists.dates.append({
+                                'sentence': str(sentence),
+                                'lemma': entity_lemma,
+                            })
+                        elif token.ent_type_ == 'MONEY':
+                            lists.monies.append({
+                                'sentence': str(sentence),
+                                'lemma': entity_lemma,
+                            })
                         if len(entity_examples[token.ent_type_]) < 20:
                             entity_examples[token.ent_type_].append({
                                 'sentence': str(sentence),
                                 'value': str(token),
                             })
+
+    lists.save()
 
     with open('tac_compounds.tsv', 'w') as outfile:
         sorted_compounds = dict(sorted(dep_stats['compound'].items(),

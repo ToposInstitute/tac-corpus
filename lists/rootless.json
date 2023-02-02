@@ -1,0 +1,8 @@
+[
+  " For an adjoint string V -\u2014 W -\u2014 X -\u2014 Y : B \u2013&gt; C, with Y fully faithful, it is frequently, but not always, the case that the composite VY underlies an idempotent monad.",
+  " We thoroughly treat several familiar and less familiar definitions and results concerning categories, functors and distributors enriched in a base quantaloid Q.",
+  " For accessible set-valued functors it is well known that weak preservation of limits is equivalent to representability, and weak preservation of connected limits to familial representability.",
+  " For any total category K , with defining adjunction : sup \u2062 \\ladj Y \u2192 K \u2062 s e t K \u2062 o p , the expression =",
+  " We define a notion of morphism for quotient vector bundles that yields both a category \u2062 Q V B u n and a contravariant global sections functor : C \u2192 \u2062 Q V B u n \u2062 o p \u2062 V e c t whose restriction to trivial vector bundles with fiber F coincides with the contravariant functor \u2192 \u2062 T o p \u2062 o p \u2062 V e c t of F-valued continuous functions. Based on this we obtain a linear extension of the adjunction between the categories of topological spaces and locales",
+  " Model categories have long been a useful tool in homotopy theory, allowing many generalizations of results in topological spaces to other categories."
+]

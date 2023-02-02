@@ -3,7 +3,6 @@ import re
 import subprocess
 
 from bs4 import BeautifulSoup
-from spacy.language import Language
 from spacy_conll import init_parser
 from tqdm import tqdm
 
@@ -29,7 +28,7 @@ def filter_mathml(text):
 
     soup = BeautifulSoup(xml, "xml")
 
-    result = soup.get_text()
+    result = re.sub('\s+', ' ', soup.get_text())
 
     return result
 
@@ -45,6 +44,9 @@ def main():
                 content = article['abstract']
                 content = filter_mathml(content)
                 doc_id += 1
+
+                if not content:
+                    continue
 
                 doc = nlp(content)
 

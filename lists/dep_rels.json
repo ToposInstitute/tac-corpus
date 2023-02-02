@@ -1,0 +1,1618 @@
+[
+  {
+    "sentence": " We solve the word problem for free double categories without equations between generators by translating it to the word problem for 2-categories.",
+    "token": " "
+  },
+  {
+    "sentence": "Suppose an extension map U: T_1 -&gt; T_0 in the 2-category Con of contexts for arithmetic universes satisfies a Chevalley criterion for being an (op)fibration in Con.",
+    "token": "satisfies"
+  },
+  {
+    "sentence": " We define exact sequences in the enchilada category of C*-algebras and correspondences, and prove that the reduced-crossed-product functor is not exact for the enchilada categories.",
+    "token": " "
+  },
+  {
+    "sentence": " The goal of this article is to emphasize the role of cubical sets in enriched category theory and infinity-category theory.",
+    "token": " "
+  },
+  {
+    "sentence": " In this article the notion of virtual double category (also known as fc-multicategory) is extended as follows.",
+    "token": " "
+  },
+  {
+    "sentence": " We derive three equivalent necessary conditions for a small category to have homological dimension one, generalizing a result of Novikov.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove that, given any reflective subfibration L on an \u221e-topos E, there exists a reflective subfibration L\u2019 on E whose local maps are the L-separated maps, that is, the maps whose diagonals are L-local.",
+    "token": " "
+  },
+  {
+    "sentence": " We use the homotopy invariance of equivariant principal bundles to prove that the equivariant A-category of Clapp and Puppe is invariant under Morita equivalence.",
+    "token": " "
+  },
+  {
+    "sentence": " We raise the question of saying what it means for a functor between abelian categories to preserve homology.",
+    "token": " "
+  },
+  {
+    "sentence": " A category C is additive if and only if, for every object B of C, the category Pt(C,B) of pointed objects in the comma category (C,B) is canonically equivalent to C. We reformulate the proof of this known result in order to obtain a stronger one that uses not all objects of B of C, but only a conveniently defined generating class S. If C is a variety of universal algebras, then one can take S to be the class consisting of any single free algebra on a non-empty set.",
+    "token": " "
+  },
+  {
+    "sentence": " A category C is additive if and only if, for every object B of C, the category Pt(C,B) of pointed objects in the comma category (C,B) is canonically equivalent to C. We reformulate the proof of this known result in order to obtain a stronger one that uses not all objects of B of C, but only a conveniently defined generating class S. If C is a variety of universal algebras, then one can take S to be the class consisting of any single free algebra on a non-empty set.",
+    "token": "order"
+  },
+  {
+    "sentence": " We give here some examples of non pointed protomodular categories C satisfying a property similar to the property of representation of actions which holds for the pointed protomodular category \u2062 G p of groups: any slice category of \u2062 G p , any category of groupoids with a fixed set of objects, any essentially affine category.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove that certain categories arising from atoms in a Grothendieck topos are themselves Grothendieck toposes.",
+    "token": " "
+  },
+  {
+    "sentence": " A category may bear many monoidal structures, but (to within a unique isomorphism) only one structure of \u2018category with finite products\u2019.",
+    "token": " "
+  },
+  {
+    "sentence": "The consideration of lax morphisms leads us to a new characterization of those monads, studied by Kock and Zoberlein, for which \u2018structure is adjoint to unit\u2019, and which we now call lax-idempotent 2-monads: both these and their colax-idempotent duals are fully property-like.",
+    "token": "for"
+  },
+  {
+    "sentence": "We end by showing that (at least for finitary 2-monads) the classes of property-likes, fully property-likes, and lax-idempotents are each coreflective among all 2-monads.",
+    "token": "each"
+  },
+  {
+    "sentence": "The locally ordered bicategory rel and its bicategory of monads both fail to be Cauchy-complete, but have a well-known Cauchy-completion in common.",
+    "token": "both"
+  },
+  {
+    "sentence": "Under a simplifying assumption which is satisfied in many practical examples, a morphism f : A \u2013&gt; B lies in M precisely when it is the pullback along the unit \\etaB: B \u2013&gt; IB of its reflexion If : IA \u2013&gt; IB; whereupon f is said to be a trivial covering of B.",
+    "token": "&"
+  },
+  {
+    "sentence": " We define a localization L of a category E to be quintessential if the left adjoint to the inclusion functor is also right adjoint to it, and persistent if L is closed under subobjects in E.",
+    "token": " "
+  },
+  {
+    "sentence": " We analyze the Bianchi Identity as an instance of a basic fact of combinatorial groupoid theory, related to the Homotopy Addition Lemma.",
+    "token": " "
+  },
+  {
+    "sentence": " The classical infinite loopspace machines in fact induce an equivalence of categories between a localization of the category of symmetric monoidal categories and the stable homotopy category of -1-connective spectra.",
+    "token": " "
+  },
+  {
+    "sentence": " The purpose is to give a simple proof that a category is equivalent to a small category if and only if both it and its presheaf category are locally small.",
+    "token": " "
+  },
+  {
+    "sentence": " The Medial rule was first devised as a deduction rule in the Calculus of Structures.",
+    "token": " "
+  },
+  {
+    "sentence": " We formulate three slightly different notions of oriented singular chain complexes and show that all three are naturally homotopic to ordinary singular chain complexes.",
+    "token": " "
+  },
+  {
+    "sentence": " For an adjoint string V -\u2014 W -\u2014 X -\u2014 Y : B \u2013&gt; C, with Y fully faithful, it is frequently, but not always, the case that the composite VY underlies an idempotent monad.",
+    "token": " "
+  },
+  {
+    "sentence": " Locally finitely presentable categories are known to be precisely the categories of models of essentially algebraic theories, i.e., categories of partial algebras whose domains of definition are determined by equations in total operations.",
+    "token": " "
+  },
+  {
+    "sentence": " We take another look at the Chu construction and show how to simplify it by looking at it as a module category in a trivial Chu category.",
+    "token": " "
+  },
+  {
+    "sentence": " We obtain some explicit calculations of crossed Q-modules induced from a crossed module over a normal subgroup P of Q. By virtue of theorems of Brown and Higgins, this enables the computation of the homotopy 2-types and second homotopy modules of certain homotopy pushouts of maps of classifying spaces of discrete groups.",
+    "token": " "
+  },
+  {
+    "sentence": "In any FILL category, it is possible to isolate a full subcategory of objects (the \u201cnucleus\u201d) for which this transformation is an isomorphism.",
+    "token": "for"
+  },
+  {
+    "sentence": "We establish a general coherence theorem for lax operad actions on an n-category which implies that an n-category with such an action is lax equivalent to one with a strict action.",
+    "token": "an"
+  },
+  {
+    "sentence": " The notion of separable (alternatively unramified, or decidable) objects and their place in a categorical theory of space have been described by Lawvere (see []), drawing on notions of separable from algebra and unramified from geometry.",
+    "token": " "
+  },
+  {
+    "sentence": " The notion of separable (alternatively unramified, or decidable) objects and their place in a categorical theory of space have been described by Lawvere (see []), drawing on notions of separable from algebra and unramified from geometry.",
+    "token": "["
+  },
+  {
+    "sentence": " In terms of synthetic differential geometry, we give a variational characterization of the connection (parallelism) associated to a pseudo-Riemannian metric on a manifold.",
+    "token": " "
+  },
+  {
+    "sentence": "We introduce a notion of equipment which generalizes the earlier notion of pro-arrow equipment and includes such familiar constructs as \u2062 \\rel \\K , \u2062 \\spn \\K , \\K , and \u2062 \\pro \\K for a suitable category \\K , along with related constructs such as the \\V - \\pro arising from a suitable monoidal category \\V .",
+    "token": "\\spn"
+  },
+  {
+    "sentence": " We show that the homotopy category of simplicial diagrams - I \u2062 S S indexed by a small category I is equivalent to a homotopy category of \u2193 \u2062 S S \u2062 N I simplicial sets over the nerve \u2062 N I .",
+    "token": " "
+  },
+  {
+    "sentence": " If M is both an abelian category and a symmetric monoidal closed category, then it is natural to ask whether projective objects in M are flat, and whether the tensor product of two projective objects is projective.",
+    "token": " "
+  },
+  {
+    "sentence": " We give an abstract characterization of categories which are localizations of Maltsev varieties.",
+    "token": " "
+  },
+  {
+    "sentence": " Using the Chu-construction, we define a group algebra for topological Hausdorff groups.",
+    "token": " "
+  },
+  {
+    "sentence": " Exponentiable spaces are characterized in terms of convergence.",
+    "token": " "
+  },
+  {
+    "sentence": "More precisely, we prove that a relation : R \u21c0 \u2062 U X X between ultrafilters and elements of a set X is the convergence relation for a quasi-locally-compact (that is, exponentiable) topology on X if and only if the following conditions are satisfied: 1. \u2286 \u2062 i d \u2218 R \u03b7 2. = \u2062 \u2218 R U R \u2218 R \u03bc where : \u03b7 \u2192 X \u2062 U X and : \u03bc \u2192 \u2062 U ( \u2062 U X ) \u2062 U X are the unit and the multiplication of the ultrafilter monad, and : U \u2192 \u2062 \\bi R e l \u2062 \\bi R e l extends the ultrafilter functor : U \u2192 \u2062 \\bi S e t \u2062 \\bi S e t to the category of sets and relations.",
+    "token": "U"
+  },
+  {
+    "sentence": " The class of functors known as discrete Conduch\u00e9 fibrations forms a common generalization of discrete fibrations and discrete opfibrations, and shares many of the formal properties of these two classes.",
+    "token": " "
+  },
+  {
+    "sentence": " In this paper certain proof-theoretic techniques of [BCST] are applied to non-symmetric linearly distributive categories, corresponding to non-commutative negation-free multiplicative linear logic (mLL).",
+    "token": " "
+  },
+  {
+    "sentence": " We characterize when the coequalizer and the exact completion of a category C with finite sums and weak finite limits coincide.",
+    "token": " "
+  },
+  {
+    "sentence": " A von Neumann regular extension of a semiprime ring naturally defines a epimorphic extension in the category of rings.",
+    "token": " "
+  },
+  {
+    "sentence": " We characterize the numerical functions which arise as the cardinalities of contravariant functors on finite sets, as those which have a series expansion in terms of Stirling functions.",
+    "token": " "
+  },
+  {
+    "sentence": "We use a technique of Lambek [18] involving Mal\u2019cev operators to equationally express uniqueness of iteration (more generally, higher-order primitive recursion) in a simply typed lambda calculus, essentially Godel\u2019s T [29,13].",
+    "token": "involving"
+  },
+  {
+    "sentence": " The contravariant powerset, and its generalisations \u03a3 X to the lattices of open subsets of a locally compact topological space and of recursively enumerable subsets of numbers, satisfy the Euclidean principle that = \u2062 \u03d5 \\meet F ( \u03d5 ) \u2062 \u03d5 \\meet F ( \u22a4 ) .",
+    "token": " "
+  },
+  {
+    "sentence": "Conversely, when the adjunction \u22a3 \u03a3 ( - ) \u03a3 ( - ) is monadic, this equation implies that \u03a3 classifies some class of monos, and the Frobenius law \u2203 x .",
+    "token": "\u2203"
+  },
+  {
+    "sentence": "( \u03d5 ( x ) \\meet \u03c8 ) = ( \u2203 x . \u03d5 ( x ) ) \\meet \u03c8 ) for the existential quantifier.",
+    "token": "\\meet"
+  },
+  {
+    "sentence": " The purpose of this paper is to indicate some bicategorical properties of ring theory.",
+    "token": " "
+  },
+  {
+    "sentence": " This paper defines a solution manifold and a stable submanifold for a system of differential equations.",
+    "token": " "
+  },
+  {
+    "sentence": " In analogy with the varietal case, we give an abstract characterization of those categories occurring as regular epireflective subcategories of presheaf categories such that the inclusion functor preserves small sums.",
+    "token": " "
+  },
+  {
+    "sentence": " We investigate preserving of projectivity and injectivity by the object-wise tensor product of \u2062 R C -modules, where C is a small category.",
+    "token": " "
+  },
+  {
+    "sentence": "The notion of normal subobject having an intrinsic meaning in any protomodular category, we introduce the notion of normal functor, namely left exact conservative functor which reflects normal subobjects.",
+    "token": "notion"
+  },
+  {
+    "sentence": " The term \u201csaturated,\u201d referring to a class of morphisms in a category, is used in the literature for two nonequivalent concepts.",
+    "token": " "
+  },
+  {
+    "sentence": " The purpose of this paper is to give a new proof of the Joyal-Tierney theorem (unpublished), which asserts that a morphism : f \u2192 R S of commutative rings is an effective descent morphism for modules if and only if f is pure as a morphism of R -modules.",
+    "token": " "
+  },
+  {
+    "sentence": " We show, for a monoidal closed category = V ( V 0 , \u2297 , I ) , that the category V -Cat of small V -categories is locally \u03bb -presentable if V 0 is so, and that it is locally \u03bb -bounded if the closed category V is so, meaning that V 0 is locally \u03bb -bounded and that a side condition involving the monoidal structure is satisfied.",
+    "token": " "
+  },
+  {
+    "sentence": " We present some new findings concerning branched covers in topos theory.",
+    "token": " "
+  },
+  {
+    "sentence": " A category with finite products and finite coproducts is said to be distributive if the canonical map \u2192 + \u00d7 A B \u00d7 A C \u00d7 A ( + B C ) is invertible for all objects A , B , and C .",
+    "token": " "
+  },
+  {
+    "sentence": " The context of enriched sheaf theory introduced in the author\u2019s thesis provides a convenient viewpoint for models of the stable homotopy category as well as categories of finite loop spaces.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove the universal property of the infinitary exact completion of a category with weak small limits.",
+    "token": " "
+  },
+  {
+    "sentence": " A categorical proof of the statement given by the title is provided, in generalization of a result for topological spaces proved recently by Clementino, Hofmann and Tholen.",
+    "token": " "
+  },
+  {
+    "sentence": " In the context of Mal\u2019cev categories, a left exact root for the congruence distributive property is given and investigated, namely the property that there is no non trivial internal group inside the fibres of the fibration of pointed objects.",
+    "token": " "
+  },
+  {
+    "sentence": "For a broad collection of categories K , including all presheaf categories, the following statement is proved to be consistent: every left exact (i.e. finite-limits preserving) functor from K to \\Set is small, that is, a small colimit of representables.",
+    "token": "is"
+  },
+  {
+    "sentence": "In contrast, for the (presheaf) category = K \u2062 \\Alg ( 1 , 1 ) of unary algebras we construct a functor from \u2062 \\Alg ( 1 , 1 ) to \\Set which preserves finite products and is not small.",
+    "token": "1"
+  },
+  {
+    "sentence": " We develop a new approach to Commutator theory based on the theory of internal categorical structures, especially of so called pseudogroupoids.",
+    "token": " "
+  },
+  {
+    "sentence": " We explore the combinatorial properties of the branching areas of execution paths in higher dimensional automata.",
+    "token": " "
+  },
+  {
+    "sentence": " We give an abstract characterization of the categories of models of sketches all of whose distinguished cones are based on connected (resp. non empty) categories.",
+    "token": " "
+  },
+  {
+    "sentence": "Nous donnons une caract\u00e9risation abstraite des cat\u00e9gories de mod\u00e8les des esquisses dont tous les c\u00f4nes projectifs distingu\u00e9s sont d\u2019indexation connexe (resp. non vide).",
+    "token": "d\u2019indexation"
+  },
+  {
+    "sentence": "Nous donnons une caract\u00e9risation abstraite des cat\u00e9gories de mod\u00e8les des esquisses dont tous les c\u00f4nes projectifs distingu\u00e9s sont d\u2019indexation connexe (resp. non vide).",
+    "token": "connexe"
+  },
+  {
+    "sentence": "Nous donnons une caract\u00e9risation abstraite des cat\u00e9gories de mod\u00e8les des esquisses dont tous les c\u00f4nes projectifs distingu\u00e9s sont d\u2019indexation connexe (resp. non vide).",
+    "token": "."
+  },
+  {
+    "sentence": " The 2-category VAR of finitary varieties is not varietal over CAT.",
+    "token": " "
+  },
+  {
+    "sentence": " A. Joyal has introduced the category D of the so-called finite disks, and used it to define the concept of \u03b8 -category, a notion of weak \u03c9 -category.",
+    "token": " "
+  },
+  {
+    "sentence": "An important example: reflexive coequalizers are sifted colimits.",
+    "token": "example"
+  },
+  {
+    "sentence": " The alternation hierarchy problem asks whether every \u03bc -term \u03d5 , that is, a term built up also using a least fixed point constructor as well as a greatest fixed point constructor, is equivalent to a \u03bc -term where the number of nested fixed points of a different type is bounded by a constant independent of \u03d5 .",
+    "token": " "
+  },
+  {
+    "sentence": " In connection with the so-called Hurwitz action of homeomorphisms in ramified covers we define a groupoid, which we call a ramification groupoid of the 2-sphere, constructed as a certain path groupoid of the universal ramified cover of the 2-sphere with finitely many marked-points.",
+    "token": " "
+  },
+  {
+    "sentence": "We give explicit formulae, as large ends, for the right adjoints g and \u2062 M o n G , and also for some related right adjoints, when they exist; as well as another explicit expression for \u2062 M o n G as a large limit, which uses a new representation of any (large) limit of monads of two special kinds, and an analogous result for general endofunctors.",
+    "token": "expression"
+  },
+  {
+    "sentence": " We give a unified proof of Gabriel-Ulmer duality for locally finitely presentable categories, Adamek-Lawvere-Rosicky duality for varieties and Morita duality for presheaf categories.",
+    "token": " "
+  },
+  {
+    "sentence": " Given a triple T on a complete category C and a factorization system E/M on the category of algebras, we show there is a 1-1 correspondence between full subcategories of the category of algebras that are closed under U-split epimorphisms, products, and M-subobjects and triple morphisms T -&gt; S for which the induced natural transformation between free functors belongs to E.",
+    "token": " "
+  },
+  {
+    "sentence": " Given a triple T on a complete category C and a factorization system E/M on the category of algebras, we show there is a 1-1 correspondence between full subcategories of the category of algebras that are closed under U-split epimorphisms, products, and M-subobjects and triple morphisms T -&gt; S for which the induced natural transformation between free functors belongs to E.",
+    "token": "for"
+  },
+  {
+    "sentence": " We give a definition of categorical model for the multiplicative fragment of non-commutative logic.",
+    "token": " "
+  },
+  {
+    "sentence": "The construction is done first by formally adjoining certain equalisers that \u03a3 ( - ) takes to coequalisers, then using Eilenberg-Moore algebras, and finally presented as a lambda calculus similar to the axiom of comprehension in set theory.",
+    "token": "using"
+  },
+  {
+    "sentence": " A topological space is sober if it has exactly the points that are dictated by its open sets.",
+    "token": " "
+  },
+  {
+    "sentence": " Goguen categories were introduced in as a suitable categorical description of L -fuzzy relations, i.e., of relations taking values from an arbitrary complete Brouwerian lattice L instead of the unit interval [ 0 , 1 ] of the real numbers.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove that pure morphisms of commutative rings are effective A -descent morphisms where A is a (COMMUTATIVE RINGS) p o -indexed category given by (i) finitely generated modules, or (ii) flat modules, or (iii) finitely generated flat modules, or (iv) finitely generated projective modules.",
+    "token": " "
+  },
+  {
+    "sentence": " Two proofs of the exponentiability of perfect maps are presented and compared to two other recent approaches.",
+    "token": " "
+  },
+  {
+    "sentence": " Entity-Relationship-Attribute ideas are commonly used to specify and design information systems.",
+    "token": " "
+  },
+  {
+    "sentence": " Codescent morphisms are described in regular categories which satisfy the so-called strong amalgamation property.",
+    "token": " "
+  },
+  {
+    "sentence": " We give an explicit construction of the category Opetope of opetopes.",
+    "token": " "
+  },
+  {
+    "sentence": " We take some first steps in providing a synthetic theory of distributions.",
+    "token": " "
+  },
+  {
+    "sentence": " We characterize pointed varieties of universal algebras in which \u2248 / ( \u00d7 A B ) A B , i.e. all product projections are normal epimorphisms. \u2013\u00bf",
+    "token": " "
+  },
+  {
+    "sentence": " We characterize pointed varieties of universal algebras in which \u2248 / ( \u00d7 A B ) A B , i.e. all product projections are normal epimorphisms. \u2013\u00bf",
+    "token": "B"
+  },
+  {
+    "sentence": " A notion of resolution for higher-dimensional categories is defined, by using polygraphs, and basic invariance theorems are proved.",
+    "token": " "
+  },
+  {
+    "sentence": " Protomodular categories were introduced by the first author more than ten years ago.",
+    "token": " "
+  },
+  {
+    "sentence": " One can associate to any strict globular \u03c9 -category three augmented simplicial nerves called the globular nerve, the branching and the merging semi-cubical nerves.",
+    "token": " "
+  },
+  {
+    "sentence": " Linear bicategories are a generalization of ordinary bicategories in which there are two horizontal (1-cell) compositions corresponding to the \u201ctensor\u201d and \u201cpar\u201d of linear logic.",
+    "token": " "
+  },
+  {
+    "sentence": " In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.",
+    "token": " "
+  },
+  {
+    "sentence": "A 2-group is a \u2018categorified\u2019 version of a group, in which the underlying set G has been replaced by a category and the multiplication map m ; G x G -&gt; G has been replaced by a functor.",
+    "token": "G"
+  },
+  {
+    "sentence": " The theory of Lie algebras can be categorified starting from a new notion of \u20182-vector space\u2019, which we define as an internal category in Vect.",
+    "token": " "
+  },
+  {
+    "sentence": " Lyubashenko has described enriched 2-categories as categories enriched over V-Cat, the 2-category of categories enriched over a symmetric monoidal V. This construction is the strict analogue for V-functors in V-Cat of Brian Day\u2019s probicategories for V-modules in V-Mod.",
+    "token": " "
+  },
+  {
+    "sentence": " We investigate categorical versions of algebraically closed (= pure) embeddings, existentially closed embeddings, and the like, in the context of locally presentable categories.",
+    "token": " "
+  },
+  {
+    "sentence": "We exploit this in order to show that the left Kan extensions of such functors, along the inclusion of their domain into its completion, are left exact.",
+    "token": "order"
+  },
+  {
+    "sentence": " It is shown that, for a finitely-complete category C with coequalizers of kernel pairs, if every product-regular epi is also stably-regular then there exist the reflections (R)Grphs(C) \u2013&gt; (R)Rel(C), from (reflexive) graphs into (reflexive) relations in C, and Cat(C) \u2013&gt; Preord(C), from categories into preorders in C.",
+    "token": " "
+  },
+  {
+    "sentence": "Write spl(C^D) for the category whose objects are pairs ((L,s),t), where (L,s) is an object of the Eilenberg-Moore category for D, and t is a homomorphism that splits s, with spl(C^D)(((L,s),t),((L\u2019,s\u2019),t\u2019))=C^D((L,s)(L\u2019,s\u2019)).",
+    "token": "L"
+  },
+  {
+    "sentence": "Write spl(C^D) for the category whose objects are pairs ((L,s),t), where (L,s) is an object of the Eilenberg-Moore category for D, and t is a homomorphism that splits s, with spl(C^D)(((L,s),t),((L\u2019,s\u2019),t\u2019))=C^D((L,s)(L\u2019,s\u2019)).",
+    "token": "s"
+  },
+  {
+    "sentence": " A PROP is a way of encoding structure borne by an object of a symmetric monoidal category.",
+    "token": " "
+  },
+  {
+    "sentence": " We show, for a monad T, that coalgebra structures on a T-algebra can be described in terms of \u201dbraidings\u201d, provided that the monad is equipped with an invertible distributive law satisfying the Yang-Baxter equation.",
+    "token": " "
+  },
+  {
+    "sentence": " We characterize semi-abelian monadic categories and their localizations.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that strongly protomodular categories (as the category of groups for instance) provide an appropriate framework in which the commutator of two equivalence relations do coincide with the commutator of their associated normal subobjects, whereas it is not the case in any semi-abelian category.",
+    "token": " "
+  },
+  {
+    "sentence": " We generalize to an arbitrary variety the von Neumann axiom for a ring.",
+    "token": " "
+  },
+  {
+    "sentence": "The terminology \u201dgeometrical\u201d is justified firstly for Geo(L) and secondly for any concrete geometrical category by proving that they are all classifying ones.",
+    "token": "all"
+  },
+  {
+    "sentence": " For every group G, we construct a functor F : SET \u2013&gt; SET (finitary for a finite group G) such that the monoid of all natural endotransformations of F is a group isomorphic to G.",
+    "token": " "
+  },
+  {
+    "sentence": " We generalize the Baues-Jibladze descent theorem to a large class of groupoid enriched categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We give two related universal properties of the span construction.",
+    "token": " "
+  },
+  {
+    "sentence": " We thoroughly treat several familiar and less familiar definitions and results concerning categories, functors and distributors enriched in a base quantaloid Q.",
+    "token": " "
+  },
+  {
+    "sentence": " This work is a contribution to a recent field, Directed Algebraic Topology.",
+    "token": " "
+  },
+  {
+    "sentence": " The aim of this paper is to describe Quillen model category structures on the category CatC of internal categories and functors in a given finitely complete category C.",
+    "token": " "
+  },
+  {
+    "sentence": " A generating family, in a category C is a collection of objects { A i | \u2208 i I } such that if for any subobject Y &gt;\u2013&gt; X, every : f \u2192 A i X factors through m, then m is an isomorphism - i.e. the functors \u2062 C ( A i , - ) are collectively conservative.",
+    "token": " "
+  },
+  {
+    "sentence": "Examples include the interpretation of N as the Burnside rig of the category of finite sets with product and coproduct, and of N[x] in terms the category of combinatorial species.",
+    "token": "]"
+  },
+  {
+    "sentence": " What remains of a geometrical notion like that of a principal bundle when the base space is not a manifold but a coarse graining of it, like the poset formed by a base for the topology ordered under inclusion?",
+    "token": " "
+  },
+  {
+    "sentence": "From the observation that E and F differ unless G[x,x]=id_x for every object x of G, we prove there is a fibered equivalence from C[\u03a3^-1] to C/\u03a3when \u03a3is a Yoneda-system of a loop-free category C.",
+    "token": ","
+  },
+  {
+    "sentence": "From the observation that E and F differ unless G[x,x]=id_x for every object x of G, we prove there is a fibered equivalence from C[\u03a3^-1] to C/\u03a3when \u03a3is a Yoneda-system of a loop-free category C.",
+    "token": "x]=id_x"
+  },
+  {
+    "sentence": " The well-known notion of crossed module of groups is raised in this paper to the categorical level supported by the theory of categorical groups.",
+    "token": " "
+  },
+  {
+    "sentence": "The role of \u2286 \u2062 K z ( X ) \u2062 K ( X ) of those \u2062 \u03b1 X where X is z -embedded in \u2062 \u03b1 X , is also examined.",
+    "token": "z"
+  },
+  {
+    "sentence": " Two constructions of paths in double categories are studied, providing algebraic versions of the homotopy groupoid of a space.",
+    "token": " "
+  },
+  {
+    "sentence": " A flow on a compact Hausdorff space X is given by a map t : X \u2013&gt; X.",
+    "token": " "
+  },
+  {
+    "sentence": "To do this, we approximate (X,t) by a flow on a Stone space (that is, a totally disconnected, compact Hausdorff space).",
+    "token": "X"
+  },
+  {
+    "sentence": "To do this, we approximate (X,t) by a flow on a Stone space (that is, a totally disconnected, compact Hausdorff space).",
+    "token": "t"
+  },
+  {
+    "sentence": " The construction of a free restriction category can be broken into two steps: the construction of a free stable semilattice fibration followed by the construction of a free restriction category for this fibration.",
+    "token": " "
+  },
+  {
+    "sentence": " A quantaloid is a sup-lattice-enriched category; our subject is that of categories, functors and distributors enriched in a base quantaloid Q .",
+    "token": " "
+  },
+  {
+    "sentence": "We show how cocomplete Q -categories are precisely those which are tensored and conically cocomplete, or alternatively, those which are tensored, cotensored and \u2018order-cocomplete\u2019.",
+    "token": "order"
+  },
+  {
+    "sentence": " We say that a class D of categories is the Bourn localization of a class C of categories, and we write = D \u2062 Loc C , if D is the class of all (finitely complete) categories D such that for each object A in D , Pt ( D \u2193 A ) \u2208 C , where Pt ( D \u2193 A ) denotes the category of all pointed objects in the comma-category ( \u2193 D A ) . As D. Bourn showed, if we take D to be the class of Mal\u2019tsev categories in the sense of A. Carboni, J. Lambek, and M. C. Pedicchio, and C to be the class of unital categories in the sense of D. Bourn, which generalize pointed J\u00f3nsson-Tarski varieties, then = D \u2062 Loc ( C ) .",
+    "token": " "
+  },
+  {
+    "sentence": "A similar result was obtained by the author: if D is as above and C is the class of subtractive categories, which generalize pointed subtractive varieties in the sense of A. Ursini, then = D \u2062 Loc ( C ) .",
+    "token": "="
+  },
+  {
+    "sentence": " We study closedness properties of internal relations in finitely complete categories, which leads to developing a unified approach to: Mal\u2019tsev categories, in the sense of A. Carboni, J. Lambek and M. C. Pedicchio, that generalize Mal\u2019tsev varieties of universal algebras; unital categories, in the sense of D. Bourn, that generalize pointed J\u00f3nsson-Tarski varieties; and subtractive categories, introduced by the author, that generalize pointed subtractive varieties in the sense of A. Ursini.",
+    "token": " "
+  },
+  {
+    "sentence": "We consider exponentiable objects in lax slices of Top with respect to the specialization order (and its opposite) on a base space B. We begin by showing that the lax slice over B has binary products which are preserved by the forgetful functor to Top if and only if B is a meet (respective, join) semilattice in Top, and go on to characterize exponentiability over a complete Alexandrov space B.",
+    "token": "join"
+  },
+  {
+    "sentence": " For a differential graded k-quiver Q we define the free A_\u221e-category FQ generated by Q. The main result is that the restriction A_\u221e-functor A_\u221e(FQ, A) \u2192A_1(Q,A) is an equivalence, where objects of the last A_\u221e-category are morphisms of differential graded k-quivers Q \u2192A.",
+    "token": " "
+  },
+  {
+    "sentence": " We show, for an arbitrary adjunction F \u22a3 U : \u2192 B A with B Cauchy complete, that the functor F is comonadic if and only if the monad T on A induced by the adjunction is of effective descent type, meaning that the free T -algebra functor : F T \u2192 A A T is comonadic. This result is applied to several situations: In Section 4 to give a sufficient condition for an exponential functor on a cartesian closed category to be monadic, in Sections 5 and 6 to settle the question of the comonadicity of those functors whose domain is Set, or Set \u22c6 , or the category of modules over a semisimple ring, in Section 7 to study the effectiveness of (co)monads on module categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We give a Dialectica-style interpretation of first-order classical affine logic.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that any free *-autonomous category is equivalent (in a strict sense) to a free *-autonomous category in which the double-involution ( - ) * * is the identity functor and the canonical isomorphism \u2243 A A * * is an identity arrow for all A .",
+    "token": " "
+  },
+  {
+    "sentence": " We define and study familial 2-functors primarily with a view to the development of the 2-categorical approach to operads of [Weber, 2005].",
+    "token": " "
+  },
+  {
+    "sentence": " We classify the \u201dquotients\u201d of a tannakian category in which the objects of a tannakian subcategory become trivial, and we examine the properties of such quotient categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove that the monoidal 2-category of cospans of ordinals and surjections is the universal monoidal category with an object X with a semigroup and a cosemigroup structures, where the two structures satisfy a certain 2-dimensional separable algebra condition.",
+    "token": " "
+  },
+  {
+    "sentence": " We define the notion of an additive model category and prove that any stable, additive, combinatorial model category M has a model enrichment over \u2062 S p \u03a3 ( \u2062 s A b ) (symmetric spectra based on simplicial abelian groups).",
+    "token": " "
+  },
+  {
+    "sentence": " J.-L. Loday introduced the concept of coherent unit actions on a regular operad and showed that such actions give Hopf algebra structures on the free algebras.",
+    "token": " "
+  },
+  {
+    "sentence": "We define a notion of weak cubical category, abstracted from the structure of n-cubical cospans x : \u2227 n \u2192 X in a category X where \u2227 is the \u2018formal cospan\u2019 category.",
+    "token": "n"
+  },
+  {
+    "sentence": " Usually bundle gerbes are considered as objects of a 2-groupoid, whose 1-morphisms, called stable isomorphisms, are all invertible.",
+    "token": " "
+  },
+  {
+    "sentence": " Usually bundle gerbes are considered as objects of a 2-groupoid, whose 1-morphisms, called stable isomorphisms, are all invertible.",
+    "token": "all"
+  },
+  {
+    "sentence": " We have shown that complete spreads (with a locally connected domain) over a bounded topos E (relative to S) are \u2018comprehensive\u2019 in the sense that they are precisely the second factor of a factorization associated with an instance of the comprehension scheme involving S-valued distributions on E.",
+    "token": " "
+  },
+  {
+    "sentence": " New techniques for constructing a distributive law of a monad over another are studied using submonads, quotient monads, product monads, recursively-defined distributive laws, and linear equations.",
+    "token": " "
+  },
+  {
+    "sentence": " In this paper we give a characterization of constructively completely distributive (CCD) lattices in presheaves on C, for C a small category with pullbacks.",
+    "token": " "
+  },
+  {
+    "sentence": " We give an interpretation of Yetter\u2019s Invariant of manifolds M in terms of the homotopy type of the function space TOP(M,B(G)) , w h e r e G i s a c r o s s e d m o d u l e a n d B ( G ) i s i t s c l a s s i f y i n g s p a c e . F r o m t h i s f o r m u l a t i o n , t h e r e f o l l o w s t h a t Y e t t e r \u2032 s i n v a r i a n t d e p e n d s o n l y o n t h e h o m o t o p y t y p e o f M , a n d t h e w e a k h o m o t o p y t y p e o f t h e c r o s s e d m o d u l e G .",
+    "token": " "
+  },
+  {
+    "sentence": " We give an interpretation of Yetter\u2019s Invariant of manifolds M in terms of the homotopy type of the function space TOP(M,B(G)) , w h e r e G i s a c r o s s e d m o d u l e a n d B ( G ) i s i t s c l a s s i f y i n g s p a c e . F r o m t h i s f o r m u l a t i o n , t h e r e f o l l o w s t h a t Y e t t e r \u2032 s i n v a r i a n t d e p e n d s o n l y o n t h e h o m o t o p y t y p e o f M , a n d t h e w e a k h o m o t o p y t y p e o f t h e c r o s s e d m o d u l e G .",
+    "token": "n"
+  },
+  {
+    "sentence": " It is the aim of this paper to compute the category of Eilenberg-Moore algebras for the monad arising from the dual unit-ball functor on the category of (semi)normed spaces.",
+    "token": " "
+  },
+  {
+    "sentence": "The example of reflexive graphs and their atomic numbers VI.",
+    "token": "example"
+  },
+  {
+    "sentence": "Sufficient cohesion and the Grothendieck condition VII. Weak generation of a subtopos by a quotient topos I look forward to further work on each of these aspects, as well as development of categories of dynamical laws, constitutive relations, and other mathematical structures that naturally live in cohesive categories.",
+    "token": "cohesion"
+  },
+  {
+    "sentence": "Sufficient cohesion and the Grothendieck condition VII. Weak generation of a subtopos by a quotient topos I look forward to further work on each of these aspects, as well as development of categories of dynamical laws, constitutive relations, and other mathematical structures that naturally live in cohesive categories.",
+    "token": "generation"
+  },
+  {
+    "sentence": " Recently, symmetric categorical groups are used for the study of the Brauer groups of symmetric monoidal categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We develop in some generality the dualities that often arise when one object lies in two different categories.",
+    "token": " "
+  },
+  {
+    "sentence": "Assuming that B is a full A \u221e -subcategory of a unital A \u221e -category \\cc we construct the quotient unital A \u221e -category = \\cd \u2018 / \\cc \\cb \u2019.",
+    "token": "\\cc"
+  },
+  {
+    "sentence": " If C and D are varieties of algebras in the sense of general algebra, then by a representable functor C \u2013&gt; D we understand a functor which, when composed with the forgetful functor D \u2013&gt; Set, gives a representable functor in the classical sense; Freyd showed that these functors are determined by D-coalgebra objects of C. Let Rep(C, D) denote the category of all such functors, a full subcategory of Cat(C, D, opposite to the category of D-coalgebras in C. It is proved that Rep(C, D) has small colimits, and in certain situations, explicit constructions for the representing coalgebras are obtained.",
+    "token": " "
+  },
+  {
+    "sentence": " An effort to initiate the subject of the title: the basic tool is the study of the abstract closed interval equipped with certain equational structures.",
+    "token": " "
+  },
+  {
+    "sentence": " In this paper we show that eight coherence conditions suffice for the definition of a pseudodistributive law between pseudomonads.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that, in any Mal\u2019tsev (and a fortiori protomodular) category E, not only the fibre Grd_X E of internal groupoids above the object X is a naturally Mal\u2019tsev category, but moreover it shares with the category Ab of abelian groups the property following which the domain of any split epimorphism is isomorphic with the direct sum of its codomain with its kernel.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that, in any Mal\u2019tsev (and a fortiori protomodular) category E, not only the fibre Grd_X E of internal groupoids above the object X is a naturally Mal\u2019tsev category, but moreover it shares with the category Ab of abelian groups the property following which the domain of any split epimorphism is isomorphic with the direct sum of its codomain with its kernel.",
+    "token": "following"
+  },
+  {
+    "sentence": " Maps (left adjoint arrows) between Frobenius objects in a cartesian bicategory B are precisely comonoid homomorphisms and, for A Frobenius and any T in B, map(B)(T,A) is a groupoid.",
+    "token": " "
+  },
+  {
+    "sentence": "Using the reflection of the category C of compact 0-dimensional topological spaces into the category of Stone spaces we introduce a concept of a fibration in C. We show that: (i) effective descent morphisms in C are the same as the surjective fibrations; (ii) effective descent morphisms in C with respect to the fibrations are all surjections.",
+    "token": "all"
+  },
+  {
+    "sentence": "We prove the following two characterization theorems: a category X is a Mal\u2019tsev category if and only if in the functor category Set \u00d7 X op X there exists an internal approximate Mal\u2019tsev operation \u2192 \u00d7 hom X hom X hom X A whose approximation \u03b1 satisfies a suitable condition; a regular category X with finite coproducts is a Mal\u2019tsev category, if and only if in the functor category X X there exists an internal approximate Mal\u2019tsev co-operation \u2192 A + 1 X 1 X 1 X whose approximation \u03b1 is a natural transformation with every component a regular epimorphism in X .",
+    "token": "is"
+  },
+  {
+    "sentence": " We show how to formulate the notion of locally cartesian closed category without chosen pullbacks, by the use of Makkai\u2019s theory of anafunctors.",
+    "token": " "
+  },
+  {
+    "sentence": " Notions and techniques of enriched category theory can be used to study topological structures, like metric spaces, topological spaces and approach spaces, in the context of topological theories.",
+    "token": " "
+  },
+  {
+    "sentence": " For accessible set-valued functors it is well known that weak preservation of limits is equivalent to representability, and weak preservation of connected limits to familial representability.",
+    "token": " "
+  },
+  {
+    "sentence": " We present sufficient conditions under which effective descent morphisms in a quasivariety of universal algebras are the same as regular epimorphisms and examples for which they are the same as regular epimorphisms satisfying projectivity.",
+    "token": " "
+  },
+  {
+    "sentence": " We propose a convenient category for directed homotopy consisting of \u201ddirected\u201d topological spaces generated by \u201ddirected\u201d cubes.",
+    "token": " "
+  },
+  {
+    "sentence": " Globular complexes were introduced by E. Goubault and the author to model higher dimensional automata.",
+    "token": " "
+  },
+  {
+    "sentence": " The purpose of this paper is to extend the results of TAC Vol. 20, No. 15 from the case of abelian groups (Z-modules) to that of modules over a large class of not necessarily commutative rings.",
+    "token": " "
+  },
+  {
+    "sentence": " We axiomatically define (pre-)Hilbert categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We continue our examination of absolute CR-epic spaces, or spaces with the property that any embedding induces an epimorphism, in the category of commutative rings, between their rings of continuous functions.",
+    "token": " "
+  },
+  {
+    "sentence": " We adapt the work of Power to describe general, not-necessarily composable, not-necessarily commutative 2-categorical pasting diagrams and their composable and commutative parts.",
+    "token": " "
+  },
+  {
+    "sentence": " Sifted colimits, important for algebraic theories, are \u201dalmost\u201d just the combination of filtered colimits and reflexive coequalizers.",
+    "token": " "
+  },
+  {
+    "sentence": " The notion of a subtractive category recently introduced by the author, is a pointed categorical counterpart of the notion of a subtractive variety of universal algebras in the sense of A. Ursini (recall that a variety is subtractive if its theory contains a constant 0 and a binary term s satisfying s(x,x)=0 and s(x,0)=x).",
+    "token": " "
+  },
+  {
+    "sentence": "Thus, subtractivity seems to be exactly what we need in order to prove the upper/lower \u00d7 3 3 lemmas in a normal category.",
+    "token": "order"
+  },
+  {
+    "sentence": " The metric jets, introduced here, generalize the jets (at order one) of Charles Ehresmann.",
+    "token": " "
+  },
+  {
+    "sentence": " Protomodularity, in the pointed case, is equivalent to the Split Short Five Lemma.",
+    "token": " "
+  },
+  {
+    "sentence": " We characterise the double central extensions in a semi-abelian category in terms of commutator conditions.",
+    "token": " "
+  },
+  {
+    "sentence": " We clarify the relationship between separable and covering morphisms in general categories by introducing and studying an intermediate class of morphisms that we call strongly separable.",
+    "token": " "
+  },
+  {
+    "sentence": " The purpose of this paper is to prove a new, incomplete-relative, version of Non-abelian Snake Lemma, where \u201drelative\u201d refers to a distinguished class of normal epimorphisms in the ground category, and \u201dincomplete\u201d refers to omitting all completeness/cocompleteness assumptions not involving that class.",
+    "token": " "
+  },
+  {
+    "sentence": " We describe a simplified categorical approach to Galois descent theory.",
+    "token": " "
+  },
+  {
+    "sentence": " We present a general treatment of measures and integrals in certain (monoidal closed) categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that categories weakly enriched over symmetric monoidal categories can be strictified to categories enriched in permutative categories.",
+    "token": " "
+  },
+  {
+    "sentence": " Groupoidification is a form of categorification in which vector spaces are replaced by groupoids and linear operators are replaced by spans of groupoids.",
+    "token": " "
+  },
+  {
+    "sentence": " We present a doctrinal approach to category theory, obtained by abstracting from the indexed inclusion (via discrete fibrations and opfibrations) of left and of right actions of X in Cat in categories over X.",
+    "token": " "
+  },
+  {
+    "sentence": " Deterministic automata are algebras of the monad T M associated to a free monoid M .",
+    "token": " "
+  },
+  {
+    "sentence": " An alternative description of the tensor product of sup-lattices is given with yet another description provided for the tensor product in the special case of CCD sup-lattices.",
+    "token": " "
+  },
+  {
+    "sentence": " An unpublished result by the first author states that there exists a Hopf algebra H such that for any M\u00f6bius category C (in the sense of Leroux) there exists a canonical algebra morphism from the dual H * of H to the incidence algebra of C .",
+    "token": " "
+  },
+  {
+    "sentence": "If K is abelian and the sequence 0 \u2192 K \u2192 k X \u2192 c C \u2192 0 is short exact, we show that 1) K is finitely generated iff c is finitely presentable; 2) k is finitely presentable iff C is finitely presentable.",
+    "token": "iff"
+  },
+  {
+    "sentence": "These have a rich structure; they are rigid monoidal categories for n &gt; 1 and ribbon categories for n &gt; 2.",
+    "token": "2"
+  },
+  {
+    "sentence": " We define the notion of a torsor for an inverse semigroup, which is based on semigroup actions, and prove that this is precisely the structure classified by the topos associated with an inverse semigroup.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that the class of weak equivalences of a combinatorial model category can be detected by an accessible functor into simplicial sets.",
+    "token": " "
+  },
+  {
+    "sentence": " We introduce a description of the algebras for a monad in terms of extension systems, similar to the one for monads given by Manes.",
+    "token": " "
+  },
+  {
+    "sentence": " The notion of Frobenius algebra originally arose in ring theory, but it is a fairly easy observation that this notion can be extended to arbitrary monoidal categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We explain in detail why the notion of list-arithmetic pretopos should be taken as the general categorical definition for the construction of arithmetic universes introduced by Andr\u00e9 Joyal to give a categorical proof of G\u00f6del\u2019s incompleteness results.",
+    "token": " "
+  },
+  {
+    "sentence": " Bicategories of spans are characterized as cartesian bicategories in which every comonad has an Eilenberg-Moore object and every left adjoint arrow is comonadic.",
+    "token": " "
+  },
+  {
+    "sentence": " Symbolic dynamics is partly the study of walks in a directed graph.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that a reflective/coreflective pair of full subcategories satisfies a \u201cmaximal-normal\u201d-type equivalence if and only if it is an associated pair in the sense of Kelly and Lawvere.",
+    "token": " "
+  },
+  {
+    "sentence": " We present a new explicit construction of categorical semidirect products in an arbitrary variety V of right \u03a9 -loops and use it to obtain simplified descriptions of internal precrossed and crossed modules in V.",
+    "token": " "
+  },
+  {
+    "sentence": " We formulate an elementary condition on an involutive quantaloid Q under which there is a distributive law from the Cauchy completion monad over the symmetrisation comonad on the category of Q -enriched categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We define Lie 3-algebras and prove that these are in 1-to-1 correspondence with the 3-term Lie infinity algebras whose bilinear and trilinear maps vanish in degree (1,1) and in total degree 1, respectively.",
+    "token": " "
+  },
+  {
+    "sentence": " We explore a curious type of equivalence between certain pairs of reflective and coreflective subcategories.",
+    "token": " "
+  },
+  {
+    "sentence": " We consider commutative Frobenius algebras in braided strict monoidal categories in the study of the circuits and communicating systems which occur in Computer Science, including circuits in which the wires are tangled.",
+    "token": " "
+  },
+  {
+    "sentence": " In this article we review the theory of anafunctors introduced by Makkai and Bartels, and show that given a subcanonical site S , one can form a bicategorical localisation of various 2-categories of internal categories or groupoids at weak equivalences using anafunctors as 1-arrows.",
+    "token": " "
+  },
+  {
+    "sentence": " Given a bisimplicial set, there are two ways to extract from it a simplicial set: the diagonal simplicial set and the less well known total simplicial set of Artin and Mazur.",
+    "token": " "
+  },
+  {
+    "sentence": " Quantum categories were introduced by Day and Street as generalizations of both bi(co)algebroids and small categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We discuss the problem of characterizing the property of a Grothendieck topos to satisfy a given \u2018geometric\u2019 invariant as a property of its sites of definition, and indicate a set of general techniques for establishing such criteria.",
+    "token": " "
+  },
+  {
+    "sentence": "Given a double category D such that D 0 has pushouts, we characterize oplax/lax adjunctions between D and \u2062 C o s p a n ( D 0 ) for which the right adjoint is normal and restricts to the identity on D 0 , where \u2062 C o s p a n ( D 0 ) is the double category on D 0 whose vertical morphisms are cospans.",
+    "token": "for"
+  },
+  {
+    "sentence": " We give a simple algebraic description of opetopes in terms of chain complexes, and we show how this description is related to combinatorial descriptions in terms of treelike structures.",
+    "token": " "
+  },
+  {
+    "sentence": " We give a generalized version of the Freyd conjecture and a way to think about a possible proof.",
+    "token": " "
+  },
+  {
+    "sentence": " Kornel Szlachanyi recently used the term skew-monoidal category for a particular laxified version of monoidal category.",
+    "token": " "
+  },
+  {
+    "sentence": " Tannaka duality describes the relationship between algebraic objects in a given category and functors into that category; an important case is that of Hopf algebras and their categories of representations; these have strong monoidal forgetful \u201cfibre functors\u201d to the category of vector spaces.",
+    "token": " "
+  },
+  {
+    "sentence": " We develop an alternative approach to star-autonomous comonads via linearly distributive categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We give characterizations, for various fragments of geometric logic, of the class of theories classified by a locally connected (respectively connected and locally connected, atomic, compact, presheaf) topos, and exploit the existence of multiple sites of definition for a given topos to establish various results on quotients of theories of presheaf type.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove that the 2-category of closed categories of Eilenberg and Kelly is equivalent to a suitable full 2-subcategory of the 2-category of closed multicategories.",
+    "token": " "
+  },
+  {
+    "sentence": " We construct, for any double complex in an abelian category, certain \u201cshort-distance\u201d maps, and an exact sequence involving these, instances of which can be pieced together to give the \u201clong-distance\u201d maps and exact sequences of results such as the Snake Lemma.",
+    "token": " "
+  },
+  {
+    "sentence": "Whenever idempotent 2-cells in K split, this leads to pseudofunctors \u2192 \u2062 \\Wdl ( n ) ( K ) \u2062 \\Wdl ( - n 1 ) ( K ) obeying the associativity property up-to isomorphism.",
+    "token": "\u2062"
+  },
+  {
+    "sentence": "Whenever idempotent 2-cells in K split, this leads to pseudofunctors \u2192 \u2062 \\Wdl ( n ) ( K ) \u2062 \\Wdl ( - n 1 ) ( K ) obeying the associativity property up-to isomorphism.",
+    "token": "\\Wdl"
+  },
+  {
+    "sentence": "Whenever idempotent 2-cells in K split, this leads to pseudofunctors \u2192 \u2062 \\Wdl ( n ) ( K ) \u2062 \\Wdl ( - n 1 ) ( K ) obeying the associativity property up-to isomorphism.",
+    "token": "n"
+  },
+  {
+    "sentence": " We show that colax idempotent pseudomonads and their algebras can be presented in terms of right Kan extensions.",
+    "token": " "
+  },
+  {
+    "sentence": " We extend the notion of exact completion on a category with weak finite limits to Lawvere\u2019s elementary doctrines.",
+    "token": " "
+  },
+  {
+    "sentence": "We note that the elementary quotient completion can be obtained as the composite of two other universal constructions: one adds effective quotients, the other forces extensionality of morphisms.",
+    "token": "forces"
+  },
+  {
+    "sentence": " We consider a symmetric monoidal closed category = V ( V , \u2297 , I , [ - , - ] ) together with a regular injective object Q such that the functor [ - , Q ] : \u2192 V \u2062 o p is comonadic and prove that in such a category, as in the monoidal category of abelian groups, a morphism of commutative monoids is an effective descent morphism for modules if and only if it is a pure monomorphism.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove that all semi-abelian categories with the the Smith is Huq property satisfy the Commutator Condition(CC): higher central extensions may be characterised in terms of binary (Huq or Smith) commutators.",
+    "token": " "
+  },
+  {
+    "sentence": " We investigate 3 -permutability, in the sense of universal algebra, in an abstract categorical setting which unifies the pointed and the non-pointed contexts in categorical algebra.",
+    "token": " "
+  },
+  {
+    "sentence": " We define a strong relation in a category C to be a span which is \u201corthogonal\u201d to the class of jointly epimorphic pairs of morphisms.",
+    "token": " "
+  },
+  {
+    "sentence": " For a small category B and a double category D , let \u2062 Lax N ( B , D ) denote the category whose objects are vertical normal lax functors \u2192 B D and morphisms are horizontal lax transformations.",
+    "token": " "
+  },
+  {
+    "sentence": " There is a lot of redundancy in the usual definition of adjoint functors.",
+    "token": " "
+  },
+  {
+    "sentence": " We call a finitely complete category diexact if every difunctional relation admits a pushout which is stable under pullback and itself a pullback.",
+    "token": " "
+  },
+  {
+    "sentence": " The classes of stably-vertical, normal, separable, inseparable, purely inseparable and covering morphisms, defined in categorical Galois theory, are characterized for the reflection of the variety of commutative semigroups into its subvariety of semilattices.",
+    "token": " "
+  },
+  {
+    "sentence": " We introduce the notion of weakly globular double categories, a particular class of strict double categories, as a way to model weak 2-categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We define relative regular Mal\u2019tsev categories and give an overview of conditions which are equivalent to the relative Mal\u2019tsev axiom.",
+    "token": " "
+  },
+  {
+    "sentence": " Cartesian differential categories abstractly capture the notion of a differentiation operation.",
+    "token": " "
+  },
+  {
+    "sentence": " In this article we extend the theory of lax monoidal structures, also known as multitensors, and the monads on categories of enriched graphs that they give rise to.",
+    "token": " "
+  },
+  {
+    "sentence": " We develop a theory of categories which are simultaneously (1) indexed over a base category S with finite products, and (2) enriched over an S -indexed monoidal category V .",
+    "token": " "
+  },
+  {
+    "sentence": " The purpose of this text is the study of the class of homotopy types which are modelized by strict \u221e -groupoids.",
+    "token": " "
+  },
+  {
+    "sentence": " We introduce an axiomatic framework for the parallel transport of connections on gerbes.",
+    "token": " "
+  },
+  {
+    "sentence": " By Gelfand-Neumark duality, the category \u2062 C * A l g of commutative C * -algebras is dually equivalent to the category of compact Hausdorff spaces, which by Stone duality, is also dually equivalent to the category \u2062 u b a l of uniformly complete bounded Archimedean \u2113 -algebras.",
+    "token": " "
+  },
+  {
+    "sentence": " Even a functor without an adjoint induces a monad, namely, its codensity monad; this is subject only to the existence of certain limits.",
+    "token": " "
+  },
+  {
+    "sentence": "The diagonal structure for bisimplicial presheaves specializes to a diagonal model structure for bisimplicial sets, for which the fibrations are the Kan fibrations.",
+    "token": "for"
+  },
+  {
+    "sentence": " We show that any traced * -autonomous category is compact closed.",
+    "token": " "
+  },
+  {
+    "sentence": " We deeply analyse the structural organisation of the fibration of points and of the monad of internal groupoids.",
+    "token": " "
+  },
+  {
+    "sentence": " One of the open problems in higher category theory is the systematic construction of the higher dimensional analogues of the Gray tensor product of 2-categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We study the monoidal structure of the standard strictification functor : \u2062 s t \u2192 \u2062 B i c a t \u2062 2 C a t .",
+    "token": " "
+  },
+  {
+    "sentence": " We study the totality of categories weakly enriched in a monoidal bicategory using a notion of enriched icon as 2-cells.",
+    "token": " "
+  },
+  {
+    "sentence": " In this paper we introduce two notions - systems of fibrant objects and fibration structures\u2014 which will allow us to associate to a bicategory B a homotopy bicategory \u2062 H o ( B ) in such a way that \u2062 H o ( B ) is the universal way to add pseudo-inverses to weak equivalences in B .",
+    "token": " "
+  },
+  {
+    "sentence": " We provide a diagrammatic criterion for the existence of an absolute colimit in the context of enriched category theory.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that the composition of a homotopically meaningful \u2018geometric realization\u2019 (or simple functor) with the simplicial replacement produces all homotopy colimits and Kan extensions in a relative category which is closed under coproducts.",
+    "token": " "
+  },
+  {
+    "sentence": " We continue the development of the infinitesimal deformation theory of pasting diagrams of k -linear categories begun in TAC, Vol 22, #2.",
+    "token": " "
+  },
+  {
+    "sentence": " We study the monoidal closed category of symmetric multicategories, especially in relation with its cartesian structure and with sequential multicategories (whose arrows are sequences of concurrent arrows in a given category).",
+    "token": " "
+  },
+  {
+    "sentence": " We give a new characterization of relative entropy, also known as the Kullback\u2013Leibler divergence.",
+    "token": " "
+  },
+  {
+    "sentence": " We discuss various concepts of \u221e -homotopies, as well as the relations between them (focussing on the Leibniz type).",
+    "token": " "
+  },
+  {
+    "sentence": " The goal of this paper is to demystify the role played by the Reedy category axioms in homotopy theory.",
+    "token": " "
+  },
+  {
+    "sentence": " We develop a theory of twisted actions of categorical groups using a notion of semidirect product of categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We define the analytic spectrum of a rig category ( A , \u2295 , \u2297 ) , and equip it with a sheaf of categories of rational functions.",
+    "token": " "
+  },
+  {
+    "sentence": " We define a mapping space for Gray-enriched categories adapted to higher gauge theory.",
+    "token": " "
+  },
+  {
+    "sentence": " It is proved that in any pointed category with pullbacks, coequalizers and regular epi-mono factorizations, the class of regular epimorphisms is stable under pullback along the so-called balanced effective descent morphisms.",
+    "token": " "
+  },
+  {
+    "sentence": "To 2-categorify the theory of group representations, we introduce the notions of the 3-representation of a group in a strict 3-category and the strict 2-categorical action of a group on a strict 2-category.",
+    "token": "2"
+  },
+  {
+    "sentence": "We generalize this result to the category of all topological spaces by showing that the following conditions are equivalent: (1) ( X , \u03c4 ) is a profinite topological space.",
+    "token": "\u03c4"
+  },
+  {
+    "sentence": "We study equivalent conditions in the context of semi-abelian categories, as well as some of its consequences: including amongst others, strong protomodularity, and normality of Higgins commutators for normal subobjects, and in the varietal case, fibre-wise algebraic cartesian closedness.",
+    "token": "some"
+  },
+  {
+    "sentence": " We show that the category of abstract elementary classes (AECs) and concrete functors is closed under constructions of \u201climit type,\u201d which generalizes the approach of Mariano, Zambrano and Villaveces away from the syntactically oriented framework of institutions.",
+    "token": " "
+  },
+  {
+    "sentence": " For any total category K , with defining adjunction : sup \u2062 \\ladj Y \u2192 K \u2062 s e t K \u2062 o p , the expression =",
+    "token": " "
+  },
+  {
+    "sentence": "\u2062 W ( a ) ( k ) \u2062 s e t \u2062 s e t K \u2062 o p ( \u2062 K ( a , sup - ) , [ k , - ] ) , where [ k , - ] is evaluation at k , provides a well-defined functor : W K \u2192 ^ K = \u2062 s e t K \u2062 o p .",
+    "token": "a"
+  },
+  {
+    "sentence": "We show that K is totally distributive iff \u03b3 is invertible iff \u2062 W \\ladj sup .",
+    "token": "sup"
+  },
+  {
+    "sentence": " There are few known computable examples of non-abelian surface holonomy.",
+    "token": " "
+  },
+  {
+    "sentence": "We introduce appropriate morphisms of intercategory, of which there are three types, and cells relating these.",
+    "token": "of"
+  },
+  {
+    "sentence": " We show that ann-categories admit a presentation by crossed bimodules, and prove that morphisms between them can be expressed by special kinds spans between the presentations.",
+    "token": " "
+  },
+  {
+    "sentence": "In the sections before the last section we give, for any C-system CC, three different constructions of pairs ((C,p),H) where (C,p) is a universe category and : H \u2192 \u2062 C C \u2062 C C ( C , p ) is an isomorphism.",
+    "token": "C"
+  },
+  {
+    "sentence": "In the sections before the last section we give, for any C-system CC, three different constructions of pairs ((C,p),H) where (C,p) is a universe category and : H \u2192 \u2062 C C \u2062 C C ( C , p ) is an isomorphism.",
+    "token": "p"
+  },
+  {
+    "sentence": " The purpose of this note is to understand the two out of three property of the model category in terms of the weak factorization systems.",
+    "token": " "
+  },
+  {
+    "sentence": " An arbitrary Lie groupoid gives rise to a groupoid of germs of local diffeomorphisms over its base manifold, known as its effect.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that for a differential graded Lie algebra g whose components vanish in degrees below -1 the nerve of the Deligne 2-groupoid is homotopy equivalent to the simplicial set of g-valued differential forms introduced by V. Hinich.",
+    "token": " "
+  },
+  {
+    "sentence": " We introduce the second cohomology categorical group of a categorical group G with coefficients in a symmetric G-categorical group and we show that it classifies extensions of G with symmetric kernel and a functorial section.",
+    "token": " "
+  },
+  {
+    "sentence": " The \u201dlinear dual\u201d of a cocomplete linear category C is the category of all cocontinuous linear functors \u2192 C \u2062 V e c t .",
+    "token": " "
+  },
+  {
+    "sentence": " We introduce an apparent strengthening of Sufficient Cohesion that we call Stable Connected Codiscreteness (SCC) and show that if p : E - - & g t ; S is cohesive and satisfies SCC then the internal axiom of choice holds in S .",
+    "token": " "
+  },
+  {
+    "sentence": "Control theory uses \u2018signal-flow diagrams\u2019 to describe processes where real-valued functions of time are added, multiplied by scalars, differentiated and integrated, duplicated and deleted.",
+    "token": "multiplied"
+  },
+  {
+    "sentence": " We define a model category structure on a slice category of simplicial spaces, called the \u201dSegal group action\u201d structure, whose fibrant-cofibrant objects may be viewed as representing spaces X with an action of a fixed Segal group (i.e. a group-like, reduced Segal space).",
+    "token": " "
+  },
+  {
+    "sentence": "We show that this model structure is Quillen equivalent to the projective model structure on G -spaces, \u2062 S B G , w h e r e G \u2062 i s a s i m p l i c i a l g r o u p c o r r e s p o n d i n g t o t h e S e g a l g r o u p . \u2062 O n e a d v a n t a g e o f t h i s m o d e l i s t h a t i f w e s t a r t w i t h a n o r d i n a r y g r o u p a c t i o n X\u2208S^BG \u2062 a n d a p p l y a w e a k l y m o n o i d a l f u n c t o r o f s p a c e s L: S \u2192S \u2062 ( \u2062 s u c h a s l o c a l i z a t i o n o r c o m p l e t i o n ) o n e a c h s i m p l i c i a l d e g r e e o f i t s a s s o c i a t e d S e g a l g r o u p a c t i o n , \u2062 w e g e t a n e w S e g a l g r o u p a c t i o n o f LG \u2062 o n LX - \u2062 w h i c h c a n t h e n b e r i g i d i f i e d v i a t h e a b o v e \u2062 m e n t i o n e d Q u i l l e n e q u i v a l e n c e .",
+    "token": "p"
+  },
+  {
+    "sentence": "Given a small quantaloid Q with a set of objects Q_0, it is proved that complete skeletal Q-categories, completely distributive skeletal Q-categories, and Q-powersets of Q-typed sets are all monadic over athe slice category of Set over Q_0.",
+    "token": "all"
+  },
+  {
+    "sentence": " We study the accessibility properties of trivial cofibrations and weak equivalences in a combinatorial model category and prove an estimate for the accessibility rank of weak equivalences.",
+    "token": " "
+  },
+  {
+    "sentence": " It is well known how to compute the number of orbits of a group action.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that there are infinitely many distinct closed classes of colimits (in the sense of the Galois connection induced by commutation of limits and colimits in Set) which are intermediate between the class of pseudo-filtered colimits and that of all (small) colimits.",
+    "token": " "
+  },
+  {
+    "sentence": "The third correspondence subsumes the other two; here the (E, M) are all right-semireplete factorization systems.",
+    "token": "all"
+  },
+  {
+    "sentence": " We give several reformulations of action accessibility in the sense of D. Bourn and G. Janelidze.",
+    "token": " "
+  },
+  {
+    "sentence": " Generalized operads, also called generalized multicategories and T -monoids, are defined as monads within a Kleisli bicategory.",
+    "token": " "
+  },
+  {
+    "sentence": " We study and, in a number of cases, classify completely the limit closures in the category of commutative rings of subcategories of integral domains.",
+    "token": " "
+  },
+  {
+    "sentence": " The study of sup lattices teaches us the important distinction between the algebraic part of the structure (in this case suprema) and the coincidental part of the structure (in this case infima).",
+    "token": " "
+  },
+  {
+    "sentence": " We extend to semi-abelian categories the notion of characteristic subobject, which is widely used in group theory and in the theory of Lie algebras.",
+    "token": " "
+  },
+  {
+    "sentence": " We generalize Quillen\u2019s Theorem A to triangles of lax 2-functors which commute up to transformation.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that the homotopy colimit construction for diagrams of categories with an operad action, recently introduced by Fiedorowicz, Stelzer and Vogt, has the desired homotopy type for diagrams of weak braided monoidal categories.",
+    "token": " "
+  },
+  {
+    "sentence": " It is proved that for any small Grothendieck site X, there exists a coreflection (called cosheafification) from the category of precosheaves on X with values in a category K , to the full subcategory of cosheaves, provided either K or K \u2062 o p is locally presentable.",
+    "token": " "
+  },
+  {
+    "sentence": "In this paper we continue, following the pioneering works by J. Cartmell and T. Streicher, the study of the most important structures on C-systems, the structures that correspond, in the case of the syntactic C-systems, to the ( \u03a0 , \u03bb , \u2062 a p p , \u03b2 , \u03b7 ) -system of inference rules.",
+    "token": "p"
+  },
+  {
+    "sentence": " The theory of monads on categories equipped with a dagger (a contravariant identity-on-objects involutive endofunctor) works best when all structure respects the dagger: the monad and adjunctions should preserve the dagger, and the monad and its algebras should satisfy the so-called Frobenius law.",
+    "token": " "
+  },
+  {
+    "sentence": " Sheaves are objects of a local nature: a global section is determined by how it looks locally.",
+    "token": " "
+  },
+  {
+    "sentence": " Projectivity, continuity and adjointness: quantales, Q-posets and Q-modules",
+    "token": " "
+  },
+  {
+    "sentence": "In the case M has colimits and the monoidal structure in M preserves colimits in each argument, we prove that the Yoneda embedding A to P_M(A) is a universal functor from A to a category with colimits, left-tensored over M.",
+    "token": "left"
+  },
+  {
+    "sentence": " We give a direct proof that the category of strict \u03c9 -categories is monadic over the category of polygraphs.",
+    "token": " "
+  },
+  {
+    "sentence": " A compact closed bicategory is a symmetric monoidal bicategory where every object is equipped with a weak dual.",
+    "token": " "
+  },
+  {
+    "sentence": "We give several examples of compact closed bicategories, then review previous work.",
+    "token": "review"
+  },
+  {
+    "sentence": " We develop a homotopy theory of categories enriched in a monoidal model category V.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that in any symmetric monoidal category, if a weight for colimits is absolute, then the resulting colimit of any diagram of dualizable objects is again dualizable.",
+    "token": " "
+  },
+  {
+    "sentence": " We study the gerbal representations of a finite group G or, equivalently, module categories over Ostrik\u2019s category \u2062 V e c G \u03b1 for a 3-cocycle \u03b1 .",
+    "token": " "
+  },
+  {
+    "sentence": " We define a notion of morphism for quotient vector bundles that yields both a category \u2062 Q V B u n and a contravariant global sections functor : C \u2192 \u2062 Q V B u n \u2062 o p \u2062 V e c t whose restriction to trivial vector bundles with fiber F coincides with the contravariant functor \u2192 \u2062 T o p \u2062 o p \u2062 V e c t of F-valued continuous functions. Based on this we obtain a linear extension of the adjunction between the categories of topological spaces and locales",
+    "token": " "
+  },
+  {
+    "sentence": " We show that the morphism axiom for n-angulated categories is redundant.",
+    "token": " "
+  },
+  {
+    "sentence": " Model categories have long been a useful tool in homotopy theory, allowing many generalizations of results in topological spaces to other categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We introduced in a previous article a notion of Mal\u2019tsevness relative to a specific class \u03a3 of split epimorphisms.",
+    "token": " "
+  },
+  {
+    "sentence": " A categorical principal bundle is a structure comprised of categories that is analogous to a classical principal bundle; examples arise from geometric contexts involving bundles over path spaces.",
+    "token": " "
+  },
+  {
+    "sentence": " We present a brief and simple cotriple description of the simplicial algebra used in Bloch\u2019s construction of the higher Chow groups.",
+    "token": " "
+  },
+  {
+    "sentence": " By Isbell duality, each compact regular frame L is isomorphic to the frame of opens of a compact Hausdorff space X. In this note we study the spectrum Spec(L) of prime filters of a compact regular frame L.",
+    "token": " "
+  },
+  {
+    "sentence": " We revisit what we call the fibred topology on a fibred category over a site and we prove a few basic results concerning this topology.",
+    "token": " "
+  },
+  {
+    "sentence": " In this paper we investigate the construction of bicategories of fractions originally described by D. Pronk: given any bicategory C together with a suitable class of morphisms W , one can construct a bicategory \u2062 C [ W - 1 ] , where all the morphisms of W are turned into internal equivalences, and that is universal with respect to this property.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove a biadjoint triangle theorem and its strict version, which are 2-dimensional analogues of the adjoint triangle theorem of Dubuc.",
+    "token": " "
+  },
+  {
+    "sentence": " There is a general notion of the magnitude of an enriched category, defined subject to hypotheses.",
+    "token": " "
+  },
+  {
+    "sentence": " Under a minimum of assumptions, we develop in generality the basic theory of universal algebra in a symmetric monoidal closed category V with respect to a specified system of arities : j \u21aa J V .",
+    "token": " "
+  },
+  {
+    "sentence": " Birkhoff\u2019s variety theorem from universal algebra characterises equational subcategories of varieties.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that every small model category that satisfies certain size conditions can be completed to yield a combinatorial model category, and conversely, every combinatorial model category arises in this way.",
+    "token": " "
+  },
+  {
+    "sentence": " We develop the homotopy theory of Euler characteristic (magnitude) of a category enriched in a monoidal model category.",
+    "token": " "
+  },
+  {
+    "sentence": " We study a categorical commutator, introduced by Huq, defined for a pair of coterminal morphisms.",
+    "token": " "
+  },
+  {
+    "sentence": " We give several reformulations of action representability of a category as well as action representability of its category of morphisms.",
+    "token": " "
+  },
+  {
+    "sentence": " We construct an operad Phyl whose operations are the edge-labelled trees used in phylogenetics.",
+    "token": " "
+  },
+  {
+    "sentence": " We define a right Cartan-Eilenberg structure on the category of Kan\u2019s combinatorial spectra, and the category of sheaves of such spectra, assuming some conditions.",
+    "token": " "
+  },
+  {
+    "sentence": " We associate, in a functorial way, a monoidal bicategory Span\u2014V to any monoidal bicategory V.",
+    "token": " "
+  },
+  {
+    "sentence": "We show that a commutative monoid A is coexponentiable in CMon(V) if and only if - \u2297 A : V \u2192 V has a left adjoint, when V is a cocomplete symmetric monoidal closed category with finite biproducts and in which every object is a quotient of a free.",
+    "token": "if"
+  },
+  {
+    "sentence": " The key notion to understand the left determined Olschok model category of star-shaped Cattani-Sassone transition systems is past-similarity.",
+    "token": " "
+  },
+  {
+    "sentence": " As we all know, the complete lattice I_D(S) of all D-ideals of a meet-semilattice S is precisely the injective hull of S in the category of meet-semilattices.",
+    "token": " "
+  },
+  {
+    "sentence": " If C is a category with pullbacks then there is a bicategory with the same objects as C, spans as morphisms, and maps of spans as 2-morphisms, as shown by Benabou.",
+    "token": " "
+  },
+  {
+    "sentence": " Connections are an important tool of differential geometry.",
+    "token": " "
+  },
+  {
+    "sentence": " We prove a fundamental lemma of homological algebra and show how it sets a framework for many different lifting (or comparison) theorems of homological algebra and algebraic topology.",
+    "token": " "
+  },
+  {
+    "sentence": " We define a Levi category to be a weakly orthogonal category equipped with a suitable length functor and prove two main theorems about them.",
+    "token": " "
+  },
+  {
+    "sentence": "We exploit this result in order to give a constructive proof of conceptual completeness for regular logic.",
+    "token": "order"
+  },
+  {
+    "sentence": " We give several new ways of constructing spectral spaces starting with objects in abelian categories satisfying certain conditions which apply, in particular, to Grothendieck categories.",
+    "token": " "
+  },
+  {
+    "sentence": " Finitary monads on a locally finitely presentable category A are well-known to possess a presentation by signatures and equations.",
+    "token": " "
+  },
+  {
+    "sentence": " We explicitly show that symmetric Frobenius structures on a finite-dimensional, semi-simple algebra stand in bijection to homotopy fixed points of the trivial SO(2)-action on the bicategory of finite-dimensional, semi-simple algebras, bimodules and intertwiners.",
+    "token": " "
+  },
+  {
+    "sentence": " Databases have been studied category-theoretically for decades.",
+    "token": " "
+  },
+  {
+    "sentence": " We will construct a Quillen model structure out of the multiplier ideal sheaves on a smooth quasi-projective variety using earlier works of Isaksen and Barnea and Schlank.",
+    "token": " "
+  },
+  {
+    "sentence": "In other words, a closure operator consists of a functor : C \u2192 M M and a natural transformation : c \u2192 1 M C such that = \u22c5 cod C C and = \u22c5 cod c 1 cod .",
+    "token": "\u22c5"
+  },
+  {
+    "sentence": " At the heart of differential geometry is the construction of the tangent bundle of a manifold.",
+    "token": " "
+  },
+  {
+    "sentence": "Tangent Structure is defined via giving an underlying category M and a tangent functor T along with a list of natural transformations satisfying a set of axioms, then detailing the behaviour of T in the category End(M).",
+    "token": "detailing"
+  },
+  {
+    "sentence": " Just as binary relations between sets may be understood as jointly monic spans, so too may equivalence relations on the disjoint union of sets be understood as jointly epic cospans.",
+    "token": " "
+  },
+  {
+    "sentence": " We consider Toeplitz and Cuntz-Krieger C * -algebras associated with finitely aligned left cancellative small categories.",
+    "token": " "
+  },
+  {
+    "sentence": " Coarse-graining is a standard method of extracting a simpler Markov process from a more complicated one by identifying states.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that a Hopf monad on a *-autonomous category lifts *-autonomous structure to the category of algebras precisely when there is an algebra structure on the dualizing object.",
+    "token": " "
+  },
+  {
+    "sentence": " The Faa di Bruno construction, introduced by Cockett and Seely, constructs a comonad Faa whose coalgebras are precisely Cartesian differential categories.",
+    "token": " "
+  },
+  {
+    "sentence": " Quantum categories have been recently studied because of their relation to bialgebroids, small categories, and skew monoidales.",
+    "token": " "
+  },
+  {
+    "sentence": "A quantum category is an opmonoidal monad on the monoidale associated to a biduality \u22a3 R R o , or enveloping monoidale, in a monoidal bicategory of modules \\Mod ( V ) \u2062 f o r a m o n o i d a l c a t e g o r y V . L a c k a n d S t r e e t p r o v e d t h a t q u a n t u m c a t e g o r i e s a r e i n e q u i v a l e n c e w i t h r i g h t s k e w m o n o i d a l e s w h o s e u n i t h a s a r i g h t a d j o i n t i n \\Mod(V) . O u r f i r s t i m p o r t a n t r e s u l t i s s i m i l a r t o t h a t o f L a c k a n d S t r e e t . I t i s a c h a r a c t e r i s a t i o n o f o p m o n o i d a l a r r o w s o n e n v e l o p i n g m o n o i d a l e s i n t e r m s o f a n e w s t r u c t u r e n a m e d o p l a x a c t i o n .",
+    "token": "\\Mod(V"
+  },
+  {
+    "sentence": " We study deformation of tube algebra under twisting of graded monoidal categories.",
+    "token": " "
+  },
+  {
+    "sentence": " In this paper we consider a crossed product of two crossed modules of Hopf monoids in a strict symmetric monoidal category C and give necessary and sufficient conditions to get a new crossed module of Hopf monoids in C .",
+    "token": " "
+  },
+  {
+    "sentence": " The Ehresmann-Schein-Nambooripad (ESN) Theorem asserts an equivalence between the category of inverse semigroups and the category of inductive groupoids.",
+    "token": " "
+  },
+  {
+    "sentence": "With respect to the language of Frobenius objects, there is no distinction between these spheres - they are all free of additional equations formulated in this language.",
+    "token": "all"
+  },
+  {
+    "sentence": " We associate to a 2-vector bundle over an essentially finite groupoid a 2-vector space of parallel sections, or, in representation theoretic terms, of higher invariants, which can be described as homotopy fixed points.",
+    "token": " "
+  },
+  {
+    "sentence": " The interleaving distance was originally defined in the field of Topological Data Analysis (TDA) by Chazal et al. as a metric on the class of persistence modules parametrized over the real line.",
+    "token": " "
+  },
+  {
+    "sentence": "It happens that isotropy rank of a small category is an instance of the same concept for Grothendieck toposes, for which corresponding statements hold.",
+    "token": "for"
+  },
+  {
+    "sentence": "For a small quantaloid Q, we investigate the Q-enriched version of this classical result, i.e., the regularity of Q-distributors versus the constructive complete distributivity (ccd) of Q-categories, and prove that \u201cthe dual of \u2062 K \u03d5 is (ccd) implies \u03d5 is regular implies \u2062 K \u03d5 is (ccd)\u201d for any Q-distributor \u03d5 .",
+    "token": "("
+  },
+  {
+    "sentence": "For a small quantaloid Q, we investigate the Q-enriched version of this classical result, i.e., the regularity of Q-distributors versus the constructive complete distributivity (ccd) of Q-categories, and prove that \u201cthe dual of \u2062 K \u03d5 is (ccd) implies \u03d5 is regular implies \u2062 K \u03d5 is (ccd)\u201d for any Q-distributor \u03d5 .",
+    "token": "ccd"
+  },
+  {
+    "sentence": "For a small quantaloid Q, we investigate the Q-enriched version of this classical result, i.e., the regularity of Q-distributors versus the constructive complete distributivity (ccd) of Q-categories, and prove that \u201cthe dual of \u2062 K \u03d5 is (ccd) implies \u03d5 is regular implies \u2062 K \u03d5 is (ccd)\u201d for any Q-distributor \u03d5 .",
+    "token": "implies"
+  },
+  {
+    "sentence": "For a small quantaloid Q, we investigate the Q-enriched version of this classical result, i.e., the regularity of Q-distributors versus the constructive complete distributivity (ccd) of Q-categories, and prove that \u201cthe dual of \u2062 K \u03d5 is (ccd) implies \u03d5 is regular implies \u2062 K \u03d5 is (ccd)\u201d for any Q-distributor \u03d5 .",
+    "token": "("
+  },
+  {
+    "sentence": "For a small quantaloid Q, we investigate the Q-enriched version of this classical result, i.e., the regularity of Q-distributors versus the constructive complete distributivity (ccd) of Q-categories, and prove that \u201cthe dual of \u2062 K \u03d5 is (ccd) implies \u03d5 is regular implies \u2062 K \u03d5 is (ccd)\u201d for any Q-distributor \u03d5 .",
+    "token": "ccd"
+  },
+  {
+    "sentence": " The formation of the \u201dstrict\u201d span category Span(C) of a category C with pullbacks is a standard organizational tool of category theory.",
+    "token": " "
+  },
+  {
+    "sentence": " Stable derivators provide an enhancement of triangulated categories as is indicated by the existence of canonical triangulations.",
+    "token": " "
+  },
+  {
+    "sentence": " We study spans of cospans in a category C and explain how to horizontally and vertically compose these.",
+    "token": " "
+  },
+  {
+    "sentence": " In this technical note, we proffer a very explicit construction of the dual cocartesian fibration of a cartesian fibration, and we show they are classified by the same functor to the \u221e -category of \u221e -categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We extend to the category of crossed modules of Leibniz algebras the notion of biderivation via the action of a Leibniz algebra.",
+    "token": " "
+  },
+  {
+    "sentence": "We then consider categories satisfying (P) locally, i.e., those categories for which every fibre of the fibration of points satisfies (P).",
+    "token": "categories"
+  },
+  {
+    "sentence": " Universal algebra uniformly captures various algebraic structures, by expressing them as equational theories or abstract clones.",
+    "token": " "
+  },
+  {
+    "sentence": " For finitary regular monads T on locally finitely presentable categories we characterize the finitely presentable objects in the category of T-algebras in the style known from general algebra: they are precisely the algebras presentable by finitely many generators and finitely many relations.",
+    "token": " "
+  },
+  {
+    "sentence": " Higher categorical structures are often defined by induction on dimension, which a priori produces only finite-dimensional structures.",
+    "token": " "
+  },
+  {
+    "sentence": " This paper studies the homotopy theory of parametrized spectrum objects in a model category from a global point of view.",
+    "token": " "
+  },
+  {
+    "sentence": " We say a set-valued functor on a category is nearly representable if it is a quotient of a representable functor by a group of automorphisms.",
+    "token": " "
+  },
+  {
+    "sentence": " Poly-bicategories generalise planar polycategories in the same way as bicategories generalise monoidal categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We construct a generalization of the operadic nerve, providing a translation between the equivariant simplicially enriched operadic world to the parametrized \u221e -categorical perspective.",
+    "token": " "
+  },
+  {
+    "sentence": " A Lie 2-group G is a category internal to the category of Lie groups.",
+    "token": " "
+  },
+  {
+    "sentence": "On the other hand there is a well-known construction that associates a Lie 2-algebra g to a Lie 2-group G: apply the functor Lie : LieGp -&gt; LieAlg to the structure maps of the category G.",
+    "token": "apply"
+  },
+  {
+    "sentence": "Using the notions of an M-cone and a separated T-horn it is shown that if X is M-well-powered, then the ordinal sequence stabilizes at the desired free algebra or coequalizer or other colimit whenever they exist.",
+    "token": "M"
+  },
+  {
+    "sentence": " We unify previous constructions from our work on concurrent game semantics into a single categorical framework.",
+    "token": " "
+  },
+  {
+    "sentence": " Having given a characterization of the categorical congruence modularity getting rid of the assumption that the ground category is regular, we give now a characterization of the categorical congruence distributivity.",
+    "token": " "
+  },
+  {
+    "sentence": " We study properties of a category after quotienting out a suitable chosen group of isomorphisms on each object.",
+    "token": " "
+  },
+  {
+    "sentence": " We develop a notion of limit for dagger categories, that we show is suitable in the following ways: it subsumes special cases known from the literature; dagger limits are unique up to unitary isomorphism; a wide class of dagger limits can be built from a small selection of them; dagger limits of a fixed shape can be phrased as dagger adjoints to a diagonal functor; dagger limits can be built from ordinary limits in the presence of polar decomposition; dagger limits commute with dagger colimits in many cases.",
+    "token": " "
+  },
+  {
+    "sentence": " If C is a monoidal category with reflexive coequalizers which are preserved by tensoring from both sides, then the category MonC of monoids over C has all coequalizers and these are regular epimorphisms in C.",
+    "token": " "
+  },
+  {
+    "sentence": " Van den Bergh has defined the blowup of a noncommutative surface at a point lying on a commutative divisor.",
+    "token": " "
+  },
+  {
+    "sentence": " We introduce a new condition on an abstract span of categories which we refer to as having right fibred right adjoints, RFRA for short.",
+    "token": " "
+  },
+  {
+    "sentence": " We relate the relative nerve \u2062 N f ( D ) of a diagram of simplicial sets : f \u2192 D \u2062 s S e t with the Grothendieck construction \u2062 G r F of a simplicial functor : F \u2192 D \u2062 s C a t in the case where = f \u2062 N F .",
+    "token": " "
+  },
+  {
+    "sentence": " We relate the relative nerve \u2062 N f ( D ) of a diagram of simplicial sets : f \u2192 D \u2062 s S e t with the Grothendieck construction \u2062 G r F of a simplicial functor : F \u2192 D \u2062 s C a t in the case where = f \u2062 N F .",
+    "token": "F"
+  },
+  {
+    "sentence": " We give necessary and sufficient conditions on a presentable \u221e -category C so that families of objects of C form an \u221e -topos.",
+    "token": " "
+  },
+  {
+    "sentence": " We define and study a probability monad on the category of complete metric spaces and short maps.",
+    "token": " "
+  },
+  {
+    "sentence": " This is the first part of a series of papers studying the problem of existence of double categories for which horizontal bicategory and object category are given.",
+    "token": " "
+  },
+  {
+    "sentence": " We give a unified direct proof of the lifting of PIE limits to the 2-category of algebras and (pseudo) morphisms, which specifies precisely which of the projections of the lifted limit are strict and detect strictness.",
+    "token": " "
+  },
+  {
+    "sentence": "PIE limits are also all simultaneously lifted in this case, provided some specified arrows of the diagram are pseudo morphisms.",
+    "token": "all"
+  },
+  {
+    "sentence": " Involutive category theory provides a flexible framework to describe involutive structures on algebraic objects, such as anti-linear involutions on complex vector spaces.",
+    "token": " "
+  },
+  {
+    "sentence": "The simplest instance is the associative *-operad, whose *-algebras are unital and associative *-algebras.",
+    "token": "whose"
+  },
+  {
+    "sentence": "The simplest instance is the associative *-operad, whose *-algebras are unital and associative *-algebras.",
+    "token": "*"
+  },
+  {
+    "sentence": " We explain how, in the context of a semi-abelian category, the concept of an internal crossed square may be used to set up an intrinsic approach to the Brown-Loday non-abelian tensor product.",
+    "token": " "
+  },
+  {
+    "sentence": " We consider pre-exponentiable objects of a pre-cartesian double category D, i.e., objects Y such that the lax functor - x Y: D \u2013&gt; D has a right adjoint in the 2-category LxDbl of double categories and lax functors.",
+    "token": " "
+  },
+  {
+    "sentence": "We determine the largest submonoid of the monoid of continuous endomorphisms of the unit interval [0,1] on which the finite partitions form the basis of a Grothendieck topology, and thus determine a cohesive topos over sets.",
+    "token": "]"
+  },
+  {
+    "sentence": " We lift the standard equivalence between fibrations and indexed categories to an equivalence between monoidal fibrations and monoidal indexed categories, namely lax monoidal pseudofunctors to the 2-category of categories.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that the various higher Segal conditions of Dyckerhoff and Kapranov can all be characterized in purely categorical terms by higher excision conditions (in the spirit of Goodwillie\u2013Weiss manifold calculus) on the simplex category \u0394 and the cyclic category \u039b.",
+    "token": " "
+  },
+  {
+    "sentence": " We show that the various higher Segal conditions of Dyckerhoff and Kapranov can all be characterized in purely categorical terms by higher excision conditions (in the spirit of Goodwillie\u2013Weiss manifold calculus) on the simplex category \u0394 and the cyclic category \u039b.",
+    "token": "all"
+  },
+  {
+    "sentence": " We introduce a notion of \u201dweak model category\u201d which is a weakening of the notion of Quillen model category, still sufficient to define a homotopy category, Quillen adjunctions, Quillen equivalences, and most of the usual constructions of categorical homotopy theory.",
+    "token": " "
+  },
+  {
+    "sentence": "The Chu and Dialectica constructions each impose additional hypotheses making the resulting polycategory representable (hence *-autonomous), but for different reasons; this leads to their apparent differences.",
+    "token": "each"
+  },
+  {
+    "sentence": " We introduce the notion of a braiding on a skew monoidal category, whose curious feature is that the defining isomorphisms involve three objects rather than two.",
+    "token": " "
+  }
+]
