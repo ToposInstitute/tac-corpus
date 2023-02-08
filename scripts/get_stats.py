@@ -64,9 +64,11 @@ def filter_mathml(text):
 
     soup = BeautifulSoup(xml, "xml")
 
+    count = len(soup.find_all("Math"))
+
     result = re.sub('\s+', ' ', soup.get_text())
 
-    return result
+    return (result, count)
 
 def main():
 
@@ -98,12 +100,15 @@ def main():
 
         data = json.load(infile)
 
+        latex_count = 0
+
         for article in tqdm(data):
 
             documents += 1
 
             content = article['abstract']
-            content = filter_mathml(content)
+            content, latex_increment = filter_mathml(content)
+            latex_count += latex_increment
 
             #if EXCLUDE_CATEGORIES.search(content):
             #    removed += 1
@@ -230,6 +235,7 @@ def main():
             'compounds': compounds,
             'entities': entities,
             'removed': removed,
+            'latex_expressions': latex_count,
             'pos_stats': {pos: dict(sorted(pos_stats[pos].items(), key=lambda
                 item: item[1], reverse=True)[:50]) for pos in pos_stats},
             'tag_stats': {tag: dict(sorted(tag_stats[tag].items(), key=lambda
@@ -244,7 +250,7 @@ def main():
             #'entity_examples': entity_examples,
         }
 
-        json.dump(data, outfile)
+        json.dump(data, outfile, indent=2)
 
 if __name__ == "__main__":
 
