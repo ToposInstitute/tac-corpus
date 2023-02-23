@@ -1,9 +1,34 @@
 import json
+import re
 import spacy
+import subprocess
 
+from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-nlp = spacy.load('en_core_sci_scibert')
+nlp = spacy.load('en_core_web_trf')
+
+def filter_mathml(text):
+
+    content = """
+\\documentclass{standalone}
+\\usepackage{amsmath,amssymb}
+
+\\begin{document}
+
+%s
+
+\\end{document}
+    """ % text
+
+    xml = subprocess.run(['latexml', '-'], input=content, capture_output=True,
+            encoding='UTF-8').stdout
+
+    soup = BeautifulSoup(xml, "xml")
+
+    result = re.sub('\s+', ' ', soup.get_text())
+
+    return result
 
 def main():
 
@@ -13,7 +38,8 @@ def main():
     with open('processed/tac_dygiepp.json', 'w') as outfile:
         for abstract in tqdm(data):
             sentences = []
-            doc = nlp(abstract['abstract'])
+            content = filter_mathml(abstract['abstract'])
+            doc = nlp(content)
             for sentence in doc.sents:
                 hyphenated = False
                 tokens = []

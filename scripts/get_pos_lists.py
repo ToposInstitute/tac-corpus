@@ -1,3 +1,4 @@
+import csv
 import requests
 import time
 
@@ -23,7 +24,8 @@ def main():
                 if token['upos'] == 'PROPN':
                     propn[lemma] += 1
 
-    with open('noun.txt', 'w') as outfile:
+    with open('noun.csv', 'w', newline='') as outfile:
+        writer = csv.writer(outfile)
         for (token, frequency) in tqdm(sorted(noun.items(), key=lambda x: x[1],
                 reverse=True)):
 
@@ -39,7 +41,7 @@ def main():
             for annotation in result_data.get('annotations', []):
                 for tag in annotation.get('tags', []):
                     urls.append("wikidata.org/wiki/%s" % tag['id'])
-            outfile.write("%s,%d,%s\n" % (token, frequency, ';'.join(urls)))
+            writer.writerow([token, frequency, ';'.join(urls)])
 
     with open('propn.txt', 'w') as outfile:
         for (token, frequency) in tqdm(sorted(propn.items(), key=lambda x: x[1],
