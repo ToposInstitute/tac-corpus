@@ -5,7 +5,8 @@ import time
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-OT_URL = "https://nlab.opentapioca.org/api/annotate"
+ENDPOINT = "https://wikidata.org/w/api.php?action=query&list=search&format=json&srsearch=%s"
+#OT_URL = "https://nlab.opentapioca.org/api/annotate"
 
 def main():
 
@@ -32,16 +33,23 @@ def main():
                         ngram.find_all('w')])
 
                     while True:
-                        result = requests.post(OT_URL, data={'query': surface})
-                        if result.status_code == 503:
-                            print("Server overloaded")
+                        #result = requests.post(OT_URL, data={'query': surface})
+                        try:
+                            result = requests.post(ENDPOINT % surface)
+                            if result.status_code == 503:
+                                print("Server overloaded")
+                                time.sleep(5)
+                                continue
+                            result_data = result.json()
+                            break
+                        except:
+                            print("Other error. Retrying.")
                             time.sleep(5)
-                            continue
-                        result_data = result.json()
-                        break
-                    for annotation in result_data.get('annotations', []):
-                        for tag in annotation.get('tags', []):
-                            links.append("wikidata.org/wiki/%s" % tag['id'])
+                    for annotation in result_data['query']['search']:
+                        links.append("wikidata.org/wiki/%s" % annotation['title'])
+                    #for annotation in result_data.get('annotations', []):
+                    #    for tag in annotation.get('tags', []):
+                    #        links.append("wikidata.org/wiki/%s" % tag['id'])
 
                 writer.writerow({
                     'candidate': candidate,
