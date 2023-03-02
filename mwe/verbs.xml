@@ -1,0 +1,3909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE candidates SYSTEM "dtd/mwetoolkit-candidates.dtd">
+<!-- MWETOOLKIT: filetype="XML" -->
+<candidates >
+<meta>
+</meta>
+<cand candid="1">
+    <ngram><w lemma="solve" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="solve" lemma="solve" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="solved" lemma="solve" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="solves" lemma="solve" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="2">
+    <ngram><w lemma="translate" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="translate" lemma="translate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="translated" lemma="translate" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="translating" lemma="translate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="3">
+    <ngram><w lemma="yield" /> <freq name="tac.conll" value="17" /></ngram>
+    <occurs>
+    <ngram><w surface="yield" lemma="yield" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="yielding" lemma="yield" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="yields" lemma="yield" /> <freq name="tac.conll" value="11" /></ngram>
+    </occurs>
+</cand>
+<cand candid="4">
+    <ngram><w lemma="decide" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="deciding" lemma="decide" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="5">
+    <ngram><w lemma="be" /> <freq name="tac.conll" value="2491" /></ngram>
+    <occurs>
+    <ngram><w surface="Are" lemma="be" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="are" lemma="be" /> <freq name="tac.conll" value="663" /></ngram>
+    <ngram><w surface="be" lemma="be" /> <freq name="tac.conll" value="340" /></ngram>
+    <ngram><w surface="been" lemma="be" /> <freq name="tac.conll" value="23" /></ngram>
+    <ngram><w surface="being" lemma="be" /> <freq name="tac.conll" value="28" /></ngram>
+    <ngram><w surface="is" lemma="be" /> <freq name="tac.conll" value="1382" /></ngram>
+    <ngram><w surface="was" lemma="be" /> <freq name="tac.conll" value="34" /></ngram>
+    <ngram><w surface="were" lemma="be" /> <freq name="tac.conll" value="20" /></ngram>
+    </occurs>
+</cand>
+<cand candid="6">
+    <ngram><w lemma="use" /> <freq name="tac.conll" value="212" /></ngram>
+    <occurs>
+    <ngram><w surface="Using" lemma="use" /> <freq name="tac.conll" value="23" /></ngram>
+    <ngram><w surface="use" lemma="use" /> <freq name="tac.conll" value="48" /></ngram>
+    <ngram><w surface="used" lemma="use" /> <freq name="tac.conll" value="56" /></ngram>
+    <ngram><w surface="uses" lemma="use" /> <freq name="tac.conll" value="13" /></ngram>
+    <ngram><w surface="using" lemma="use" /> <freq name="tac.conll" value="72" /></ngram>
+    </occurs>
+</cand>
+<cand candid="7">
+    <ngram><w lemma="reason" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="reason" lemma="reason" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="reasoning" lemma="reason" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="8">
+    <ngram><w lemma="sidestep" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="sidestepping" lemma="sidestep" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="9">
+    <ngram><w lemma="show" /> <freq name="tac.conll" value="407" /></ngram>
+    <occurs>
+    <ngram><w surface="show" lemma="show" /> <freq name="tac.conll" value="314" /></ngram>
+    <ngram><w surface="showed" lemma="show" /> <freq name="tac.conll" value="12" /></ngram>
+    <ngram><w surface="showing" lemma="show" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="shown" lemma="show" /> <freq name="tac.conll" value="58" /></ngram>
+    <ngram><w surface="shows" lemma="show" /> <freq name="tac.conll" value="14" /></ngram>
+    </occurs>
+</cand>
+<cand candid="10">
+    <ngram><w lemma="explain" /> <freq name="tac.conll" value="17" /></ngram>
+    <occurs>
+    <ngram><w surface="explain" lemma="explain" /> <freq name="tac.conll" value="15" /></ngram>
+    <ngram><w surface="explaining" lemma="explain" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="explains" lemma="explain" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="11">
+    <ngram><w lemma="introduce" /> <freq name="tac.conll" value="146" /></ngram>
+    <occurs>
+    <ngram><w surface="introduce" lemma="introduce" /> <freq name="tac.conll" value="82" /></ngram>
+    <ngram><w surface="introduced" lemma="introduce" /> <freq name="tac.conll" value="53" /></ngram>
+    <ngram><w surface="introduces" lemma="introduce" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="introducing" lemma="introduce" /> <freq name="tac.conll" value="8" /></ngram>
+    </occurs>
+</cand>
+<cand candid="12">
+    <ngram><w lemma="study" /> <freq name="tac.conll" value="116" /></ngram>
+    <occurs>
+    <ngram><w surface="studied" lemma="study" /> <freq name="tac.conll" value="19" /></ngram>
+    <ngram><w surface="studies" lemma="study" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="study" lemma="study" /> <freq name="tac.conll" value="82" /></ngram>
+    <ngram><w surface="studying" lemma="study" /> <freq name="tac.conll" value="8" /></ngram>
+    </occurs>
+</cand>
+<cand candid="13">
+    <ngram><w lemma="prove" /> <freq name="tac.conll" value="203" /></ngram>
+    <occurs>
+    <ngram><w surface="Proving" lemma="prove" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="prove" lemma="prove" /> <freq name="tac.conll" value="159" /></ngram>
+    <ngram><w surface="proved" lemma="prove" /> <freq name="tac.conll" value="34" /></ngram>
+    <ngram><w surface="proven" lemma="prove" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="proves" lemma="prove" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="proving" lemma="prove" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="14">
+    <ngram><w lemma="admit" /> <freq name="tac.conll" value="40" /></ngram>
+    <occurs>
+    <ngram><w surface="admit" lemma="admit" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="admits" lemma="admit" /> <freq name="tac.conll" value="29" /></ngram>
+    <ngram><w surface="admitting" lemma="admit" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="15">
+    <ngram><w lemma="decompose" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="decomposed" lemma="decompose" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="16">
+    <ngram><w lemma="discuss" /> <freq name="tac.conll" value="35" /></ngram>
+    <occurs>
+    <ngram><w surface="discuss" lemma="discuss" /> <freq name="tac.conll" value="21" /></ngram>
+    <ngram><w surface="discussed" lemma="discuss" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="discussing" lemma="discuss" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="17">
+    <ngram><w lemma="construct" /> <freq name="tac.conll" value="120" /></ngram>
+    <occurs>
+    <ngram><w surface="construct" lemma="construct" /> <freq name="tac.conll" value="69" /></ngram>
+    <ngram><w surface="constructed" lemma="construct" /> <freq name="tac.conll" value="32" /></ngram>
+    <ngram><w surface="constructing" lemma="construct" /> <freq name="tac.conll" value="15" /></ngram>
+    <ngram><w surface="constructs" lemma="construct" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="18">
+    <ngram><w lemma="give" /> <freq name="tac.conll" value="378" /></ngram>
+    <occurs>
+    <ngram><w surface="Given" lemma="give" /> <freq name="tac.conll" value="23" /></ngram>
+    <ngram><w surface="Giving" lemma="give" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="give" lemma="give" /> <freq name="tac.conll" value="166" /></ngram>
+    <ngram><w surface="given" lemma="give" /> <freq name="tac.conll" value="129" /></ngram>
+    <ngram><w surface="gives" lemma="give" /> <freq name="tac.conll" value="49" /></ngram>
+    <ngram><w surface="giving" lemma="give" /> <freq name="tac.conll" value="10" /></ngram>
+    </occurs>
+</cand>
+<cand candid="19">
+    <ngram><w lemma="associate" /> <freq name="tac.conll" value="64" /></ngram>
+    <occurs>
+    <ngram><w surface="Associated" lemma="associate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="associate" lemma="associate" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="associated" lemma="associate" /> <freq name="tac.conll" value="52" /></ngram>
+    <ngram><w surface="associates" lemma="associate" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="20">
+    <ngram><w lemma="cross" /> <freq name="tac.conll" value="44" /></ngram>
+    <occurs>
+    <ngram><w surface="crossed" lemma="cross" /> <freq name="tac.conll" value="44" /></ngram>
+    </occurs>
+</cand>
+<cand candid="21">
+    <ngram><w lemma="fit" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="fit" lemma="fit" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="fits" lemma="fit" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="fitting" lemma="fit" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="22">
+    <ngram><w lemma="treat" /> <freq name="tac.conll" value="9" /></ngram>
+    <occurs>
+    <ngram><w surface="treat" lemma="treat" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="treated" lemma="treat" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="treating" lemma="treat" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="treats" lemma="treat" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="23">
+    <ngram><w lemma="lead" /> <freq name="tac.conll" value="30" /></ngram>
+    <occurs>
+    <ngram><w surface="lead" lemma="lead" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="leading" lemma="lead" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="leads" lemma="lead" /> <freq name="tac.conll" value="17" /></ngram>
+    <ngram><w surface="led" lemma="lead" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="24">
+    <ngram><w lemma="suppose" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="Suppose" lemma="suppose" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="25">
+    <ngram><w lemma="satisfy" /> <freq name="tac.conll" value="88" /></ngram>
+    <occurs>
+    <ngram><w surface="satisfied" lemma="satisfy" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="satisfies" lemma="satisfy" /> <freq name="tac.conll" value="29" /></ngram>
+    <ngram><w surface="satisfy" lemma="satisfy" /> <freq name="tac.conll" value="20" /></ngram>
+    <ngram><w surface="satisfying" lemma="satisfy" /> <freq name="tac.conll" value="34" /></ngram>
+    </occurs>
+</cand>
+<cand candid="26">
+    <ngram><w lemma="establish" /> <freq name="tac.conll" value="35" /></ngram>
+    <occurs>
+    <ngram><w surface="establish" lemma="establish" /> <freq name="tac.conll" value="24" /></ngram>
+    <ngram><w surface="established" lemma="establish" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="establishes" lemma="establish" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="establishing" lemma="establish" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="27">
+    <ngram><w lemma="define" /> <freq name="tac.conll" value="204" /></ngram>
+    <occurs>
+    <ngram><w surface="define" lemma="define" /> <freq name="tac.conll" value="90" /></ngram>
+    <ngram><w surface="defined" lemma="define" /> <freq name="tac.conll" value="93" /></ngram>
+    <ngram><w surface="defines" lemma="define" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="defining" lemma="define" /> <freq name="tac.conll" value="11" /></ngram>
+    </occurs>
+</cand>
+<cand candid="28">
+    <ngram><w lemma="reduce" /> <freq name="tac.conll" value="17" /></ngram>
+    <occurs>
+    <ngram><w surface="reduce" lemma="reduce" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="reduced" lemma="reduce" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="reduces" lemma="reduce" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="29">
+    <ngram><w lemma="determine" /> <freq name="tac.conll" value="32" /></ngram>
+    <occurs>
+    <ngram><w surface="determine" lemma="determine" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="determined" lemma="determine" /> <freq name="tac.conll" value="16" /></ngram>
+    <ngram><w surface="determines" lemma="determine" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="determining" lemma="determine" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="30">
+    <ngram><w lemma="have" /> <freq name="tac.conll" value="261" /></ngram>
+    <occurs>
+    <ngram><w surface="Having" lemma="have" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="had" lemma="have" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="has" lemma="have" /> <freq name="tac.conll" value="137" /></ngram>
+    <ngram><w surface="have" lemma="have" /> <freq name="tac.conll" value="100" /></ngram>
+    <ngram><w surface="having" lemma="have" /> <freq name="tac.conll" value="22" /></ngram>
+    </occurs>
+</cand>
+<cand candid="31">
+    <ngram><w lemma="characterize" /> <freq name="tac.conll" value="66" /></ngram>
+    <occurs>
+    <ngram><w surface="characterize" lemma="characterize" /> <freq name="tac.conll" value="35" /></ngram>
+    <ngram><w surface="characterized" lemma="characterize" /> <freq name="tac.conll" value="19" /></ngram>
+    <ngram><w surface="characterizes" lemma="characterize" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="characterizing" lemma="characterize" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="32">
+    <ngram><w lemma="present" /> <freq name="tac.conll" value="71" /></ngram>
+    <occurs>
+    <ngram><w surface="present" lemma="present" /> <freq name="tac.conll" value="39" /></ngram>
+    <ngram><w surface="presented" lemma="present" /> <freq name="tac.conll" value="27" /></ngram>
+    <ngram><w surface="presents" lemma="present" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="33">
+    <ngram><w lemma="obtain" /> <freq name="tac.conll" value="87" /></ngram>
+    <occurs>
+    <ngram><w surface="obtain" lemma="obtain" /> <freq name="tac.conll" value="41" /></ngram>
+    <ngram><w surface="obtained" lemma="obtain" /> <freq name="tac.conll" value="39" /></ngram>
+    <ngram><w surface="obtaining" lemma="obtain" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="obtains" lemma="obtain" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="34">
+    <ngram><w lemma="invert" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="inverted" lemma="invert" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="inverting" lemma="invert" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="35">
+    <ngram><w lemma="apply" /> <freq name="tac.conll" value="46" /></ngram>
+    <occurs>
+    <ngram><w surface="Applied" lemma="apply" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="Applying" lemma="apply" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="applied" lemma="apply" /> <freq name="tac.conll" value="14" /></ngram>
+    <ngram><w surface="applies" lemma="apply" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="apply" lemma="apply" /> <freq name="tac.conll" value="22" /></ngram>
+    <ngram><w surface="applying" lemma="apply" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="36">
+    <ngram><w lemma="calculate" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="calculate" lemma="calculate" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="calculated" lemma="calculate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="calculating" lemma="calculate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="37">
+    <ngram><w lemma="motivate" /> <freq name="tac.conll" value="20" /></ngram>
+    <occurs>
+    <ngram><w surface="Motivated" lemma="motivate" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="motivated" lemma="motivate" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="motivating" lemma="motivate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="38">
+    <ngram><w lemma="generalize" /> <freq name="tac.conll" value="60" /></ngram>
+    <occurs>
+    <ngram><w surface="Generalizing" lemma="generalize" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="generalize" lemma="generalize" /> <freq name="tac.conll" value="26" /></ngram>
+    <ngram><w surface="generalized" lemma="generalize" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="generalizes" lemma="generalize" /> <freq name="tac.conll" value="18" /></ngram>
+    <ngram><w surface="generalizing" lemma="generalize" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="39">
+    <ngram><w lemma="shift" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="shifted" lemma="shift" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="shifting" lemma="shift" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="40">
+    <ngram><w lemma="emphasize" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="emphasize" lemma="emphasize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="emphasized" lemma="emphasize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="emphasizing" lemma="emphasize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="41">
+    <ngram><w lemma="enrich" /> <freq name="tac.conll" value="72" /></ngram>
+    <occurs>
+    <ngram><w surface="enrich" lemma="enrich" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="enriched" lemma="enrich" /> <freq name="tac.conll" value="71" /></ngram>
+    </occurs>
+</cand>
+<cand candid="42">
+    <ngram><w lemma="provide" /> <freq name="tac.conll" value="107" /></ngram>
+    <occurs>
+    <ngram><w surface="provide" lemma="provide" /> <freq name="tac.conll" value="43" /></ngram>
+    <ngram><w surface="provided" lemma="provide" /> <freq name="tac.conll" value="23" /></ngram>
+    <ngram><w surface="provides" lemma="provide" /> <freq name="tac.conll" value="30" /></ngram>
+    <ngram><w surface="providing" lemma="provide" /> <freq name="tac.conll" value="11" /></ngram>
+    </occurs>
+</cand>
+<cand candid="43">
+    <ngram><w lemma="describe" /> <freq name="tac.conll" value="93" /></ngram>
+    <occurs>
+    <ngram><w surface="describe" lemma="describe" /> <freq name="tac.conll" value="53" /></ngram>
+    <ngram><w surface="described" lemma="describe" /> <freq name="tac.conll" value="28" /></ngram>
+    <ngram><w surface="describes" lemma="describe" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="describing" lemma="describe" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="44">
+    <ngram><w lemma="appear" /> <freq name="tac.conll" value="18" /></ngram>
+    <occurs>
+    <ngram><w surface="appear" lemma="appear" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="appeared" lemma="appear" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="appearing" lemma="appear" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="appears" lemma="appear" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="45">
+    <ngram><w lemma="let" /> <freq name="tac.conll" value="30" /></ngram>
+    <occurs>
+    <ngram><w surface="Let" lemma="let" /> <freq name="tac.conll" value="24" /></ngram>
+    <ngram><w surface="let" lemma="let" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="46">
+    <ngram><w lemma="observe" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="observe" lemma="observe" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="observed" lemma="observe" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="47">
+    <ngram><w lemma="turn" /> <freq name="tac.conll" value="30" /></ngram>
+    <occurs>
+    <ngram><w surface="Turning" lemma="turn" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="turn" lemma="turn" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="turned" lemma="turn" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="turns" lemma="turn" /> <freq name="tac.conll" value="17" /></ngram>
+    </occurs>
+</cand>
+<cand candid="48">
+    <ngram><w lemma="induce" /> <freq name="tac.conll" value="70" /></ngram>
+    <occurs>
+    <ngram><w surface="induce" lemma="induce" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="induced" lemma="induce" /> <freq name="tac.conll" value="38" /></ngram>
+    <ngram><w surface="induces" lemma="induce" /> <freq name="tac.conll" value="18" /></ngram>
+    <ngram><w surface="inducing" lemma="induce" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="49">
+    <ngram><w lemma="know" /> <freq name="tac.conll" value="83" /></ngram>
+    <occurs>
+    <ngram><w surface="know" lemma="know" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="known" lemma="know" /> <freq name="tac.conll" value="82" /></ngram>
+    </occurs>
+</cand>
+<cand candid="50">
+    <ngram><w lemma="extend" /> <freq name="tac.conll" value="81" /></ngram>
+    <occurs>
+    <ngram><w surface="Extending" lemma="extend" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="extend" lemma="extend" /> <freq name="tac.conll" value="29" /></ngram>
+    <ngram><w surface="extended" lemma="extend" /> <freq name="tac.conll" value="19" /></ngram>
+    <ngram><w surface="extending" lemma="extend" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="extends" lemma="extend" /> <freq name="tac.conll" value="23" /></ngram>
+    </occurs>
+</cand>
+<cand candid="51">
+    <ngram><w lemma="follow" /> <freq name="tac.conll" value="39" /></ngram>
+    <occurs>
+    <ngram><w surface="Following" lemma="follow" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="follow" lemma="follow" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="followed" lemma="follow" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="following" lemma="follow" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="follows" lemma="follow" /> <freq name="tac.conll" value="11" /></ngram>
+    </occurs>
+</cand>
+<cand candid="52">
+    <ngram><w lemma="augment" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="augmented" lemma="augment" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="53">
+    <ngram><w lemma="include" /> <freq name="tac.conll" value="74" /></ngram>
+    <occurs>
+    <ngram><w surface="Included" lemma="include" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="include" lemma="include" /> <freq name="tac.conll" value="24" /></ngram>
+    <ngram><w surface="included" lemma="include" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="includes" lemma="include" /> <freq name="tac.conll" value="16" /></ngram>
+    <ngram><w surface="including" lemma="include" /> <freq name="tac.conll" value="31" /></ngram>
+    </occurs>
+</cand>
+<cand candid="54">
+    <ngram><w lemma="come" /> <freq name="tac.conll" value="9" /></ngram>
+    <occurs>
+    <ngram><w surface="come" lemma="come" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="comes" lemma="come" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="coming" lemma="come" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="55">
+    <ngram><w lemma="build" /> <freq name="tac.conll" value="20" /></ngram>
+    <occurs>
+    <ngram><w surface="Building" lemma="build" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="build" lemma="build" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="building" lemma="build" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="builds" lemma="build" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="built" lemma="build" /> <freq name="tac.conll" value="10" /></ngram>
+    </occurs>
+</cand>
+<cand candid="56">
+    <ngram><w lemma="equip" /> <freq name="tac.conll" value="35" /></ngram>
+    <occurs>
+    <ngram><w surface="equip" lemma="equip" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="equipped" lemma="equip" /> <freq name="tac.conll" value="32" /></ngram>
+    <ngram><w surface="equipping" lemma="equip" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="57">
+    <ngram><w lemma="coincide" /> <freq name="tac.conll" value="23" /></ngram>
+    <occurs>
+    <ngram><w surface="coincide" lemma="coincide" /> <freq name="tac.conll" value="14" /></ngram>
+    <ngram><w surface="coincides" lemma="coincide" /> <freq name="tac.conll" value="9" /></ngram>
+    </occurs>
+</cand>
+<cand candid="58">
+    <ngram><w lemma="assume" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="Assuming" lemma="assume" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="assume" lemma="assume" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="assumed" lemma="assume" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="assuming" lemma="assume" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="59">
+    <ngram><w lemma="formalise" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="formalise" lemma="formalise" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="formalises" lemma="formalise" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="60">
+    <ngram><w lemma="take" /> <freq name="tac.conll" value="31" /></ngram>
+    <occurs>
+    <ngram><w surface="take" lemma="take" /> <freq name="tac.conll" value="14" /></ngram>
+    <ngram><w surface="taken" lemma="take" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="takes" lemma="take" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="taking" lemma="take" /> <freq name="tac.conll" value="9" /></ngram>
+    </occurs>
+</cand>
+<cand candid="61">
+    <ngram><w lemma="agree" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="agree" lemma="agree" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="agreeing" lemma="agree" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="agrees" lemma="agree" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="62">
+    <ngram><w lemma="orient" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="oriented" lemma="orient" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="63">
+    <ngram><w lemma="derive" /> <freq name="tac.conll" value="28" /></ngram>
+    <occurs>
+    <ngram><w surface="derive" lemma="derive" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="derived" lemma="derive" /> <freq name="tac.conll" value="18" /></ngram>
+    <ngram><w surface="deriving" lemma="derive" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="64">
+    <ngram><w lemma="exist" /> <freq name="tac.conll" value="49" /></ngram>
+    <occurs>
+    <ngram><w surface="exist" lemma="exist" /> <freq name="tac.conll" value="22" /></ngram>
+    <ngram><w surface="existing" lemma="exist" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="exists" lemma="exist" /> <freq name="tac.conll" value="22" /></ngram>
+    </occurs>
+</cand>
+<cand candid="65">
+    <ngram><w lemma="analyze" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="analyze" lemma="analyze" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="analyzed" lemma="analyze" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="analyzing" lemma="analyze" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="66">
+    <ngram><w lemma="attempt" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="attempted" lemma="attempt" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="67">
+    <ngram><w lemma="base" /> <freq name="tac.conll" value="46" /></ngram>
+    <occurs>
+    <ngram><w surface="Based" lemma="base" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="Basing" lemma="base" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="based" lemma="base" /> <freq name="tac.conll" value="42" /></ngram>
+    </occurs>
+</cand>
+<cand candid="68">
+    <ngram><w lemma="value" /> <freq name="tac.conll" value="25" /></ngram>
+    <occurs>
+    <ngram><w surface="valued" lemma="value" /> <freq name="tac.conll" value="25" /></ngram>
+    </occurs>
+</cand>
+<cand candid="69">
+    <ngram><w lemma="unify" /> <freq name="tac.conll" value="11" /></ngram>
+    <occurs>
+    <ngram><w surface="unifies" lemma="unify" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="unify" lemma="unify" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="unifying" lemma="unify" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="70">
+    <ngram><w lemma="port" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="port" lemma="port" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="71">
+    <ngram><w lemma="interleave" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="interleaving" lemma="interleave" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="72">
+    <ngram><w lemma="do" /> <freq name="tac.conll" value="55" /></ngram>
+    <occurs>
+    <ngram><w surface="did" lemma="do" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="do" lemma="do" /> <freq name="tac.conll" value="26" /></ngram>
+    <ngram><w surface="does" lemma="do" /> <freq name="tac.conll" value="24" /></ngram>
+    <ngram><w surface="doing" lemma="do" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="done" lemma="do" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="73">
+    <ngram><w lemma="identify" /> <freq name="tac.conll" value="18" /></ngram>
+    <occurs>
+    <ngram><w surface="identified" lemma="identify" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="identifies" lemma="identify" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="identify" lemma="identify" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="identifying" lemma="identify" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="74">
+    <ngram><w lemma="preserve" /> <freq name="tac.conll" value="57" /></ngram>
+    <occurs>
+    <ngram><w surface="preserve" lemma="preserve" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="preserved" lemma="preserve" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="preserves" lemma="preserve" /> <freq name="tac.conll" value="16" /></ngram>
+    <ngram><w surface="preserving" lemma="preserve" /> <freq name="tac.conll" value="21" /></ngram>
+    </occurs>
+</cand>
+<cand candid="75">
+    <ngram><w lemma="illustrate" /> <freq name="tac.conll" value="11" /></ngram>
+    <occurs>
+    <ngram><w surface="illustrate" lemma="illustrate" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="illustrated" lemma="illustrate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="illustrates" lemma="illustrate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="76">
+    <ngram><w lemma="filter" /> <freq name="tac.conll" value="9" /></ngram>
+    <occurs>
+    <ngram><w surface="filtered" lemma="filter" /> <freq name="tac.conll" value="9" /></ngram>
+    </occurs>
+</cand>
+<cand candid="77">
+    <ngram><w lemma="label" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="labeled" lemma="label" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="labelled" lemma="label" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="78">
+    <ngram><w lemma="separate" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="separated" lemma="separate" /> <freq name="tac.conll" value="8" /></ngram>
+    </occurs>
+</cand>
+<cand candid="79">
+    <ngram><w lemma="allow" /> <freq name="tac.conll" value="56" /></ngram>
+    <occurs>
+    <ngram><w surface="allow" lemma="allow" /> <freq name="tac.conll" value="16" /></ngram>
+    <ngram><w surface="allowed" lemma="allow" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="allowing" lemma="allow" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="allows" lemma="allow" /> <freq name="tac.conll" value="35" /></ngram>
+    </occurs>
+</cand>
+<cand candid="80">
+    <ngram><w lemma="underlie" /> <freq name="tac.conll" value="19" /></ngram>
+    <occurs>
+    <ngram><w surface="underlies" lemma="underlie" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="underlying" lemma="underlie" /> <freq name="tac.conll" value="17" /></ngram>
+    </occurs>
+</cand>
+<cand candid="81">
+    <ngram><w lemma="capture" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="capture" lemma="capture" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="captures" lemma="capture" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="82">
+    <ngram><w lemma="see" /> <freq name="tac.conll" value="37" /></ngram>
+    <occurs>
+    <ngram><w surface="See" lemma="see" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="see" lemma="see" /> <freq name="tac.conll" value="15" /></ngram>
+    <ngram><w surface="seen" lemma="see" /> <freq name="tac.conll" value="21" /></ngram>
+    </occurs>
+</cand>
+<cand candid="83">
+    <ngram><w lemma="increase" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="increasing" lemma="increase" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="84">
+    <ngram><w lemma="focus" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="focus" lemma="focus" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="focused" lemma="focus" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="85">
+    <ngram><w lemma="raise" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="raise" lemma="raise" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="raised" lemma="raise" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="raises" lemma="raise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="86">
+    <ngram><w lemma="say" /> <freq name="tac.conll" value="19" /></ngram>
+    <occurs>
+    <ngram><w surface="Say" lemma="say" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="said" lemma="say" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="say" lemma="say" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="saying" lemma="say" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="says" lemma="say" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="87">
+    <ngram><w lemma="mean" /> <freq name="tac.conll" value="20" /></ngram>
+    <occurs>
+    <ngram><w surface="mean" lemma="mean" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="meaning" lemma="mean" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="means" lemma="mean" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="meant" lemma="mean" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="88">
+    <ngram><w lemma="explore" /> <freq name="tac.conll" value="17" /></ngram>
+    <occurs>
+    <ngram><w surface="explore" lemma="explore" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="explored" lemma="explore" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="exploring" lemma="explore" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="89">
+    <ngram><w lemma="reformulate" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="reformulate" lemma="reformulate" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="90">
+    <ngram><w lemma="generate" /> <freq name="tac.conll" value="53" /></ngram>
+    <occurs>
+    <ngram><w surface="generate" lemma="generate" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="generated" lemma="generate" /> <freq name="tac.conll" value="42" /></ngram>
+    <ngram><w surface="generates" lemma="generate" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="generating" lemma="generate" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="91">
+    <ngram><w lemma="consist" /> <freq name="tac.conll" value="22" /></ngram>
+    <occurs>
+    <ngram><w surface="consisting" lemma="consist" /> <freq name="tac.conll" value="12" /></ngram>
+    <ngram><w surface="consists" lemma="consist" /> <freq name="tac.conll" value="10" /></ngram>
+    </occurs>
+</cand>
+<cand candid="92">
+    <ngram><w lemma="urge" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="urged" lemma="urge" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="93">
+    <ngram><w lemma="slant" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="slanted" lemma="slant" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="94">
+    <ngram><w lemma="require" /> <freq name="tac.conll" value="28" /></ngram>
+    <occurs>
+    <ngram><w surface="require" lemma="require" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="required" lemma="require" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="requires" lemma="require" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="requiring" lemma="require" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="95">
+    <ngram><w lemma="arise" /> <freq name="tac.conll" value="41" /></ngram>
+    <occurs>
+    <ngram><w surface="arise" lemma="arise" /> <freq name="tac.conll" value="16" /></ngram>
+    <ngram><w surface="arises" lemma="arise" /> <freq name="tac.conll" value="13" /></ngram>
+    <ngram><w surface="arising" lemma="arise" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="arose" lemma="arise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="96">
+    <ngram><w lemma="embed" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="embed" lemma="embed" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="embedded" lemma="embed" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="embedding" lemma="embed" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="embeds" lemma="embed" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="97">
+    <ngram><w lemma="utilize" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="utilize" lemma="utilize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="utilizes" lemma="utilize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="utilizing" lemma="utilize" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="98">
+    <ngram><w lemma="categorify" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="categorify" lemma="categorify" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="99">
+    <ngram><w lemma="replace" /> <freq name="tac.conll" value="21" /></ngram>
+    <occurs>
+    <ngram><w surface="Replacing" lemma="replace" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="replace" lemma="replace" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="replaced" lemma="replace" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="replacing" lemma="replace" /> <freq name="tac.conll" value="8" /></ngram>
+    </occurs>
+</cand>
+<cand candid="100">
+    <ngram><w lemma="state" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="state" lemma="state" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="stated" lemma="state" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="states" lemma="state" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="101">
+    <ngram><w lemma="categorifie" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="categorified" lemma="categorifie" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="categorifies" lemma="categorifie" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="102">
+    <ngram><w lemma="categorifye" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="categorifying" lemma="categorifye" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="103">
+    <ngram><w lemma="hold" /> <freq name="tac.conll" value="38" /></ngram>
+    <occurs>
+    <ngram><w surface="hold" lemma="hold" /> <freq name="tac.conll" value="22" /></ngram>
+    <ngram><w surface="holding" lemma="hold" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="holds" lemma="hold" /> <freq name="tac.conll" value="15" /></ngram>
+    </occurs>
+</cand>
+<cand candid="104">
+    <ngram><w lemma="contain" /> <freq name="tac.conll" value="33" /></ngram>
+    <occurs>
+    <ngram><w surface="contain" lemma="contain" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="contained" lemma="contain" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="containing" lemma="contain" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="contains" lemma="contain" /> <freq name="tac.conll" value="16" /></ngram>
+    </occurs>
+</cand>
+<cand candid="105">
+    <ngram><w lemma="fix" /> <freq name="tac.conll" value="20" /></ngram>
+    <occurs>
+    <ngram><w surface="fixed" lemma="fix" /> <freq name="tac.conll" value="19" /></ngram>
+    <ngram><w surface="fixing" lemma="fix" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="106">
+    <ngram><w lemma="pursue" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="pursue" lemma="pursue" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="pursues" lemma="pursue" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="107">
+    <ngram><w lemma="relate" /> <freq name="tac.conll" value="38" /></ngram>
+    <occurs>
+    <ngram><w surface="Relating" lemma="relate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="relate" lemma="relate" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="related" lemma="relate" /> <freq name="tac.conll" value="21" /></ngram>
+    <ngram><w surface="relates" lemma="relate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="relating" lemma="relate" /> <freq name="tac.conll" value="9" /></ngram>
+    </occurs>
+</cand>
+<cand candid="108">
+    <ngram><w lemma="investigate" /> <freq name="tac.conll" value="31" /></ngram>
+    <occurs>
+    <ngram><w surface="investigate" lemma="investigate" /> <freq name="tac.conll" value="21" /></ngram>
+    <ngram><w surface="investigated" lemma="investigate" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="investigates" lemma="investigate" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="investigating" lemma="investigate" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="109">
+    <ngram><w lemma="bear" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="Bearing" lemma="bear" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="bear" lemma="bear" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="bears" lemma="bear" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="borne" lemma="bear" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="110">
+    <ngram><w lemma="consider" /> <freq name="tac.conll" value="94" /></ngram>
+    <occurs>
+    <ngram><w surface="Consider" lemma="consider" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="consider" lemma="consider" /> <freq name="tac.conll" value="47" /></ngram>
+    <ngram><w surface="considered" lemma="consider" /> <freq name="tac.conll" value="30" /></ngram>
+    <ngram><w surface="considering" lemma="consider" /> <freq name="tac.conll" value="12" /></ngram>
+    <ngram><w surface="considers" lemma="consider" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="111">
+    <ngram><w lemma="call" /> <freq name="tac.conll" value="133" /></ngram>
+    <occurs>
+    <ngram><w surface="Call" lemma="call" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="call" lemma="call" /> <freq name="tac.conll" value="52" /></ngram>
+    <ngram><w surface="called" lemma="call" /> <freq name="tac.conll" value="79" /></ngram>
+    </occurs>
+</cand>
+<cand candid="112">
+    <ngram><w lemma="end" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="end" lemma="end" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="ends" lemma="end" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="113">
+    <ngram><w lemma="order" /> <freq name="tac.conll" value="21" /></ngram>
+    <occurs>
+    <ngram><w surface="ordered" lemma="order" /> <freq name="tac.conll" value="21" /></ngram>
+    </occurs>
+</cand>
+<cand candid="114">
+    <ngram><w lemma="fail" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="fail" lemma="fail" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="fails" lemma="fail" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="115">
+    <ngram><w lemma="prompt" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="prompts" lemma="prompt" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="116">
+    <ngram><w lemma="formulate" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="formulate" lemma="formulate" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="formulated" lemma="formulate" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="117">
+    <ngram><w lemma="suggest" /> <freq name="tac.conll" value="9" /></ngram>
+    <occurs>
+    <ngram><w surface="suggest" lemma="suggest" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="suggested" lemma="suggest" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="suggesting" lemma="suggest" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="suggests" lemma="suggest" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="118">
+    <ngram><w lemma="develop" /> <freq name="tac.conll" value="60" /></ngram>
+    <occurs>
+    <ngram><w surface="develop" lemma="develop" /> <freq name="tac.conll" value="29" /></ngram>
+    <ngram><w surface="developed" lemma="develop" /> <freq name="tac.conll" value="23" /></ngram>
+    <ngram><w surface="developing" lemma="develop" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="develops" lemma="develop" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="119">
+    <ngram><w lemma="behave" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="behave" lemma="behave" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="behaved" lemma="behave" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="behaves" lemma="behave" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="120">
+    <ngram><w lemma="overcome" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="overcome" lemma="overcome" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="121">
+    <ngram><w lemma="need" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="need" lemma="need" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="needed" lemma="need" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="needs" lemma="need" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="122">
+    <ngram><w lemma="impose" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="impose" lemma="impose" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="imposed" lemma="impose" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="123">
+    <ngram><w lemma="coequalize" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="coequalizing" lemma="coequalize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="124">
+    <ngram><w lemma="suffice" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="suffice" lemma="suffice" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="suffices" lemma="suffice" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="125">
+    <ngram><w lemma="result" /> <freq name="tac.conll" value="26" /></ngram>
+    <occurs>
+    <ngram><w surface="result" lemma="result" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="resulting" lemma="result" /> <freq name="tac.conll" value="20" /></ngram>
+    <ngram><w surface="results" lemma="result" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="126">
+    <ngram><w lemma="form" /> <freq name="tac.conll" value="39" /></ngram>
+    <occurs>
+    <ngram><w surface="form" lemma="form" /> <freq name="tac.conll" value="28" /></ngram>
+    <ngram><w surface="formed" lemma="form" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="forming" lemma="form" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="forms" lemma="form" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="127">
+    <ngram><w lemma="correspond" /> <freq name="tac.conll" value="58" /></ngram>
+    <occurs>
+    <ngram><w surface="correspond" lemma="correspond" /> <freq name="tac.conll" value="14" /></ngram>
+    <ngram><w surface="corresponding" lemma="correspond" /> <freq name="tac.conll" value="33" /></ngram>
+    <ngram><w surface="corresponds" lemma="correspond" /> <freq name="tac.conll" value="11" /></ngram>
+    </occurs>
+</cand>
+<cand candid="128">
+    <ngram><w lemma="inherit" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="inherit" lemma="inherit" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="inherited" lemma="inherit" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="inherits" lemma="inherit" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="129">
+    <ngram><w lemma="close" /> <freq name="tac.conll" value="26" /></ngram>
+    <occurs>
+    <ngram><w surface="closed" lemma="close" /> <freq name="tac.conll" value="26" /></ngram>
+    </occurs>
+</cand>
+<cand candid="130">
+    <ngram><w lemma="localize" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="localized" lemma="localize" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="localizing" lemma="localize" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="131">
+    <ngram><w lemma="-" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="-" lemma="-" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="132">
+    <ngram><w lemma="m+1)-coconnecte" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="m+1)-coconnected" lemma="m+1)-coconnecte" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="133">
+    <ngram><w lemma="imply" /> <freq name="tac.conll" value="19" /></ngram>
+    <occurs>
+    <ngram><w surface="implies" lemma="imply" /> <freq name="tac.conll" value="17" /></ngram>
+    <ngram><w surface="imply" lemma="imply" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="implying" lemma="imply" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="134">
+    <ngram><w lemma="mention" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="mention" lemma="mention" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="mentioned" lemma="mention" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="135">
+    <ngram><w lemma="commute" /> <freq name="tac.conll" value="24" /></ngram>
+    <occurs>
+    <ngram><w surface="commute" lemma="commute" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="commutes" lemma="commute" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="commuting" lemma="commute" /> <freq name="tac.conll" value="9" /></ngram>
+    </occurs>
+</cand>
+<cand candid="136">
+    <ngram><w lemma="sketch" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="sketched" lemma="sketch" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="137">
+    <ngram><w lemma="simplify" /> <freq name="tac.conll" value="12" /></ngram>
+    <occurs>
+    <ngram><w surface="simplifies" lemma="simplify" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="simplify" lemma="simplify" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="simplifying" lemma="simplify" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="138">
+    <ngram><w lemma="lie" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="lie" lemma="lie" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="lies" lemma="lie" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="lying" lemma="lie" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="139">
+    <ngram><w lemma="ask" /> <freq name="tac.conll" value="11" /></ngram>
+    <occurs>
+    <ngram><w surface="ask" lemma="ask" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="asked" lemma="ask" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="asking" lemma="ask" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="asks" lemma="ask" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="140">
+    <ngram><w lemma="recapture" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="recapture" lemma="recapture" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="141">
+    <ngram><w lemma="restrict" /> <freq name="tac.conll" value="16" /></ngram>
+    <occurs>
+    <ngram><w surface="Restricting" lemma="restrict" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="restrict" lemma="restrict" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="restricted" lemma="restrict" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="restricting" lemma="restrict" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="restricts" lemma="restrict" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="142">
+    <ngram><w lemma="becomes" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="becomes" lemma="becomes" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="143">
+    <ngram><w lemma="map" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="mapped" lemma="map" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="mapping" lemma="map" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="144">
+    <ngram><w lemma="classify" /> <freq name="tac.conll" value="30" /></ngram>
+    <occurs>
+    <ngram><w surface="classified" lemma="classify" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="classifies" lemma="classify" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="classify" lemma="classify" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="classifying" lemma="classify" /> <freq name="tac.conll" value="10" /></ngram>
+    </occurs>
+</cand>
+<cand candid="145">
+    <ngram><w lemma="get" /> <freq name="tac.conll" value="14" /></ngram>
+    <occurs>
+    <ngram><w surface="get" lemma="get" /> <freq name="tac.conll" value="13" /></ngram>
+    <ngram><w surface="getting" lemma="get" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="146">
+    <ngram><w lemma="note" /> <freq name="tac.conll" value="11" /></ngram>
+    <occurs>
+    <ngram><w surface="Note" lemma="note" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="note" lemma="note" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="noted" lemma="note" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="147">
+    <ngram><w lemma="think" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="think" lemma="think" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="thought" lemma="think" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="148">
+    <ngram><w lemma="attribute" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="attributed" lemma="attribute" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="149">
+    <ngram><w lemma="modify" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="modified" lemma="modify" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="modify" lemma="modify" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="150">
+    <ngram><w lemma="devise" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="devised" lemma="devise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="151">
+    <ngram><w lemma="join" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="join" lemma="join" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="joined" lemma="join" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="152">
+    <ngram><w lemma="forbid" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="forbidden" lemma="forbid" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="153">
+    <ngram><w lemma="carry" /> <freq name="tac.conll" value="9" /></ngram>
+    <occurs>
+    <ngram><w surface="carried" lemma="carry" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="carries" lemma="carry" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="carry" lemma="carry" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="carrying" lemma="carry" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="154">
+    <ngram><w lemma="reconstruct" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="reconstruct" lemma="reconstruct" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="reconstructed" lemma="reconstruct" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="155">
+    <ngram><w lemma="complement" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="complemented" lemma="complement" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="156">
+    <ngram><w lemma="deal" /> <freq name="tac.conll" value="11" /></ngram>
+    <occurs>
+    <ngram><w surface="deal" lemma="deal" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="dealing" lemma="deal" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="deals" lemma="deal" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="dealt" lemma="deal" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="157">
+    <ngram><w lemma="look" /> <freq name="tac.conll" value="12" /></ngram>
+    <occurs>
+    <ngram><w surface="look" lemma="look" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="looking" lemma="look" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="looks" lemma="look" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="158">
+    <ngram><w lemma="enable" /> <freq name="tac.conll" value="15" /></ngram>
+    <occurs>
+    <ngram><w surface="enable" lemma="enable" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="enables" lemma="enable" /> <freq name="tac.conll" value="10" /></ngram>
+    </occurs>
+</cand>
+<cand candid="159">
+    <ngram><w lemma="isolate" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="isolate" lemma="isolate" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="isolating" lemma="isolate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="160">
+    <ngram><w lemma="claim" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="claimed" lemma="claim" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="161">
+    <ngram><w lemma="outline" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="outlined" lemma="outline" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="162">
+    <ngram><w lemma="start" /> <freq name="tac.conll" value="14" /></ngram>
+    <occurs>
+    <ngram><w surface="Starting" lemma="start" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="start" lemma="start" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="starting" lemma="start" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="starts" lemma="start" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="163">
+    <ngram><w lemma="draw" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="drawing" lemma="draw" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="drawn" lemma="draw" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="164">
+    <ngram><w lemma="recall" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="Recall" lemma="recall" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="recall" lemma="recall" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="165">
+    <ngram><w lemma="generalise" /> <freq name="tac.conll" value="19" /></ngram>
+    <occurs>
+    <ngram><w surface="Generalising" lemma="generalise" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="generalise" lemma="generalise" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="generalised" lemma="generalise" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="generalises" lemma="generalise" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="generalising" lemma="generalise" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="166">
+    <ngram><w lemma="find" /> <freq name="tac.conll" value="23" /></ngram>
+    <occurs>
+    <ngram><w surface="Finding" lemma="find" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="find" lemma="find" /> <freq name="tac.conll" value="14" /></ngram>
+    <ngram><w surface="finding" lemma="find" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="found" lemma="find" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="167">
+    <ngram><w lemma="exhibit" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="exhibit" lemma="exhibit" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="exhibited" lemma="exhibit" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="exhibiting" lemma="exhibit" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="168">
+    <ngram><w lemma="devote" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="devote" lemma="devote" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="devoted" lemma="devote" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="169">
+    <ngram><w lemma="index" /> <freq name="tac.conll" value="19" /></ngram>
+    <occurs>
+    <ngram><w surface="indexed" lemma="index" /> <freq name="tac.conll" value="19" /></ngram>
+    </occurs>
+</cand>
+<cand candid="170">
+    <ngram><w lemma="represent" /> <freq name="tac.conll" value="21" /></ngram>
+    <occurs>
+    <ngram><w surface="represent" lemma="represent" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="represented" lemma="represent" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="representing" lemma="represent" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="represents" lemma="represent" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="171">
+    <ngram><w lemma="direct" /> <freq name="tac.conll" value="21" /></ngram>
+    <occurs>
+    <ngram><w surface="directed" lemma="direct" /> <freq name="tac.conll" value="21" /></ngram>
+    </occurs>
+</cand>
+<cand candid="172">
+    <ngram><w lemma="become" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="become" lemma="become" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="becomes" lemma="become" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="becoming" lemma="become" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="173">
+    <ngram><w lemma="characterise" /> <freq name="tac.conll" value="15" /></ngram>
+    <occurs>
+    <ngram><w surface="characterise" lemma="characterise" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="characterised" lemma="characterise" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="characterises" lemma="characterise" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="174">
+    <ngram><w lemma="play" /> <freq name="tac.conll" value="15" /></ngram>
+    <occurs>
+    <ngram><w surface="play" lemma="play" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="played" lemma="play" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="playing" lemma="play" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="plays" lemma="play" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="175">
+    <ngram><w lemma="understand" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="understand" lemma="understand" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="understanding" lemma="understand" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="understood" lemma="understand" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="176">
+    <ngram><w lemma="make" /> <freq name="tac.conll" value="54" /></ngram>
+    <occurs>
+    <ngram><w surface="made" lemma="make" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="make" lemma="make" /> <freq name="tac.conll" value="22" /></ngram>
+    <ngram><w surface="makes" lemma="make" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="making" lemma="make" /> <freq name="tac.conll" value="10" /></ngram>
+    </occurs>
+</cand>
+<cand candid="177">
+    <ngram><w lemma="haviorcomplicate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="haviorcomplicates" lemma="haviorcomplicate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="178">
+    <ngram><w lemma="interact" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="interacting" lemma="interact" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="interacts" lemma="interact" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="179">
+    <ngram><w lemma="meet" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="meet" lemma="meet" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="met" lemma="meet" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="180">
+    <ngram><w lemma="fabricate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="fabricated" lemma="fabricate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="181">
+    <ngram><w lemma="occur" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="occur" lemma="occur" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="occurring" lemma="occur" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="occurs" lemma="occur" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="182">
+    <ngram><w lemma="expect" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="expect" lemma="expect" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="expected" lemma="expect" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="183">
+    <ngram><w lemma="ignore" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="ignore" lemma="ignore" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="ignored" lemma="ignore" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="ignores" lemma="ignore" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="184">
+    <ngram><w lemma="denote" /> <freq name="tac.conll" value="12" /></ngram>
+    <occurs>
+    <ngram><w surface="Denote" lemma="denote" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="Denoting" lemma="denote" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="denote" lemma="denote" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="denoted" lemma="denote" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="denotes" lemma="denote" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="185">
+    <ngram><w lemma="share" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="share" lemma="share" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="shares" lemma="share" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="186">
+    <ngram><w lemma="conjecture" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="conjecture" lemma="conjecture" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="conjectured" lemma="conjecture" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="187">
+    <ngram><w lemma="adjust" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="adjusted" lemma="adjust" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="188">
+    <ngram><w lemma="work" /> <freq name="tac.conll" value="21" /></ngram>
+    <occurs>
+    <ngram><w surface="work" lemma="work" /> <freq name="tac.conll" value="14" /></ngram>
+    <ngram><w surface="worked" lemma="work" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="working" lemma="work" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="works" lemma="work" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="189">
+    <ngram><w lemma="permit" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="permits" lemma="permit" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="190">
+    <ngram><w lemma="concern" /> <freq name="tac.conll" value="14" /></ngram>
+    <occurs>
+    <ngram><w surface="concerned" lemma="concern" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="concerning" lemma="concern" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="concerns" lemma="concern" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="191">
+    <ngram><w lemma="express" /> <freq name="tac.conll" value="11" /></ngram>
+    <occurs>
+    <ngram><w surface="express" lemma="express" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="expressed" lemma="express" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="expresses" lemma="express" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="expressing" lemma="express" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="192">
+    <ngram><w lemma="quantify" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="quantified" lemma="quantify" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="193">
+    <ngram><w lemma="involve" /> <freq name="tac.conll" value="36" /></ngram>
+    <occurs>
+    <ngram><w surface="involve" lemma="involve" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="involved" lemma="involve" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="involves" lemma="involve" /> <freq name="tac.conll" value="12" /></ngram>
+    <ngram><w surface="involving" lemma="involve" /> <freq name="tac.conll" value="14" /></ngram>
+    </occurs>
+</cand>
+<cand candid="194">
+    <ngram><w lemma="type" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="typed" lemma="type" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="195">
+    <ngram><w lemma="entail" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="entails" lemma="entail" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="196">
+    <ngram><w lemma="terminate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="terminating" lemma="terminate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="197">
+    <ngram><w lemma="rewrite" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="rewrite" lemma="rewrite" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="rewriting" lemma="rewrite" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="198">
+    <ngram><w lemma="demonstrate" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="demonstrate" lemma="demonstrate" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="demonstrated" lemma="demonstrate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="199">
+    <ngram><w lemma="\meet" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="\meet" lemma="\meet" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="200">
+    <ngram><w lemma="conclude" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="conclude" lemma="conclude" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="concludes" lemma="conclude" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="201">
+    <ngram><w lemma="indicate" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="indicate" lemma="indicate" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="indicated" lemma="indicate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="202">
+    <ngram><w lemma="-reduce" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-reduced" lemma="-reduce" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="203">
+    <ngram><w lemma="examine" /> <freq name="tac.conll" value="23" /></ngram>
+    <occurs>
+    <ngram><w surface="examine" lemma="examine" /> <freq name="tac.conll" value="15" /></ngram>
+    <ngram><w surface="examined" lemma="examine" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="examines" lemma="examine" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="examining" lemma="examine" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="204">
+    <ngram><w lemma="reflect" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="reflected" lemma="reflect" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="reflects" lemma="reflect" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="205">
+    <ngram><w lemma="specify" /> <freq name="tac.conll" value="9" /></ngram>
+    <occurs>
+    <ngram><w surface="specified" lemma="specify" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="specifies" lemma="specify" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="specify" lemma="specify" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="specifying" lemma="specify" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="206">
+    <ngram><w lemma="weight" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="weighted" lemma="weight" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="207">
+    <ngram><w lemma="force" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="forced" lemma="force" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="forces" lemma="force" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="208">
+    <ngram><w lemma="move" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="move" lemma="move" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="moving" lemma="move" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="209">
+    <ngram><w lemma="recover" /> <freq name="tac.conll" value="19" /></ngram>
+    <occurs>
+    <ngram><w surface="recover" lemma="recover" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="recovered" lemma="recover" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="recovering" lemma="recover" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="recovers" lemma="recover" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="210">
+    <ngram><w lemma="ensure" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="ensure" lemma="ensure" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="ensures" lemma="ensure" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="ensuring" lemma="ensure" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="211">
+    <ngram><w lemma="balance" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="balanced" lemma="balance" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="212">
+    <ngram><w lemma="factorize" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="factorized" lemma="factorize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="factorizes" lemma="factorize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="213">
+    <ngram><w lemma="refer" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="refer" lemma="refer" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="referring" lemma="refer" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="refers" lemma="refer" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="214">
+    <ngram><w lemma="saturate" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="saturated" lemma="saturate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="215">
+    <ngram><w lemma="assert" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="asserting" lemma="assert" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="asserts" lemma="assert" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="216">
+    <ngram><w lemma="-bounde" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-bounded" lemma="-bounde" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="217">
+    <ngram><w lemma="connect" /> <freq name="tac.conll" value="29" /></ngram>
+    <occurs>
+    <ngram><w surface="connected" lemma="connect" /> <freq name="tac.conll" value="26" /></ngram>
+    <ngram><w surface="connecting" lemma="connect" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="218">
+    <ngram><w lemma="intend" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="intended" lemma="intend" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="219">
+    <ngram><w lemma="perform" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="performed" lemma="perform" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="performing" lemma="perform" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="220">
+    <ngram><w lemma="resemble" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="resemble" lemma="resemble" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="resembles" lemma="resemble" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="resembling" lemma="resemble" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="221">
+    <ngram><w lemma="produce" /> <freq name="tac.conll" value="26" /></ngram>
+    <occurs>
+    <ngram><w surface="produce" lemma="produce" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="produced" lemma="produce" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="produces" lemma="produce" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="producing" lemma="produce" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="222">
+    <ngram><w lemma="weaken" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="weaken" lemma="weaken" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="weakened" lemma="weaken" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="223">
+    <ngram><w lemma="leave" /> <freq name="tac.conll" value="12" /></ngram>
+    <occurs>
+    <ngram><w surface="left" lemma="leave" /> <freq name="tac.conll" value="12" /></ngram>
+    </occurs>
+</cand>
+<cand candid="224">
+    <ngram><w lemma="branch" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="branching" lemma="branch" /> <freq name="tac.conll" value="10" /></ngram>
+    </occurs>
+</cand>
+<cand candid="225">
+    <ngram><w lemma="merge" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="merging" lemma="merge" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="226">
+    <ngram><w lemma="deduce" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="deduce" lemma="deduce" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="deduced" lemma="deduce" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="227">
+    <ngram><w lemma="distinguish" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="distinguished" lemma="distinguish" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="distinguishing" lemma="distinguish" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="228">
+    <ngram><w lemma="donnons" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="donnons" lemma="donnons" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="229">
+    <ngram><w lemma="sont" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="sont" lemma="sont" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="230">
+    <ngram><w lemma="distribute" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="distribute" lemma="distribute" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="231">
+    <ngram><w lemma="assign" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="assign" lemma="assign" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="assigned" lemma="assign" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="assigns" lemma="assign" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="232">
+    <ngram><w lemma="live" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="live" lemma="live" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="living" lemma="live" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="233">
+    <ngram><w lemma="suit" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="suited" lemma="suit" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="suits" lemma="suit" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="234">
+    <ngram><w lemma="sift" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="Sifted" lemma="sift" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="sifted" lemma="sift" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="235">
+    <ngram><w lemma="lift" /> <freq name="tac.conll" value="20" /></ngram>
+    <occurs>
+    <ngram><w surface="lift" lemma="lift" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="lifted" lemma="lift" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="lifting" lemma="lift" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="lifts" lemma="lift" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="236">
+    <ngram><w lemma="encode" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="encode" lemma="encode" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="encoded" lemma="encode" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="encodes" lemma="encode" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="encoding" lemma="encode" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="237">
+    <ngram><w lemma="control" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="controlled" lemma="control" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="238">
+    <ngram><w lemma="nest" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="nested" lemma="nest" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="239">
+    <ngram><w lemma="bound" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="bounded" lemma="bound" /> <freq name="tac.conll" value="13" /></ngram>
+    </occurs>
+</cand>
+<cand candid="240">
+    <ngram><w lemma="interpret" /> <freq name="tac.conll" value="17" /></ngram>
+    <occurs>
+    <ngram><w surface="Interpreting" lemma="interpret" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="interpret" lemma="interpret" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="interpreted" lemma="interpret" /> <freq name="tac.conll" value="10" /></ngram>
+    <ngram><w surface="interpreting" lemma="interpret" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="241">
+    <ngram><w lemma="rely" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="Relying" lemma="rely" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="relies" lemma="rely" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="rely" lemma="rely" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="242">
+    <ngram><w lemma="analyse" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="analyse" lemma="analyse" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="analysed" lemma="analyse" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="243">
+    <ngram><w lemma="clarify" /> <freq name="tac.conll" value="12" /></ngram>
+    <occurs>
+    <ngram><w surface="clarified" lemma="clarify" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="clarifies" lemma="clarify" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="clarify" lemma="clarify" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="clarifying" lemma="clarify" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="244">
+    <ngram><w lemma="mark" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="marked" lemma="mark" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="245">
+    <ngram><w lemma="retrieve" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="retrieved" lemma="retrieve" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="246">
+    <ngram><w lemma="continue" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="continue" lemma="continue" /> <freq name="tac.conll" value="8" /></ngram>
+    <ngram><w surface="continues" lemma="continue" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="247">
+    <ngram><w lemma="propose" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="propose" lemma="propose" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="proposed" lemma="propose" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="proposes" lemma="propose" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="248">
+    <ngram><w lemma="imitate" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="imitates" lemma="imitate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="249">
+    <ngram><w lemma="amount" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="amounts" lemma="amount" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="250">
+    <ngram><w lemma="collapse" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="collapsing" lemma="collapse" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="251">
+    <ngram><w lemma="pass" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="pass" lemma="pass" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="passing" lemma="pass" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="252">
+    <ngram><w lemma="tensore" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="tensored" lemma="tensore" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="tensoring" lemma="tensore" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="253">
+    <ngram><w lemma="measure" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="measure" lemma="measure" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="measured" lemma="measure" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="254">
+    <ngram><w lemma="compare" /> <freq name="tac.conll" value="15" /></ngram>
+    <occurs>
+    <ngram><w surface="Comparing" lemma="compare" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="compare" lemma="compare" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="compared" lemma="compare" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="comparing" lemma="compare" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="255">
+    <ngram><w lemma="belong" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="belong" lemma="belong" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="belongs" lemma="belong" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="256">
+    <ngram><w lemma="act" /> <freq name="tac.conll" value="12" /></ngram>
+    <occurs>
+    <ngram><w surface="act" lemma="act" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="acting" lemma="act" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="acts" lemma="act" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="257">
+    <ngram><w lemma="model" /> <freq name="tac.conll" value="14" /></ngram>
+    <occurs>
+    <ngram><w surface="model" lemma="model" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="modeled" lemma="model" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="modeling" lemma="model" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="modelled" lemma="model" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="modelling" lemma="model" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="models" lemma="model" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="258">
+    <ngram><w lemma="adjoin" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="adjoining" lemma="adjoin" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="259">
+    <ngram><w lemma="normalise" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="normalise" lemma="normalise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="260">
+    <ngram><w lemma="approach" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="approach" lemma="approach" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="approaches" lemma="approach" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="261">
+    <ngram><w lemma="dictate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="dictated" lemma="dictate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="262">
+    <ngram><w lemma="concentrate" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="concentrate" lemma="concentrate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="263">
+    <ngram><w lemma="exclude" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="excluded" lemma="exclude" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="excludes" lemma="exclude" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="excluding" lemma="exclude" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="264">
+    <ngram><w lemma="re" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="re" lemma="re" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="265">
+    <ngram><w lemma="axiomatise" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="axiomatise" lemma="axiomatise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="266">
+    <ngram><w lemma="want" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="want" lemma="want" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="267">
+    <ngram><w lemma="-directe" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-directed" lemma="-directe" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="268">
+    <ngram><w lemma="sharpen" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="sharpens" lemma="sharpen" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="269">
+    <ngram><w lemma="-indexe" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="-indexed" lemma="-indexe" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="270">
+    <ngram><w lemma="stem" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="stems" lemma="stem" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="271">
+    <ngram><w lemma="seem" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="seem" lemma="seem" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="seems" lemma="seem" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="272">
+    <ngram><w lemma="slip" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="slipped" lemma="slip" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="273">
+    <ngram><w lemma="unprove" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="unproved" lemma="unprove" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="274">
+    <ngram><w lemma="set" /> <freq name="tac.conll" value="15" /></ngram>
+    <occurs>
+    <ngram><w surface="Set" lemma="set" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="set" lemma="set" /> <freq name="tac.conll" value="9" /></ngram>
+    <ngram><w surface="sets" lemma="set" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="setting" lemma="set" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="275">
+    <ngram><w lemma="design" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="design" lemma="design" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="designing" lemma="design" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="276">
+    <ngram><w lemma="display" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="display" lemma="display" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="displayed" lemma="display" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="displaying" lemma="display" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="displays" lemma="display" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="277">
+    <ngram><w lemma="enhance" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="enhanced" lemma="enhance" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="enhances" lemma="enhance" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="278">
+    <ngram><w lemma="argue" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="argue" lemma="argue" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="argued" lemma="argue" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="279">
+    <ngram><w lemma="oppose" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="opposed" lemma="oppose" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="280">
+    <ngram><w lemma="handle" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="handles" lemma="handle" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="handling" lemma="handle" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="281">
+    <ngram><w lemma="encounter" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="encountered" lemma="encounter" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="encounters" lemma="encounter" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="282">
+    <ngram><w lemma="happen" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="happen" lemma="happen" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="happens" lemma="happen" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="283">
+    <ngram><w lemma="read" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="read" lemma="read" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="284">
+    <ngram><w lemma="possess" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="possess" lemma="possess" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="possessed" lemma="possess" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="possesses" lemma="possess" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="possessing" lemma="possess" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="285">
+    <ngram><w lemma="regard" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="regard" lemma="regard" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="regarded" lemma="regard" /> <freq name="tac.conll" value="9" /></ngram>
+    </occurs>
+</cand>
+<cand candid="286">
+    <ngram><w lemma="organize" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="organize" lemma="organize" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="organizing" lemma="organize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="287">
+    <ngram><w lemma="choose" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="choose" lemma="choose" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="choosing" lemma="choose" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="chosen" lemma="choose" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="288">
+    <ngram><w lemma="encompass" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="encompasses" lemma="encompass" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="289">
+    <ngram><w lemma="complete" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="complete" lemma="complete" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="completed" lemma="complete" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="290">
+    <ngram><w lemma="grade" /> <freq name="tac.conll" value="20" /></ngram>
+    <occurs>
+    <ngram><w surface="graded" lemma="grade" /> <freq name="tac.conll" value="20" /></ngram>
+    </occurs>
+</cand>
+<cand candid="291">
+    <ngram><w lemma="add" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="Adding" lemma="add" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="add" lemma="add" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="added" lemma="add" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="adding" lemma="add" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="adds" lemma="add" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="292">
+    <ngram><w lemma="change" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="change" lemma="change" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="changed" lemma="change" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="changing" lemma="change" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="293">
+    <ngram><w lemma="dualize" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="dualizing" lemma="dualize" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="294">
+    <ngram><w lemma="differentiate" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="differentiate" lemma="differentiate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="differentiated" lemma="differentiate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="295">
+    <ngram><w lemma="lack" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="lack" lemma="lack" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="lacking" lemma="lack" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="296">
+    <ngram><w lemma="combine" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="Combined" lemma="combine" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="Combining" lemma="combine" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="combine" lemma="combine" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="combined" lemma="combine" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="combines" lemma="combine" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="combining" lemma="combine" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="297">
+    <ngram><w lemma="step" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="step" lemma="step" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="298">
+    <ngram><w lemma="sit" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="sit" lemma="sit" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="299">
+    <ngram><w lemma="extract" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="extract" lemma="extract" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="extracting" lemma="extract" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="300">
+    <ngram><w lemma="compose" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="compose" lemma="compose" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="composed" lemma="compose" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="301">
+    <ngram><w lemma="cut" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="cutting" lemma="cut" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="302">
+    <ngram><w lemma="gear" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="geared" lemma="gear" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="303">
+    <ngram><w lemma="revisit" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="revisit" lemma="revisit" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="revisited" lemma="revisit" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="revisits" lemma="revisit" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="304">
+    <ngram><w lemma="pioneer" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="pioneered" lemma="pioneer" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="pioneering" lemma="pioneer" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="305">
+    <ngram><w lemma="internalize" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="internalize" lemma="internalize" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="internalized" lemma="internalize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="internalizing" lemma="internalize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="306">
+    <ngram><w lemma="strengthen" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="strengthen" lemma="strengthen" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="307">
+    <ngram><w lemma="begin" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="begin" lemma="begin" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="begins" lemma="begin" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="begun" lemma="begin" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="308">
+    <ngram><w lemma="entitle" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="entitled" lemma="entitle" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="309">
+    <ngram><w lemma="duplicate" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="duplicate" lemma="duplicate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="duplicated" lemma="duplicate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="310">
+    <ngram><w lemma="enjoy" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="enjoy" lemma="enjoy" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="311">
+    <ngram><w lemma="exploit" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="exploit" lemma="exploit" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="exploiting" lemma="exploit" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="312">
+    <ngram><w lemma="expound" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="expounded" lemma="expound" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="313">
+    <ngram><w lemma="preordere" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="preordered" lemma="preordere" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="314">
+    <ngram><w lemma="braid" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="braided" lemma="braid" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="315">
+    <ngram><w lemma="suspect" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="suspected" lemma="suspect" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="316">
+    <ngram><w lemma="specialize" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="specializes" lemma="specialize" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="317">
+    <ngram><w lemma="split" /> <freq name="tac.conll" value="9" /></ngram>
+    <occurs>
+    <ngram><w surface="split" lemma="split" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="splits" lemma="split" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="318">
+    <ngram><w lemma="write" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="Write" lemma="write" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="Writing" lemma="write" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="write" lemma="write" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="writing" lemma="write" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="written" lemma="write" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="319">
+    <ngram><w lemma="guide" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="Guided" lemma="guide" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="guiding" lemma="guide" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="320">
+    <ngram><w lemma="approximate" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="approximate" lemma="approximate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="approximated" lemma="approximate" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="approximates" lemma="approximate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="321">
+    <ngram><w lemma="-weighte" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-weighted" lemma="-weighte" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="322">
+    <ngram><w lemma="recognize" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="recognize" lemma="recognize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="323">
+    <ngram><w lemma="adapt" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="adapt" lemma="adapt" /> <freq name="tac.conll" value="6" /></ngram>
+    <ngram><w surface="adapted" lemma="adapt" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="324">
+    <ngram><w lemma="justify" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="justified" lemma="justify" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="justifying" lemma="justify" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="325">
+    <ngram><w lemma="lay" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="laid" lemma="lay" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="laying" lemma="lay" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="lays" lemma="lay" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="326">
+    <ngram><w lemma="link" /> <freq name="tac.conll" value="13" /></ngram>
+    <occurs>
+    <ngram><w surface="link" lemma="link" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="linked" lemma="link" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="linking" lemma="link" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="links" lemma="link" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="327">
+    <ngram><w lemma="guarantee" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="guarantee" lemma="guarantee" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="guarantees" lemma="guarantee" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="328">
+    <ngram><w lemma="qualify" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="qualify" lemma="qualify" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="329">
+    <ngram><w lemma="accommodate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="accommodated" lemma="accommodate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="330">
+    <ngram><w lemma="quotiente" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="quotienting" lemma="quotiente" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="331">
+    <ngram><w lemma="revise" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="revise" lemma="revise" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="revised" lemma="revise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="332">
+    <ngram><w lemma="improve" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="improve" lemma="improve" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="improves" lemma="improve" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="333">
+    <ngram><w lemma="incorporate" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="incorporate" lemma="incorporate" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="incorporates" lemma="incorporate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="incorporating" lemma="incorporate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="334">
+    <ngram><w lemma="resolve" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="resolve" lemma="resolve" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="resolves" lemma="resolve" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="resolving" lemma="resolve" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="335">
+    <ngram><w lemma="truncate" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="truncated" lemma="truncate" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="truncates" lemma="truncate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="336">
+    <ngram><w lemma="=" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="=" lemma="=" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="337">
+    <ngram><w lemma="-labelle" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-labelled" lemma="-labelle" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="338">
+    <ngram><w lemma="discover" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="discovered" lemma="discover" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="339">
+    <ngram><w lemma="term" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="term" lemma="term" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="termed" lemma="term" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="340">
+    <ngram><w lemma="axiomatize" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="axiomatize" lemma="axiomatize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="axiomatized" lemma="axiomatize" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="axiomatizes" lemma="axiomatize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="axiomatizing" lemma="axiomatize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="341">
+    <ngram><w lemma="point" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="point" lemma="point" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="pointed" lemma="point" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="342">
+    <ngram><w lemma="remain" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="remain" lemma="remain" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="remaining" lemma="remain" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="remains" lemma="remain" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="343">
+    <ngram><w lemma="differ" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="differ" lemma="differ" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="differs" lemma="differ" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="344">
+    <ngram><w lemma="fibere" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="fibered" lemma="fibere" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="345">
+    <ngram><w lemma="σi" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="Σis" lemma="σi" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="346">
+    <ngram><w lemma="topologize" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="topologized" lemma="topologize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="347">
+    <ngram><w lemma="gain" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="gain" lemma="gain" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="348">
+    <ngram><w lemma="view" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="view" lemma="view" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="viewed" lemma="view" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="349">
+    <ngram><w lemma="single" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="single" lemma="single" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="singles" lemma="single" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="350">
+    <ngram><w lemma="shed" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="shed" lemma="shed" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="sheds" lemma="shed" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="351">
+    <ngram><w lemma="transform" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="transforming" lemma="transform" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="352">
+    <ngram><w lemma="support" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="supported" lemma="support" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="supports" lemma="support" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="353">
+    <ngram><w lemma="-embedde" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-embedded" lemma="-embedde" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="354">
+    <ngram><w lemma="receive" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="receive" lemma="receive" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="355">
+    <ngram><w lemma="compute" /> <freq name="tac.conll" value="14" /></ngram>
+    <occurs>
+    <ngram><w surface="compute" lemma="compute" /> <freq name="tac.conll" value="7" /></ngram>
+    <ngram><w surface="computed" lemma="compute" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="computing" lemma="compute" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="356">
+    <ngram><w lemma="obey" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="obey" lemma="obey" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="obeyed" lemma="obey" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="obeying" lemma="obey" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="357">
+    <ngram><w lemma="break" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="broken" lemma="break" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="358">
+    <ngram><w lemma="cotensore" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="cotensored" lemma="cotensore" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="359">
+    <ngram><w lemma="finetune" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="finetuned" lemma="finetune" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="360">
+    <ngram><w lemma="∈" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="∈" lemma="∈" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="361">
+    <ngram><w lemma="go" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="go" lemma="go" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="goes" lemma="go" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="362">
+    <ngram><w lemma="settle" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="settle" lemma="settle" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="363">
+    <ngram><w lemma="confine" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="confined" lemma="confine" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="364">
+    <ngram><w lemma="help" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="help" lemma="help" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="helping" lemma="help" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="helps" lemma="help" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="365">
+    <ngram><w lemma="serve" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="serve" lemma="serve" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="serves" lemma="serve" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="366">
+    <ngram><w lemma="bring" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="bring" lemma="bring" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="367">
+    <ngram><w lemma="≃" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="≃" lemma="≃" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="368">
+    <ngram><w lemma="review" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="review" lemma="review" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="reviewed" lemma="review" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="reviews" lemma="review" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="369">
+    <ngram><w lemma="realise" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="realised" lemma="realise" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="370">
+    <ngram><w lemma="proceed" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="proceed" lemma="proceed" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="proceeds" lemma="proceed" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="371">
+    <ngram><w lemma="simulate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="simulated" lemma="simulate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="372">
+    <ngram><w lemma="attach" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="attach" lemma="attach" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="attaching" lemma="attach" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="373">
+    <ngram><w lemma="abstract" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="abstracted" lemma="abstract" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="abstracting" lemma="abstract" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="374">
+    <ngram><w lemma="vary" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="Varying" lemma="vary" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="varied" lemma="vary" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="varying" lemma="vary" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="375">
+    <ngram><w lemma="drop" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="dropped" lemma="drop" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="dropping" lemma="drop" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="drops" lemma="drop" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="376">
+    <ngram><w lemma="parametrise" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="parametrised" lemma="parametrise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="377">
+    <ngram><w lemma="feel" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="feel" lemma="feel" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="378">
+    <ngram><w lemma="correct" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="correct" lemma="correct" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="corrected" lemma="correct" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="379">
+    <ngram><w lemma="guard" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="guarded" lemma="guard" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="380">
+    <ngram><w lemma="polarize" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="polarized" lemma="polarize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="381">
+    <ngram><w lemma="refine" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="refine" lemma="refine" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="refined" lemma="refine" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="refines" lemma="refine" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="382">
+    <ngram><w lemma="depend" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="depend" lemma="depend" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="depending" lemma="depend" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="depends" lemma="depend" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="383">
+    <ngram><w lemma="parametrize" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="parametrized" lemma="parametrize" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="384">
+    <ngram><w lemma="miss" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="missing" lemma="miss" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="385">
+    <ngram><w lemma="avoid" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="avoid" lemma="avoid" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="avoided" lemma="avoid" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="avoiding" lemma="avoid" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="386">
+    <ngram><w lemma="frame" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="framed" lemma="frame" /> <freq name="tac.conll" value="6" /></ngram>
+    </occurs>
+</cand>
+<cand candid="387">
+    <ngram><w lemma="assemble" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="assemble" lemma="assemble" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="assembling" lemma="assemble" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="388">
+    <ngram><w lemma="endow" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="endowed" lemma="endow" /> <freq name="tac.conll" value="5" /></ngram>
+    <ngram><w surface="endowing" lemma="endow" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="389">
+    <ngram><w lemma="rest" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="Resting" lemma="rest" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="rests" lemma="rest" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="390">
+    <ngram><w lemma="reverse" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="reverse" lemma="reverse" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="reversed" lemma="reverse" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="reverses" lemma="reverse" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="391">
+    <ngram><w lemma="initiate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="initiate" lemma="initiate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="392">
+    <ngram><w lemma="constitute" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="constitute" lemma="constitute" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="393">
+    <ngram><w lemma="employ" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="employ" lemma="employ" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="employed" lemma="employ" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="employing" lemma="employ" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="employs" lemma="employ" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="394">
+    <ngram><w lemma="cover" /> <freq name="tac.conll" value="10" /></ngram>
+    <occurs>
+    <ngram><w surface="cover" lemma="cover" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="covered" lemma="cover" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="covering" lemma="cover" /> <freq name="tac.conll" value="8" /></ngram>
+    </occurs>
+</cand>
+<cand candid="395">
+    <ngram><w lemma="depart" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="departing" lemma="depart" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="396">
+    <ngram><w lemma="-make" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-make" lemma="-make" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="397">
+    <ngram><w lemma="desire" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="desired" lemma="desire" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="398">
+    <ngram><w lemma="pave" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="paves" lemma="pave" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="399">
+    <ngram><w lemma="owe" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="owed" lemma="owe" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="400">
+    <ngram><w lemma="parameterize" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="parameterized" lemma="parameterize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="401">
+    <ngram><w lemma="presuppose" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="presupposed" lemma="presuppose" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="402">
+    <ngram><w lemma="notice" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="noticed" lemma="notice" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="403">
+    <ngram><w lemma="inspire" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="Inspired" lemma="inspire" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="inspired" lemma="inspire" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="404">
+    <ngram><w lemma="glue" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="glued" lemma="glue" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="405">
+    <ngram><w lemma="loop" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="loop" lemma="loop" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="looping" lemma="loop" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="406">
+    <ngram><w lemma="hope" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="hope" lemma="hope" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="407">
+    <ngram><w lemma="supply" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="supplying" lemma="supply" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="408">
+    <ngram><w lemma="delete" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="deleted" lemma="delete" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="deleting" lemma="delete" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="409">
+    <ngram><w lemma="answer" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="answer" lemma="answer" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="answering" lemma="answer" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="410">
+    <ngram><w lemma="triangulate" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="triangulated" lemma="triangulate" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="411">
+    <ngram><w lemma="respect" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="respect" lemma="respect" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="respects" lemma="respect" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="412">
+    <ngram><w lemma="parallel" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="paralleling" lemma="parallel" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="parallels" lemma="parallel" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="413">
+    <ngram><w lemma="chase" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="chasing" lemma="chase" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="414">
+    <ngram><w lemma="omit" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="Omitting" lemma="omit" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="omitted" lemma="omit" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="omitting" lemma="omit" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="415">
+    <ngram><w lemma="precrosse" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="precrossed" lemma="precrosse" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="416">
+    <ngram><w lemma="expand" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="expand" lemma="expand" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="expanded" lemma="expand" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="417">
+    <ngram><w lemma="clutch" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="clutches" lemma="clutch" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="418">
+    <ngram><w lemma="strictifie" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="strictified" lemma="strictifie" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="419">
+    <ngram><w lemma="degroupoidifye" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="degroupoidifying" lemma="degroupoidifye" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="420">
+    <ngram><w lemma="groupoidify" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="groupoidify" lemma="groupoidify" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="421">
+    <ngram><w lemma="lace" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="laced" lemma="lace" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="422">
+    <ngram><w lemma="ensue" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="ensuing" lemma="ensue" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="423">
+    <ngram><w lemma="send" /> <freq name="tac.conll" value="8" /></ngram>
+    <occurs>
+    <ngram><w surface="sending" lemma="send" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="sends" lemma="send" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="sent" lemma="send" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="424">
+    <ngram><w lemma="condense" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="condense" lemma="condense" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="425">
+    <ngram><w lemma="resort" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="resort" lemma="resort" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="426">
+    <ngram><w lemma="implement" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="Implementing" lemma="implement" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="427">
+    <ngram><w lemma="stratify" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="stratified" lemma="stratify" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="428">
+    <ngram><w lemma="detect" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="detect" lemma="detect" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="detected" lemma="detect" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="429">
+    <ngram><w lemma="name" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="named" lemma="name" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="430">
+    <ngram><w lemma="maintain" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="maintain" lemma="maintain" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="431">
+    <ngram><w lemma="put" /> <freq name="tac.conll" value="5" /></ngram>
+    <occurs>
+    <ngram><w surface="put" lemma="put" /> <freq name="tac.conll" value="4" /></ngram>
+    <ngram><w surface="putting" lemma="put" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="432">
+    <ngram><w lemma="affirm" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="affirms" lemma="affirm" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="433">
+    <ngram><w lemma="-enriche" /> <freq name="tac.conll" value="7" /></ngram>
+    <occurs>
+    <ngram><w surface="-enriched" lemma="-enriche" /> <freq name="tac.conll" value="7" /></ngram>
+    </occurs>
+</cand>
+<cand candid="434">
+    <ngram><w lemma="vanish" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="vanish" lemma="vanish" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="vanishes" lemma="vanish" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="435">
+    <ngram><w lemma="pertain" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pertaining" lemma="pertain" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="436">
+    <ngram><w lemma="feature" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="feature" lemma="feature" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="437">
+    <ngram><w lemma="place" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="placed" lemma="place" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="438">
+    <ngram><w lemma="prefer" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="prefer" lemma="prefer" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="439">
+    <ngram><w lemma="communicate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="communicating" lemma="communicate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="440">
+    <ngram><w lemma="tangle" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="tangled" lemma="tangle" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="441">
+    <ngram><w lemma="disappear" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="disappear" lemma="disappear" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="442">
+    <ngram><w lemma="unpack" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="unpacks" lemma="unpack" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="443">
+    <ngram><w lemma="group" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="grouped" lemma="group" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="444">
+    <ngram><w lemma="advance" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="advance" lemma="advance" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="445">
+    <ngram><w lemma="address" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="addresses" lemma="address" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="addressing" lemma="address" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="446">
+    <ngram><w lemma="survey" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="survey" lemma="survey" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="447">
+    <ngram><w lemma="undertake" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="undertake" lemma="undertake" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="448">
+    <ngram><w lemma="transport" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="transporting" lemma="transport" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="449">
+    <ngram><w lemma="accomplish" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="accomplish" lemma="accomplish" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="450">
+    <ngram><w lemma="having" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="Having" lemma="having" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="having" lemma="having" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="451">
+    <ngram><w lemma="piece" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pieced" lemma="piece" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="452">
+    <ngram><w lemma="iterate" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="iterated" lemma="iterate" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="iterating" lemma="iterate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="453">
+    <ngram><w lemma="christen" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="christened" lemma="christen" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="454">
+    <ngram><w lemma="evaluate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="evaluated" lemma="evaluate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="455">
+    <ngram><w lemma="modelize" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="modelized" lemma="modelize" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="456">
+    <ngram><w lemma="finish" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="finish" lemma="finish" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="457">
+    <ngram><w lemma="reproduce" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="reproduces" lemma="reproduce" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="458">
+    <ngram><w lemma="convey" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="convey" lemma="convey" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="conveyed" lemma="convey" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="459">
+    <ngram><w lemma="expose" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="exposed" lemma="expose" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="460">
+    <ngram><w lemma="tell" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="tell" lemma="tell" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="461">
+    <ngram><w lemma="speak" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="speak" lemma="speak" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="speaking" lemma="speak" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="462">
+    <ngram><w lemma="trace" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="traced" lemma="trace" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="463">
+    <ngram><w lemma="demand" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="demands" lemma="demand" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="464">
+    <ngram><w lemma="warp" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="warping" lemma="warp" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="465">
+    <ngram><w lemma="twist" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="twisted" lemma="twist" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="twisting" lemma="twist" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="466">
+    <ngram><w lemma="-close" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-closed" lemma="-close" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="467">
+    <ngram><w lemma="fibre" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="fibred" lemma="fibre" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="468">
+    <ngram><w lemma="mix" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="mixed" lemma="mix" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="469">
+    <ngram><w lemma="deform" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="deform" lemma="deform" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="deformed" lemma="deform" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="470">
+    <ngram><w lemma="phrase" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="phrased" lemma="phrase" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="471">
+    <ngram><w lemma="pick" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pick" lemma="pick" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="472">
+    <ngram><w lemma="coordinatize" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="coordinatized" lemma="coordinatize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="473">
+    <ngram><w lemma="\map" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="\maps" lemma="\map" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="474">
+    <ngram><w lemma="push" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pushing" lemma="push" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="475">
+    <ngram><w lemma="focusse" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="focussing" lemma="focusse" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="476">
+    <ngram><w lemma="project" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="projects" lemma="project" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="477">
+    <ngram><w lemma="demystify" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="demystify" lemma="demystify" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="478">
+    <ngram><w lemma="keep" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="Keeping" lemma="keep" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="keep" lemma="keep" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="keeping" lemma="keep" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="479">
+    <ngram><w lemma="check" /> <freq name="tac.conll" value="4" /></ngram>
+    <occurs>
+    <ngram><w surface="check" lemma="check" /> <freq name="tac.conll" value="3" /></ngram>
+    <ngram><w surface="checked" lemma="check" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="480">
+    <ngram><w lemma="localise" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="localised" lemma="localise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="481">
+    <ngram><w lemma="prescribe" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="prescribed" lemma="prescribe" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="482">
+    <ngram><w lemma="relax" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="relaxing" lemma="relax" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="483">
+    <ngram><w lemma="reveal" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="reveals" lemma="reveal" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="484">
+    <ngram><w lemma="-generate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-generated" lemma="-generate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="485">
+    <ngram><w lemma="pull" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pull" lemma="pull" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="486">
+    <ngram><w lemma="subsume" /> <freq name="tac.conll" value="6" /></ngram>
+    <occurs>
+    <ngram><w surface="subsume" lemma="subsume" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="subsumes" lemma="subsume" /> <freq name="tac.conll" value="5" /></ngram>
+    </occurs>
+</cand>
+<cand candid="487">
+    <ngram><w lemma="decorate" /> <freq name="tac.conll" value="16" /></ngram>
+    <occurs>
+    <ngram><w surface="decorate" lemma="decorate" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="decorated" lemma="decorate" /> <freq name="tac.conll" value="11" /></ngram>
+    <ngram><w surface="decorating" lemma="decorate" /> <freq name="tac.conll" value="4" /></ngram>
+    </occurs>
+</cand>
+<cand candid="488">
+    <ngram><w lemma="comprise" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="comprised" lemma="comprise" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="comprises" lemma="comprise" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="comprising" lemma="comprise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="489">
+    <ngram><w lemma="accord" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="According" lemma="accord" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="490">
+    <ngram><w lemma="multiply" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="multiplied" lemma="multiply" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="491">
+    <ngram><w lemma="integrate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="integrated" lemma="integrate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="492">
+    <ngram><w lemma="-filtere" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="-filtered" lemma="-filtere" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="493">
+    <ngram><w lemma="tend" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="tend" lemma="tend" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="494">
+    <ngram><w lemma="open" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="opening" lemma="open" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="495">
+    <ngram><w lemma="slice" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="slicing" lemma="slice" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="496">
+    <ngram><w lemma="oblige" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="obliging" lemma="oblige" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="497">
+    <ngram><w lemma="teach" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="teaches" lemma="teach" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="498">
+    <ngram><w lemma="declare" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="declare" lemma="declare" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="499">
+    <ngram><w lemma="realize" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="realize" lemma="realize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="realized" lemma="realize" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="500">
+    <ngram><w lemma="repair" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="repair" lemma="repair" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="501">
+    <ngram><w lemma="arrive" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="arriving" lemma="arrive" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="502">
+    <ngram><w lemma="factor" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="factored" lemma="factor" /> <freq name="tac.conll" value="2" /></ngram>
+    <ngram><w surface="factors" lemma="factor" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="503">
+    <ngram><w lemma="fill" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="fill" lemma="fill" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="504">
+    <ngram><w lemma="appeal" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="appealed" lemma="appeal" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="505">
+    <ngram><w lemma="restate" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="restate" lemma="restate" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="506">
+    <ngram><w lemma="remove" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="remove" lemma="remove" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="removing" lemma="remove" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="507">
+    <ngram><w lemma="alter" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="alters" lemma="alter" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="508">
+    <ngram><w lemma="scatter" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="scattered" lemma="scatter" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="509">
+    <ngram><w lemma="enlarge" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="enlarged" lemma="enlarge" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="510">
+    <ngram><w lemma="power" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="powered" lemma="power" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="511">
+    <ngram><w lemma="metrize" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="metrized" lemma="metrize" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="512">
+    <ngram><w lemma="converge" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="converge" lemma="converge" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="513">
+    <ngram><w lemma="acquire" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="acquires" lemma="acquire" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="514">
+    <ngram><w lemma="stand" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="stand" lemma="stand" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="515">
+    <ngram><w lemma="struggle" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="struggled" lemma="struggle" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="516">
+    <ngram><w lemma="withrepresente" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="withrepresenting" lemma="withrepresente" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="517">
+    <ngram><w lemma="bridge" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="bridge" lemma="bridge" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="518">
+    <ngram><w lemma="designate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="designated" lemma="designate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="519">
+    <ngram><w lemma="detail" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="detailing" lemma="detail" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="520">
+    <ngram><w lemma="highlight" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="highlights" lemma="highlight" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="521">
+    <ngram><w lemma="emphasise" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="emphasise" lemma="emphasise" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="522">
+    <ngram><w lemma="achieve" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="achieved" lemma="achieve" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="523">
+    <ngram><w lemma="transfer" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="transferred" lemma="transfer" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="524">
+    <ngram><w lemma="pretriangulate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pretriangulated" lemma="pretriangulate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="525">
+    <ngram><w lemma="align" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="aligned" lemma="align" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="526">
+    <ngram><w lemma="pay" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pay" lemma="pay" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="527">
+    <ngram><w lemma="flow" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="flow" lemma="flow" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="528">
+    <ngram><w lemma="grain" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="graining" lemma="grain" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="529">
+    <ngram><w lemma="aim" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="aim" lemma="aim" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="530">
+    <ngram><w lemma="formalize" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="Formalizing" lemma="formalize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="formalize" lemma="formalize" /> <freq name="tac.conll" value="1" /></ngram>
+    <ngram><w surface="formalizes" lemma="formalize" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="531">
+    <ngram><w lemma="envelop" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="enveloping" lemma="envelop" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="532">
+    <ngram><w lemma="reobtain" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="reobtain" lemma="reobtain" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="533">
+    <ngram><w lemma="dub" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="dubbed" lemma="dub" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="534">
+    <ngram><w lemma="forget" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="forgets" lemma="forget" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="535">
+    <ngram><w lemma="remember" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="remembers" lemma="remember" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="536">
+    <ngram><w lemma="annihilate" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="annihilates" lemma="annihilate" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="537">
+    <ngram><w lemma="stabilize" /> <freq name="tac.conll" value="2" /></ngram>
+    <occurs>
+    <ngram><w surface="stabilizes" lemma="stabilize" /> <freq name="tac.conll" value="2" /></ngram>
+    </occurs>
+</cand>
+<cand candid="538">
+    <ngram><w lemma="talk" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="talk" lemma="talk" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="539">
+    <ngram><w lemma="list" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="list" lemma="list" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="540">
+    <ngram><w lemma="manifest" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="manifest" lemma="manifest" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="541">
+    <ngram><w lemma="coact" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="coacts" lemma="coact" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="542">
+    <ngram><w lemma="pin" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="pinned" lemma="pin" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="543">
+    <ngram><w lemma="proffer" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="proffer" lemma="proffer" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="544">
+    <ngram><w lemma="bar" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="barred" lemma="bar" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="545">
+    <ngram><w lemma="getting" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="getting" lemma="getting" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="546">
+    <ngram><w lemma="rid" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="rid" lemma="rid" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="547">
+    <ngram><w lemma="extriangulate" /> <freq name="tac.conll" value="3" /></ngram>
+    <occurs>
+    <ngram><w surface="extriangulated" lemma="extriangulate" /> <freq name="tac.conll" value="3" /></ngram>
+    </occurs>
+</cand>
+<cand candid="548">
+    <ngram><w lemma="intertwine" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="intertwining" lemma="intertwine" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="549">
+    <ngram><w lemma="govern" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="govern" lemma="govern" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="550">
+    <ngram><w lemma="color" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="colored" lemma="color" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="551">
+    <ngram><w lemma="reindexe" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="reindexing" lemma="reindexe" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="552">
+    <ngram><w lemma="hint" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="hinted" lemma="hint" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="553">
+    <ngram><w lemma="span" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="spanning" lemma="span" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="554">
+    <ngram><w lemma="discard" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="discarding" lemma="discard" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+<cand candid="555">
+    <ngram><w lemma="overlay" /> <freq name="tac.conll" value="1" /></ngram>
+    <occurs>
+    <ngram><w surface="overlaying" lemma="overlay" /> <freq name="tac.conll" value="1" /></ngram>
+    </occurs>
+</cand>
+</candidates>

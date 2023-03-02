@@ -164,7 +164,7 @@ def main():
                     if token.dep_ == 'dep':
                         lists.dep_rels.append({
                             'sentence': str(sentence),
-                            'token': str(token),
+                            'tokens': [str(token), str(token.head)],
                         })
                     if token.head.i < token.i:
                         dep_stats[token.dep_][token.head.lemma_ + ' ' + token.lemma_] += 1
