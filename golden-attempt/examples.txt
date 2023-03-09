@@ -1,0 +1,1004 @@
+%%% Examples of sentences from TAC abstracts, right size, no latex
+This yields a quadratic algorithm deciding the equality of diagrams in a free double category.
+The right adjoint of this Quillen equivalence is the classical Segal's Nerve functor.
+Along the way we prove numerous results showing that the enchilada category is rather strange.
+Let PreOrd(C) be the category of internal preorders in an exact category C.
+Persistence has proved to be a valuable tool to analyze real world data robustly.
+This allows a definition of topological complexity for orbifolds.
+This note shows every Grothendieck topos has such a site.
+On the other hand subcanonical one-way sites are very special.
+A site criterion for petit toposes will probably require subcanonical sites.
+We call such 2-monads property-like.
+We show that associative coequalizing multiplications suffice and call the resulting structures interpolads.
+This property then extends to strong Colimits of sketches.
+Often used implicitly, the precise statement of this property and its proof appears here.
+However, we provide examples to show that the reflector and coreflector need not coincide.
+Results on the finiteness of induced crossed modules are proved both algebraically and topologically.
+Strong promonoidal functors are defined.
+A construction for the free monoidal category on a promonoidal category is provided.
+In this paper we study the lattice of quantic conuclei for orthomudular lattices.
+We discuss two versions of a conjecture attributed to M. Barr.
+We introduce MD-sketches, which are a particular kind of Finite Sum sketches.
+Two interesting results about MD-sketches are proved.
+As a corollary, we obtain that equivalence of data-specifications is decidable.
+Their universal properties can then be derived with standard techniques as used in duality theory.
+When it does, we call the string distributive.
+These provide a new construction of the simplicial 2-category, Delta.
+Here we show an analogous description of locally finitely multipresentable categories.
+In addition, we define and study the appropriate categorical structure underlying the MIX rule.
+We give the definition in any Gray-category.
+The concept of algebra is given as an adjunction with invertible counit.
+We show that these doctrines are instances of more general pseudomonads.
+
+2-crossed complexes are introduced and similar freeness results for these are discussed.
+Partial results are given for higher dimensions.
+Applications to 2-crossed modules and quadratic modules are discussed.
+The theory of enriched accessible categories over a suitable base category V is developed.
+A particular attention is devoted to enriched locally presentable categories and enriched functors.
+Consequently, an equivariant simplicial version of the Whitehead Theorem is derived.
+Some examples are parity c omplexes, pasting schemes and directed complexes.
+This role makes the relationship between projective objects and the tensor product especially critical.
+Conditions are given under which such a structure interacts appropriately with projective objects.
+These examples were not fabricated to illustrate the abstract possibility of misbehavior.
+Rather, they are drawn from the literature.
+We give an abstract characterization of categories which are localizations of Maltsev varieties.
+These results can be applied to characterize localizations of naturally Maltsev varieties.
+Using the Chu-construction, we define a group algebra for topological Hausdorff groups.
+Exponentiable spaces are characterized in terms of convergence.
+These isomorphisms must satisfy nine coherence conditions.
+We define what is a pseudomonad with compatible structure with respect to two given pseudomonads.
+This all extends routinely to local presentability with respect to any regular cardinal.
+A number of examples are considered.
+The main tool in the new approach is the Chu construction.
+Finally, we show loop and suspension functors in the pointed case.
+The purpose of this paper is to indicate some bicategorical properties of ring theory.
+In this interaction, static modules are analyzed.
+This leads to the notion of strongly protomodular category.
+The appendix provides the definitions of a braided monoidal bicategory and sylleptic monoidal bicategory.
+An application to exact sequences is given.
+In this paper we show that under slightly stronger assumptions the converse is also true.
+We present some new findings concerning branched covers in topos theory.
+Finally, we characterize when certain categories of sheaves are toposes.
+We present two other characterizations.
+
+A relationship between pseudoepimorphisms and lax epimorphisms is discussed.
+The construction is performed in two steps.
+First a cartesian closed extension L of CLS is obtained.
+We only treat the branching side.
+The 2-category VAR of finitary varieties is not varietal over CAT.
+An equational hull of VAR w.r.t. all operations is also discussed.
+We give a self-contained presentation of Batanin's construction that suits our purposes.
+An important example: reflexive coequalizers are sifted colimits.
+Among complete categories, generalized varieties are precisely the varieties.
+A feature of a ramification groupoid is that it carries a certain order structure.
+Our work extends naturally to the braid group on countably many generators.
+We show that the two notions are equivalent.
+This is simultaneously an extension of Verdier's version of Cech cohomology to homotopy.
+Exact sequences are a well known notion in homological algebra.
+As an application, we compare presheaf categories and varieties.
+The monadic arrows Opmon are then characterized.
+We call such structures entropic categories.
+We demonstrate the soundness and completeness of our axiomatization with respect to cut-elimination.
+We then focus on several methods of building entropic categories.
+Several examples are discussed, based first on the notion of a bigroup.
+Finally the Tannaka-Krein reconstruction theorem is extended to the entropic setting.
+The symbolic and categorical structures are thereby shown to be equivalent.
+We obtain a characterization of such functors.
+A cyclic spectrum is constructed for Boolean flows.
+Examples include attractive fixpoints, repulsive fixpoints, strange attractors and the logistic equation.
+The primitive symbolic and categorical structures are extended to make their types sober.
+A more technical characterization of axiomatizable classes in geometric logic is presented.
+We restrict our study to the case of locally partially ordered bases.
+We give two applications: sheaves over locales and group actions.
+Hopf formulas for the second and third homology of a Lie algebra are proved.
+The construction is based on the geometric notion of thin square.
+The definitions can be read independently.
+It is shown that every codescent morphism of groups is effective.
+
+We generalize Dress and MÃ¼ller's main result in Decomposable functors and the exponential principle.
+Subsets with this property are called composition-representative.
+This paper studies lax higher dimensional structure over bicategories.
+The general notion of a module between two morphisms of bicategories is described.
+The composite of two such modules need not exist.
+These modules and their modulations then give rise to a bicategory.
+We give an explicit construction of the category Opetope of opetopes.
+This result encompasses many known and new examples of quasitopoi.
+We take some first steps in providing a synthetic theory of distributions.
+We introduce various notions of partial topos, i.e. `topos without terminal object'.
+Examples for the weaker notions are local homeomorphisms and discrete fibrations.
+In such a framework, the globular nerve always satisfies the Kan condition.
+We give a categorical discussion of such results.
+Another is to make clear which parts of the proofs of such results are formal.
+In this case we recover the notion of a linear bicategory.
+The poly notions of functors, modules and their transformations are introduced as well.
+These in fact correspond to modules having special properties.
+In many applications of quasigroups isotopies and homotopies are more important than isomorphisms and homomorphisms.
+We prove various results relating it to exponentiation of locales, including the following.
+Those classes are natural examples of reflective subcategories defined by proper classes of morphisms.
+Adamek and Sousa's result follows from ours.
+The paper develops the previously proposed approach to constructing factorization systems in general categories.
+The problem of relating a factorization system to a pointed endofunctor is considered.
+Some relevant examples in concrete categories are given.
+The symmetric case can easily be recovered.
+This paper proposes a recursive definition of V-n-categories and their morphisms.
+Our result relies heavily on some unpublished work of A. Kock from 1989.
+The required simplicial approximation results for simplicial sets and their proofs are given in full.
+Subdivision behaves like a covering in the context of the techniques displayed here.
+Several exact sequences, relative to a subfunctor of the identity functor, are obtained.
+The resulting notion of centrality fits into Janelidze and Kelly's theory of central extensions.
+
+The centre of a monoidal category is a braided monoidal category.
+Monoidal categories are monoidal objects (or pseudomonoids) in the monoidal bicategory of categories.
+Some properties and sufficient conditions for existence of the construction are examined.
+Having many corollaries, this was an extremely useful result.
+Moreover, as the authors soon suspected, it specializes a much more general result.
+We characterize semi-abelian monadic categories and their localizations.
+We add some guiding examples.
+We generalize to an arbitrary variety the von Neumann axiom for a ring.
+We study its implications on the purity of monomorphisms and the flatness of algebras.
+However, we also present a non-varietor satisfying Birkhoff's Variety Theorem.
+It turns out that many categorical properties are well behaved under enlargements.
+We describe a completion of gms's by Cauchy filters of formal balls.
+The completion generalizes the usual one for metric spaces.
+Various examples and constructions are given, including finite products.
+A precise concept of concrete geometrical category is introduced in an axiomatic way.
+In this article, we present a general construction of such an extension.
+These results have recently been generalised to all dimensions by Philip Higgins.
+We give two related universal properties of the span construction.
+The first involves sinister morphisms out of the base category and sinister transformations.
+There are no coherence requirements.
+We describe this semantics incrementally.
+Then we look at the universal property required to interpret each type constructor.
+And we give ways of constructing models from other models.
+This conjecture is false, but there is an equational characterization of absolute homology.
+The main theorem comes close to a characterisation of this phenomenon.
+This work is a contribution to a recent field, Directed Algebraic Topology.
+This paper constructs models of intuitionistic set theory in suitable categories.
+We provide various examples of this situation of a combinatorial nature.
+For the elementary case, little more is known.
+Finally, models of these theories are constructed in the category of ideals.
+We discuss holonomy and prove an analogue of the Ambrose-Singer theorem.
+The main result is now, that such monads form a stack.
+The equivalence is FOLDS equivalence of the FOLDS-Specifications of the two concepts.
+A representation theory for (strict) categorical groups is constructed.
+Each categorical group determines a monoidal bicategory of representations.
+Typically, these bicategories contain representations which are indecomposable but not irreducible.
+A simple example is computed in explicit detail.
+Universal properties of these constructions are presented.
+We then compute the cyclic spectrum of any finitely generated Boolean flow.
+Characterization theorems for unitary restriction categories are derived.
+Let L be an arbitrary orthomodular lattice.
+The proof of the thin filler conditions uses chain complexes and chain homotopies.
+We give a Dialectica-style interpretation of first-order classical affine logic.
+The constructions have the same objects, but are rather different in other ways.
+We also point out interesting open problems concerning the Dialectica construction.
+This view helps to clarify the composition of Chu-spans.
+Here we introduce collarable (and collared) cospans between topological spaces.
+Nuclei of categories of modules are considered as an example.
+We then use these equations to classify operads with coherent unit actions.
+We discuss an approach to constructing a weak n-category of cobordisms.
+For general dimensions k and n we indicate what the construction should be.
+We give here a positive answer to this question.
+A question was left open: is there more structure yet to be defined?
+In the process a number of facts about abstract core algebras must be developed.
+The mistaken version is used later in that paper.
+The straightforward extension to crossed complexes is also considered.
+Bicat is the tricategory of bicategories, homomorphisms, pseudonatural transformations, and modifications.
+We show that these two tricategories are not triequivalent.
+It is shown that a cartesian bicategory is a symmetric monoidal bicategory.
+Those systems that have a unique solution in every iterative algebra are characterized.
+Some consequences and applications are presented.
+We then describe two ways to construct framed bicategories.
+In particular, the theory of Kan extensions extends to the setting of Grothendieck derivators.
+In particular, Rep(C, D) always has an initial object.
+In those two cases, the functors in question may have surprisingly opulent structures.
+The latter leads to a deeper understanding of the notion of linear functor.
+We replace connected components by constructively complemented, or definable, monomorphisms.
+This paper deals with Kan extensions in a weak double category.
+We show that their use can be avoided and all remaining results remain correct.
+See note on p. 24.
+Our paper extends these ideas somewhat.
+We give some examples in algebra and in topos theory.
+This paper revisits the authors' notion of a differential category from a different perspective.
+We present an analysis of the basic properties of Cartesian differential categories.
+The retract (A, a) is not free in general.
+We study convergent (terminating and confluent) presentations of n-categories.
+We characterise this property by using the notion of critical branching.
+This paper introduces the notions of vector field and flow on a general differentiable stack.
+Both of them generalise the concept of algebra on a monad T.
+We define eventually cyclic Boolean flows and the eventually cyclic spectrum of a Boolean flow.
+We axiomatically define (pre-)Hilbert categories.
+The axioms resemble those for monoidal Abelian categories with the addition of an involutive functor.
+Neither enrichment nor a complex base field is presupposed.
+A comparison to other approaches will be made in the introduction.
+Distributive laws between monads (triples) were defined by Jon Beck in the 1960s.
+Particular cases are the entwining operators between algebras and coalgebras.
+For such a class of spaces homotopy orthogonality implies enriched orthogonality.
+The state space of a machine admits the structure of time.
+The set of such components often gives a computable invariant of machine behavior.
+In the general case, no such meaningful partition could exist.
+Thus we hope to extend geometric techniques in static program analysis to looping processes.
+The present paper starts by supplying this last clause with a precise meaning.
+This framework allows us to define push-forwards for Witt groups, for example.
+Protomodularity, in the pointed case, is equivalent to the Split Short Five Lemma.
+Under condition (I), every multiplicative graph is an internal category.
+We describe a simplified categorical approach to Galois descent theory.
+We conclude with applications to examples.
+Now coproduct preservation yields an approach to product measures.
+Then we present three applications of groupoidification.
+The first is to Feynman diagrams.
+The second application is to Hecke algebras.
+The third application is to Hall algebras.
+We present two generalizations of the Span construction.
+Let R be a commutative ring whose complete ring of quotients is R-injective.
+This allows presentation of the stochastic automata as algebras for this distributive law.
+The ``if" directions fail for semi-abelian varieties.
+We compute some simple examples and explore the elementary properties of these invariants.
+The result then applies to quantum categories and bialgebroids.
+But, is this really the correct level of generalisation?
+Symbolic dynamics is partly the study of walks in a directed graph.
+We determine the resulting homotopy category.
+To each graph we associate a basal graph, well defined up to isomorphism.
+We combine two recent ideas: cartesian differential categories, and restriction categories.
+The category of Set-valued presheaves on a small category B is a topos.
+A flow on a compact Hausdorff space is an automorphism.
+Vertical arrows give rise to modules between representables.
+Various concerns suggest looking for internal co-categories in categories with strong logical structure.
+We give a new proof of the fact that every topos is adhesive.
+We compare various different definitions of "the category of smooth objects".
+This therefore applies beyond the question of categories of smooth spaces.
+We indicate also some possible novel geometric interest in such algebras.
+In this paper we will give a new, elementary proof of this result.
+We clarify details of that work.
+Our main conceptual tool is a monad on the category of grouped toposes.
+We also discuss some new examples and results motivated by this characterization.
+It also gives an easy way to calculate the sources and targets of opetopes.
+Finally, we exhibit several free constructions relating the different classes of categories under consideration.
+Our main results are presented at the level of monoidal bicategories.
+In fact, we provide some very general results connecting opmonoidal monads and skew monoidales.
+We prove that congruence lattices of Morita equivalent small categories are isomorphic.
+In the final section applications to cartesian monoidal categories are considered.
+We develop an alternative approach to star-autonomous comonads via linearly distributive categories.
+Further applications are given.
+The paper presents algebraic and logical developments.
+This development involves a study of clone and double-dualization structures.
+We also prove that each construction preserves comprehension.
+We study the composition of modules between lax functors of weak double categories.
+These axioms are commutative squares involving only co-smash products.
+In this paper we introduce the corresponding morphism concept and examine its properties.
+Moreover, we show that separated L-complete morphisms belong to a factorization system.
+In fact, even Higgins commutators suffice.
+When Îº=Ï‰ it includes the pretopos completion of a coherent category.
+We prove four characterization theorems dealing with adhesive categories and their variants.
+There is a lot of redundancy in the usual definition of adjoint functors.
+We define and prove the core of what is required.
+First we do this in the hom-enriched context.
+Finally, we describe a doctrinal setting.
+Such a theory is called a super Fermat theory.
+Any category of superspaces and smooth functions has an associated such theory.
+This includes both real and complex supermanifolds, as well as algebraic superschemes.
+These include conditions on relations as well as conditions on simplicial objects.
+We also give various examples and counterexamples.
+Cartesian differential categories abstractly capture the notion of a differentiation operation.
+We show that this exterior derivative, as expected, produces a cochain complex.
+It follows that complicial sets are equivalent to sets with complicial identities.
+The resulting structures are called sets with complicial identities.
+These two adjunctions are respectively generalizations of Isbell adjunctions and Kan extensions in category theory.
+We also briefly study 3-categories with weak inverses.
+We finish by two questions about the problem suggested by the title of this text.
+This proposition is then applied to the study of quotient geometric theories and subtoposes.
+We introduce an axiomatic framework for the parallel transport of connections on gerbes.
+Suppose that S is a space.
+This result is analogous to the correspondence between measures and integrals.
+So, for example, we can speak of integration against an ultrafilter.
+We are particularly interested in pseudomonads that arise from KZ-doctrines.
+Tightly bounded KZ-doctrines are shown to be idempotent.
+We characterize topos inclusions corresponding to a general form of relative computability.
+We characterize pcas whose realizability topos admits a geometric morphism to the effective topos.
+We thereby resolve two of the problems with known approaches to bicategorical localization.
+We show that the answer is positive by building some examples.
+We set forth the basic theory of such enriched factorization systems.
+The possibility of spectra in other categories is discussed.
+We introduce a category that represents varying risk as well as ambiguity.
+Then, we reformulate dynamic monetary value measures as a presheaf for the category.
+We use a number of interesting categories related to probability theory.
+A notion of central importance in categorical topology is that of topological functor.
+In the nilpotent case, this nerve is known to be a Kan complex.
+We work through numerous examples to demonstrate the power of these notions.
+If the category is additive, we define a sheaf of categories of analytic functions.
+We use these relations to define analytic versions of Arakelov compactifications of affine arithmetic varieties.
+They are used in the paper only to prove Corollary~8.3.
+A proof of this corollary is given without them.
+Here ``balanced'' can be omitted if the category is additive.
+We introduce the notion of mutation pairs in pseudo-triangulated categories.
+This result unifies many previous constructions of quotient triangulated categories.
+We study extra assumptions on pretopologies that are needed for this theory.
+We check these extra assumptions in several categories with pretopologies.
+Functors between groupoids may be localised at equivalences in two ways.
+We show that both approaches give equivalent bicategories.
+In this paper, we use the language of operads to study open dynamical systems.
+The syntactic architecture of such interconnections is encoded using the visual language of wiring diagrams.
+Moreover it enables us to characterise operads as categorical polynomial monads in a canonical way.
+have two useful gradings related by isomorphisms which change the degree.
+The result is a double category C//G which describes the local symmetries of C.
+There are few known computable examples of non-abelian surface holonomy.
+Using these ideas, we also prove that magnetic monopoles form an abelian group.
+We introduce a 3-dimensional categorical structure which we call intercategory.
+We show that these fit together to produce a strict triple category of intercategories.
+This is the third paper in a series.
+The effect of any bundle of Lie groups is trivial.
+All quotients of a given Lie groupoid determine the same effect.
+Our analysis is relevant to the presentation theory of proper smooth stacks.
+This paper extends the Day Reflection Theorem to skew monoidal categories.
+Let C be a finite category.
+We also give a presentation for FinRelk.
+For full subcategories the answer is affirmative.
+We put a model structure on the category of categories internal to simplicial sets.
+We also study the homotopy theory of internal presheaves over an internal category.
+Monoidal differential categories provide the framework for categorical models of differential linear logic.
+The coKleisli category of any monoidal differential category is always a Cartesian differential category.
+We focus primarily on the definitions due to Batanin and Leinster.
+In both cases we define the join operation as union.
+In the present article we describe constructions of model structures on general bicomplete categories.
+Constant cosheaves are constructed, and there are established connections with shape theory.
+Unlike the uniform completion, the Dedekind completion of a vector lattice is not functorial.
+Our examples include the gleaf of metric spaces and the gleaf of joint probability distributions.
+Examples of compositories include nerves of categories and compositories of higher spans.
+We also characterize the irreducible and indecomposable representations.
+We consider locales B as algebras in the tensor category sl of sup-lattices.
+This equivalence follows from two independent results.
+We do not require the base monoidal category M to be closed or symmetric monoidal.
+We study the properties of these functors, and calculate some examples.
+We give several examples of compact closed bicategories, then review previous work.
+We develop a homotopy theory of categories enriched in a monoidal model category V.
+The model structure is shown to be left proper.
+Our results hold in any pointed regular protomodular category.
+We show that the morphism axiom for n-angulated categories is redundant.
+In this situation we need the notion of a delocalization.
+Here we establish its significance in an algebraic context.
+Birkhoff's variety theorem from universal algebra characterises equational subcategories of varieties.
+We give an analogue of Birkhoff's theorem in the setting of enrichment in categories.
+We will also see that these constructions preserve right properness and compatibility with simplicial enrichment.
+The purpose of this paper is two-fold.
+In the case of sheaves, we use local equivalence as the weak equivalence.
+The theory of derivators enhances and simplifies the theory of triangulated categories.
+We present a theory of cohomological as well as homological descent in this language.
+The main motivation is a descent theory for Grothendieck's six operations.
+Several consequences of examining particular classes of hypercrossed complexes of Lie algebras are presented.
+Two states are past-similar if they have homotopic pasts.
+However, R(S) can be seen as a new type of quantale completions of S.
+Moreover, we exhibit the precise relationship between holomorphic and smooth gerbes.
+This is phrased in terms of a multilinear functor calculus in a bicategory.
+Connections are an important tool of differential geometry.
+This paper investigates their definition and structure in the abstract setting of tangent categories.
+A compactification technique is developed based on Shanin's method.
+Among these are different versions of the acyclic models method.
+Such a functor between effective categories is known to be an equivalence.
+Databases have been studied category-theoretically for decades.
+The aim of this paper is to present a perspective that addresses this issue.
+Throughout, we emphasise how corelations model interconnection.
+All these structures can be realised as algebras over polynomial monads.
+Many important monads are shown to be tame polynomial.
+This construction generalizes the nerve construction for differential graded categories given by Lurie.
+We study the structure of the category of polynomials in a locally cartesian closed category.
+This composition, however, is somewhat complex and difficult to work with.
+Our first important result is similar to that of Lack and Street.
+We study deformation of tube algebra under twisting of graded monoidal categories.
+Let H be a quasi-Hopf algebra.
+We prove that this functor is symmetric monoidal and indeed a hypergraph functor.
+Each kind of circuit corresponds to a mathematically natural prop.
+We describe the `behavior' of these circuits using morphisms between props.
+We introduce and compare several new exactness conditions involving what we call split cubes.
+The proof uses only certain categorical properties of the category of locales, Loc.
+This 2-categorical refinement also provides a uniqueness statement concerning canonical triangulations.
+We introduce a new class of categories generalizing locally presentable ones.
+These biequivalences induce equivalences between the corresponding categories of algebras.
+There are three main ingredients in establishing these biequivalences.
+One motivation for this construction is an application to graph rewriting.
+In this paper, we study properties of maps between fibrant objects in model categories.
+We give a characterization of weak equivalences between fibrant objects.
+An open question was: is it also a variety?
+We show that the answer is affirmative.
+The dual equivalence is induced by the dualizing object [0,1].
+These variants of universal algebra are called {notions of algebraic theory}.
+In this paper, we develop a unified framework for them.
+In this first installment we introduce the free globularly generated double category construction.
+Some concrete examples of categories where these results hold are examined in detail.
+First, we characterize which prederivators arise on the nose as prederivators associated to quasicategories.
+We also discuss the question when that last assumption can be dropped.
+Furthermore, terminal coalgebras are often constructed as limits of a certain type.
+We then give a syntactical characterization of left coextensive varieties of universal algebras.
+We consider such a distributor a weak analogue of adjunction.
+Poly-bicategories generalise planar polycategories in the same way as bicategories generalise monoidal categories.
+We construct model category structures on various types of (marked) *-categories.
+Let E be a topos.
+Let level 1 be the Aufhebung of level 0.
+We also discuss dual constructions.
+Consequently it is a monoidal category and a Lie groupoid.
+Among algebraic majority categories are the categories of lattices, Boolean algebras and Heyting algebras.
+In addition, we introduce the notion of maximal rigid subcategories in extriangulated categories.
+The case E = Set is of special interest.
+We refer to this problem as the problem of existence of internalizations for decorated bicategories.
+Motivated by this we introduce the condition of a double category being globularily generated.
+This construction gives us a context of non-associative relative algebraic geometry.
+The most important example of the construction is the octonionic projective space.
+In this paper we develop a theory of Segal enriched categories.
+We introduce Segal dg-categories which did not exist so far.
+We analyze some of the sheaf theoretic aspects of this topos.
+In this paper we prove an equivalence theorem originally observed by Robert MacPherson.
+Analogous results for the associated homotopy limit (and other intermediate limits) directly follow.
+We also construct semi-simplicial versions of all these.
+Restriction categories were introduced as a way of generalising the notion of partial map category.
+Cheng, Gurski, and Riehl constructed a cyclic double multicategory of multivariable adjunctions.
+We introduce `network models' to encode these ways of combining networks.
+Different network models describe different kinds of networks.
+Such operads, and their algebras, can serve as tools for designing networks.
+Necessary and sufficient conditions for the implication are presented.
+Examples are shown to arise from 2-category theory and from bialgebras.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
