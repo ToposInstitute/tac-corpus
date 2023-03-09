@@ -5,8 +5,21 @@ import time
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-ENDPOINT = "https://wikidata.org/w/api.php?action=query&list=search&format=json&srsearch=%s"
+from SPARQLWrapper import SPARQLWrapper, JSON
+
+sparql_query = """
+SELECT distinct ?item WHERE {
+    ?item ?label "%s"@en.
+}
+"""
+
+ENDPOINT = "https://query.wikidata.org/sparql"
+#ENDPOINT = "https://wikidata.org/w/api.php?action=query&list=search&format=json&srsearch=%s"
 #OT_URL = "https://nlab.opentapioca.org/api/annotate"
+
+HEADERS = {
+    'User-Agent': 'parmesan/0.1',
+}
 
 def main():
 
@@ -31,25 +44,33 @@ def main():
                 for ngram in cand.occurs.find_all('ngram'):
                     surface = ' '.join([w['surface'] for w in
                         ngram.find_all('w')])
+                    query = sparql_query % surface
 
                     while True:
-                        #result = requests.post(OT_URL, data={'query': surface})
                         try:
-                            result = requests.post(ENDPOINT % surface)
-                            if result.status_code == 503:
-                                print("Server overloaded")
-                                time.sleep(5)
+                            result = requests.post(
+                                ENDPOINT, 
+                                data={'query': query, 'format': 'json'}, 
+                                headers=HEADERS,
+                            )
+                            if result.status_code == 429:
+                                print("Too many requests. Waiting.")
+                                print(result.headers['retry-after'])
+                                time.sleep(result.headers['retry-after'])
                                 continue
-                            result_data = result.json()
+
+                            json = result.json()
+                        except Exception as e:
+                            print(surface)
+                            print(e)
+                            print(result)
                             break
-                        except:
-                            print("Other error. Retrying.")
-                            time.sleep(5)
-                    for annotation in result_data['query']['search']:
-                        links.append("wikidata.org/wiki/%s" % annotation['title'])
-                    #for annotation in result_data.get('annotations', []):
-                    #    for tag in annotation.get('tags', []):
-                    #        links.append("wikidata.org/wiki/%s" % tag['id'])
+
+                        for item in json['results']['bindings']:
+                            link = item['item']['value']
+                            links.append(link)
+
+                        break
 
                 writer.writerow({
                     'candidate': candidate,
