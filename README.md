@@ -4,15 +4,16 @@ The work in this repo is part of the Networked Mathematics project at the Topos 
 
 You can read about the project in the blog posts:
 
-* [Introducing the MathFoldr Project](https://topos.site/blog/2021/07/introducing-the-mathfoldr-project/)
-* [The many facets of Networked Mathematics](https://topos.site/blog/2022/04/the-many-facets-of-networked-mathematics/)
-* [Mathematical concepts: how do you recognize them?](https://topos.site/blog/2022/11/mathematical-concepts-how-do-you-recognize-them/)
+* [Introducing the MathFoldr Project](https://topos.site/blog/2021/07/introducing-the-mathfoldr-project/) (11 Jul 2021)
+* [The many facets of Networked Mathematics](https://topos.site/blog/2022/04/the-many-facets-of-networked-mathematics/) (18 Apr 2022)
+* [Mathematical concepts: how do you recognize them?](https://topos.site/blog/2022/11/mathematical-concepts-how-do-you-recognize-them/) (16 Nov 2022)
 
 and in our paper [“Extracting Mathematical Concepts from Text”](https://aclanthology.org/2022.wnut-1.2/), presented at 
-8th Workshop on Noisy User-generated Text [(W-NUT)](http://noisy-text.github.io/2022/).
+8th Workshop on Noisy User-generated Text 2022[(W-NUT)](http://noisy-text.github.io/2022/) associated with COLING 2022.
 Here's a short [video](https://www.youtube.com/watch?v=-ZhZjMn1Zpk) about the work.
 
-You can also "eyeball" the first two corpora we investigated in our [Parmesan0.1](http://192.241.141.161/tac) and [Parmesan0.2](http://192.241.141.161/nlab) prototypes.
+You can also "eyeball" the first two corpora we investigated in the [Parmesan0.1](http://192.241.141.161/tac) 
+and [Parmesan0.2](http://192.241.141.161/nlab) prototypes.
 
 
 For the unmodified results of our 2022
