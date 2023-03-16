@@ -1,6 +1,6 @@
 # TAC corpus
 
-The work in this repo is part of the Networked Mathematics project at the Topos Institute.
+The work in this repo is part of the "Networked Mathematics" project at the [Topos Institute](https://topos.site/).
 
 You can read about the project in the blog posts:
 
