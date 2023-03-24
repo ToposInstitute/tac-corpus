@@ -12,8 +12,8 @@ and in our paper [“Extracting Mathematical Concepts from Text”](https://acla
 8th Workshop on Noisy User-generated Text 2022[(W-NUT)](http://noisy-text.github.io/2022/) associated with COLING 2022.
 Here's a short [video](https://www.youtube.com/watch?v=-ZhZjMn1Zpk) about the work.
 
-You can also "eyeball" the first two corpora we investigated in the [Parmesan0.1](http://192.241.141.161/tac) 
-and [Parmesan0.2](http://192.241.141.161/nlab) prototypes.
+You can also "eyeball" the first two corpora we investigated in the [Parmesan0.11](http://192.241.141.161/tac) 
+and [Parmesan0.12](http://192.241.141.161/nlab) prototypes.
 
 
 For the unmodified results of our 2022
