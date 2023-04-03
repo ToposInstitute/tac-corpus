@@ -20,6 +20,8 @@ For the unmodified results of our 2022
 [paper](https://aclanthology.org/2022.wnut-1.2/), see
 [this](https://github.com/ToposInstitute/tac-corpus/tree/wnut) branch.
 
+A dev version of Parmesan 0.2 is now up at http://www.jacobcollard.com/parmesan2/
+
 ## This repository
 
 This repository contains a corpus based on the contents of abstracts in _Theory
