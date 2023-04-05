@@ -1,4 +1,4 @@
-This yields a quadratic algorithm deciding the equality of diagrams in a free double category.,,double category,free X ,quadratic algorithm,equality of diagrams,,
+This yields a quadratic algorithm deciding the equality of diagrams in a free double category.,,double category,free double category ,quadratic algorithm,equality of diagrams,,
 The right adjoint of this Quillen equivalence is the classical Segal's Nerve functor.,,right adjoint,Quillen equivalence,nerve functor,Segal nerve functor,,
 Along the way we prove numerous results showing that the enchilada category is rather strange.,,enchilada category,,,,,
 Let PreOrd(C) be the category of internal preorders in an exact category C.,,internal preorder,exact category,,,,
