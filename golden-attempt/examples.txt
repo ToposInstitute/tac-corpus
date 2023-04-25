@@ -29,7 +29,6 @@ In addition, we define and study the appropriate categorical structure underlyin
 We give the definition in any Gray-category.
 The concept of algebra is given as an adjunction with invertible counit.
 We show that these doctrines are instances of more general pseudomonads.
-
 2-crossed complexes are introduced and similar freeness results for these are discussed.
 Partial results are given for higher dimensions.
 Applications to 2-crossed modules and quadratic modules are discussed.
@@ -60,7 +59,6 @@ In this paper we show that under slightly stronger assumptions the converse is a
 We present some new findings concerning branched covers in topos theory.
 Finally, we characterize when certain categories of sheaves are toposes.
 We present two other characterizations.
-
 A relationship between pseudoepimorphisms and lax epimorphisms is discussed.
 The construction is performed in two steps.
 First a cartesian closed extension L of CLS is obtained.
@@ -94,7 +92,6 @@ Hopf formulas for the second and third homology of a Lie algebra are proved.
 The construction is based on the geometric notion of thin square.
 The definitions can be read independently.
 It is shown that every codescent morphism of groups is effective.
-
 We generalize Dress and MÃ¼ller's main result in Decomposable functors and the exponential principle.
 Subsets with this property are called composition-representative.
 This paper studies lax higher dimensional structure over bicategories.
@@ -126,7 +123,6 @@ The required simplicial approximation results for simplicial sets and their proo
 Subdivision behaves like a covering in the context of the techniques displayed here.
 Several exact sequences, relative to a subfunctor of the identity functor, are obtained.
 The resulting notion of centrality fits into Janelidze and Kelly's theory of central extensions.
-
 The centre of a monoidal category is a braided monoidal category.
 Monoidal categories are monoidal objects (or pseudomonoids) in the monoidal bicategory of categories.
 Some properties and sufficient conditions for existence of the construction are examined.
