@@ -873,7 +873,7 @@ real,2,
 act(-,x,2
 evidence,2,
 alg(t,2,
-alg(t’,v,2,
+alg(t’,v2,
 quest,2,
 polycategory,2,
 projector,2,wikidata.org/wiki/Q519967
