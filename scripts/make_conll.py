@@ -28,7 +28,7 @@ def filter_mathml(text):
 
     soup = BeautifulSoup(xml, "xml")
 
-    result = re.sub('\s+', ' ', soup.get_text())
+    result = re.sub('\s+', ' ', soup.get_text(strip=True))
 
     return result
 
@@ -42,7 +42,7 @@ def main():
             sent_id = 0
             for article in tqdm(data):
                 content = article['abstract']
-                content = filter_mathml(content)
+                content = filter_mathml(content).strip()
                 doc_id += 1
 
                 if not content:
