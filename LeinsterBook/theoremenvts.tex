@@ -1,0 +1,75 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Settings for theorem-like environments
+% 
+
+
+% Package and general parameters:
+
+
+\usepackage[amsmath,thmmarks]{ntheorem}
+
+\theoremseparator{\hspace{0.5em}}       % This is the symbol between the
+                                % header (e.g. "Theorem") and statement of
+                                % a theorem.
+
+
+% Theorem-like environments with bodies set in italics:
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{propn}[thm]{Proposition}
+\newtheorem{lemma}[thm]{Lemma}
+\newtheorem{cor}[thm]{Corollary}
+
+\newtheorem{ilemma}{Lemma}[chapter]     % For use in introduction
+\newtheorem{alemma}{Lemma}[chapter]     % For use in appendix
+
+
+% Theorem-like environments with bodies set in upright text:
+
+
+\theorembodyfont{\normalfont}
+
+\newtheorem{defn}[thm]{Definition}
+\newtheorem{example}[thm]{Example}
+\newtheorem{examples}[thm]{Examples}
+\newtheorem{remark}[thm]{Remark}
+\newtheorem{remarks}[thm]{Remarks}
+\newtheorem{warning}[thm]{Warning}
+\newtheorem{notn}[thm]{Notation}
+\newtheorem{constn}[thm]{Construction}
+\newtheorem{question}[thm]{\hspace{-.5ex}}      % Exercise
+
+\newtheorem{iexample}[ilemma]{Example}          % For use in intro
+\newtheorem{iquestion}[ilemma]{\hspace{-.5ex}}  % For use in intro
+\newtheorem{aquestion}[alemma]{\hspace{-.5ex}}  % For use in appendix
+
+
+% Proof environments
+
+
+\theoremstyle{nonumberplain}
+\theoremsymbol{\ensuremath{\Box}}
+\qedsymbol{\ensuremath{\Box}}
+
+\newtheorem{pf}{Proof}
+
+% The following commands are for proofs coming significantly later than the
+% statement
+\newcommand{\theoremtobeproved}{}
+\newtheorem{pfoftheorem}{Proof of \theoremtobeproved}
+\newenvironment{pfof}[1]
+{
+\renewcommand{\theoremtobeproved}{#1}
+\begin{pfoftheorem}
+}
+{\end{pfoftheorem}}
+
+
+
+
+

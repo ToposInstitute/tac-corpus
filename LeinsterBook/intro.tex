@@ -1,0 +1,623 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Introduction
+% 
+
+\chapter*{Introduction}
+\label{ch:intro}
+
+Category theory takes a bird's eye view of mathematics.  From high in the sky,
+details become invisible, but we can spot patterns that were impossible to
+detect from ground level.  How is the lowest common multiple of two numbers
+like the direct sum of two vector spaces?  What do discrete topological
+spaces, free groups, and fields of fractions have in common?  We will
+discover answers to these and many similar questions, seeing patterns in
+mathematics that you may never have seen before.
+
+The most important concept in this book is that of \emph{universal%
+%
+\index{universal!property|(}
+%
+property}.  The further you go in mathematics, especially pure mathematics,
+the more universal properties you will meet.  We will spend most of our
+time studying different manifestations of this concept.
+
+Like all branches of mathematics, category theory has its own special
+vocabulary, which we will meet as we go along.  But since the idea of
+universal property is so important, I will use this introduction to explain
+it with no jargon at all, by means of examples.
+
+Our first example of a universal property is very simple.
+
+\begin{iexample} 
+\label{eg:univ-terminal-set}
+Let $1$%
+%
+\ntn{oneset}
+%
+denote a set with one%
+%
+\index{set!one-element}
+%
+element.  (It does not matter what this element is called.)  Then $1$ has
+the following property:
+% 
+\begin{displaytext}
+for all sets $X$, there exists a unique map from $X$ to $1$.
+\end{displaytext}
+% 
+(In this context, the words `map', `mapping' and `function' all mean the
+same thing.)
+
+Indeed, let $X$ be a set.  There \emph{exists} a map $X \to 1$, because we
+can define $f\from X \to 1$ by taking $f(x)$ to be the single element of
+$1$ for each $x \in X$.  This is the \emph{unique} map $X \to 1$, because
+there is no choice in the matter: any map $X \to 1$ must send each element
+of $X$ to the single element of $1$.
+\end{iexample}
+
+Phrases of the form `there exists a unique%
+%
+\index{uniqueness}
+% 
+such-and-such satisfying some condition' are common in category theory.
+The phrase means that there is one and only one such-and-such satisfying
+the condition.  To prove the existence part, we have to show that there is
+at least one.  To prove the uniqueness part, we have to show that there is
+at most one; in other words, any two such-and-suches satisfying the
+condition are equal.
+
+Properties such as this are called `universal' because they state how the
+object being described (in this case, the set $1$) relates to the entire
+universe in which it lives (in this case, the universe of sets).  The
+property begins with the words `\emph{for all} sets $X$', and therefore
+says something about the relationship between $1$ and \emph{every} set $X$:
+namely, that there is a unique map from $X$ to $1$.
+
+\begin{iexample}        
+\label{eg:univ-Z}
+This example involves rings,%
+%
+\index{ring}
+%
+which in this book are always taken to have a multiplicative identity,
+called $1$.  Similarly, homomorphisms of rings are understood to preserve
+multiplicative identities.
+
+The ring $\integers$%
+%
+\index{Z@$\integers$ (integers)!ring@as ring}
+%
+has the following property: for all rings $R$, there exists a unique
+homomorphism $\integers \to R$.
+
+To prove existence, let $R$ be a ring.  Define a function $\phi \from
+\integers \to R$ by
+\[
+\phi(n)
+=
+\begin{cases}
+\underbrace{1 + \cdots + 1}_n   &\text{ if } n > 0,     \\
+0                               &\text{ if } n = 0,     \\
+-\phi(-n)                       &\text{ if } n < 0
+\end{cases}
+\]
+($n \in \integers$).  A series of elementary checks confirms that $\phi$ is
+a homomorphism.
+
+To prove uniqueness, let $R$ be a ring and let $\psi\from \integers \to R$
+be a homomorphism.  We show that $\psi$ is equal to the homomorphism $\phi$
+just defined.  Since homomorphisms preserve multiplicative identities,
+$\psi(1) = 1$.  Since homomorphisms preserve addition,
+\[
+\psi(n) 
+= 
+\psi(\underbrace{1 + \cdots + 1}_n)
+=
+\underbrace{\psi(1) + \cdots + \psi(1)}_n
+=
+\underbrace{1 + \cdots + 1}_n
+=
+\phi(n)
+\]
+for all $n > 0$.  Since homomorphisms preserve zero, $\psi(0) = 0 = \phi(0)$.
+Finally, since homomorphisms preserve negatives, $\psi(n) = -\psi(-n) =
+-\phi(-n) = \phi(n)$ whenever $n < 0$.
+\end{iexample}
+
+Crucially, there can be essentially only \emph{one} object satisfying a
+given universal property.  The word `essentially' means that two objects
+satisfying the same universal property need not literally be equal, but
+they are always isomorphic.  For example: 
+
+\begin{ilemma}  
+\label{lemma:Z-unique}
+%
+\index{universal!property!determines object uniquely}
+%
+Let $A$ be a ring with the following property: for all rings $R$, there exists
+a unique homomorphism $A \to R$.  Then $A \iso \integers$.
+\end{ilemma}
+
+\begin{pf}
+Let us call a ring with this property `initial'.  We are given that $A$
+is initial, and we proved in Example~\ref{eg:univ-Z} that $\integers$ is
+initial.  
+
+Since $A$ is initial, there is a unique homomorphism $\phi\from A \to
+\integers$.  Since $\integers$ is initial, there is a unique homomorphism
+$\phi'\from \integers \to A$.  Now $\phi' \of \phi \from A \to A$ is a
+homomorphism, but so too is the identity map $1_A\from A \to A$; hence,
+since $A$ is initial, $\phi' \of \phi = 1_A$.  (This follows from the
+uniqueness part of initiality, taking `$R$' to be $A$.)  Similarly, $\phi
+\of \phi' = 1_\integers$.  So $\phi$ and $\phi'$ are mutually inverse, and
+therefore define an isomorphism between $A$ and $\integers$.
+\end{pf}
+
+This proof has very little to do with rings.  It really belongs at a higher
+level of generality.  To properly understand this, and to convey more fully
+the idea of universal property, it will help to consider some more
+complex examples.
+
+\begin{iexample} 
+\label{eg:univ-basis}
+Let $V$ be a vector%
+%
+\index{vector space}
+%
+space with a basis $(v_s)_{s \in S}$.  (For example, if $V$ is
+finite-dimensional then we might take $S = \{1, \ldots, n\}$.)  If $W$ is
+another vector space, we can specify a linear map from $V$ to $W$ simply by
+saying where the basis elements go.  Thus, for any $W$, there is a natural
+one-to-one correspondence between
+% 
+\begin{displaytext}
+linear maps $V \to W$
+\end{displaytext}
+% 
+and
+% 
+\begin{displaytext}
+functions $S \to W$.
+\end{displaytext}
+% 
+This is because any function defined on the basis elements extends
+uniquely to a linear map on $V$.
+
+Let us rephrase this last statement.  Define a function $i\from S \to V$ by
+$i(s) = v_s$ ($s \in S$).  Then $V$ together with $i$ has the following
+universal property:
+\[ 
+\xymatrix{
+S \ar[r]^i \ar[dr]_{\forall \text{ functions } f}  &
+V \ar@{.>}[d]^{\exists ! \text{ linear } \bar{f}} \\
+&
+\forall W.
+}
+\]
+This diagram means that for all vector spaces $W$ and all functions $f\from
+S \to W$, there exists a unique linear map $\bar{f}: V \to W$ such that
+$\bar{f} \of i = f$.  The symbol $\forall$%
+%
+\ntn{forall}
+%
+means `for all', and the symbols $\exists !$% 
+% 
+\ntn{ei}
+%
+ mean `there exists a unique'.%
+%
+\index{uniqueness}
+%
+
+Another way to say `$\bar{f} \of i = f$' is `$\bar{f}(v_s) = f(s)$ for all
+$s \in S$'.  So, the diagram asserts that every function $f$ defined on the
+basis elements extends uniquely to a linear map $\bar{f}$ defined on the
+whole of $V$.  In other words still, the function
+\[
+\begin{array}{ccc}
+\{ \text{linear maps } V \to W \}     &
+\ \to \             &
+\{ \text{functions } S \to W \}       \\
+\bar{f}        &\mapsto        &\bar{f} \of i       
+\end{array}
+\]
+is bijective. 
+\end{iexample}
+
+\begin{iexample} 
+\label{eg:univ-discrete}
+Given a set $S$, we can build a topological space $D(S)$%
+%
+\ntn{discrete-space}
+%
+by equipping $S$ with the \demph{discrete%
+%
+\index{topological space!discrete} 
+%
+topology}: all subsets are open.  With this topology, \emph{any} map from
+$S$ to a space $X$ is continuous.
+
+Again, let us rephrase this.  Define a function $i\from S \to D(S)$ by
+$i(s) = s$ ($s \in S$).  Then $D(S)$ together with $i$ has the following
+universal property:
+\[
+\xymatrix{
+S \ar[r]^-i \ar[dr]_{\forall \text{ functions } f}       &
+D(S) \ar@{.>}[d]^{\exists! \text{ continuous } \bar{f}}   \\
+&
+\forall X.
+}
+\]
+In other words, for all topological spaces $X$ and all functions $f\from S \to
+X$, there exists a unique continuous map $\bar{f}\from D(S) \to X$ such that
+$\bar{f} \of i = f$.  The continuous map $\bar{f}$ is the same thing as the
+function $f$, except that we are regarding it as a continuous map between
+topological spaces rather than a mere function between sets.
+
+You may feel that this universal property is almost too trivial to mean
+anything.  But if we change the definition of $D(S)$~-- say from the
+discrete to the indiscrete topology, in which the only open sets are
+$\emptyset$ and $S$~-- then the property becomes false.  So this property
+really does say something about the discrete topology.  What it says is
+that all maps out of a discrete space are continuous.
+
+Indeed, given $S$, the universal property determines $D(S)$ and $i$
+uniquely (or rather, uniquely up to isomorphism; but who could want more?).
+The proof of this is similar to that of Lemma~\ref{lemma:Z-unique} above
+and Lemma~\ref{lemma:tensor-unique} below.
+\end{iexample}
+
+\begin{iexample} 
+\label{eg:univ-tensor}
+Given vector%
+%
+\index{vector space}
+%
+spaces $U$, $V$ and $W$, a \demph{bilinear%
+%
+\index{map!bilinear}
+%
+map} $f\from U \times V \to W$ is a function $f$ that is linear in each
+variable:
+% 
+%\begin{align*}
+%f(u, v_1 + \lambda v_2)         &=      
+%f(u, v_1) + \lambda f(u, v_2),  \\
+%f(u_1 + \lambda u_2, v)         &=      
+%f(u_1, v) + \lambda f(u_2, v)   
+%\end{align*}
+% 
+for all $u, u_1, u_2 \in U$, $v, v_1, v_2 \in V$, and scalars $\lambda$.  A
+good example is the scalar product (dot product), which is a bilinear map
+\[
+\begin{array}{ccc}
+\reals^n \times \reals^n        &\to            &\reals                 \\
+(\mathbf{u}, \mathbf{v})        &\mapsto        &\mathbf{u}.\mathbf{v}
+\end{array}
+\]
+of real vector spaces.  The vector product (cross product) $\reals^3 \times
+\reals^3 \to \reals^3$ is also bilinear.  
+
+Let $U$ and $V$ be vector spaces.  It is a fact that there is a `universal
+bilinear map out of $U \times V$'.  In other words, there exist a certain
+vector space $T$%
+%
+\index{tensor product|(}
+%
+and a certain bilinear map $b\from U \times V \to T$ with the following
+universal property:
+% 
+\begin{equation}        
+\label{eq:univ-tensor} 
+\begin{array}{c}
+\xymatrix{
+U \times V \ar[r]^-b \ar[dr]_{\forall \text{ bilinear } f} &
+T \ar@{.>}[d]^{\exists! \text{ linear } \bar{f}}     \\
+&
+\forall W.
+}
+\end{array}
+\end{equation}
+% 
+Roughly speaking, this property says that bilinear maps out of $U \times V$
+correspond one-to-one with linear maps out of $T$.
+
+Even without knowing that such a $T$ and $b$ exist, we can immediately
+prove that this universal property determines $T$ and $b$ uniquely up to
+isomorphism.  The proof is essentially the same as that of
+Lemma~\ref{lemma:Z-unique}, but looks more complicated because of the more
+complicated universal property.
+\end{iexample}
+
+\begin{ilemma}   
+\label{lemma:tensor-unique}
+%
+\index{universal!property!determines object uniquely}
+%
+Let $U$ and $V$ be vector spaces.  Suppose that $b\from U \times V \to T$
+and $b'\from U \times V \to T'$ are both universal bilinear maps out of $U
+\times V$.  Then $T \iso T'$.  More precisely, there exists a unique
+isomorphism $j\from T \to T'$ such that $j \of b = b'$.
+\end{ilemma}
+
+In the proof that follows, it does not actually matter what `bilinear',
+`linear' or even `vector space' mean.  The hard part is getting the logic
+straight.  That done, you should be able to see that there is really only
+one possible proof.  For instance, to use the universality of $b$, we will
+have to choose some bilinear map $f$ out of $U\times V$.  There are only
+two in sight, $b$ and $b'$, and we use each in the appropriate place.
+
+\begin{pf}
+In diagram~\eqref{eq:univ-tensor}, take $\Bigl(U \times V \toby{f} W\Bigr)$
+to be $\Bigl(U \times V \toby{b'} T'\Bigr)$.  This gives a linear map
+$j\from T \to T'$ satisfying $j \of b = b'$.  Similarly, using the
+universality of $b'$, we obtain a linear map $j': T' \to T$ satisfying $j'
+\of b' = b$:
+\[
+\xymatrix{
+        &T \ar[d]^-j     \\
+U \times V \ar[ur]^-b \ar[r]|-{b'} \ar[dr]_b      &
+T' \ar[d]^{j'}  \\
+&
+T.
+}
+\]
+Now $j' \of j\from T \to T$ is a linear map satisfying $(j' \of j) \of b =
+b$; but also, the identity map $1_T\from T \to T$ is linear and satisfies
+$1_T \of b = b$.  So by the uniqueness part of the universal property of
+$b$, we have $j' \of j = 1_T$.  (Here we took the `$f$'
+of~\eqref{eq:univ-tensor} to be $b$.)  Similarly, $j \of j' = 1_{T'}$.  So
+$j$ is an isomorphism.  
+\end{pf}
+
+In Example~\ref{eg:univ-tensor}, it was stated that given vector spaces $U$
+and $V$, there exists a pair $(T, b)$ with the universal property
+of~\eqref{eq:univ-tensor}.  We just proved that there is essentially only
+one such pair $(T, b)$.  The vector space $T$ is called the \demph{tensor
+product} of $U$ and $V$, and is written as $U \otimes V$.%
+%
+\ntn{tensor}
+%
+Tensor products are very important in algebra.  They reduce the study of
+bilinear maps to the study of linear maps, since a bilinear map out of $U
+\times V$ is really the same thing as a linear map out of $U \otimes V$.
+
+However, tensor products will not be important in this book.  The real
+lesson for us is that it is safe to speak of \emph{the} tensor product, not
+just \emph{a} tensor product, and the reason for that is
+Lemma~\ref{lemma:tensor-unique}.  This is a general point that applies to
+anything satisfying a universal property.
+
+Once you know a universal property of an object, it often does no harm to
+forget how it was constructed. For instance, if you look through a pile of
+algebra books, you will find several different ways of constructing the
+tensor product of two vector spaces.  But once you have proved that the
+tensor product satisfies the universal property, you can forget the
+construction.%
+%
+\index{tensor product|)} 
+%
+The universal property tells you all you need to know, because it
+determines the object uniquely up to isomorphism.
+
+\begin{iexample} 
+\label{eg:univ-kernel}
+Let $\theta\from G \to H$ be a homomorphism of groups.%
+%
+\index{group}
+%
+Associated with $\theta$ is a diagram
+% 
+\begin{equation}        
+\label{eq:eq-groups}
+%
+\index{kernel}
+%
+\begin{array}{c}
+\xymatrix@M+.5ex{
+\ker(\theta) \ar@{^{(}->}[r]^-{\iota} &
+G \ar@<.5ex>[r]^\theta \ar@<-.5ex>[r]_\epsln      &
+H,
+}
+\end{array}
+\end{equation}
+% 
+where $\iota$ is the inclusion of $\ker(\theta)$ into $G$ and $\epsln$ is
+the trivial homomorphism.  `Inclusion'%
+%
+\index{inclusion}
+%
+means that $\iota(x) = x$ for all $x \in \ker(\theta)$, and `trivial' means
+that $\epsln(g) = 1$ for all $g \in G$.  The symbol $\incl$%
+%
+\ntn{incl}
+%
+is often used for inclusions; it is a combination of a subset symbol
+$\subset$ and an arrow.
+
+The map $\iota$ into $G$ satisfies $\theta \of \iota = \epsln \of \iota$,
+and is universal as such.  Exercise~\ref{ex:ker-groups} asks you to make
+this precise.
+\end{iexample}
+
+Here is our final example of a universal property.
+
+\begin{iexample} 
+\label{eg:univ-van-Kampen}
+Take a topological%
+%
+\index{topological space}
+%
+space covered by two open subsets: $X = U \cup V$.  The diagram
+\[
+\xymatrix@M+0.5ex{
+U \cap V \ar@{^{(}->}[r]^-{i} \ar@{^{(}->}[d]_-{j}      &
+U \ar@{^{(}->}[d]^-{j'} \\
+V \ar@{^{(}->}[r]_-{i'} &
+X
+}
+\]
+of inclusion maps has a universal property in the world of topological spaces
+and continuous maps, as follows:
+% 
+\begin{equation} 
+\label{eq:pushout-vK}
+\begin{array}{c}
+\xymatrix@M+.5ex{
+U \cap V \ar@{^{(}->}[r]^-{i} \ar@{^{(}->}[d]_-{j}      &
+U \ar@{^{(}->}[d]^-{j'} \ar@/^/[ddr]^{\forall f} &
+\\
+V \ar@{^{(}->}[r]_-{i'} \ar@/_/[drr]_{\forall g} &
+X \ar@{.>}[dr]|{\exists! h}     &
+\\
+&
+&
+\forall Y.
+}
+\end{array}
+\end{equation}
+% 
+The diagram means that given $Y$, $f$ and $g$ such that $f \of i = g \of
+j$, there is exactly one continuous map $h\from X \to Y$ such that $h \of
+j' = f$ and $h \of i' = g$.
+
+Under favourable conditions, the induced diagram 
+\[
+\xymatrix@M+0.5ex{
+\pi_1(U \cap V) \ar[r]^-{i_*} \ar[d]_-{j_*}      &
+\pi_1(U) \ar[d]^-{j'_*} \\
+\pi_1(V) \ar[r]_-{i'_*} &
+\pi_1(X)
+}
+\]
+of fundamental%
+%
+\index{group!fundamental}
+%
+groups has the same property in the world of groups and group
+homomorphisms.  This is \emph{van%
+%
+\index{van Kampen's theorem}
+%
+Kampen's theorem}.  In fact, van Kampen stated his theorem in a much more
+complicated way.  Stating it transparently requires some categorical
+language, but he was working in the 1930s, before category theory had been
+born.
+\end{iexample}
+
+You have now seen several examples of universal properties.  As this book
+progresses, we will develop different ways of talking about them.  Once we
+have set up the basic vocabulary of categories and functors, we will study
+\emph{adjoint functors}, then \emph{representable functors}, then
+\emph{limits}.  Each of these provides an approach to universal properties,
+and each places the idea in a different light.  For instance,
+Examples~\ref{eg:univ-basis} and~\ref{eg:univ-discrete} can most readily be
+described in terms of adjoint functors, Example~\ref{eg:univ-tensor} via
+representable functors, and Examples~\ref{eg:univ-terminal-set},
+\ref{eg:univ-Z}, \ref{eg:univ-kernel} and~\ref{eg:univ-van-Kampen} in terms
+of limits.%
+%
+\index{universal!property|)}
+
+
+\exs
+
+
+\begin{iquestion}
+Let $S$ be a set.  The \demph{indiscrete}%
+%
+\index{topological space!indiscrete}%
+\index{indiscrete space} 
+%
+topological space $I(S)$%
+%
+\ntn{indiscrete-space}
+%
+is the space whose set of points is $S$ and whose only open subsets are
+$\emptyset$ and $S$ itself.  Imitating Example~\ref{eg:univ-discrete}, find
+a universal property satisfied by the space $I(S)$.
+\end{iquestion}
+
+
+\begin{iquestion}        
+\label{ex:ker-groups}
+Fix a group homomorphism $\theta\from G \to H$.  Find a universal property
+satisfied by the pair $(\ker(\theta), \iota)$%
+%
+\index{kernel}
+%
+of diagram~\eqref{eq:eq-groups}.  (This property can~-- indeed, must~-- make
+reference to $\theta$.)
+\end{iquestion}
+
+
+\begin{iquestion}
+Verify the universal property shown in diagram~\eqref{eq:pushout-vK}.
+\end{iquestion}
+
+
+\begin{iquestion}       
+\label{ex:Zx}
+Denote by $\integers[x]$%
+%
+\ntn{poly-one}
+%
+the polynomial%
+%
+\index{ring!polynomial}
+%
+ring over $\integers$ in one variable.
+% 
+\begin{enumerate}[(b)]
+\item   
+\label{part:Zx-main}
+Prove that for all rings $R$ and all $r \in R$, there exists a unique ring
+homomorphism $\phi\from \integers[x] \to R$ such that $\phi(x) = r$.
+
+\item 
+Let $A$ be a ring and $a \in A$.  Suppose that for all rings $R$ and all
+$r \in R$, there exists a unique ring homomorphism $\phi\from A \to R$ such that
+$\phi(a) = r$.  Prove that there is a unique isomorphism $\iota\from
+\integers[x] \to A$ such that $\iota(x) = a$.  
+\end{enumerate}
+\end{iquestion}
+
+
+\begin{iquestion}
+Let $X$ and $Y$ be vector spaces.  
+% 
+\begin{enumerate}[(b)]
+\item   
+\label{part:vs-prod}
+For the purposes of this exercise only, a \emph{cone} is a triple $(V, f_1,
+f_2)$ consisting of a vector space $V$, a linear map $f_1\from V \to X$, and
+a linear map $f_2\from V \to Y$.  Find a cone $(P, p_1,
+p_2)$ with the following property: for all cones $(V, f_1, f_2)$, there exists
+a unique linear map $f\from V \to P$ such that $p_1 \of f = f_1$ and $p_2 \of f
+= f_2$.
+
+\item 
+Prove that there is essentially only one cone with the property stated
+in~\bref{part:vs-prod}.  That is, prove that if $(P, p_1, p_2)$ and $(P',
+p'_1, p'_2)$ both have this property then there is an isomorphism $i\from P
+\to P'$ such that $p'_1 \of i = p_1$ and $p'_2 \of i = p_2$.
+
+\item   
+\label{part:vs-coprod} 
+For the purposes of this exercise only, a \emph{cocone} is a triple $(V,
+f_1, f_2)$ consisting of a vector space $V$, a linear map $f_1\from X \to
+V$, and a linear map $f_2\from Y \to V$.  Find a cocone $(Q, q_1, q_2)$
+with the following property: for all cocones $(V, f_1, f_2)$, there exists
+a unique linear map $f\from Q \to V$ such that $f \of q_1 = f_1$ and $f \of
+q_2 = f_2$.
+
+\item 
+Prove that there is essentially only one cocone with the property stated
+ in~\bref{part:vs-coprod}, in a sense that you should make precise.  
+\end{enumerate}
+\end{iquestion}
+

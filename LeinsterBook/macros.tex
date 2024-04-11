@@ -1,0 +1,298 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Macros
+% 
+
+
+% PACKAGES
+
+
+\usepackage{latexsym}
+\usepackage{amssymb,amsmath}
+\usepackage{bbm}
+\usepackage{mathrsfs}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{multicol}
+\usepackage{txfonts}
+
+\usepackage{url}
+\urlstyle{same}
+
+\usepackage{makeidx}
+\makeindex
+
+\usepackage[all,2cell]{xy}
+\UseAllTwocells
+\xyoption{arc}
+\xyoption{rotate}
+
+\usepackage{hyperref}   
+\hypersetup{colorlinks, % Don't put a box around links
+breaklinks,             % Allow line breaks inside links
+linkcolor=black,        % Cross-references to theorems etc
+urlcolor=black}         % Web addresses
+
+
+% STYLE PARAMETERS AND HYPHENATION
+
+
+\def\makeRRlabeldot#1{\hss\llap{#1}}    % Redefines macro in cambridge7A.cls
+\renewcommand{\theenumi}{\rm(\alph{enumi})}
+\renewcommand{\theequation}{\thechapter.\arabic{equation}}
+
+\hyphenation{mo-noi-dal mo-noid co-do-main pre-sh-eaf pre-sh-ea-ves}
+
+
+% FORMATTING AND ENGLISH TYPOGRAPHIC
+
+
+\newcommand{\demph}[1]{\textbf{#1}}     % Emphasis used for terms being
+                                        % defined 
+
+\newenvironment{displaytext}%   % Used for several text-display environments
+{\begin{list}{}%
+{\setlength{\leftmargin}{2em}%
+\setlength{\rightmargin}{\leftmargin}}%
+\item}%
+{\end{list}}
+
+\newenvironment{setprop}{\begin{displaytext}\itshape}{\end{displaytext}}
+% Properties in set theory chapter
+
+\newenvironment{slogan}{\begin{displaytext}\itshape}{\end{displaytext}}
+
+\newenvironment{citedsource}{\begin{displaytext}}{\end{displaytext}}
+% Cited sources in Further Reading chapter
+
+\newcommand{\minihead}[1]{\subsection*{#1}}
+% Unnumbered heading in text
+
+\newcommand{\subjectchange}{\bigskip}
+% Small vertical space in text for change of subject
+
+\newcommand{\exs}{\minihead{Exercises}}
+\newcommand{\exone}{\minihead{Exercise}}
+
+
+% MATHEMATICAL TYPOGRAPHIC
+
+
+\newcommand{\cat}[1]{\mathscr{#1}}      % Arbitrary category
+\newcommand{\scat}[1]{\mathbf{#1}}      % Arbitrary small category
+\newcommand{\fcat}[1]{\mathbf{#1}}      % Typeface for fixed categories
+
+\newcommand{\ovln}[1]{\overline{#1}}
+\newcommand{\lwr}[1]{\mathbf{#1}}       % \lwr{n} denotes n-element set
+\newcommand{\rreg}[1]{\underline{#1}}   % Regular representation
+\newcommand{\ynt}[1]{\tilde{#1}}        % Nat transf in Yoneda lemma
+\newcommand{\yel}[1]{\hat{#1}}          % Element in Yoneda lemma
+\newcommand{\wideyel}[1]{\widehat{#1}}  % Wide version of \yel
+
+
+% CONSTANTS (LETTERS)
+
+
+\newcommand{\epsln}{\varepsilon}        % \epsilon is not used anywhere
+
+\newcommand{\nat}{\mathbb{N}}           % Natural numbers
+\newcommand{\integers}{\mathbb{Z}}
+\newcommand{\rationals}{\mathbb{Q}}
+\newcommand{\reals}{\mathbb{R}}
+\newcommand{\complexes}{\mathbb{C}}
+
+\DeclareMathOperator{\cset}{\cat{C}}    % Set of closed subsets
+\DeclareMathOperator{\Cl}{Cl}           % Closure
+\DeclareMathOperator{\Cone}{Cone}       % Cones (in limit sense)
+\DeclareMathOperator{\End}{\fcat{End}}  % Endomorphisms
+\DeclareMathOperator{\Eq}{Eq}           % Equalizer
+\DeclareMathOperator{\ev}{ev}           % Evaluation
+\DeclareMathOperator{\Hom}{Hom}         % Hom-set/functor
+\DeclareMathOperator{\HOM}{\fcat{Hom}}  % Homs between vector spaces
+\DeclareMathOperator{\im}{im}           % Image
+\DeclareMathOperator{\Lan}{Lan}         % Left Kan extension
+\DeclareMathOperator{\ob}{ob}           % Object-set
+\DeclareMathOperator{\oset}{\cat{O}}    % Set of open subsets
+\DeclareMathOperator{\pr}{pr}           % Projection
+\DeclareMathOperator{\pset}{\cat{P}}    % Power set
+\DeclareMathOperator{\Sub}{Sub}         % Set of subobjects
+
+\newcommand{\h}{H}                      % Homs (e.g. \h_A means Hom(-, A))
+\newcommand{\op}{\mathrm{op}}           % Opposite category
+\newcommand{\true}{\texttt{true}}       % Truth value "true"    
+\newcommand{\false}{\texttt{false}}     % Truth value "false"
+        
+\newcommand{\One}{\mathbf{1}}           % Terminal category
+\newcommand{\Two}{\mathbf{2}}           % Single-arrow category
+\newcommand{\Ab}{\fcat{Ab}}             % Abelian groups
+\newcommand{\Bilin}{\fcat{Bilin}}       % Bilinear maps
+\newcommand{\Cat}{\fcat{Cat}}           % Small categories
+\newcommand{\CAT}{\fcat{CAT}}           % All categories
+\newcommand{\CptHff}{\fcat{CptHff}}     % Compact Hausdorff spaces
+\newcommand{\CRing}{\fcat{CRing}}       % Commutative rings
+\newcommand{\FDVect}{\fcat{FDVect}}     % Fin-dim vector spaces
+\newcommand{\Field}{\fcat{Field}}       % Fields
+\newcommand{\FinSet}{\fcat{FinSet}}     % Finite sets
+\newcommand{\Fix}{\fcat{Fix}}           % Fixed-point category
+\newcommand{\Grp}{\fcat{Grp}}           % Groups
+\newcommand{\Mt}{\fcat{Mat}}            % Matrices
+\newcommand{\Mon}{\fcat{Mon}}           % Monoids
+\newcommand{\Ord}{\fcat{Ord}}           % Total orders
+\newcommand{\Ring}{\fcat{Ring}}         % Rings
+\newcommand{\Set}{\fcat{Set}}           % Sets
+\newcommand{\Sym}{\fcat{Sym}}           % Permutations
+\newcommand{\Tp}{\fcat{Top}}            % Topological spaces
+\newcommand{\Toph}{\fcat{Toph}}         % Topo spaces + hty classes of maps
+\newcommand{\Vect}{\fcat{Vect}}         % Vector spaces
+
+
+% CONSTANT SYMBOLS
+
+
+\newcommand{\such}{\mathrel{|}}         % Separator in set-builder notation
+\newcommand{\Bigsuch}{\mathrel{\big|}}  % Big version of \such
+\newcommand{\without}{\setminus}        % Set complement
+
+\newcommand{\emptybk}{\hspace*{.5em}}   % Empty space used as blank
+\newcommand{\blank}{(\emptybk)}         % Generic blank
+\newcommand{\dashbk}{-}                 % Dash used as blank    
+\newcommand{\bl}{\bullet}               % Bullet used as blank
+
+\newcommand{\from}{{\colon}\linebreak[0]}       % Colon for f: A --> B
+
+\newcommand{\iso}{\cong}                % Isomorphism
+\newcommand{\eqv}{\simeq}               % Equivalence
+\newcommand{\sub}{\subseteq}            % Subset (possibly not proper)
+\newcommand{\ladj}{\dashv}              % Left adjoint
+\newcommand{\divides}{\mathbin{\mid}}   % For divisibility of integers
+\newcommand{\of}{\mathbin{\circ}}       % Composition
+
+\newcommand{\meet}{\wedge}              % Joins and meets in ordered sets
+\newcommand{\Meet}{\bigwedge}
+\newcommand{\join}{\vee}
+\renewcommand{\Join}{\bigvee}
+
+
+% MATHEMATICAL EXPRESSIONS TAKING ARGUMENTS
+
+
+\newcommand{\ftrcat}[2]{[#1,#2]}                % Functor category
+\newcommand{\pshf}[1]{\ftrcat{#1^\op}{\Set}}    % Presheaf category
+\newcommand{\psh}[1]{\hat{#1}}                  % Alternative pshf cat
+
+\newcommand{\elt}[1]{\scat{E}(#1)}              % Category of elements
+
+\newcommand{\colt}[1]{\lim\limits_{\rightarrow #1}}     % Colimit
+\newcommand{\lt}[1]{\lim\limits_{\leftarrow #1}}        % Limit
+
+\newcommand{\abel}[1]{#1_{\mathrm{ab}}}                 % Abelianization
+\newcommand{\comma}[2]{(#1 \mathbin{\Rightarrow} #2)}   % Comma cat
+\newcommand{\qer}[2]{#1/\mathord{#2}}   % Eq reln for use after slash
+\newcommand{\crd}[1]{\left|#1\right|}   % Cardinality
+
+
+% ARROWS
+
+
+\newcommand{\oppairu}{\rightleftarrows}         % Unlabelled opposing pair
+\newcommand{\oppairua}{\leftrightarrows}        % Same, but reversed
+\newcommand{\parpairu}{\rightrightarrows}       % Unlabelled parallel pair
+\newcommand{\ot}{\leftarrow}                    % Left-pointing arrow
+\newcommand{\toby}[1]{\stackrel{#1}{\longrightarrow}}   % Labelled arrow
+\newcommand{\otby}[1]{\stackrel{#1}{\longleftarrow}}    % Left lblld arrow
+\newcommand{\longto}{\longrightarrow}           % Long labelled arrow
+\newcommand{\toiso}{\toby{\textstyle{}_\sim}}   % Isomorphism arrow
+\newcommand{\incl}{\hookrightarrow}             % Inclusion arrow
+\newcommand{\mapsfrom}{\mathrel{\reflectbox{\ensuremath{\mapsto}}}}
+% Left-pointing \mapsto
+\newcommand{\textiff}{\Longleftrightarrow}      % Iff arrow for use in text
+\newcommand{\textif}{\Longleftarrow}            % If arrow for use in text
+\newcommand{\textonlyif}{\Longrightarrow}       % Only if arrow for text
+
+
+\newcommand{\nent}{\rotatebox{45}{$\Rightarrow$}} 
+% North-east-pointing arrow for natural transformations
+\newcommand{\nwnt}{\rotatebox{-45}{$\Leftarrow$}}       % North-west
+\newcommand{\swnt}{\rotatebox{45}{$\Leftarrow$}}        % South-west
+\newcommand{\sent}{\rotatebox{-45}{$\Rightarrow$}}      % South-east
+\newcommand{\neeq}{\rotatebox{45}{$=$}} 
+% North-east pointing equality
+
+\newcommand{\oppair}[4]{%
+\xymatrix{%
+#1 \ar@<.5ex>[r]^-{#3} &{#2}\ar@<.5ex>[l]^-{#4}%
+}}
+% Opposite-pointing pair of arrows, with arguments, for use in displays
+
+\newcommand{\oppairi}[4]{%
+\xymatrix@1{%
+#1 \ar@<.5ex>[r]^{#3} &{#2}\ar@<.5ex>[l]^{#4}%
+}}
+% Opposite-pointing pair of arrows, with arguments, for use in text
+
+\newcommand{\parpair}[4]{%
+\xymatrix{%
+#1 \ar@<.5ex>[r]^{#3} \ar@<-.5ex>[r]_{#4} &#2%
+}}
+% Parallel pair of arrows, with arguments, for use in displays
+
+\newcommand{\parpairi}[4]{%
+\xymatrix@1{%
+#1 \ar@<.5ex>[r]^{#3} \ar@<-.5ex>[r]_{#4} &#2%
+}}
+% Parallel pair of arrows, with arguments, for use in text
+
+\newcommand{\adjn}[4]{%
+\xymatrix{
+#1 \ar@{}[d]|\ladj \ar@<1ex>[d]^{#4} \\
+#2 \ar@<1ex>[u]^{#3}
+}}
+% Adjunction, with arguments, for use in displays
+
+\newcommand{\hadjnli}[4]{%
+\xymatrix@1{
+#1 \ar@<1.1ex>[r]^-{#3} \ar@{}[r]|-\bot &#2 \ar@<1.1ex>[l]^-{#4}}}
+% Adjunction, with arguments, for use in text (left adjt on top)
+
+\newcommand{\hadjnri}[4]{%
+\xymatrix@1{
+#1 \ar@<1.1ex>[r]^-{#3} \ar@{}[r]|-\top &#2 \ar@<1.1ex>[l]^-{#4}}}
+% Adjunction, with arguments, for use in text (left adjt on bottom)
+
+\newcommand{\searrows}{\makebox[1em]{$\downarrow$%
+\hspace*{-.2em}\raisebox{-1ex}{$\rightarrow$}}}
+% Little diagram of anticlockwise path around a commutative square
+
+\newcommand{\esarrows}{\makebox[1em]{%
+\raisebox{1ex}{$\rightarrow$}\hspace*{-.2em}$\downarrow$}}
+% Little diagram of clockwise path around a commutative square
+
+
+% PICTURE ENVIRONMENT
+
+
+\newcommand{\cell}[4]{\put(#1,#2){\makebox(0,0)[#3]{\ensuremath{#4}}}}
+% Places a label in picture environment
+
+
+% REFERENCES, CITATIONS AND INDEXING
+
+
+\newcommand{\bref}[1]{\ref{#1}}         % \ref in brackets
+
+\newcommand{\citestyle}[1]{#1}  % Style for sources cited
+\newcommand{\citeGow}{\citestyle{Gowers (2002)}}
+\newcommand{\citeKel}{\citestyle{Kelly (1982)}}
+\newcommand{\citeLR}{\citestyle{Lawvere and Rosebrugh (2003)}}
+\newcommand{\citeRST}{\citestyle{Leinster (2014)}}
+\newcommand{\citeCWM}{\citestyle{Mac~Lane (1971)}}
+
+% The following commands are for the index of notation
+
+\newcommand{\ntn}[1]{\label{notn:#1}}   % Make label
+\newcommand{\nref}[1]{\pageref{notn:#1}}% Refers to page where notn is used
+\newcommand{\nuse}[2]{#2, #1\\}         
+% First arg is page ref; second is description of notation

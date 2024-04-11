@@ -1,0 +1,141 @@
+latexml (LaTeXML version 0.8.7; revision 03935b5a) processing mwe.tex
+(Digesting TeX mwe...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/TeX.pool.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/eTeX.pool.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/pdfTeX.pool.ltxml... 0.00 sec) 0.07 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/mwe.tex...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/LaTeX.pool.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/textcomp.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu... 0.01 sec) 0.46 sec) 0.57 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/article.cls.ltxml... 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amssymb.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amsfonts.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/xy.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/xy.tex.ltxml...
+(Processing definitions w/@ other /usr/share/texlive/texmf-dist/tex/generic/xypic/xy.tex...
+Bootstrap'ing:
+catcodes,
+docmode,
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/xypic/xyrecat.tex... 0.00 sec)
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/xypic/xyidioms.tex... 0.01 sec)
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+Loading kernel:
+messages;
+fonts;
+allocations:
+state,
+direction,
+utility macros;
+pictures: \xy,
+positions,
+objects,
+decorations;
+kernel objects:
+directionals,
+circles,
+text;
+options;
+algorithms: directions,
+edges,
+connections;
+ Xy-pic loaded
+ 0.38 sec) 0.38 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/ifpdf.sty.ltxml... 0.00 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyall.tex...
+ Xy-pic option: All features v.3.8
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xycurve.tex...
+ Xy-pic option: Curve and Spline extension v.3.12
+curve,
+circles,
+loaded
+ 0.25 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyframe.tex...
+ Xy-pic option: Frame and Bracket extension v.3.14
+loaded
+ 0.08 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xycmtip.tex...
+ Xy-pic option: Computer Modern tip extension v.3.7
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xytips.tex...
+ Xy-pic option: More Tips extension v.3.11
+loaded
+ 0.01 sec)
+loaded
+ 0.02 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyline.tex...
+ Xy-pic option: Line styles extension v.3.10
+loaded
+ 0.04 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyrotate.tex...
+ Xy-pic option: Rotate and Scale extension v.3.8
+loaded
+ 0.02 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xycolor.tex...
+ Xy-pic option: Colour extension v.3.11
+loaded
+ 0.02 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xymatrix.tex...
+ Xy-pic option: Matrix feature v.3.14
+loaded
+ 0.06 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyarrow.tex...
+ Xy-pic option: Arrow and Path feature v.3.9
+path,
+\ar,
+loaded
+ 0.06 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xygraph.tex...
+ Xy-pic option: Graph feature v.3.11
+loaded
+ 0.03 sec)
+loaded
+ 0.61 sec) 1.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/xylatexml.tex.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/color.sty.ltxml... 0.01 sec)
+ Xy-pic option: LaTeXML Driver v.0.8.6
+ 0.08 sec)
+LaTeXML enabling LaTeXML xy driver
+LaTeXML enabling curve
+LaTeXML enabling frame
+LaTeXML enabling tips
+LaTeXML enabling line
+LaTeXML enabling rotate
+LaTeXML enabling color
+LaTeXML enabling matrix
+LaTeXML enabling arrow
+LaTeXML enabling graph
+<xymatrix
+6x4
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+389>
+ 5.82 sec) 5.89 sec)
+(Building...
+(Loading compiled schema /usr/local/share/perl/5.30.0/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.01 sec) 0.25 sec)
+(Rewriting... 0.00 sec)
+(Math Parsing 13 formulae ...... 0.03 sec)
+Math parsing succeeded:
+   ltx:XMArg: 10/10
+   ltx:XMath: 13/13
+Symbols assumed as simple identifiers (with # of occurences):
+   'G{fraktur}' (3), 'P{blackboard}' (4), 'alpha' (1), 'kappa' (1), 'p{italic}' (3)
+Set MATHPARSER_SPECULATE to speculate on possible notations.
+(Finalizing... 0.00 sec)
+Conversion complete No obvious problems (reqd. 6.25s)

@@ -1,0 +1,394 @@
+\contentsline {iexample}{{Example}{0.{1}}{}}{1}{ilemma.0.1}%
+\contentsline {iexample}{{Example}{0.{2}}{}}{2}{ilemma.0.2}%
+\contentsline {ilemma}{{Lemma}{0.{3}}{}}{2}{ilemma.0.3}%
+\contentsline {pf}{{Proof}{1}{}}{3}{pf.1}%
+\contentsline {iexample}{{Example}{0.{4}}{}}{3}{ilemma.0.4}%
+\contentsline {iexample}{{Example}{0.{5}}{}}{4}{ilemma.0.5}%
+\contentsline {iexample}{{Example}{0.{6}}{}}{4}{ilemma.0.6}%
+\contentsline {ilemma}{{Lemma}{0.{7}}{}}{5}{ilemma.0.7}%
+\contentsline {pf}{{Proof}{2}{}}{5}{pf.2}%
+\contentsline {iexample}{{Example}{0.{8}}{}}{6}{ilemma.0.8}%
+\contentsline {iexample}{{Example}{0.{9}}{}}{6}{ilemma.0.9}%
+\contentsline {iquestion}{{\hspace {-.5ex}}{0.{10}}{}}{7}{ilemma.0.10}%
+\contentsline {iquestion}{{\hspace {-.5ex}}{0.{11}}{}}{7}{ilemma.0.11}%
+\contentsline {iquestion}{{\hspace {-.5ex}}{0.{12}}{}}{8}{ilemma.0.12}%
+\contentsline {iquestion}{{\hspace {-.5ex}}{0.{13}}{}}{8}{ilemma.0.13}%
+\contentsline {iquestion}{{\hspace {-.5ex}}{0.{14}}{}}{8}{ilemma.0.14}%
+\contentsline {defn}{{Definition}{1.1.{1}}{}}{10}{thm.1.1.1}%
+\contentsline {remarks}{{Remarks}{1.1.{2}}{}}{10}{thm.1.1.2}%
+\contentsline {examples}{{Examples}{1.1.{3}}{Categories \:of \:mathematical \:structures}}{11}{thm.1.1.3}%
+\contentsline {defn}{{Definition}{1.1.{4}}{}}{12}{thm.1.1.4}%
+\contentsline {example}{{Example}{1.1.{5}}{}}{12}{thm.1.1.5}%
+\contentsline {example}{{Example}{1.1.{6}}{}}{12}{thm.1.1.6}%
+\contentsline {example}{{Example}{1.1.{7}}{}}{12}{thm.1.1.7}%
+\contentsline {examples}{{Examples}{1.1.{8}}{Categories \,as \,mathematical \,structures}}{13}{thm.1.1.8}%
+\contentsline {constn}{{Construction}{1.1.{9}}{}}{16}{thm.1.1.9}%
+\contentsline {remark}{{Remark}{1.1.{10}}{}}{16}{thm.1.1.10}%
+\contentsline {constn}{{Construction}{1.1.{11}}{}}{16}{thm.1.1.11}%
+\contentsline {question}{{\hspace {-.5ex}}{1.1.{12}}{}}{16}{thm.1.1.12}%
+\contentsline {question}{{\hspace {-.5ex}}{1.1.{13}}{}}{16}{thm.1.1.13}%
+\contentsline {question}{{\hspace {-.5ex}}{1.1.{14}}{}}{17}{thm.1.1.14}%
+\contentsline {question}{{\hspace {-.5ex}}{1.1.{15}}{}}{17}{thm.1.1.15}%
+\contentsline {defn}{{Definition}{1.2.{1}}{}}{17}{thm.1.2.1}%
+\contentsline {remarks}{{Remarks}{1.2.{2}}{}}{17}{thm.1.2.2}%
+\contentsline {examples}{{Examples}{1.2.{3}}{}}{18}{thm.1.2.3}%
+\contentsline {examples}{{Examples}{1.2.{4}}{}}{19}{thm.1.2.4}%
+\contentsline {examples}{{Examples}{1.2.{5}}{Functors in algebraic topology}}{20}{thm.1.2.5}%
+\contentsline {example}{{Example}{1.2.{6}}{}}{21}{thm.1.2.6}%
+\contentsline {example}{{Example}{1.2.{7}}{}}{21}{thm.1.2.7}%
+\contentsline {example}{{Example}{1.2.{8}}{}}{22}{thm.1.2.8}%
+\contentsline {example}{{Example}{1.2.{9}}{}}{22}{thm.1.2.9}%
+\contentsline {defn}{{Definition}{1.2.{10}}{}}{22}{thm.1.2.10}%
+\contentsline {example}{{Example}{1.2.{11}}{}}{22}{thm.1.2.11}%
+\contentsline {example}{{Example}{1.2.{12}}{}}{23}{thm.1.2.12}%
+\contentsline {example}{{Example}{1.2.{13}}{}}{24}{thm.1.2.13}%
+\contentsline {example}{{Example}{1.2.{14}}{}}{24}{thm.1.2.14}%
+\contentsline {defn}{{Definition}{1.2.{15}}{}}{24}{thm.1.2.15}%
+\contentsline {defn}{{Definition}{1.2.{16}}{}}{25}{thm.1.2.16}%
+\contentsline {warning}{{Warning}{1.2.{17}}{}}{25}{thm.1.2.17}%
+\contentsline {defn}{{Definition}{1.2.{18}}{}}{25}{thm.1.2.18}%
+\contentsline {warning}{{Warning}{1.2.{19}}{}}{25}{thm.1.2.19}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{20}}{}}{26}{thm.1.2.20}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{21}}{}}{26}{thm.1.2.21}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{22}}{}}{26}{thm.1.2.22}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{23}}{}}{26}{thm.1.2.23}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{24}}{}}{26}{thm.1.2.24}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{25}}{}}{26}{thm.1.2.25}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{26}}{}}{27}{thm.1.2.26}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{27}}{}}{27}{thm.1.2.27}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{28}}{}}{27}{thm.1.2.28}%
+\contentsline {question}{{\hspace {-.5ex}}{1.2.{29}}{}}{27}{thm.1.2.29}%
+\contentsline {defn}{{Definition}{1.3.{1}}{}}{28}{thm.1.3.1}%
+\contentsline {remarks}{{Remarks}{1.3.{2}}{}}{28}{thm.1.3.2}%
+\contentsline {example}{{Example}{1.3.{3}}{}}{29}{thm.1.3.3}%
+\contentsline {example}{{Example}{1.3.{4}}{}}{29}{thm.1.3.4}%
+\contentsline {example}{{Example}{1.3.{5}}{}}{29}{thm.1.3.5}%
+\contentsline {constn}{{Construction}{1.3.{6}}{}}{30}{thm.1.3.6}%
+\contentsline {example}{{Example}{1.3.{7}}{}}{31}{thm.1.3.7}%
+\contentsline {example}{{Example}{1.3.{8}}{}}{31}{thm.1.3.8}%
+\contentsline {example}{{Example}{1.3.{9}}{}}{31}{thm.1.3.9}%
+\contentsline {defn}{{Definition}{1.3.{10}}{}}{31}{thm.1.3.10}%
+\contentsline {lemma}{{Lemma}{1.3.{11}}{}}{31}{thm.1.3.11}%
+\contentsline {pf}{{Proof}{3}{}}{32}{pf.3}%
+\contentsline {defn}{{Definition}{1.3.{12}}{}}{32}{thm.1.3.12}%
+\contentsline {example}{{Example}{1.3.{13}}{}}{32}{thm.1.3.13}%
+\contentsline {example}{{Example}{1.3.{14}}{}}{32}{thm.1.3.14}%
+\contentsline {defn}{{Definition}{1.3.{15}}{}}{34}{thm.1.3.15}%
+\contentsline {warning}{{Warning}{1.3.{16}}{}}{34}{thm.1.3.16}%
+\contentsline {defn}{{Definition}{1.3.{17}}{}}{34}{thm.1.3.17}%
+\contentsline {propn}{{Proposition}{1.3.{18}}{}}{34}{thm.1.3.18}%
+\contentsline {pf}{{Proof}{4}{}}{34}{pf.4}%
+\contentsline {cor}{{Corollary}{1.3.{19}}{}}{35}{thm.1.3.19}%
+\contentsline {pf}{{Proof}{5}{}}{35}{pf.5}%
+\contentsline {example}{{Example}{1.3.{20}}{}}{35}{thm.1.3.20}%
+\contentsline {example}{{Example}{1.3.{21}}{}}{35}{thm.1.3.21}%
+\contentsline {example}{{Example}{1.3.{22}}{}}{35}{thm.1.3.22}%
+\contentsline {example}{{Example}{1.3.{23}}{}}{36}{thm.1.3.23}%
+\contentsline {remarks}{{Remarks}{1.3.{24}}{}}{36}{thm.1.3.24}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{25}}{}}{38}{thm.1.3.25}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{26}}{}}{38}{thm.1.3.26}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{27}}{}}{39}{thm.1.3.27}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{28}}{}}{39}{thm.1.3.28}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{29}}{}}{39}{thm.1.3.29}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{30}}{}}{39}{thm.1.3.30}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{31}}{}}{39}{thm.1.3.31}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{32}}{}}{40}{thm.1.3.32}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{33}}{}}{40}{thm.1.3.33}%
+\contentsline {question}{{\hspace {-.5ex}}{1.3.{34}}{}}{40}{thm.1.3.34}%
+\contentsline {defn}{{Definition}{2.1.{1}}{}}{41}{thm.2.1.1}%
+\contentsline {remarks}{{Remarks}{2.1.{2}}{}}{42}{thm.2.1.2}%
+\contentsline {examples}{{Examples}{2.1.{3}}{Algebra: free $\ladj $ forgetful}}{43}{thm.2.1.3}%
+\contentsline {remark}{{Remark}{2.1.{4}}{}}{46}{thm.2.1.4}%
+\contentsline {example}{{Example}{2.1.{5}}{}}{47}{thm.2.1.5}%
+\contentsline {example}{{Example}{2.1.{6}}{}}{47}{thm.2.1.6}%
+\contentsline {defn}{{Definition}{2.1.{7}}{}}{48}{thm.2.1.7}%
+\contentsline {lemma}{{Lemma}{2.1.{8}}{}}{49}{thm.2.1.8}%
+\contentsline {pf}{{Proof}{6}{}}{49}{pf.6}%
+\contentsline {example}{{Example}{2.1.{9}}{}}{49}{thm.2.1.9}%
+\contentsline {remark}{{Remark}{2.1.{10}}{}}{49}{thm.2.1.10}%
+\contentsline {remark}{{Remark}{2.1.{11}}{}}{49}{thm.2.1.11}%
+\contentsline {question}{{\hspace {-.5ex}}{2.1.{12}}{}}{49}{thm.2.1.12}%
+\contentsline {question}{{\hspace {-.5ex}}{2.1.{13}}{}}{49}{thm.2.1.13}%
+\contentsline {question}{{\hspace {-.5ex}}{2.1.{14}}{}}{50}{thm.2.1.14}%
+\contentsline {question}{{\hspace {-.5ex}}{2.1.{15}}{}}{50}{thm.2.1.15}%
+\contentsline {question}{{\hspace {-.5ex}}{2.1.{16}}{}}{50}{thm.2.1.16}%
+\contentsline {question}{{\hspace {-.5ex}}{2.1.{17}}{}}{50}{thm.2.1.17}%
+\contentsline {example}{{Example}{2.2.{1}}{}}{51}{thm.2.2.1}%
+\contentsline {lemma}{{Lemma}{2.2.{2}}{}}{52}{thm.2.2.2}%
+\contentsline {remark}{{Remark}{2.2.{3}}{}}{52}{thm.2.2.3}%
+\contentsline {pfoftheorem}{{Proof of \theoremtobeproved }{1}{}}{52}{pfoftheorem.1}%
+\contentsline {lemma}{{Lemma}{2.2.{4}}{}}{52}{thm.2.2.4}%
+\contentsline {pf}{{Proof}{7}{}}{53}{pf.7}%
+\contentsline {thm}{{Theorem}{2.2.{5}}{}}{53}{thm.2.2.5}%
+\contentsline {pf}{{Proof}{8}{}}{53}{pf.8}%
+\contentsline {cor}{{Corollary}{2.2.{6}}{}}{54}{thm.2.2.6}%
+\contentsline {example}{{Example}{2.2.{7}}{}}{54}{thm.2.2.7}%
+\contentsline {remark}{{Remark}{2.2.{8}}{}}{55}{thm.2.2.8}%
+\contentsline {remark}{{Remark}{2.2.{9}}{}}{55}{thm.2.2.9}%
+\contentsline {question}{{\hspace {-.5ex}}{2.2.{10}}{}}{56}{thm.2.2.10}%
+\contentsline {question}{{\hspace {-.5ex}}{2.2.{11}}{}}{57}{thm.2.2.11}%
+\contentsline {question}{{\hspace {-.5ex}}{2.2.{12}}{}}{57}{thm.2.2.12}%
+\contentsline {question}{{\hspace {-.5ex}}{2.2.{13}}{}}{57}{thm.2.2.13}%
+\contentsline {question}{{\hspace {-.5ex}}{2.2.{14}}{}}{57}{thm.2.2.14}%
+\contentsline {defn}{{Definition}{2.3.{1}}{}}{58}{thm.2.3.1}%
+\contentsline {remark}{{Remark}{2.3.{2}}{}}{59}{thm.2.3.2}%
+\contentsline {example}{{Example}{2.3.{3}}{}}{59}{thm.2.3.3}%
+\contentsline {example}{{Example}{2.3.{4}}{}}{60}{thm.2.3.4}%
+\contentsline {lemma}{{Lemma}{2.3.{5}}{}}{60}{thm.2.3.5}%
+\contentsline {pf}{{Proof}{9}{}}{60}{pf.9}%
+\contentsline {thm}{{Theorem}{2.3.{6}}{}}{61}{thm.2.3.6}%
+\contentsline {pf}{{Proof}{10}{}}{61}{pf.10}%
+\contentsline {cor}{{Corollary}{2.3.{7}}{}}{63}{thm.2.3.7}%
+\contentsline {pf}{{Proof}{11}{}}{63}{pf.11}%
+\contentsline {question}{{\hspace {-.5ex}}{2.3.{8}}{}}{63}{thm.2.3.8}%
+\contentsline {question}{{\hspace {-.5ex}}{2.3.{9}}{}}{63}{thm.2.3.9}%
+\contentsline {question}{{\hspace {-.5ex}}{2.3.{10}}{}}{63}{thm.2.3.10}%
+\contentsline {question}{{\hspace {-.5ex}}{2.3.{11}}{}}{63}{thm.2.3.11}%
+\contentsline {question}{{\hspace {-.5ex}}{2.3.{12}}{}}{64}{thm.2.3.12}%
+\contentsline {question}{{\hspace {-.5ex}}{3.1.{1}}{}}{73}{thm.3.1.1}%
+\contentsline {question}{{\hspace {-.5ex}}{3.1.{2}}{}}{73}{thm.3.1.2}%
+\contentsline {thm}{{Theorem}{3.2.{1}}{Cantor--Bernstein}}{74}{thm.3.2.1}%
+\contentsline {pf}{{Proof}{12}{}}{74}{pf.12}%
+\contentsline {thm}{{Theorem}{3.2.{2}}{Cantor}}{74}{thm.3.2.2}%
+\contentsline {pf}{{Proof}{13}{}}{74}{pf.13}%
+\contentsline {cor}{{Corollary}{3.2.{3}}{}}{74}{thm.3.2.3}%
+\contentsline {propn}{{Proposition}{3.2.{4}}{}}{75}{thm.3.2.4}%
+\contentsline {pf}{{Proof}{14}{}}{75}{pf.14}%
+\contentsline {example}{{Example}{3.2.{5}}{}}{75}{thm.3.2.5}%
+\contentsline {example}{{Example}{3.2.{6}}{}}{76}{thm.3.2.6}%
+\contentsline {example}{{Example}{3.2.{7}}{}}{76}{thm.3.2.7}%
+\contentsline {propn}{{Proposition}{3.2.{8}}{}}{76}{thm.3.2.8}%
+\contentsline {pf}{{Proof}{15}{}}{76}{pf.15}%
+\contentsline {example}{{Example}{3.2.{9}}{}}{76}{thm.3.2.9}%
+\contentsline {defn}{{Definition}{3.2.{10}}{}}{77}{thm.3.2.10}%
+\contentsline {example}{{Example}{3.2.{11}}{}}{77}{thm.3.2.11}%
+\contentsline {question}{{\hspace {-.5ex}}{3.2.{12}}{}}{77}{thm.3.2.12}%
+\contentsline {question}{{\hspace {-.5ex}}{3.2.{13}}{}}{77}{thm.3.2.13}%
+\contentsline {question}{{\hspace {-.5ex}}{3.2.{14}}{}}{77}{thm.3.2.14}%
+\contentsline {question}{{\hspace {-.5ex}}{3.2.{15}}{}}{78}{thm.3.2.15}%
+\contentsline {question}{{\hspace {-.5ex}}{3.2.{16}}{}}{78}{thm.3.2.16}%
+\contentsline {question}{{\hspace {-.5ex}}{3.3.{1}}{}}{82}{thm.3.3.1}%
+\contentsline {defn}{{Definition}{4.1.{1}}{}}{84}{thm.4.1.1}%
+\contentsline {remarks}{{Remarks}{4.1.{2}}{}}{84}{thm.4.1.2}%
+\contentsline {defn}{{Definition}{4.1.{3}}{}}{84}{thm.4.1.3}%
+\contentsline {example}{{Example}{4.1.{4}}{}}{85}{thm.4.1.4}%
+\contentsline {example}{{Example}{4.1.{5}}{}}{85}{thm.4.1.5}%
+\contentsline {example}{{Example}{4.1.{6}}{}}{85}{thm.4.1.6}%
+\contentsline {example}{{Example}{4.1.{7}}{}}{85}{thm.4.1.7}%
+\contentsline {example}{{Example}{4.1.{8}}{}}{85}{thm.4.1.8}%
+\contentsline {example}{{Example}{4.1.{9}}{}}{86}{thm.4.1.9}%
+\contentsline {lemma}{{Lemma}{4.1.{10}}{}}{86}{thm.4.1.10}%
+\contentsline {pf}{{Proof}{16}{}}{86}{pf.16}%
+\contentsline {propn}{{Proposition}{4.1.{11}}{}}{87}{thm.4.1.11}%
+\contentsline {pf}{{Proof}{17}{}}{87}{pf.17}%
+\contentsline {example}{{Example}{4.1.{12}}{}}{87}{thm.4.1.12}%
+\contentsline {example}{{Example}{4.1.{13}}{}}{87}{thm.4.1.13}%
+\contentsline {example}{{Example}{4.1.{14}}{}}{87}{thm.4.1.14}%
+\contentsline {defn}{{Definition}{4.1.{15}}{}}{88}{thm.4.1.15}%
+\contentsline {defn}{{Definition}{4.1.{16}}{}}{88}{thm.4.1.16}%
+\contentsline {defn}{{Definition}{4.1.{17}}{}}{89}{thm.4.1.17}%
+\contentsline {example}{{Example}{4.1.{18}}{}}{89}{thm.4.1.18}%
+\contentsline {example}{{Example}{4.1.{19}}{}}{89}{thm.4.1.19}%
+\contentsline {example}{{Example}{4.1.{20}}{}}{89}{thm.4.1.20}%
+\contentsline {defn}{{Definition}{4.1.{21}}{}}{90}{thm.4.1.21}%
+\contentsline {defn}{{Definition}{4.1.{22}}{}}{90}{thm.4.1.22}%
+\contentsline {remarks}{{Remarks}{4.1.{23}}{}}{91}{thm.4.1.23}%
+\contentsline {remark}{{Remark}{4.1.{24}}{}}{91}{thm.4.1.24}%
+\contentsline {defn}{{Definition}{4.1.{25}}{}}{92}{thm.4.1.25}%
+\contentsline {question}{{\hspace {-.5ex}}{4.1.{26}}{}}{92}{thm.4.1.26}%
+\contentsline {question}{{\hspace {-.5ex}}{4.1.{27}}{}}{93}{thm.4.1.27}%
+\contentsline {question}{{\hspace {-.5ex}}{4.1.{28}}{}}{93}{thm.4.1.28}%
+\contentsline {question}{{\hspace {-.5ex}}{4.1.{29}}{}}{93}{thm.4.1.29}%
+\contentsline {question}{{\hspace {-.5ex}}{4.1.{30}}{}}{93}{thm.4.1.30}%
+\contentsline {question}{{\hspace {-.5ex}}{4.1.{31}}{}}{93}{thm.4.1.31}%
+\contentsline {question}{{\hspace {-.5ex}}{4.1.{32}}{}}{93}{thm.4.1.32}%
+\contentsline {thm}{{Theorem}{4.2.{1}}{Yoneda}}{94}{thm.4.2.1}%
+\contentsline {pfoftheorem}{{Proof of \theoremtobeproved }{2}{}}{95}{pfoftheorem.2}%
+\contentsline {question}{{\hspace {-.5ex}}{4.2.{2}}{}}{99}{thm.4.2.2}%
+\contentsline {question}{{\hspace {-.5ex}}{4.2.{3}}{}}{99}{thm.4.2.3}%
+\contentsline {notn}{{Notation}{4.3.{1}}{}}{99}{thm.4.3.1}%
+\contentsline {cor}{{Corollary}{4.3.{2}}{}}{99}{thm.4.3.2}%
+\contentsline {pf}{{Proof}{18}{}}{100}{pf.18}%
+\contentsline {cor}{{Corollary}{4.3.{3}}{}}{100}{thm.4.3.3}%
+\contentsline {pf}{{Proof}{19}{}}{100}{pf.19}%
+\contentsline {example}{{Example}{4.3.{4}}{}}{100}{thm.4.3.4}%
+\contentsline {example}{{Example}{4.3.{5}}{}}{101}{thm.4.3.5}%
+\contentsline {example}{{Example}{4.3.{6}}{}}{101}{thm.4.3.6}%
+\contentsline {cor}{{Corollary}{4.3.{7}}{}}{102}{thm.4.3.7}%
+\contentsline {pf}{{Proof}{20}{}}{102}{pf.20}%
+\contentsline {lemma}{{Lemma}{4.3.{8}}{}}{103}{thm.4.3.8}%
+\contentsline {pf}{{Proof}{21}{}}{103}{pf.21}%
+\contentsline {example}{{Example}{4.3.{9}}{}}{103}{thm.4.3.9}%
+\contentsline {cor}{{Corollary}{4.3.{10}}{}}{104}{thm.4.3.10}%
+\contentsline {pf}{{Proof}{22}{}}{104}{pf.22}%
+\contentsline {example}{{Example}{4.3.{11}}{}}{104}{thm.4.3.11}%
+\contentsline {example}{{Example}{4.3.{12}}{}}{105}{thm.4.3.12}%
+\contentsline {example}{{Example}{4.3.{13}}{}}{105}{thm.4.3.13}%
+\contentsline {example}{{Example}{4.3.{14}}{}}{105}{thm.4.3.14}%
+\contentsline {question}{{\hspace {-.5ex}}{4.3.{15}}{}}{106}{thm.4.3.15}%
+\contentsline {question}{{\hspace {-.5ex}}{4.3.{16}}{}}{106}{thm.4.3.16}%
+\contentsline {question}{{\hspace {-.5ex}}{4.3.{17}}{}}{106}{thm.4.3.17}%
+\contentsline {question}{{\hspace {-.5ex}}{4.3.{18}}{}}{106}{thm.4.3.18}%
+\contentsline {defn}{{Definition}{5.1.{1}}{}}{108}{thm.5.1.1}%
+\contentsline {remarks}{{Remarks}{5.1.{2}}{}}{108}{thm.5.1.2}%
+\contentsline {example}{{Example}{5.1.{3}}{}}{109}{thm.5.1.3}%
+\contentsline {example}{{Example}{5.1.{4}}{}}{109}{thm.5.1.4}%
+\contentsline {example}{{Example}{5.1.{5}}{}}{110}{thm.5.1.5}%
+\contentsline {examples}{{Examples}{5.1.{6}}{Elements of ordered sets}}{110}{thm.5.1.6}%
+\contentsline {defn}{{Definition}{5.1.{7}}{}}{111}{thm.5.1.7}%
+\contentsline {example}{{Example}{5.1.{8}}{}}{111}{thm.5.1.8}%
+\contentsline {example}{{Example}{5.1.{9}}{}}{111}{thm.5.1.9}%
+\contentsline {example}{{Example}{5.1.{10}}{}}{112}{thm.5.1.10}%
+\contentsline {defn}{{Definition}{5.1.{11}}{}}{112}{thm.5.1.11}%
+\contentsline {example}{{Example}{5.1.{12}}{}}{113}{thm.5.1.12}%
+\contentsline {example}{{Example}{5.1.{13}}{}}{113}{thm.5.1.13}%
+\contentsline {example}{{Example}{5.1.{14}}{}}{114}{thm.5.1.14}%
+\contentsline {example}{{Example}{5.1.{15}}{}}{114}{thm.5.1.15}%
+\contentsline {defn}{{Definition}{5.1.{16}}{}}{114}{thm.5.1.16}%
+\contentsline {examples}{{Examples}{5.1.{17}}{Pullbacks in $\Set $}}{115}{thm.5.1.17}%
+\contentsline {defn}{{Definition}{5.1.{18}}{}}{118}{thm.5.1.18}%
+\contentsline {defn}{{Definition}{5.1.{19}}{}}{118}{thm.5.1.19}%
+\contentsline {remarks}{{Remarks}{5.1.{20}}{}}{119}{thm.5.1.20}%
+\contentsline {examples}{{Examples}{5.1.{21}}{Limit shapes}}{119}{thm.5.1.21}%
+\contentsline {example}{{Example}{5.1.{22}}{}}{121}{thm.5.1.22}%
+\contentsline {example}{{Example}{5.1.{23}}{}}{121}{thm.5.1.23}%
+\contentsline {example}{{Example}{5.1.{24}}{}}{121}{thm.5.1.24}%
+\contentsline {defn}{{Definition}{5.1.{25}}{}}{121}{thm.5.1.25}%
+\contentsline {propn}{{Proposition}{5.1.{26}}{}}{122}{thm.5.1.26}%
+\contentsline {example}{{Example}{5.1.{27}}{}}{123}{thm.5.1.27}%
+\contentsline {example}{{Example}{5.1.{28}}{}}{123}{thm.5.1.28}%
+\contentsline {defn}{{Definition}{5.1.{29}}{}}{123}{thm.5.1.29}%
+\contentsline {example}{{Example}{5.1.{30}}{}}{123}{thm.5.1.30}%
+\contentsline {example}{{Example}{5.1.{31}}{}}{123}{thm.5.1.31}%
+\contentsline {lemma}{{Lemma}{5.1.{32}}{}}{123}{thm.5.1.32}%
+\contentsline {pf}{{Proof}{23}{}}{124}{pf.23}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{33}}{}}{124}{thm.5.1.33}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{34}}{}}{124}{thm.5.1.34}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{35}}{}}{124}{thm.5.1.35}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{36}}{}}{125}{thm.5.1.36}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{37}}{}}{125}{thm.5.1.37}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{38}}{}}{125}{thm.5.1.38}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{39}}{}}{125}{thm.5.1.39}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{40}}{}}{125}{thm.5.1.40}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{41}}{}}{126}{thm.5.1.41}%
+\contentsline {question}{{\hspace {-.5ex}}{5.1.{42}}{}}{126}{thm.5.1.42}%
+\contentsline {defn}{{Definition}{5.2.{1}}{}}{126}{thm.5.2.1}%
+\contentsline {defn}{{Definition}{5.2.{2}}{}}{127}{thm.5.2.2}%
+\contentsline {example}{{Example}{5.2.{3}}{}}{127}{thm.5.2.3}%
+\contentsline {example}{{Example}{5.2.{4}}{}}{127}{thm.5.2.4}%
+\contentsline {example}{{Example}{5.2.{5}}{}}{128}{thm.5.2.5}%
+\contentsline {example}{{Example}{5.2.{6}}{}}{128}{thm.5.2.6}%
+\contentsline {defn}{{Definition}{5.2.{7}}{}}{129}{thm.5.2.7}%
+\contentsline {remarks}{{Remarks}{5.2.{8}}{}}{129}{thm.5.2.8}%
+\contentsline {example}{{Example}{5.2.{9}}{}}{130}{thm.5.2.9}%
+\contentsline {example}{{Example}{5.2.{10}}{}}{130}{thm.5.2.10}%
+\contentsline {defn}{{Definition}{5.2.{11}}{}}{130}{thm.5.2.11}%
+\contentsline {example}{{Example}{5.2.{12}}{}}{131}{thm.5.2.12}%
+\contentsline {example}{{Example}{5.2.{13}}{}}{131}{thm.5.2.13}%
+\contentsline {example}{{Example}{5.2.{14}}{}}{131}{thm.5.2.14}%
+\contentsline {example}{{Example}{5.2.{15}}{}}{131}{thm.5.2.15}%
+\contentsline {example}{{Example}{5.2.{16}}{}}{132}{thm.5.2.16}%
+\contentsline {defn}{{Definition}{5.2.{17}}{}}{134}{thm.5.2.17}%
+\contentsline {example}{{Example}{5.2.{18}}{}}{134}{thm.5.2.18}%
+\contentsline {example}{{Example}{5.2.{19}}{}}{134}{thm.5.2.19}%
+\contentsline {example}{{Example}{5.2.{20}}{}}{134}{thm.5.2.20}%
+\contentsline {question}{{\hspace {-.5ex}}{5.2.{21}}{}}{135}{thm.5.2.21}%
+\contentsline {question}{{\hspace {-.5ex}}{5.2.{22}}{}}{135}{thm.5.2.22}%
+\contentsline {question}{{\hspace {-.5ex}}{5.2.{23}}{}}{135}{thm.5.2.23}%
+\contentsline {question}{{\hspace {-.5ex}}{5.2.{24}}{}}{135}{thm.5.2.24}%
+\contentsline {question}{{\hspace {-.5ex}}{5.2.{25}}{}}{135}{thm.5.2.25}%
+\contentsline {question}{{\hspace {-.5ex}}{5.2.{26}}{}}{136}{thm.5.2.26}%
+\contentsline {question}{{\hspace {-.5ex}}{5.2.{27}}{}}{136}{thm.5.2.27}%
+\contentsline {defn}{{Definition}{5.3.{1}}{}}{136}{thm.5.3.1}%
+\contentsline {example}{{Example}{5.3.{2}}{}}{137}{thm.5.3.2}%
+\contentsline {example}{{Example}{5.3.{3}}{}}{138}{thm.5.3.3}%
+\contentsline {example}{{Example}{5.3.{4}}{}}{138}{thm.5.3.4}%
+\contentsline {defn}{{Definition}{5.3.{5}}{}}{139}{thm.5.3.5}%
+\contentsline {lemma}{{Lemma}{5.3.{6}}{}}{139}{thm.5.3.6}%
+\contentsline {pf}{{Proof}{24}{}}{139}{pf.24}%
+\contentsline {remark}{{Remark}{5.3.{7}}{}}{139}{thm.5.3.7}%
+\contentsline {question}{{\hspace {-.5ex}}{5.3.{8}}{}}{140}{thm.5.3.8}%
+\contentsline {question}{{\hspace {-.5ex}}{5.3.{9}}{}}{140}{thm.5.3.9}%
+\contentsline {question}{{\hspace {-.5ex}}{5.3.{10}}{}}{140}{thm.5.3.10}%
+\contentsline {question}{{\hspace {-.5ex}}{5.3.{11}}{}}{140}{thm.5.3.11}%
+\contentsline {question}{{\hspace {-.5ex}}{5.3.{12}}{}}{140}{thm.5.3.12}%
+\contentsline {question}{{\hspace {-.5ex}}{5.3.{13}}{}}{140}{thm.5.3.13}%
+\contentsline {propn}{{Proposition}{6.1.{1}}{}}{143}{thm.6.1.1}%
+\contentsline {pf}{{Proof}{25}{}}{143}{pf.25}%
+\contentsline {cor}{{Corollary}{6.1.{2}}{}}{144}{thm.6.1.2}%
+\contentsline {lemma}{{Lemma}{6.1.{3}}{}}{144}{thm.6.1.3}%
+\contentsline {pf}{{Proof}{26}{}}{145}{pf.26}%
+\contentsline {propn}{{Proposition}{6.1.{4}}{}}{145}{thm.6.1.4}%
+\contentsline {pf}{{Proof}{27}{}}{145}{pf.27}%
+\contentsline {question}{{\hspace {-.5ex}}{6.1.{5}}{}}{146}{thm.6.1.5}%
+\contentsline {question}{{\hspace {-.5ex}}{6.1.{6}}{}}{146}{thm.6.1.6}%
+\contentsline {lemma}{{Lemma}{6.2.{1}}{}}{147}{thm.6.2.1}%
+\contentsline {pf}{{Proof}{28}{}}{148}{pf.28}%
+\contentsline {propn}{{Proposition}{6.2.{2}}{Representables preserve limits}}{148}{thm.6.2.2}%
+\contentsline {pf}{{Proof}{29}{}}{148}{pf.29}%
+\contentsline {remark}{{Remark}{6.2.{3}}{}}{148}{thm.6.2.3}%
+\contentsline {notn}{{Notation}{6.2.{4}}{}}{149}{thm.6.2.4}%
+\contentsline {thm}{{Theorem}{6.2.{5}}{Limits in functor categories}}{149}{thm.6.2.5}%
+\contentsline {pfoftheorem}{{Proof of \theoremtobeproved }{3}{}}{150}{pfoftheorem.3}%
+\contentsline {cor}{{Corollary}{6.2.{6}}{}}{151}{thm.6.2.6}%
+\contentsline {warning}{{Warning}{6.2.{7}}{}}{151}{thm.6.2.7}%
+\contentsline {propn}{{Proposition}{6.2.{8}}{Limits commute with limits}}{151}{thm.6.2.8}%
+\contentsline {pf}{{Proof}{30}{}}{152}{pf.30}%
+\contentsline {example}{{Example}{6.2.{9}}{}}{152}{thm.6.2.9}%
+\contentsline {warning}{{Warning}{6.2.{10}}{}}{153}{thm.6.2.10}%
+\contentsline {cor}{{Corollary}{6.2.{11}}{}}{153}{thm.6.2.11}%
+\contentsline {pf}{{Proof}{31}{}}{153}{pf.31}%
+\contentsline {cor}{{Corollary}{6.2.{12}}{}}{153}{thm.6.2.12}%
+\contentsline {pf}{{Proof}{32}{}}{153}{pf.32}%
+\contentsline {example}{{Example}{6.2.{13}}{}}{153}{thm.6.2.13}%
+\contentsline {warning}{{Warning}{6.2.{14}}{}}{154}{thm.6.2.14}%
+\contentsline {example}{{Example}{6.2.{15}}{}}{154}{thm.6.2.15}%
+\contentsline {defn}{{Definition}{6.2.{16}}{}}{155}{thm.6.2.16}%
+\contentsline {thm}{{Theorem}{6.2.{17}}{Density}}{155}{thm.6.2.17}%
+\contentsline {pf}{{Proof}{33}{}}{156}{pf.33}%
+\contentsline {example}{{Example}{6.2.{18}}{}}{156}{thm.6.2.18}%
+\contentsline {remarks}{{Remarks}{6.2.{19}}{}}{157}{thm.6.2.19}%
+\contentsline {question}{{\hspace {-.5ex}}{6.2.{20}}{}}{157}{thm.6.2.20}%
+\contentsline {question}{{\hspace {-.5ex}}{6.2.{21}}{}}{157}{thm.6.2.21}%
+\contentsline {question}{{\hspace {-.5ex}}{6.2.{22}}{}}{158}{thm.6.2.22}%
+\contentsline {question}{{\hspace {-.5ex}}{6.2.{23}}{}}{158}{thm.6.2.23}%
+\contentsline {question}{{\hspace {-.5ex}}{6.2.{24}}{}}{158}{thm.6.2.24}%
+\contentsline {question}{{\hspace {-.5ex}}{6.2.{25}}{}}{158}{thm.6.2.25}%
+\contentsline {thm}{{Theorem}{6.3.{1}}{}}{159}{thm.6.3.1}%
+\contentsline {pf}{{Proof}{34}{}}{159}{pf.34}%
+\contentsline {example}{{Example}{6.3.{2}}{}}{159}{thm.6.3.2}%
+\contentsline {example}{{Example}{6.3.{3}}{}}{159}{thm.6.3.3}%
+\contentsline {example}{{Example}{6.3.{4}}{}}{159}{thm.6.3.4}%
+\contentsline {example}{{Example}{6.3.{5}}{}}{160}{thm.6.3.5}%
+\contentsline {defn}{{Definition}{6.3.{6}}{}}{160}{thm.6.3.6}%
+\contentsline {propn}{{Proposition}{6.3.{7}}{Adjoint functor theorem for ordered sets}}{161}{thm.6.3.7}%
+\contentsline {pf}{{Proof}{35}{}}{161}{pf.35}%
+\contentsline {example}{{Example}{6.3.{8}}{}}{162}{thm.6.3.8}%
+\contentsline {defn}{{Definition}{6.3.{9}}{}}{163}{thm.6.3.9}%
+\contentsline {thm}{{Theorem}{6.3.{10}}{General adjoint functor theorem}}{163}{thm.6.3.10}%
+\contentsline {pf}{{Proof}{36}{}}{163}{pf.36}%
+\contentsline {example}{{Example}{6.3.{11}}{}}{164}{thm.6.3.11}%
+\contentsline {example}{{Example}{6.3.{12}}{}}{164}{thm.6.3.12}%
+\contentsline {thm}{{Theorem}{6.3.{13}}{Special adjoint functor theorem}}{164}{thm.6.3.13}%
+\contentsline {example}{{Example}{6.3.{14}}{}}{165}{thm.6.3.14}%
+\contentsline {defn}{{Definition}{6.3.{15}}{}}{165}{thm.6.3.15}%
+\contentsline {example}{{Example}{6.3.{16}}{}}{165}{thm.6.3.16}%
+\contentsline {example}{{Example}{6.3.{17}}{}}{165}{thm.6.3.17}%
+\contentsline {example}{{Example}{6.3.{18}}{}}{166}{thm.6.3.18}%
+\contentsline {remark}{{Remark}{6.3.{19}}{}}{166}{thm.6.3.19}%
+\contentsline {thm}{{Theorem}{6.3.{20}}{}}{167}{thm.6.3.20}%
+\contentsline {pf}{{Proof}{37}{}}{167}{pf.37}%
+\contentsline {question}{{\hspace {-.5ex}}{6.3.{21}}{}}{168}{thm.6.3.21}%
+\contentsline {question}{{\hspace {-.5ex}}{6.3.{22}}{}}{168}{thm.6.3.22}%
+\contentsline {question}{{\hspace {-.5ex}}{6.3.{23}}{}}{168}{thm.6.3.23}%
+\contentsline {question}{{\hspace {-.5ex}}{6.3.{24}}{}}{169}{thm.6.3.24}%
+\contentsline {question}{{\hspace {-.5ex}}{6.3.{25}}{}}{169}{thm.6.3.25}%
+\contentsline {question}{{\hspace {-.5ex}}{6.3.{26}}{}}{169}{thm.6.3.26}%
+\contentsline {question}{{\hspace {-.5ex}}{6.3.{27}}{}}{170}{thm.6.3.27}%
+\contentsline {alemma}{{Lemma}{A.{1}}{}}{172}{alemma.A.1}%
+\contentsline {pf}{{Proof}{38}{}}{172}{pf.38}%
+\contentsline {alemma}{{Lemma}{A.{2}}{}}{172}{alemma.A.2}%
+\contentsline {pf}{{Proof}{39}{}}{172}{pf.39}%
+\contentsline {aquestion}{{\hspace {-.5ex}}{A.{3}}{}}{173}{alemma.A.3}%
+\contentsline {aquestion}{{\hspace {-.5ex}}{A.{4}}{}}{173}{alemma.A.4}%
+\contentsline {aquestion}{{\hspace {-.5ex}}{A.{5}}{}}{173}{alemma.A.5}%

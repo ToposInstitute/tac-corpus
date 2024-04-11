@@ -1,0 +1,146 @@
+latexmlpost (LaTeXML version 0.8.7; revision 03935b5a) paginating /home/jacob/Repos/tac-corpus/LeinsterBook/BasicCategoryTheory.xml
+Error:malformed:document Document fails RelaxNG validation (LaTeXML)
+	Validation reports: /home/jacob/Repos/tac-corpus/LeinsterBook/BasicCategoryTheory.xml:0: Relax-NG validity error : Element document has extra content: resource
+	(Jing may provide a more precise report; https://relaxng.org/jclark/jing.html)
+	In Post::Document[BasicCategoryTheory.html] /home/jacob/Repos/tac-corpus/LeinsterBook/BasicCategoryTheory.xml
+(post-processing...
+(Scan BasicCategoryTheory.html processing...
+Scan: DBStatus: 14474/0 objects
+ 1.41 sec)
+(MakeIndex BasicCategoryTheory.html processing...
+MakeIndex: 551 entries
+Warning:expected:set, category of, sums in Missing index see-also term 'set, category of, sums in'
+	(seen under disjoint union)
+	In Post::MakeIndex[@0x55cd9057c850] ->makeIndexEntry
+Warning:expected:bilinear map Missing index see-also term 'bilinear map'
+	(seen under vector space)
+	In Post::MakeIndex[@0x55cd9057c850] ->makeIndexEntry
+Info:unexpected:duplicate_id Duplicated id=chapterx5.m1 using chapterx5.m1a /home/jacob/Repos/tac-corpus/LeinsterBook/html/BasicCategoryTheory.html
+Scan: DBStatus: 15045/0 objects
+ 1.42 sec)
+(CrossRef BasicCategoryTheory.html processing...
+Warning:expected:ids Missing Target for Label: LABEL:eq:adj-lim-1,LABEL:eq:Set-codist,LABEL:eq:Set-lim,LABEL:p:num-fns,LABEL:eq:pcc:density,LABEL:eq:adj-lim-3,LABEL:eq:Set-dist,LABEL:eq:pcc:density-again,LABEL:eq:pcc:defn,LABEL:eq:pcc:cocts,LABEL:eq:adj-lim-2,LABEL:eq:pcc:out,LABEL:eq:pcc:yon,LABEL:eq:pcc:in,LABEL:eq:adj-lim-4,LABEL:eq:scheme-2,LABEL:eq:scheme-1
+	In Post::CrossRef[@0x55cd905df5c0] ->process
+ 1.14 sec)
+(Graphics BasicCategoryTheory.html 13 to process... 1.51 sec)
+(SVG BasicCategoryTheory.html 7 to process...
+(Loading compiled schema /usr/local/share/perl/5.30.0/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.01 sec) 0.01 sec)
+(MathML::Presentation BasicCategoryTheory.html 6547 to process...
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:uninitialized:$text Use of uninitialized value $text  in pattern match (m//)
+	at at /usr/local/share/perl/5.30.0/LaTeXML/Post/MathML.pm line 742
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:uninitialized:$text Use of uninitialized value $text  in pattern match (m//)
+	at at /usr/local/share/perl/5.30.0/LaTeXML/Post/MathML.pm line 742
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:uninitialized:$text Use of uninitialized value $text  in pattern match (m//)
+	at at /usr/local/share/perl/5.30.0/LaTeXML/Post/MathML.pm line 742
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+Warning:unexpected:nested-math We're getting m:math nested within an m:mtext
+	In Post::MathML::Presentation[@0x55cd910... ->pmml_top
+converted 6547 Maths
+ 4.90 sec)
+(XSLT[using LaTeXML-html5.xsl] BasicCategoryTheory.html processing... 14.90 sec)
+(Writer BasicCategoryTheory.html processing... 0.04 sec) 25.45 sec)
+Postprocessing complete 58 warnings; 1 error (See /home/jacob/Repos/tac-corpus/LeinsterBook/BasicCategoryTheory.latexmlpost.log) (reqd. 2h 40m 21.01s)

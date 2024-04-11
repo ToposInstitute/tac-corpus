@@ -1,0 +1,717 @@
+\begin{theindex}
+
+  \item abelianization, \hyperpage{45}
+  \item adjoint functor theorems, \hyperpage{160--165}
+    \subitem general, \hyperpage{163}, \hyperpage{171--173}
+    \subitem special, \hyperpage{164}
+  \item adjunction, \hyperpage{41}
+    \subitem composition of adjunctions, \hyperpage{49}
+    \subitem vs.\ equivalence, \hyperpage{55}
+    \subitem fixed points of, \hyperpage{57}
+    \subitem free--forgetful, \hyperpage{43--46}
+    \subitem via initial objects, \hyperpage{60--63}, 
+		\hyperpage{100, 101}
+    \subitem limits preserved in, \hyperpage{159}
+    \subitem naturality axiom for, \hyperpage{42}, \hyperpage{50--51}, 
+		\hyperpage{91}, \hyperpage{101}
+    \subitem nonexistence of adjoints, \hyperpage{160}
+    \subitem uniqueness of adjoints, \hyperpage{43}, \hyperpage{106}
+  \item aerial photography, \hyperpage{87}
+  \item algebra, \hyperpage{92}
+    \subitem for algebraic theory, \hyperpage{46}
+    \subitem associative, \hyperpage{42--43}
+  \item algebraic geometry, \hyperpage{21}, \hyperpage{36}, 
+		\hyperpage{92}
+  \item algebraic theory, \hyperpage{46}
+  \item algebraic topology, \hyperpage{20}
+  \item applied mathematics, \hyperpage{9}
+  \item arithmetic, \hyperpage{69}, \hyperpage{112}, \hyperpage{159}, 
+		\hyperpage{166}
+    \subitem cardinal, \hyperpage{164}, \hyperpage{169}
+  \item arity, \hyperpage{46}
+  \item arrow, \hyperpage{10}, \hyperindexformat{\seealso{map}}{178}
+  \item associative algebra, \hyperpage{42--43}
+  \item associativity, \hyperpage{10}, \hyperpage{152}
+  \item axiom of choice, \hyperpage{71}, \hyperpage{136}
+
+  \indexspace
+
+  \item bicycle inner tube, \hyperpage{133}
+  \item bilinear, \hyperindexformat{\see{map, bilinear}}{178}
+  \item black king, \hyperpage{72}
+  \item Boolean algebra, \hyperpage{36}
+
+  \indexspace
+
+  \item $C^*$-algebra, \hyperpage{36}
+  \item canonical, \hyperpage{33}, \hyperpage{39}
+  \item Cantor, Georg, \hyperpage{78}
+    \subitem Cantor's theorem, \hyperpage{74}
+    \subitem Cantor--Bernstein theorem, \hyperpage{74}
+  \item cardinality, \hyperpage{74}, \hyperpage{164}, \hyperpage{169}
+  \item cartesian closed category, \hyperpage{165--168}
+  \item category, \hyperpage{10}
+    \subitem cartesian closed, \hyperpage{165--168}
+    \subitem category of categories, \hyperpage{18}, \hyperpage{77}
+      \subsubitem adjunctions with $\Set$, \hyperpage{78}, 
+		\hyperpage{168}
+    \subitem comma, \hyperindexformat{\see{comma category}}{178}
+    \subitem complete, \hyperpage{160}
+    \subitem coslice, \hyperpage{60}
+    \subitem discrete, \hyperpage{13}, \hyperpage{78}, \hyperpage{87}
+      \subsubitem functor out of, \hyperpage{29}, \hyperpage{31, 32}
+    \subitem drawing of, \hyperpage{13}
+    \subitem of elements, \hyperpage{155}, \hyperpage{157}
+    \subitem equivalence of categories, \hyperpage{34}
+      \subsubitem vs.\ adjunction, \hyperpage{55}
+    \subitem essentially small, \hyperpage{76}
+    \subitem finite, \hyperpage{121}
+    \subitem isomorphism of categories, \hyperpage{26}
+    \subitem large, \hyperpage{75}
+    \subitem locally small, \hyperpage{75}, \hyperpage{84}
+    \subitem monoidal closed, \hyperpage{166}
+    \subitem one-object, \hyperpage{14--15}, 
+		\hyperindexformat{\seealso{monoid \emph{and} group}}{178}
+    \subitem opposite, \hyperpage{16}
+    \subitem product of categories, \hyperpage{16}, \hyperpage{26}, 
+		\hyperpage{39}
+    \subitem slice, \hyperindexformat{\see{slice category}}{178}
+    \subitem slimmed-down, \hyperpage{35}
+    \subitem small, \hyperpage{75}, \hyperpage{118}
+    \subitem 2-category of categories, \hyperpage{38}
+    \subitem well-powered, \hyperpage{169}
+  \item centre, \hyperpage{26}
+  \item characteristic function, \hyperpage{69}
+  \item chess, \hyperpage{72}
+  \item class, \hyperpage{11}, \hyperpage{75}
+  \item closure, \hyperpage{55}
+  \item cocone, \hyperpage{126}, \hyperindexformat{\seealso{cone}}{178}
+  \item codomain, \hyperpage{11}
+  \item coequalizer, \hyperpage{129}, 
+		\hyperindexformat{\seealso{equalizer}}{178}
+  \item cohomology, \hyperpage{24}
+  \item colimit, \hyperpage{126}, 
+		\hyperindexformat{\seealso{limit}}{178}
+    \subitem and integration, \hyperpage{152}
+    \subitem map out of, \hyperpage{148}
+  \item collection, \hyperpage{11}
+  \item comma category, \hyperpage{59}
+    \subitem limits in, \hyperpage{172}
+  \item commutes, \hyperpage{11}
+  \item complete, \hyperpage{160}
+  \item component
+    \subitem of map into product, \hyperpage{111}
+    \subitem of natural transformation, \hyperpage{28}
+  \item composition, \hyperpage{10}
+    \subitem horizontal, \hyperpage{37}
+    \subitem vertical, \hyperpage{37}
+  \item computer science, \hyperpage{9}, \hyperpage{79, 80}
+  \item cone, \hyperpage{118}
+    \subitem limit, \hyperpage{119}
+    \subitem as natural transformation, \hyperpage{143}
+    \subitem set of cones as limit, \hyperpage{147}
+  \item connectedness, \hyperpage{157}
+  \item contravariant, \hyperpage{22}, \hyperpage{90}
+  \item coproduct, \hyperpage{127}, 
+		\hyperindexformat{\seealso{sum}}{178}
+  \item coprojection, \hyperpage{127}
+  \item coreflective, \hyperpage{46}
+  \item coslice category, \hyperpage{60}
+  \item counit, \hyperindexformat{\see{unit and counit}}{178}
+  \item covariant, \hyperpage{22}
+  \item creation of limits, \hyperpage{139--140}, \hyperpage{172}
+
+  \indexspace
+
+  \item density, \hyperpage{155}, \hyperpage{157}
+  \item determinant, \hyperpage{29}
+  \item diagonal, \hyperindexformat{\see{functor, diagonal}}{178}
+  \item diagram, \hyperpage{118}
+    \subitem commutative, \hyperpage{11}
+    \subitem string, \hyperpage{55}
+  \item direct limit, \hyperpage{132}
+  \item discrete, 
+		\hyperindexformat{\see{category, discrete \emph{and} topological space, discrete}}{178}
+  \item disjoint union, \hyperpage{68}, 
+		\hyperindexformat{\seealso{set, category of, sums in}}{178}
+  \item domain, \hyperpage{11}
+  \item duality, \hyperpage{16}, \hyperpage{35}, \hyperpage{133}
+    \subitem algebra--geometry, \hyperpage{23}, \hyperpage{35}
+    \subitem Gelfand--Naimark, \hyperpage{36}
+    \subitem Pontryagin, \hyperpage{36}
+    \subitem principle of, \hyperpage{16}, \hyperpage{49}
+    \subitem Stone, \hyperpage{36}
+    \subitem terminology for, \hyperpage{126}
+    \subitem for vector spaces, \hyperpage{24}, \hyperpage{32}
+  \item duck, \hyperpage{104}
+
+  \indexspace
+
+  \item Eilenberg, Samuel, \hyperpage{9}
+  \item element
+    \subitem category of elements, \hyperpage{155}, \hyperpage{157}
+    \subitem as function, \hyperpage{67}
+    \subitem generalized, \hyperpage{92}, \hyperpage{105}, 
+		\hyperpage{117}, \hyperpage{123}, \hyperpage{157}
+    \subitem least, \hyperindexformat{\see{least element}}{178}
+    \subitem of presheaf, \hyperpage{99}
+    \subitem universal, \hyperpage{100}
+  \item embedding, \hyperpage{102}
+  \item empty family, \hyperpage{112}, \hyperpage{127}
+  \item epic, \hyperpage{134}, \hyperindexformat{\seealso{monic}}{178}
+    \subitem regular, \hyperpage{136}
+    \subitem split, \hyperpage{136}
+  \item epimorphism, \hyperpage{134}, 
+		\hyperindexformat{\seealso{epic}}{178}
+  \item equalizer, \hyperpage{112}, \hyperpage{133}
+    \subitem map into, \hyperpage{147}
+    \subitem vs.\ pullback, \hyperpage{124}
+    \subitem of sets, \hyperpage{70}, \hyperpage{113}
+  \item equivalence of categories, \hyperpage{34}
+    \subitem vs.\ adjunction, \hyperpage{55}
+  \item equivalence relation, \hyperpage{70}, \hyperpage{135}
+    \subitem generated by relation, \hyperpage{129}
+  \item equivariant, \hyperpage{29}
+  \item essentially small, \hyperpage{76}
+  \item essentially surjective on objects, \hyperpage{34}
+  \item evaluation, \hyperpage{32}, \hyperpage{95}, \hyperpage{149}
+  \item explicit description, \hyperpage{44}, \hyperpage{164}
+  \item exponential, \hyperpage{165}, 
+		\hyperindexformat{\seealso{set of functions}}{178}
+    \subitem preserved by Yoneda embedding, \hyperpage{169}
+
+  \indexspace
+
+  \item faithful, \hyperpage{25}, \hyperpage{27}
+  \item family, \hyperpage{68}
+    \subitem empty, \hyperpage{112}, \hyperpage{127}
+  \item fibred product, \hyperpage{115}, 
+		\hyperindexformat{\seealso{pullback}}{178}
+  \item field, \hyperpage{46}, \hyperpage{83}, \hyperpage{160}
+  \item figure, \hyperindexformat{\see{element, generalized}}{178}
+  \item fixed point, \hyperpage{57}, \hyperpage{77}
+  \item forgetful, \hyperindexformat{\see{functor, forgetful}}{178}
+  \item fork, \hyperpage{112}
+  \item foundations, \hyperpage{71--73}, \hyperpage{80}
+  \item Fourier analysis, \hyperpage{36}, \hyperpage{78}
+  \item free functor, \hyperpage{19}
+  \item Fubini's theorem, \hyperpage{152}
+  \item full, 
+		\hyperindexformat{\see{functor, full \emph{and} subcategory, full}}{178}
+  \item function
+    \subitem characteristic, \hyperpage{69}
+    \subitem injective, \hyperpage{123}
+    \subitem intuitive description of, \hyperpage{66}
+    \subitem number of functions, \hyperpage{67}
+    \subitem partial, \hyperpage{64}
+    \subitem set of functions, \hyperpage{47}, \hyperpage{69}, 
+		\hyperpage{165}
+    \subitem surjective, \hyperpage{134}
+  \item functor, \hyperpage{17}
+    \subitem category, \hyperpage{30}, \hyperpage{38}, \hyperpage{165}
+      \subsubitem limits in, \hyperpage{149--154}
+    \subitem composition of functors, \hyperpage{18}
+    \subitem contravariant, \hyperpage{22}, \hyperpage{90}
+    \subitem covariant, \hyperpage{22}
+    \subitem diagonal, \hyperpage{50}, \hyperpage{73}, \hyperpage{143}
+    \subitem essentially surjective on objects, \hyperpage{34}
+    \subitem faithful, \hyperpage{25}, \hyperpage{27}
+    \subitem forgetful, \hyperpage{18}
+      \subsubitem left adjoint to, \hyperpage{43}, \hyperpage{87}, 
+		\hyperpage{164}
+      \subsubitem preserves limits, \hyperpage{159}
+      \subsubitem is representable, \hyperpage{85}, \hyperpage{87}
+    \subitem free, \hyperpage{19}
+    \subitem full, \hyperpage{25}
+    \subitem full and faithful, \hyperpage{34}, \hyperpage{103}
+    \subitem identity, \hyperpage{18}
+      \subsubitem limit of, \hyperpage{171}, \hyperpage{173}
+    \subitem image of, \hyperpage{25}
+    \subitem product of functors, \hyperpage{149}
+    \subitem representable, \hyperpage{84}, \hyperpage{89}
+      \subsubitem and adjoints, \hyperpage{86}, \hyperpage{168}
+      \subsubitem colimit of representables, \hyperpage{154--157}
+      \subsubitem isomorphism of representables, \hyperpage{104--105}
+      \subsubitem limit of representables, \hyperpage{153--154}
+      \subsubitem preserves limits, \hyperpage{146--148}
+      \subsubitem sum of representables, \hyperpage{157}
+    \subitem `seeing', \hyperpage{83}, \hyperpage{85}
+    \subitem set-valued, \hyperpage{84}
+
+  \indexspace
+
+  \item $G$-set, \hyperpage{22}, \hyperpage{50}, \hyperpage{158}, 
+		\hyperindexformat{\seealso{monoid, action of}}{178}
+  \item general adjoint functor theorem (GAFT), \hyperpage{163}, 
+		\hyperpage{171--173}
+  \item generalized element, 
+		\hyperindexformat{\see{element, generalized}}{178}
+  \item generated equivalence relation, \hyperpage{129}
+  \item greatest common divisor, \hyperpage{110}
+  \item greatest lower bound, \hyperpage{111}
+  \item group, \hyperpage{6}, \hyperpage{101}, \hyperpage{103}, 
+		\hyperindexformat{\seealso{monoid}}{178}
+    \subitem abelian
+      \subsubitem coequalizer of, \hyperpage{130}
+      \subsubitem finite limit of, \hyperpage{123}
+    \subitem abelianization of, \hyperpage{45}
+    \subitem action of, \hyperpage{50}, \hyperpage{158}, 
+		\hyperindexformat{\seealso{monoid, action of}}{178}
+    \subitem category of groups, \hyperpage{11}
+      \subsubitem colimits in, \hyperpage{138}
+      \subsubitem epics in, \hyperpage{134}
+      \subsubitem equalizers in, \hyperpage{114}
+      \subsubitem is not essentially small, \hyperpage{77}
+      \subsubitem isomorphisms in, \hyperpage{12}
+      \subsubitem limits in, \hyperpage{121}, \hyperpage{138--140}
+      \subsubitem is locally small, \hyperpage{76}
+      \subsubitem monics in, \hyperpage{123}
+    \subitem free, \hyperpage{19}, \hyperpage{44}, \hyperpage{63}, 
+		\hyperpage{164}, \hyperpage{169}
+    \subitem free on monoid, \hyperpage{45}
+    \subitem fundamental, \hyperpage{7}, \hyperpage{21}, \hyperpage{85}, 
+		\hyperpage{131}
+    \subitem isomorphism of elements of, \hyperpage{39}
+    \subitem non-homomorphisms of groups, \hyperpage{36}
+    \subitem normal subgroup of, \hyperpage{135}
+    \subitem as one-object category, \hyperpage{14}
+    \subitem opposite, \hyperpage{26}
+    \subitem order of element of, \hyperpage{85}, \hyperpage{105}
+    \subitem representation of, 
+		\hyperindexformat{\see{representation}}{178}
+    \subitem topological, \hyperpage{36}
+
+  \indexspace
+
+  \item holomorphic function, \hyperpage{154}
+  \item hom-set, \hyperpage{75}, \hyperpage{90}
+  \item homology, \hyperpage{21}
+  \item homotopy, \hyperpage{17}, \hyperpage{85}, 
+		\hyperindexformat{\seealso{group, fundamental}}{178}
+
+  \indexspace
+
+  \item identity, \hyperpage{10}
+    \subitem as zero-fold composite, \hyperpage{11}
+  \item image
+    \subitem of functor, \hyperpage{25}
+    \subitem of homomorphism, \hyperpage{130}
+    \subitem inverse, \hyperindexformat{\see{inverse image}}{178}
+  \item inclusion, \hyperpage{6}
+  \item indiscrete space, \hyperpage{7}, \hyperpage{47}
+  \item infimum, \hyperpage{111}
+  \item $\infty$-category, \hyperpage{38}
+  \item initial, 
+		\hyperindexformat{\see{object, initial \emph{and} set, weakly initial}}{178}
+  \item injection, \hyperpage{123}
+  \item injective object, \hyperpage{141}
+  \item integers, \hyperindexformat{\see{$\integers$}}{178}
+  \item interchange law, \hyperpage{38}
+  \item intersection, \hyperpage{110}, \hyperpage{120}
+    \subitem as pullback, \hyperpage{117}, \hyperpage{131}
+  \item inverse, \hyperpage{12}
+    \subitem image, \hyperpage{57}, \hyperpage{89}
+      \subsubitem as pullback, \hyperpage{115}
+    \subitem limit, \hyperpage{120}
+    \subitem right, \hyperpage{71}
+  \item isomorphism, \hyperpage{12}
+    \subitem of categories, \hyperpage{26}
+    \subitem and full and faithful functors, \hyperpage{103}
+    \subitem natural, \hyperpage{31}
+    \subitem preserved by functors, \hyperpage{26}
+
+  \indexspace
+
+  \item join, \hyperpage{128}
+
+  \indexspace
+
+  \item Kan extension, \hyperpage{158}
+  \item kernel, \hyperpage{6}, \hyperpage{8}, \hyperpage{114}
+  \item Kronecker, Leopold, \hyperpage{78}
+
+  \indexspace
+
+  \item large, \hyperpage{75}
+  \item least element, \hyperpage{128}, \hyperpage{171}, 
+		\hyperpage{173}
+    \subitem as meet, \hyperpage{162}
+  \item least upper bound, \hyperpage{128}
+  \item Lie algebra, \hyperpage{42--43}
+  \item limit, \hyperpage{119}
+    \subitem as adjoint, \hyperpage{145}
+    \subitem vs.\ colimit, \hyperpage{133}, \hyperpage{148}, 
+		\hyperpage{162}
+    \subitem non-commutativity with colimits, \hyperpage{153}
+    \subitem commutativity with limits, \hyperpage{151}, 
+		\hyperpage{160}
+    \subitem computed pointwise, \hyperpage{149}
+    \subitem cone, \hyperpage{119}
+    \subitem creation of, \hyperpage{139--140}, \hyperpage{172}
+    \subitem direct, \hyperpage{132}
+    \subitem finite, \hyperpage{121}
+    \subitem in functor category, \hyperpage{149--154}
+    \subitem functoriality of, \hyperpage{140}
+    \subitem has limits, \hyperpage{121}
+    \subitem of identity, \hyperpage{171}, \hyperpage{173}
+    \subitem informal usage, \hyperpage{119}
+    \subitem inverse, \hyperpage{120}
+    \subitem large, \hyperpage{162--163}, \hyperpage{171}, 
+		\hyperpage{173}
+    \subitem map between limits, \hyperpage{144}
+    \subitem map into, \hyperpage{148}
+    \subitem non-pointwise, \hyperpage{151}
+    \subitem preservation of, \hyperpage{136}
+      \subsubitem by adjoint, \hyperpage{159}
+    \subitem from products and equalizers, \hyperpage{122}
+    \subitem from pullbacks and terminal object, \hyperpage{125}
+    \subitem reflection of, \hyperpage{137}
+    \subitem as representation of cone   functor, \hyperpage{143}
+    \subitem small, \hyperpage{119}, \hyperpage{162--163}, 
+		\hyperpage{173}
+    \subitem uniqueness of, \hyperpage{144}, \hyperpage{146}
+  \item locally small, \hyperpage{75}, \hyperpage{84}
+  \item loop, \hyperpage{92}
+  \item lower bound, \hyperpage{111}
+  \item lowest common multiple, \hyperpage{128}
+
+  \indexspace
+
+  \item Mac~Lane, Saunders, \hyperpage{9}
+  \item manifold, \hyperpage{134}
+  \item map, \hyperpage{10}
+    \subitem bilinear, \hyperpage{4}, \hyperpage{86}, \hyperpage{105}, 
+		\hyperpage{166}
+    \subitem need not resemble function, \hyperpage{13}
+    \subitem order-preserving, \hyperpage{22}, \hyperpage{26}
+  \item matrix, \hyperpage{40}
+  \item meet, \hyperpage{111}
+  \item metric space, \hyperpage{91}
+  \item minimum, \hyperpage{110}
+  \item model, \hyperpage{46}
+  \item monic, \hyperpage{123}
+    \subitem composition of monics, \hyperpage{136}
+    \subitem pullback of, \hyperpage{126}, \hyperpage{136}
+    \subitem regular, \hyperpage{135}
+    \subitem split, \hyperpage{135}
+  \item monoid, \hyperpage{15}
+    \subitem action of, \hyperpage{22}, \hyperpage{24}, \hyperpage{29}, 
+		\hyperpage{31}, \hyperpage{85}, 
+		\hyperindexformat{\seealso{group, action of}}{178}
+    \subitem epics between monoids, \hyperpage{135}
+    \subitem free group on, \hyperpage{45}
+    \subitem homomorphism of monoids, \hyperpage{21}
+    \subitem as one-object category, \hyperpage{15}, \hyperpage{29}, 
+		\hyperpage{35}, \hyperpage{77}
+    \subitem opposite, \hyperpage{26}
+    \subitem Yoneda lemma for monoids, \hyperpage{99}
+  \item monoidal closed category, \hyperpage{166}
+  \item monomorphism, \hyperpage{123}, 
+		\hyperindexformat{\seealso{monic}}{178}
+  \item morphism, \hyperpage{10}, \hyperindexformat{\seealso{map}}{178}
+
+  \indexspace
+
+  \item $n$-category, \hyperpage{38}
+  \item natural isomorphism, 
+		\hyperindexformat{\see{isomorphism, natural}}{178}
+  \item natural numbers, \hyperpage{15}, \hyperpage{71}, 
+		\hyperpage{159}, 
+		\hyperindexformat{\seealso{arithmetic}}{178}
+  \item natural transformation, \hyperpage{28}
+    \subitem composition of, \hyperpage{30}, \hyperpage{36--38}
+    \subitem identity, \hyperpage{30}
+  \item naturally, \hyperpage{32}
+
+  \indexspace
+
+  \item object, \hyperpage{10}
+    \subitem initial, \hyperpage{48}, \hyperpage{127}
+      \subsubitem as adjoint, \hyperpage{49}
+      \subsubitem as limit of identity, \hyperpage{171}, 
+		\hyperpage{173}
+      \subsubitem uniqueness of, \hyperpage{48}
+    \subitem injective, \hyperpage{141}
+    \subitem need not resemble set, \hyperpage{13}
+    \subitem probing of, \hyperpage{81}
+    \subitem projective, \hyperpage{140}
+    \subitem -set of category, \hyperpage{78}, \hyperpage{85}
+    \subitem terminal, \hyperpage{48}, \hyperpage{112}, 
+		\hyperindexformat{\seealso{object, initial}}{178}
+  \item open subset, \hyperpage{89}
+  \item order-preserving, \hyperpage{22}, \hyperpage{26}
+  \item ordered set, \hyperpage{15}, \hyperpage{31}
+    \subitem adjunction between, \hyperpage{54}, \hyperpage{56}, 
+		\hyperpage{161--163}
+    \subitem complete small category is, \hyperpage{163}, 
+		\hyperpage{169}
+    \subitem vs.\ preordered set, \hyperpage{16}, \hyperpage{168}
+    \subitem product in, \hyperpage{110--111}
+    \subitem sum in, \hyperpage{128}
+    \subitem totally, \hyperpage{39}
+
+  \indexspace
+
+  \item partial function, \hyperpage{64}
+  \item partially ordered set, \hyperpage{15}, 
+		\hyperindexformat{\seealso{ordered set}}{178}
+  \item permutation, \hyperpage{39}
+  \item pointwise, \hyperpage{23}, \hyperpage{149}, \hyperpage{166}
+  \item polynomial, \hyperpage{21}, 
+		\hyperindexformat{\seealso{ring, polynomial}}{178}
+  \item poset, \hyperpage{15}, 
+		\hyperindexformat{\seealso{ordered set}}{178}
+  \item power, \hyperpage{112}
+    \subitem series, \hyperpage{154}
+    \subitem set, \hyperpage{69}, \hyperpage{89}, \hyperpage{110}, 
+		\hyperpage{128}
+  \item predicate, \hyperpage{57}
+  \item preimage, \hyperindexformat{\see{inverse image}}{178}
+  \item preorder, \hyperpage{15}, 
+		\hyperindexformat{\seealso{ordered set}}{178}
+  \item preservation, 
+		\hyperindexformat{\see{limit, preservation of}}{178}
+  \item presheaf, \hyperpage{24}, \hyperpage{50}
+    \subitem category of presheaves
+      \subsubitem is cartesian closed, \hyperpage{167}
+      \subsubitem limits in, \hyperpage{153}
+      \subsubitem monics and epics in, \hyperpage{157}
+      \subsubitem slice of, \hyperpage{158}
+      \subsubitem is topos, \hyperpage{170}
+    \subitem as colimit of representables, \hyperpage{154--157}
+    \subitem element of, \hyperpage{99}
+  \item prime numbers, \hyperpage{154}
+  \item product, \hyperpage{108}, \hyperpage{111}
+    \subitem associativity of, \hyperpage{152}
+    \subitem binary, \hyperpage{111}
+    \subitem commutativity of, \hyperpage{152}
+    \subitem empty, \hyperpage{111}
+    \subitem functoriality of, \hyperpage{140}
+    \subitem informal usage, \hyperpage{109}
+    \subitem map into, \hyperpage{146}, \hyperpage{154}
+    \subitem as pullback, \hyperpage{115}
+    \subitem uniqueness of, \hyperpage{109}
+  \item projection, \hyperpage{108}, \hyperpage{119}
+  \item projective object, \hyperpage{140}
+  \item pullback, \hyperpage{114}
+    \subitem vs.\ equalizer, \hyperpage{124}
+    \subitem of monic, \hyperpage{126}, \hyperpage{136}
+    \subitem pasting of pullbacks, \hyperpage{124}
+    \subitem square, \hyperpage{115}
+  \item pushout, \hyperpage{130}, 
+		\hyperindexformat{\seealso{pullback}}{178}
+
+  \indexspace
+
+  \item quantifiers as adjoints, \hyperpage{57}
+  \item quotient, \hyperpage{133}, \hyperpage{135}
+    \subitem of set, \hyperpage{70}, \hyperpage{129}
+
+  \indexspace
+
+  \item reflection (adjunction), \hyperpage{57}
+  \item reflection of limits, \hyperpage{137}
+  \item reflective, \hyperpage{46}
+  \item relation, \hyperpage{129}, 
+		\hyperindexformat{\seealso{equivalence relation}}{178}
+  \item representable, 
+		\hyperindexformat{\see{functor, representable}}{178}
+  \item representation
+    \subitem of functor, \hyperpage{84}, \hyperpage{89}
+      \subsubitem as universal   element, \hyperpage{99--102}
+    \subitem of group or monoid
+      \subsubitem linear, \hyperpage{22}, \hyperpage{50}, 
+		\hyperpage{158}
+      \subsubitem regular, \hyperpage{85}, \hyperpage{99}
+  \item ring, \hyperpage{2}
+    \subitem category of rings, \hyperpage{11}
+      \subsubitem epics in, \hyperpage{134}
+      \subsubitem is not essentially small, \hyperpage{77}
+      \subsubitem isomorphisms in, \hyperpage{12}
+      \subsubitem limits in, \hyperpage{121}, \hyperpage{138--140}
+      \subsubitem is locally small, \hyperpage{76}
+      \subsubitem monics in, \hyperpage{123}
+    \subitem free, \hyperpage{87}
+    \subitem of functions, \hyperpage{22}, \hyperpage{89}
+    \subitem polynomial, \hyperpage{8}, \hyperpage{19}, \hyperpage{87}
+
+  \indexspace
+
+  \item SAFT (special adjoint functor theorem), \hyperpage{164}
+  \item sameness, \hyperpage{33--34}
+  \item scheme, \hyperpage{21}
+  \item section, \hyperpage{71}
+  \item sequence, \hyperpage{71}, \hyperpage{92}
+  \item set
+    \subitem axiomatization of sets, \hyperpage{79--82}
+    \subitem category of sets, \hyperpage{11}, \hyperpage{67}
+      \subsubitem coequalizers in, \hyperpage{130}
+      \subsubitem colimits in, \hyperpage{132}
+      \subsubitem epics in, \hyperpage{134}
+      \subsubitem equalizers in, \hyperpage{70}, \hyperpage{113}
+      \subsubitem is not essentially small, \hyperpage{76}
+      \subsubitem isomorphisms in, \hyperpage{12}
+      \subsubitem limits in, \hyperpage{121}
+      \subsubitem is locally small, \hyperpage{75}
+      \subsubitem monics in, \hyperpage{123}
+      \subsubitem products in, \hyperpage{47}, \hyperpage{68}, 
+		\hyperpage{107}, \hyperpage{109}
+      \subsubitem pushouts in, \hyperpage{131}
+      \subsubitem sums in, \hyperpage{68}, \hyperpage{127}
+      \subsubitem as topos, \hyperpage{82}, \hyperpage{168}
+    \subitem conflicting meaning in ZFC, \hyperpage{80}
+    \subitem definition of, \hyperpage{71--73}
+    \subitem empty, \hyperpage{67}, \hyperpage{72}
+    \subitem finite, \hyperpage{35}, \hyperpage{76}
+    \subitem of functions, \hyperpage{47}, \hyperpage{69}, 
+		\hyperpage{165}
+    \subitem history, \hyperpage{78--82}
+    \subitem intuitive description of, \hyperpage{66}
+    \subitem one-element, \hyperpage{1}, \hyperpage{67}, 
+		\hyperpage{112}
+    \subitem open, \hyperpage{89}
+    \subitem quotient of, \hyperpage{70}, \hyperpage{129}
+    \subitem size of, \hyperpage{74--75}
+    \subitem structurelessness of, \hyperpage{66}
+    \subitem two-element, \hyperpage{69}, \hyperpage{89}, 
+		\hyperpage{168}
+    \subitem -valued functor, \hyperpage{84}
+    \subitem weakly initial, \hyperpage{163}, \hyperpage{171--173}
+  \item shape
+    \subitem of diagram, \hyperpage{118}
+    \subitem of generalized element, \hyperpage{92}
+  \item sheaf, \hyperpage{24}, \hyperpage{168}
+  \item Sierpi\'nski space, \hyperpage{93}
+  \item simultaneous equations, \hyperpage{21}, \hyperpage{113}, 
+		\hyperpage{122}
+  \item slice category, \hyperpage{59}
+    \subitem of presheaf category, \hyperpage{158}
+  \item small, \hyperpage{75}, \hyperpage{118, 119}
+  \item special adjoint functor theorem, \hyperpage{164}
+  \item sphere, \hyperpage{133}
+  \item Stone--\v {C}ech compactification, \hyperpage{165}
+  \item string diagram, \hyperpage{55}
+  \item subcategory
+    \subitem full, \hyperpage{25}, \hyperpage{103}
+    \subitem reflective, \hyperpage{46}
+  \item subobject, \hyperpage{125}
+    \subitem classifier, \hyperpage{168, 169}
+  \item subset, \hyperpage{69}, \hyperpage{125}
+  \item sum, \hyperpage{127}, \hyperindexformat{\seealso{product}}{178}
+    \subitem empty, \hyperpage{127}
+    \subitem map out of, \hyperpage{148}
+    \subitem as pushout, \hyperpage{131}
+  \item supremum, \hyperpage{128}
+  \item surface, \hyperpage{133}
+  \item surjection, \hyperpage{134}
+
+  \indexspace
+
+  \item tensor product, \hyperpage{5--6}, \hyperpage{86}, 
+		\hyperpage{105}, \hyperpage{166}
+  \item terminal, \hyperindexformat{\see{object, terminal}}{178}
+  \item thought experiment, \hyperpage{121}, \hyperpage{166}, 
+		\hyperpage{170}
+  \item topological group, \hyperpage{36}
+  \item topological space, \hyperpage{6}, \hyperpage{55}, 
+		\hyperindexformat{\seealso{homotopy \emph{and} group, fundamental}}{178}
+    \subitem category of topological spaces, \hyperpage{12}
+      \subsubitem colimits in, \hyperpage{137}
+      \subsubitem epics in, \hyperpage{134}
+      \subsubitem equalizers in, \hyperpage{113}
+      \subsubitem is not   essentially small, \hyperpage{77}
+      \subsubitem isomorphisms in, \hyperpage{12}
+      \subsubitem limits in, \hyperpage{121}, \hyperpage{137}
+      \subsubitem is   locally small, \hyperpage{76}
+      \subsubitem products in, \hyperpage{109}
+    \subitem compact Hausdorff, \hyperpage{123}, \hyperpage{165}
+    \subitem discrete, \hyperpage{4}, \hyperpage{47}, \hyperpage{87}
+    \subitem functions on, \hyperpage{22}, \hyperpage{24}, 
+		\hyperpage{89}
+    \subitem Hausdorff, \hyperpage{134}
+    \subitem indiscrete, \hyperpage{7}, \hyperpage{47}
+    \subitem open subset of, \hyperpage{89}
+    \subitem subspace of, \hyperpage{113}
+    \subitem as topos, \hyperpage{168}
+    \subitem two-point, \hyperpage{89}
+  \item topos, \hyperpage{82}, \hyperpage{167}, \hyperpage{169, 170}
+  \item total order, \hyperpage{39}
+  \item transpose, \hyperpage{42}
+  \item triangle identities, \hyperpage{52}, \hyperpage{56}
+  \item 2-category, \hyperpage{38}
+  \item type, \hyperpage{79--81}
+
+  \indexspace
+
+  \item underlying, \hyperpage{18}
+  \item union, \hyperpage{68}, \hyperpage{128}
+    \subitem as pushout, \hyperpage{131}
+  \item uniqueness, \hyperpage{1}, \hyperpage{3}, \hyperpage{31}, 
+		\hyperpage{105}
+    \subitem of constructions, \hyperpage{10}, \hyperpage{17}, 
+		\hyperpage{28}, \hyperpage{42}, \hyperpage{94}
+  \item unit and counit, \hyperpage{51}
+    \subitem adjunction in terms of, \hyperpage{52, 53}
+    \subitem injectivity of unit, \hyperpage{63}
+    \subitem unit as initial object, \hyperpage{60--63}, 
+		\hyperpage{100}
+  \item universal
+    \subitem element, \hyperpage{100}
+    \subitem enveloping algebra, \hyperpage{43}
+    \subitem property, \hyperpage{1--7}
+      \subsubitem determines object uniquely, \hyperpage{2}, 
+		\hyperpage{5}
+  \item upper bound, \hyperpage{128}
+
+  \indexspace
+
+  \item van Kampen's theorem, \hyperpage{7}, \hyperpage{131}
+  \item variety, \hyperpage{36}
+  \item vector space, \hyperpage{3, 4}, \hyperpage{40}, 
+		\hyperindexformat{\seealso{bilinear map}}{178}
+    \subitem category of vector spaces, \hyperpage{12}
+      \subsubitem is not   cartesian closed, \hyperpage{166}
+      \subsubitem colimits in, \hyperpage{138}
+      \subsubitem epics in, \hyperpage{134}
+      \subsubitem equalizers in, \hyperpage{114}
+      \subsubitem is not   essentially small, \hyperpage{76}
+      \subsubitem limits in, \hyperpage{121}, \hyperpage{123}, 
+		\hyperpage{138--140}
+      \subsubitem is locally small, \hyperpage{76}
+      \subsubitem monics in, \hyperpage{123}
+      \subsubitem products in, \hyperpage{110}
+      \subsubitem sums in, \hyperpage{128}
+    \subitem direct sum of vector spaces, \hyperpage{110}, 
+		\hyperpage{128}
+    \subitem dual, \hyperpage{24}, \hyperpage{32}
+    \subitem free, \hyperpage{20}, \hyperpage{43}, \hyperpage{87}
+      \subsubitem unit of, \hyperpage{51}, \hyperpage{58}, 
+		\hyperpage{100}
+    \subitem functions on, \hyperpage{24}
+    \subitem of linear maps, \hyperpage{23}
+  \item vertex, \hyperpage{118}, \hyperpage{126}
+
+  \indexspace
+
+  \item weakly initial, \hyperpage{163}, \hyperpage{171--173}
+  \item well-powered, \hyperpage{169}
+  \item word, \hyperpage{19}
+
+  \indexspace
+
+  \item Yoneda embedding, \hyperpage{90}, \hyperpage{102--103}
+    \subitem does not preserve colimits, \hyperpage{154}
+    \subitem preserves exponentials, \hyperpage{169}
+    \subitem preserves limits, \hyperpage{153}
+  \item Yoneda lemma, \hyperpage{94}
+    \subitem for monoids, \hyperpage{99}
+
+  \indexspace
+
+  \item $\integers$ (integers)
+    \subitem as group, \hyperpage{39}, \hyperpage{83}, \hyperpage{101}, 
+		\hyperpage{103}
+    \subitem as ring, \hyperpage{2}, \hyperpage{48}
+  \item ZFC (Zermelo--Fraenkel with choice), \hyperpage{79--82}
+
+\end{theindex}

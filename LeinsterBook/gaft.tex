@@ -1,0 +1,235 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Appendix: Proof of the general adjoint functor theorem
+% 
+
+\chapter{Proof of the general adjoint functor theorem}
+%
+\index{adjoint functor theorems!general|(}%
+\index{general adjoint functor theorem (GAFT)|(}
+%
+
+Here we prove the general adjoint functor theorem, which for convenience is
+restated below.  The left-to-right implication follows immediately from
+Theorem~\ref{thm:adjts-cts}; it is the right-to-left implication that we
+have to prove.
+
+\paragraph*{\upshape Theorem~\ref{thm:gaft} (General adjoint functor theorem)} 
+{\itshape
+Let $\cat{A}$ be a category, $\cat{B}$ a complete category, and $G\from
+\cat{B} \to \cat{A}$ a functor.  Suppose that $\cat{B}$ is locally small and
+that for each $A \in \cat{A}$, the category $\comma{A}{G}$ has a weakly%
+%
+\index{set!weakly initial|(}%
+\index{weakly initial|(}
+%
+initial set.  Then
+\[
+G \text{ has a left adjoint}
+\iff
+G \text{ preserves limits}.
+\]
+}
+
+The heart of the proof is the case $\cat{A} = \One$, where GAFT asserts
+that a complete locally small category with a weakly initial set has an
+initial object.  We prove this first.
+
+The proof of this special case is illuminated by considering the even more
+special case where $\cat{A} = \One$ and the category $\cat{B}$ is a poset
+$\scat{B}$.  We saw in Example~\ref{eg:oaft-least} that the initial object
+(least%
+%
+\index{least element}
+%
+element) of a complete poset $\scat{B}$ can be constructed as the meet of
+all its elements.  Otherwise put, it is the limit of the identity functor
+$1_\scat{B}\from \scat{B} \to \scat{B}$.
+
+One might try to extend this result to arbitrary categories $\cat{B}$ by
+proving that the limit of the identity%
+%
+\index{functor!identity!limit of}%
+\index{object!initial!limit of identity@as limit of identity}%
+\index{limit!identity@of identity}
+%
+functor $1_\cat{B}\from \cat{B} \to \cat{B}$ is (if it exists) an initial
+object.  This is indeed true (Exercise~\ref{ex:lim-of-id} below).  However,
+it is unhelpful: for if $\cat{B}$ is large then the limit of $1_\cat{B}$
+is a large%
+%
+\index{limit!large} 
+%
+limit, but we are only given that $\cat{B}$ has small limits.
+
+We seem to be at an impasse~-- but this is where the clever idea behind GAFT
+comes in.  In order to construct the least element of a complete poset, it
+is not necessary to take the meet of \emph{all} the elements.  More
+economically, we could just take the meet of the elements of some weakly
+initial subset (Exercise~\ref{ex:wi-poset}).  In general, for an arbitrary
+complete category, the limit of any weakly initial set is an initial
+object.  We prove this now.
+
+\begin{alemma}  
+\label{lemma:wi-init}
+Let $\cat{C}$ be a complete locally small category with a weakly initial
+set.  Then $\cat{C}$ has an initial object.
+\end{alemma}
+
+\begin{pf}
+Let $\scat{S}$ be a weakly initial set in $\cat{C}$.  Regard $\scat{S}$ as
+a full subcategory of $\cat{C}$; then $\scat{S}$ is small, since $\cat{C}$
+is locally small.  We may therefore take a limit cone
+% 
+\begin{equation}        
+\label{eq:lim-wi}
+\Bigl( 0 \toby{p_S} S \Bigr)_{S \in \scat{S}}
+\end{equation}
+% 
+of the inclusion $\scat{S} \incl \cat{C}$.  We prove that $0$ is initial.
+
+Let $C \in \cat{C}$.  We have to show that there is exactly one map $0 \to
+C$.  Certainly there is at least one, since we may choose some $S \in
+\scat{S}$ and map $j \from S \to C$, and we then have the composite $j p_S
+\from 0 \to C$.  To prove uniqueness, let $f, g \from 0 \to C$.  Form the
+equalizer
+\[
+\xymatrix@1{
+E \ar[r]^i      &0 \ar@<.5ex>[r]^f \ar@<-.5ex>[r]_g       &C.
+}
+\]
+Since $\scat{S}$ is weakly initial, we may choose $S \in \scat{S}$ and
+$h\from S \to E$.  We then have maps
+\[
+\xymatrix@1{
+0 \ar[r]^{p_S} &S \ar[r]^h &E \ar[r]^i &0 \\
+}
+\]
+with the property that for all $S' \in \scat{S}$,
+\[
+p_{S'}(ihp_S) = (p_{S'}ih)p_S = p_{S'} = p_{S'} 1_0
+\]
+(where the second equality follows from~\eqref{eq:lim-wi} being a cone).
+But~\eqref{eq:lim-wi} is a \emph{limit} cone, so $ihp_S = 1_0$ by
+Exercise~\ref{ex:jointly-monic}\bref{part:j-m-main}.  Hence
+\[
+f = fihp_S = gihp_S = g,
+\]
+as required.
+\end{pf}
+
+We have now proved GAFT in the special case $\cat{A} = \One$.  The rest of
+the proof is comparatively routine.
+
+\begin{alemma}  
+\label{lemma:gaft-creates}
+%
+\index{limit!creation of}%
+\index{creation of limits}%
+\index{comma category!limits in}
+%
+Let $\cat{A}$ and $\cat{B}$ be categories.  Let $G \from \cat{B} \to
+\cat{A}$ be a functor that preserves limits.  Then the projection functor
+$P_A \from \comma{A}{G} \to \cat{B}$ of~\eqref{eq:pjn-aft} creates limits,
+for each $A \in \cat{A}$.  In particular, if $\cat{B}$ is complete then so
+is each comma category $\comma{A}{G}$.
+\end{alemma}
+
+\begin{pf}
+The first statement is
+Exercise~\ref{ex:gaft-creates}\bref{part:gaft-creates-creates}, and the
+second follows from Lemma~\ref{lemma:creates-preserves}.
+\end{pf}
+
+We now prove GAFT.  By Corollary~\ref{cor:pre-AFT}, it is enough to show
+that $\comma{A}{G}$ has an initial object for each $A \in \cat{A}$.  Let $A
+\in \cat{A}$.  By Lemma~\ref{lemma:gaft-creates}, $\comma{A}{G}$ is
+complete, and by hypothesis, it has a weakly initial set.  It is also
+locally small, since $\cat{B}$ is.  Hence by Lemma~\ref{lemma:wi-init}, it
+has an initial object, as required.
+
+
+\exs
+
+
+\begin{aquestion}        
+\label{ex:lim-of-id}
+In this exercise, we suspend the convention (made implicitly in
+Definition~\ref{defn:lim}) that we only speak of the limit of a functor
+$\scat{I} \to \cat{C}$ when $\scat{I}$ is small.%
+%
+\index{limit!small}%
+\index{limit!large}
+%
+Let $\cat{B}$ be a
+category, possibly large.  The aim is to prove that a limit%
+%
+\index{functor!identity!limit of}%
+\index{object!initial!limit of identity@as limit of identity}%
+\index{limit!identity@of identity}
+% 
+of the identity functor on $\cat{B}$ is exactly an initial object of
+$\cat{B}$.
+% 
+\begin{enumerate}[(b)]
+\item 
+Let $0$ be an initial object of $\cat{B}$.  Show that the cone $(0 \to
+B)_{B \in \cat{B}}$ on the identity functor $1_\cat{B}$ is a limit cone.
+
+\item
+Now let $\Bigl(L \toby{p_B} B\Bigr)_{B \in \cat{B}}$ be a limit cone on
+$1_\cat{B}$.  Prove that $p_L$ is the identity on $L$, and deduce that $L$
+is initial.  
+\end{enumerate}
+\end{aquestion}
+
+
+\begin{aquestion}        
+\label{ex:wi-poset}
+Here you will prove the special case of Lemma~\ref{lemma:wi-init} in which
+the category concerned is a poset.  Let $C$ be a poset and $S \sub C$.
+% 
+\begin{enumerate}[(b)]
+\item 
+What does it mean, in purely order-theoretic terms, for $S$ to be a weakly
+initial set in $C$?
+
+\item 
+Prove directly that if $S$ is weakly initial and the meet $\Meet_{s \in S}
+s$ exists then $\Meet_{s \in S} s$ is a least%
+%
+\index{least element}
+%
+element of $C$.%
+%
+\index{set!weakly initial|)}%
+\index{weakly initial|)}
+%
+\end{enumerate}
+\end{aquestion}
+
+
+\begin{aquestion}       
+\label{ex:gaft-creates}
+Let $G \from \cat{B} \to \cat{A}$ be a limit-preserving functor, and let $A
+\in \cat{A}$.
+% 
+\begin{enumerate}[(b)]
+\item 
+Show that for any small category $\scat{I}$, a diagram of shape $\scat{I}$
+in $\comma{A}{G}$ amounts to a diagram $E$ of shape $\scat{I}$ in $\cat{B}$
+together with a cone on $G \of E$ with vertex $A$.
+
+\item
+\label{part:gaft-creates-creates}
+Prove that the projection functor $P_A \from \comma{A}{G} \to \cat{B}$
+of~\eqref{eq:pjn-aft} creates limits.%
+%
+\index{adjoint functor theorems!general|)}%
+\index{general adjoint functor theorem (GAFT)|)}
+%
+\end{enumerate}
+\end{aquestion}

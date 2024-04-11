@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage{amssymb}
+\makeatletter
+\usepackage[all]{xy}
+
+\begin{document}
+
+Here's an example:
+
+$$ \xymatrix{ & ^{\mathbb{P}^1}\ar@{-}[ddd]^(.3){\mathfrak{G}[p]}&  &
+      ^{\mathbb{P}^1}\ar@{-}[ddd]^(.3){\mathfrak{G}[p]}&^{\mathbb{P}^1}\ar@{-}[ddd]^(.3){\mathfrak{G}[p]} & \\
+   & &\dots & & & \\
+   \ar@{-}[rrrrr]^(.35){\kappa\otimes\alpha_p}&\bullet & & \bullet&\bullet & ^{\mathbb{P}^1}\\
+   & & ^{\zeta}\ar@/^/@{..>}[ru] \ar@/^/@{..>}[rru] \ar@/_/@{..>}[lu] & & &  \\
+   } $$
+
+
+And then after the example we include some more text.
+\end{document}
+
+% \documentclass[spanningrule]{cambridge7a}
+% 
+% \input{macros}
+% \input{theoremenvts}
+% 
+% \begin{document}
+% 
+% \mainmatter
+% 
+% \chapter*{Introduction}
+% \label{ch:intro}
+% 
+% Let us rephrase this last statement.  Define a function $i\from S \to V$ by
+% $i(s) = v_s$ ($s \in S$).  Then $V$ together with $i$ has the following
+% universal property:
+% 
+% $$
+%  \xymatrix{ & ^{\mathbb{P}^1}\ar@{-}[ddd]^(.3){\mathfrak{G}[p]}&  &
+%       ^{\mathbb{P}^1}\ar@{-}[ddd]^(.3){\mathfrak{G}[p]}&^{\mathbb{P}^1}\ar@{-}[ddd]^(.3){\mathfrak{G}[p]} & \\
+%    & &\dots & & & \\
+%    \ar@{-}[rrrrr]^(.35){\kappa\otimes\alpha_p}&\bullet & & \bullet&\bullet & ^{\mathbb{P}^1}\\
+%    & & ^{\zeta}\ar@/^/@{..>}[ru] \ar@/^/@{..>}[rru] \ar@/_/@{..>}[lu] & & &  \\
+%    }
+% %\xymatrix{
+% %S \ar[r]^i \ar[dr]_{\forall \text{ functions } f}  &
+% %V \ar@{.>}[d]^{\exists ! \text{ linear } \bar{f}} \\
+% %&
+% %\forall W.
+% %}
+% $$
+% 
+% This diagram means that for all vector spaces $W$ and all functions $f\from
+% S \to W$, there exists a unique linear map $\bar{f}: V \to W$ such that
+% $\bar{f} \of i = f$.  The symbol $\forall$%
+% %
+% \ntn{forall}
+% %
+% means `for all', and the symbols $\exists !$% 
+% % 
+% \ntn{ei}
+% %
+%  mean `there exists a unique'.%
+% %
+% \index{uniqueness}
+% %
+% 
+% \end{document}

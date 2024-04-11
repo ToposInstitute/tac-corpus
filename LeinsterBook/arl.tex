@@ -1,0 +1,2447 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Chapter 6: Adjoints, representables and limits
+% 
+
+\chapter{Adjoints, representables and limits}
+\label{ch:arl}
+
+
+We have approached the idea of universal property from three different
+angles, producing three different formalisms: adjointness,
+representability, and limits.  In this final chapter, we work out the
+connections between them.
+
+In principle, anything that can be described in one of the three formalisms
+can also be described in the others.  The situation is similar to that of
+cartesian and polar coordinates: anything that can be done in polar
+coordinates can in principle be done in cartesian coordinates, and vice
+versa, but some things are more gracefully done in one system than the
+other.
+
+In comparing the three approaches, we will discover many of the fundamental
+results of category theory.  Here are some highlights.
+% 
+\begin{itemize}
+\item 
+Limits and colimits in functor categories work in the simplest possible
+way.
+
+\item 
+The embedding of a category $\scat{A}$ into its presheaf category
+$\pshf{\scat{A}}$ preserves limits (but not colimits).
+
+\item 
+The representables are the prime numbers of presheaves: every presheaf can
+be expressed canonically as a colimit of representables.
+
+\item 
+A functor with a left adjoint preserves limits.  Under suitable hypotheses,
+the converse holds too.
+
+\item 
+Categories of presheaves $\pshf{\scat{A}}$ behave very much like the
+category of sets, the beginning of an incredible story that brings together
+the subjects of logic and geometry.
+\end{itemize}
+
+
+
+\section{Limits in terms of representables and adjoints}
+\label{sec:lra}
+
+
+There is more than one way to present the definition of limit.  In
+Chapter~\ref{ch:lims}, we used an explicit form of the definition that is
+particularly convenient for examples.  But we will soon be developing the
+\emph{theory} of limits and colimits, and for that, a rephrased form of the
+definition is useful.  In fact, we rephrase it in two different ways: once
+in terms of representability, and once in terms of adjoints.
+
+We begin by showing that cones are simply natural transformations of a
+special kind.  To do this, we need some notation.  Given categories
+$\scat{I}$ and $\cat{A}$ and an object $A \in \cat{A}$, there is a functor
+$\Delta A\from \scat{I} \to \cat{A}$ with constant value $A$ on objects and
+$1_A$ on maps.  This defines, for each $\scat{I}$ and $\cat{A}$, the
+\demph{diagonal%
+%
+\index{functor!diagonal}
+%
+functor}
+\[
+\Delta\from \cat{A} \to \ftrcat{\scat{I}}{\cat{A}}.%
+%
+\ntn{diag-gen}
+%
+\]
+The name can be understood by considering the case in which $\scat{I}$ is the
+discrete category with two objects; then $\ftrcat{\scat{I}}{\cat{A}} = \cat{A}
+\times \cat{A}$ and $\Delta(A) = (A, A)$.
+
+Now, given a diagram $D\from \scat{I} \to \cat{A}$ and an object $A \in
+\cat{A}$, a cone on $D$ with vertex $A$ is simply%
+%
+\index{cone!natural transformation@as natural transformation}
+%
+a natural transformation
+\[
+\xymatrix{
+\scat{I} \rtwocell^{\Delta A}_{D} &\cat{A}.
+}
+\]
+Writing $\Cone(A, D)$%
+%
+\ntn{Cone}
+%
+for the set of cones on $D$ with vertex $A$, we therefore have
+% 
+\begin{equation}        
+\label{eq:cones-as-transfs}
+\Cone(A, D)
+=
+\ftrcat{\scat{I}}{\cat{A}} (\Delta A, D).
+\end{equation}
+% 
+Thus, $\Cone(A, D)$ is functorial in $A$ (contravariantly) and $D$
+(covariantly).
+
+Here is our first rephrasing of the definition of limit.
+
+\begin{propn}   
+\label{propn:lim-rep}
+%
+\index{limit!representation of cone functor@as representation of cone
+  functor} 
+%
+Let $\scat{I}$ be a small category, $\cat{A}$ a category, and $D\from \scat{I}
+\to \cat{A}$ a diagram.  Then there is a one-to-one correspondence between
+limit cones on $D$ and representations of the functor
+\[
+\Cone(\dashbk, D) \from \cat{A}^\op \to \Set,
+\]
+with the representing objects of \hspace{.05em}$\Cone(\dashbk, D)$ being the
+limit objects (that is, the vertices of the limit cones) of $D$.
+\end{propn}
+
+Briefly put: a limit of $D$ is a representation of
+$\ftrcat{\scat{I}}{\cat{A}}(\Delta\dashbk, D)$. 
+
+\begin{pf}
+By Corollary~\ref{cor:rep-univ}, a representation of $\Cone(\dashbk, D)$
+consists of a cone on $D$ with a certain universal property.  This is exactly
+the universal property in the definition of limit cone.
+\end{pf}
+
+The proposition formalizes the thought that cones on a diagram $D$
+correspond one-to-one with maps into $\lt{\scat{I}} D$.  It implies that if
+$D$ has a limit then
+% 
+\begin{equation}        
+\label{eq:cone-is-map-to-lim}
+\Cone(A, D) \iso \cat{A}\biggl(A, \lt{\scat{I}} D\biggr)
+\end{equation}
+% 
+naturally in $A$.  The correspondence is given from left to right by 
+\[
+(f_I)_{I \in \scat{I}} \mapsto \bar{f}
+\]
+(in the notation of Definition~\ref{defn:lim}), and from right to left by 
+\[
+(p_I \of g)_{I \in \scat{I}} \mapsfrom g
+\]  
+where $p_I\from \lt{\scat{I}} D \to D(I)$ are the projections.
+
+From Proposition~\ref{propn:lim-rep} and Corollary~\ref{cor:reps-unique} we
+deduce: 
+% 
+\begin{cor}     
+\label{cor:lims-unique}
+%
+\index{limit!uniqueness of}
+% 
+Limits are unique up to isomorphism.
+\qed
+\end{cor}
+
+The characterization~\eqref{eq:cones-as-transfs} of cones suggests that we
+might consider varying the diagram $D$ as well as the vertex $A$.  We are
+naturally led to ask questions such as: given a map $D \to D'$ between
+diagrams, is there an induced map between the limits of $D$ and $D'$?  The
+answer is yes (Figure~\ref{fig:induced-maps}):
+
+\begin{figure}
+\[
+\xymatrix@R=2ex{
+        &       &\,      \\
+A \ar[r] \ar[dddd]_s 
+\ar[rru] \ar[rrd]       
+\ar@{}[rdddd]|-{\text{\normalsize(b)}}&
+\lim D \ar@{.>}[dddd]^{\lim \alpha}       
+\ar[ru] \ar[rd]
+\ar@{}[rdddd]|-{\text{\normalsize(a)}}&
+\save*+<10ex>[o][F]{\,}\restore \hspace*{5.5em}D 
+        \\
+        &       & \ar[dd]^\alpha        \\
+        &       &        \\
+        &       &\,      \\
+A' \ar[r]   
+\ar[rru] \ar[rrd]       &
+\lim D' \ar[ru] \ar[rd]         &       
+\save*+<10ex>[o][F]{\,}\restore \hspace*{5.8em}D'
+\\
+        &       &\,       
+}
+\]
+\caption{Illustration of Lemma~\ref{lemma:lim-functorial}.}
+\label{fig:induced-maps}
+\end{figure}
+
+\begin{lemma}   
+\label{lemma:lim-functorial}
+Let $\scat{I}$ be a small category and $\xymatrix@1{\scat{I}
+  \rtwocell^D_{D'}{\alpha} &\cat{A}}$ a natural transformation.  Let
+\[
+\biggl(\lt{\scat{I}} D \toby{p_I} D(I)\biggr)_{I \in \scat{I}}
+\qquad
+\text{and}
+\qquad
+\biggl(\lt{\scat{I}} D' \toby{p'_I} D'(I)\biggr)_{I \in \scat{I}}
+\]
+be limit cones.  Then:
+% 
+\begin{enumerate}[(b)]
+\item   
+\label{lemma:lim-functorial:induced}
+there is a unique map%
+%
+\index{limit!map between limits}
+%
+$\lt{\scat{I}} \alpha \from \lt{\scat{I}} D \to \lt{\scat{I}} D'$ such that
+for all $I \in \scat{I}$, the square
+\[
+\xymatrix{
+\lt{\scat{I}} D \ar[r]^-{p_I} \ar[d]_{\lt{\scat{I}} \alpha}     &
+D(I) \ar[d]^{\alpha_I}    \\
+\lt{\scat{I}} D' \ar[r]_-{p'_I}         &
+D'(I)
+}
+\]
+commutes;
+
+\item   
+\label{lemma:lim-functorial:commutes}
+given cones $\Bigl(A \toby{f_I} D(I)\Bigr)_{I \in \scat{I}}$ and $\Bigl(A'
+\toby{f'_I} D'(I)\Bigr)_{I \in \scat{I}}$ and a map $s\from A \to A'$
+such that
+\[
+\xymatrix{
+A \ar[r]^-{f_I} \ar[d]_s        &
+D(I) \ar[d]^{\alpha_I}  \\
+A' \ar[r]_-{f'_I}       &
+D'(I)
+}
+\]
+commutes for all $I \in \scat{I}$, the square
+\[
+\xymatrix{
+A \ar[r]^-{\bar{f}} \ar[d]_s        &
+\lt{\scat{I}} D \ar[d]^{\lt{\scat{I}} \alpha}  \\
+A' \ar[r]_-{\ovln{f'}}       &
+\lt{\scat{I}} D'
+}
+\]
+also commutes.
+\end{enumerate}
+\end{lemma}
+
+\begin{pf}
+Part~\bref{lemma:lim-functorial:induced} follows immediately from the fact
+that $\biggl(\lt{\scat{I}} D \toby{\alpha_I p_I} D'(I)\biggr)_{I \in
+  \scat{I}}$ is a cone on $D'$.  To
+prove~\bref{lemma:lim-functorial:commutes}, note that for each $I \in
+\scat{I}$, we have
+\[
+p'_I \of \biggl(\lt{\scat{I}} \alpha\biggr) \of \bar{f}
+=
+\alpha_I \of p_I \of \bar{f}
+=
+\alpha_I \of f_I
+=
+f'_I \of s
+=
+p'_I \of \ovln{f'} \of s.
+\]
+So by Exercise~\ref{ex:jointly-monic}\bref{part:j-m-main},
+$\biggl(\lt{\scat{I}} \alpha \biggr) \of \bar{f} = \ovln{f'} \of s$.
+\end{pf}
+
+We can now give the second rephrasing of the definition of limit.  It only
+applies when the category has \emph{all} limits of the shape concerned.
+
+\begin{propn}   
+\label{propn:lim-const-adjn}
+%
+\index{limit!adjoint@as adjoint}
+%
+Let $\scat{I}$ be a small category and $\cat{A}$ a category with all limits of
+shape $\scat{I}$.  Then $\lt{\scat{I}}$ defines a functor
+$\ftrcat{\scat{I}}{\cat{A}} \to \cat{A}$, and this functor is right adjoint
+to the diagonal functor.  
+\end{propn}
+
+\begin{pf}
+Choose for each $D \in \ftrcat{\scat{I}}{\cat{A}}$ a limit cone on $D$, and
+call its vertex $\lt{\scat{I}} D$.  For each map $\alpha\from D \to D'$ in
+$\ftrcat{\scat{I}}{\cat{A}}$, we have a canonical map
+$\lt{\scat{I}} \alpha \from \lt{\scat{I}} D \to \lt{\scat{I}} D'$,
+defined as in
+Lemma~\ref{lemma:lim-functorial}\bref{lemma:lim-functorial:induced}.  This
+makes $\lt{\scat{I}}$ into a functor.  Proposition~\ref{propn:lim-rep}
+implies that
+\[
+\ftrcat{\scat{I}}{\cat{A}}(\Delta A, D)
+=
+\Cone(A, D)
+\iso
+\cat{A}\biggl(A, \lt{\scat{I}} D\biggr)
+\]
+naturally in $A$, and taking $s = 1_A$ in
+Lemma~\ref{lemma:lim-functorial}\bref{lemma:lim-functorial:commutes} tells
+us that the isomorphism is also natural in $D$.
+\end{pf}
+
+To define the functor $\lt{\scat{I}}$, we had to \emph{choose}%
+%
+\index{limit!uniqueness of}
+%
+for each $D$ a limit cone on $D$.  This is a non-canonical choice.
+Nevertheless, different choices only affect the functor $\lt{\scat{I}}$ up
+to natural isomorphism, by uniqueness of adjoints.
+
+
+\exs
+
+
+\begin{question}
+Interpret all the theory of this section in the special case where
+$\scat{I}$ is the discrete category with two objects.
+\end{question}
+
+
+\begin{question}
+What is the content of Proposition~\ref{propn:lim-const-adjn} when
+$\scat{I}$ is a group and $\cat{A} = \Set$?  What about the dual of
+Proposition~\ref{propn:lim-const-adjn}? 
+\end{question}
+
+
+
+\section{Limits and colimits of presheaves}
+\label{sec:lim-pshf}
+
+
+What do limits and colimits look like in functor categories
+$\ftrcat{\cat{A}}{\cat{B}}$?  In particular, what do they look like in
+presheaf categories $\ftrcat{\cat{A}^\op}{\Set}$?  More particularly still,
+what about limits and colimits of representables?  Are they, too,
+representable?
+
+We will answer all these questions.  In order to do so, we first prove that
+representables preserve limits.  
+
+
+\minihead{Representables preserve limits}
+%
+\index{functor!representable!preserves limits|(}
+%
+
+Let us begin by recalling that, by definition of product, a map $A \to X
+\times Y$ amounts to a pair of maps $(A \to X,\, A \to Y)$.  Here $A$, $X$ and
+$Y$ are objects of a category $\cat{A}$ with binary products.  There is,
+therefore, a bijection
+% 
+\begin{equation}
+\label{eq:prod-rep}
+\cat{A}(A, X \times Y)
+\iso 
+\cat{A}(A, X) \times \cat{A}(A, Y)
+%
+\index{product!map into}
+%
+\end{equation}
+% 
+natural in $A, X, Y \in \cat{A}$.  
+
+Is this a special feature of products, or does some analogous statement
+hold for every kind of limit?  Let us try equalizers.  Suppose that
+$\cat{A}$ has equalizers, and write
+$\Eq\biggl(\parpairi{X}{Y}{s}{t}\biggr)$ for the equalizer of maps $s$ and
+$t$.  By definition of equalizer, maps
+% 
+\begin{equation}
+\label{eq:map-to-eq}
+A \: \to \: \Eq\biggl(\parpairi{X}{Y}{s}{t}\biggr)
+\end{equation}
+% 
+correspond one-to-one with maps $f\from A \to X$ such that $s \of f = t \of
+f$.  Now recall that $s$ induces a map 
+\[
+s_* = \cat{A}(A, s)\from \cat{A}(A, X) \to \cat{A}(A, Y),
+\]
+and similarly for $t$.  In this notation, what we have just said is that
+maps~\eqref{eq:map-to-eq} correspond one-to-one with elements $f \in
+\cat{A}(A, X)$ such that
+\[
+\bigl(\cat{A}(A, s)\bigr)(f) = \bigl(\cat{A}(A, t)\bigr)(f).
+\]
+By the explicit formula for equalizers in $\Set$
+(Example~\ref{eg:equalizers-Set}), such an $f$ is exactly an element of the
+equalizer of $\cat{A}(A, s)$ and $\cat{A}(A, t)$.  So, we have a canonical
+bijection
+% 
+\begin{equation}
+\label{eq:equalizer-rep}
+\cat{A}
+\biggl( 
+A,\, \Eq\Bigl(\!\parpair{X}{Y}{s}{t}\!\Bigr)
+\biggr)
+\iso 
+\Eq\biggl(\!
+\parpair{\cat{A}(A, X)}{\cat{A}(A, Y)}{\cat{A}(A, s)}{\cat{A}(A, t)}
+\!\biggr).
+%
+\index{equalizer!map into}
+%
+\end{equation}
+% 
+This looks something like our isomorphism~\eqref{eq:prod-rep} for products.
+
+The isomorphisms~\eqref{eq:prod-rep} and~\eqref{eq:equalizer-rep} suggest
+that, more generally, we might have
+% 
+\begin{equation}        
+\label{eq:rep-pres-lims}
+\cat{A}\biggl(A, \lt{\scat{I}} D\biggr)
+\iso
+\lt{\scat{I}} \cat{A}(A, D)
+\end{equation}
+% 
+naturally in $A \in \cat{A}$ and $D \in \ftrcat{\scat{I}}{\cat{A}}$, whenever 
+$\cat{A}$ is a category with limits of shape $\scat{I}$.  Here $\cat{A}(A,
+D)$%
+%
+\ntn{AAD}
+%
+is the functor
+\[
+\begin{array}{cccc}
+\cat{A}(A, D)\from      &\scat{I}       &\to        &\Set   \\
+                        &I              &\mapsto    &\cat{A}(A, D(I)).
+\end{array}
+\]
+This functor could also be written as $\cat{A}(A, D(\dashbk))$, and is the
+composite 
+\[
+\xymatrix@1@C+1em{
+\scat{I} \ar[r]^D       &
+\cat{A} \ar[r]^-{\cat{A}(A, \dashbk)}    &
+\Set.
+}
+\]
+The conjectured isomorphism~\eqref{eq:rep-pres-lims} states, essentially,
+that representables preserve limits.  We now set about proving this.  
+
+\begin{lemma}   
+\label{lemma:cone-rep}
+Let $\scat{I}$ be a small category, $\cat{A}$ a locally small category, $D\from
+\scat{I} \to \cat{A}$ a diagram, and $A \in \cat{A}$.  Then
+\[
+\Cone(A, D) 
+\iso 
+\lt{\scat{I}} \cat{A}(A, D)
+%
+\index{cone!set of cones as limit}
+%
+\]
+naturally in $A$ and $D$.
+\end{lemma}
+
+\begin{pf}
+Like all functors from a small category into $\Set$, the functor
+$\cat{A}(A, D)$ does have a limit, given by the explicit
+formula~\eqref{eq:Set-lim}.  According to this formula, $\lt{\scat{I}}
+\cat{A}(A, D)$ is the set of all families $(f_I)_{I \in \scat{I}}$ such
+that $f_I \in \cat{A}(A, D(I))$ for all $I \in \scat{I}$ and
+% 
+\begin{equation}        
+\label{eq:cone-from-lim}
+(\cat{A}(A, Du))(f_I) 
+= 
+f_J
+\end{equation}
+% 
+for all $I \toby{u} J$ in $\scat{I}$.  But equation~\eqref{eq:cone-from-lim}
+just says that $(Du) \of f_I = f_J$, so an element of
+$\lt{\scat{I}} \cat{A}(A, D)$ is nothing but a cone on $D$ with vertex $A$.  
+\end{pf}
+
+\begin{propn}[Representables preserve limits] 
+\label{propn:reps-cts}
+\hspace*{-5pt}%
+Let $\cat{A}$ be a locally small category and $A \in \cat{A}$.  Then
+$\cat{A}(A, \dashbk) \from \cat{A} \to \Set$ preserves limits.
+\end{propn}
+
+\begin{pf}
+Let $\scat{I}$ be a small category and let $D\from \scat{I} \to \cat{A}$ be a
+diagram that has a limit.  Then
+\[
+\cat{A}\biggl(A, \lt{\scat{I}} D\biggr)
+\iso
+\Cone(A, D)
+\iso
+\lt{\scat{I}} \cat{A}(A, D)
+\]
+naturally in $A$.  Here the first isomorphism is
+Proposition~\ref{propn:lim-rep} (or more particularly, the
+isomorphism~\eqref{eq:cone-is-map-to-lim} that follows it), and the second is
+Lemma~\ref{lemma:cone-rep}.
+\end{pf}
+
+\begin{remark}  
+\label{rmk:rep-pres}
+Proposition~\ref{propn:reps-cts} tells us that
+% 
+\begin{equation}        
+\label{eq:lim-out}
+\cat{A} \biggl(A, \lt{\scat{I}} D\biggr)
+\iso
+\lt{\scat{I}} \cat{A}(A, D).
+%
+\index{limit!map into}
+%
+\end{equation}
+% 
+To dualize Proposition~\ref{propn:reps-cts}, we replace $\cat{A}$ by
+$\cat{A}^\op$.  Thus, $\cat{A}(\dashbk, A)\from \cat{A}^\op \to \Set$
+preserves limits.  A limit in $\cat{A}^\op$ is a colimit in $\cat{A}$, so
+$\cat{A}(\dashbk, A)$ transforms colimits in $\cat{A}$ into limits in
+$\Set$:
+% 
+\begin{equation}
+\label{eq:colim-out}
+\cat{A}\biggl(\colt{\scat{I}} D, A\biggr)
+\iso
+\lt{\scat{I}^{\op}} \cat{A}(D, A).
+%
+\index{colimit!map out of}
+%
+\end{equation}
+% 
+The right-hand side is a \emph{limit}, not%
+%
+\index{limit!colimit@vs.\ colimit}
+%
+a colimit!  So even though~\eqref{eq:lim-out} and~\eqref{eq:colim-out} are
+dual statements, there are, in total, more limits than colimits involved.
+Somehow, limits have the upper hand.
+
+For example, let $X$, $Y$ and $A$ be objects of a category $\cat{A}$, and
+suppose that the sum $X + Y$ exists.  By definition of sum, a map $X + Y
+\to A$%
+%
+\index{sum!map out of}
+%
+amounts to a pair of maps $(X \to A,\, Y \to A)$.  In other words, there is
+a canonical isomorphism
+\[
+\cat{A}(X + Y, A) 
+\iso
+\cat{A}(X, A) \times \cat{A}(Y, A).
+\]
+This is the isomorphism~\eqref{eq:colim-out} in the case where $\scat{I}$ is
+the discrete category with two objects.%
+%
+\index{functor!representable!preserves limits|)}
+%
+\end{remark}
+
+
+\minihead{Limits in functor categories}
+%
+\index{functor!category!limits in|(}%
+\index{limit!functor category@in functor category|(}%
+%
+
+Earlier, we learned that it is sometimes useful to view functors as objects
+in their own right, rather than as maps of categories.  For instance, when
+$G$ is a group, functors $G \to \Set$ are $G$-sets
+(Example~\ref{eg:functor-action}), which one would usually regard as
+`things' rather than `maps'.  This point of view leads to the concept of
+functor category.
+
+We now begin an analysis of limits and colimits in functor categories
+$\ftrcat{\scat{A}}{\cat{S}}$.  Here $\scat{A}$ is small and $\cat{S}$ is
+locally small; these conditions together guarantee that
+$\ftrcat{\scat{A}}{\cat{S}}$ is locally small.  The most important cases
+for us will be $\cat{S} = \Set$ and $\cat{S} = \Set^\op$.  For that reason,
+we will assume whenever necessary that $\cat{S}$ has all limits and
+colimits.
+
+We show that limits and colimits in $\ftrcat{\scat{A}}{\cat{S}}$ work in
+the simplest way imaginable.  For instance, if $\cat{S}$ has binary products
+then so does $\ftrcat{\scat{A}}{\cat{S}}$, and the product%
+%
+\index{functor!product of functors}
+%
+of two functors $X, Y\from \scat{A} \to \cat{S}$ is the functor $X \times
+Y\from \scat{A} \to \cat{S}$ given by
+\[
+(X \times Y)(A) = X(A) \times Y(A)
+\]
+for all $A \in \scat{A}$.  
+
+\begin{notn}
+Let $\scat{A}$ and $\cat{S}$ be categories.  For each $A \in \scat{A}$, there
+is a functor
+\[
+\begin{array}{cccc}
+\ev_A\from      &\ftrcat{\scat{A}}{\cat{S}}     &
+\to             &\cat{S}        \\
+                &X                              &
+\mapsto         &X(A),
+\end{array}%
+%
+\ntn{ev}
+%
+\]
+called \demph{evaluation}%
+%
+\index{evaluation}
+%
+at $A$.  We will be working with diagrams in $\ftrcat{\scat{A}}{\cat{S}}$,
+and given such a diagram $D\from \scat{I} \to \ftrcat{\scat{A}}{\cat{S}}$,
+we have for each $A \in \scat{A}$ a functor
+\[
+\begin{array}{cccc}
+\ev_A \of D\from&\scat{I}       &\to            &\cat{S}        \\
+                &I              &\mapsto        &D(I)(A).        
+\end{array}
+\]
+We write $\ev_A \of D$ as $D(\dashbk)(A)$.%
+%
+\ntn{DblankA}
+%
+\end{notn}
+
+\begin{thm}[Limits in functor categories]
+\label{thm:pw}
+Let $\scat{A}$ and $\scat{I}$ be small categories and $\cat{S}$ a locally
+small category.  Let $D\from \scat{I} \to \ftrcat{\scat{A}}{\cat{S}}$ be a
+diagram, and suppose that for each $A \in \scat{A}$, the diagram
+$D(\dashbk)(A)\from \scat{I} \to \cat{S}$ has a limit.  Then there is a
+cone on $D$ whose image under $\ev_A$ is a limit cone on $D(\dashbk)(A)$
+for each $A \in \scat{A}$.  Moreover, any such cone on $D$ is a limit cone.
+\end{thm}
+
+Theorem~\ref{thm:pw} is often expressed as a slogan:
+% 
+\begin{slogan}
+Limits in a functor category are computed pointwise.%
+%
+\index{limit!computed pointwise}%
+\index{pointwise}
+%
+\end{slogan}
+% 
+The `points' in the word `pointwise' are the objects of $\scat{A}$.  The
+slogan means, for example, that given two functors $X, Y \in
+\ftrcat{\scat{A}}{\cat{S}}$, their product can be computed by first taking
+the product $X(A) \times Y(A)$ in $\cat{S}$ for each `point' $A$, then
+assembling them to form a functor $X \times Y$.
+
+Of course, Theorem~\ref{thm:pw} has a dual, stating that colimits in a
+functor category are also computed pointwise.
+
+\begin{pfof}{Theorem~\ref{thm:pw}}
+Take for each $A \in \scat{A}$ a limit cone 
+% 
+\begin{equation}
+\label{eq:pw-cone}
+\Bigl( L(A) \toby{p_{I, A}} D(I)(A) \Bigr)_{I \in \scat{I}}
+\end{equation}
+% 
+on the diagram $D(\dashbk)(A)\from \scat{I} \to \cat{S}$.  We prove two
+statements:
+% 
+\begin{enumerate}[(b)]
+\item 
+\label{item:pw-lift} 
+there is exactly one way of extending $L$ to a functor on $\scat{A}$ with
+the property that $\Bigl(L \toby{p_I} D(I)\Bigr)_{I \in \scat{I}}$ is a
+cone on $D$;  
+
+\item   
+\label{item:pw-lim}
+this cone $\Bigl(L \toby{p_I} D(I)\Bigr)_{I \in \scat{I}}$ is a limit cone.
+\end{enumerate}
+% 
+The theorem will follow immediately.
+
+For~\bref{item:pw-lift}, take a map $f\from A \to A'$ in $\scat{A}$.
+Lemma~\ref{lemma:lim-functorial}\bref{lemma:lim-functorial:induced} applied
+to the natural transformation
+\[
+\xymatrix@C+6em{
+\scat{I} \rtwocell<5>^{D(\dashbk)(A)}_{D(\dashbk)(A')}%
+{\hspace{2.5em}D(\dashbk)(f)}      &
+\cat{S}
+}
+\]
+implies that there is a unique map $L(f)\from L(A) \to L(A')$ such that for
+all $I \in \scat{I}$, the square
+% 
+\begin{equation}
+\label{eq:param-lim}
+\begin{array}{c}
+\xymatrix{
+L(A) \ar[r]^-{p_{I, A}} \ar[d]_{L(f)}   &
+D(I)(A) \ar[d]^{D(I)(f)}        \\
+L(A') \ar[r]_-{p_{I, A'}}       &
+D(I)(A')
+}
+\end{array}
+\end{equation}
+% 
+commutes.  (This is our \emph{definition} of $L(f)$.)  We have now defined $L$
+on objects and maps of $\scat{A}$.  It is easy to check that $L$ preserves
+composition and identities, and is therefore a functor $L\from \scat{A}
+\to \cat{S}$.  Moreover, the commutativity of diagram~\eqref{eq:param-lim}
+says exactly that for each $I \in \scat{I}$, the family $\Bigl(L(A)
+\toby{p_{I, A}} D(I)(A)\Bigr)_{A \in \scat{A}}$ is a natural
+transformation
+\[
+\xymatrix@C+1em{
+\scat{A} \rtwocell^{L}_{D(I)}{\hspace{.3em}p_I} &\cat{S}.
+}
+\]
+So we have a family $\Bigl(L \toby{p_I} D(I)\Bigr)_{I \in \scat{I}}$ of
+maps in $\ftrcat{\scat{A}}{\cat{S}}$, and from the fact
+that~\eqref{eq:pw-cone} is a cone on $D(\dashbk)(A)$ for each $A \in
+\scat{A}$, it follows immediately that $\Bigl(L \toby{p_I} D(I)\Bigr)_{I
+  \in \scat{I}}$ is a cone on $D$.
+
+For~\bref{item:pw-lim}, let $X \in \ftrcat{\scat{A}}{\cat{S}}$ and let
+$\Bigl(X \toby{q_I} D(I)\Bigr)_{I \in \scat{I}}$ be a cone on $D$ in
+$\ftrcat{\scat{A}}{\cat{S}}$.  For each $A \in \scat{A}$, we have a cone
+\[
+\Bigl(X(A) \toby{q_{I, A}} D(I)(A)\Bigr)_{I \in \scat{I}}
+\]
+on
+$D(\dashbk)(A)$ in $\cat{S}$, so there is a unique map $\bar{q}_A\from X(A)
+\to L(A)$ such that $p_{I, A} \of \bar{q}_A = q_{I, A}$ for all $I \in
+\scat{I}$.  It only remains to prove that $\bar{q}_A$ is natural in $A$, and
+that follows from
+Lemma~\ref{lemma:lim-functorial}\bref{lemma:lim-functorial:commutes}.  
+\end{pfof}
+
+Theorem~\ref{thm:pw} has many important consequences.  We begin by recording
+a cruder form of the theorem (and its dual), which we will use repeatedly.
+
+\begin{cor}     
+\label{cor:pw-main}
+Let $\scat{I}$ and $\scat{A}$ be small categories, and $\cat{S}$ a locally
+small category.  If $\cat{S}$ has all limits (respectively, colimits) of
+shape $\scat{I}$ then so does $\ftrcat{\scat{A}}{\cat{S}}$, and for each $A
+\in \scat{A}$, the evaluation functor $\ev_A\from
+\ftrcat{\scat{A}}{\cat{S}} \to \cat{S}$ preserves them.
+\qed
+\end{cor}
+
+\begin{warning}
+If $\cat{S}$ does \emph{not} have all limits of shape $\scat{I}$ then
+$\ftrcat{\scat{A}}{\cat{S}}$ may contain limits of shape $\scat{I}$
+that are not%
+%
+\index{limit!non-pointwise}
+%
+computed pointwise, that is, are not preserved by all the evaluation
+functors.  Examples can be constructed, as in Section~3.3 of \citeKel.
+\end{warning}
+
+Theorem~\ref{thm:pw} will also help us to prove that limits commute with
+limits, in the following sense.  Take categories $\scat{I}$, $\scat{J}$ and
+$\cat{S}$.  There are isomorphisms of categories
+\[
+\ftrcat{\scat{I}}{\ftrcat{\scat{J}}{\cat{S}}}
+\iso 
+\ftrcat{\scat{I} \times \scat{J}}{\cat{S}}
+\iso
+\ftrcat{\scat{J}}{\ftrcat{\scat{I}}{\cat{S}}}.
+\]
+(See Remark~\ref{rmks:global-hom}\bref{rmks:global-hom:cc} and
+Exercise~\ref{ex:ftr-on-product}.)  Under these isomorphisms, a functor
+$D\from \scat{I} \times \scat{J} \to \cat{S}$ corresponds to the functors
+\[
+\begin{array}[t]{cccc}
+D^\bl\from  &\scat{I}       &\to    &\ftrcat{\scat{J}}{\cat{S}}    \\
+        &I              &\mapsto&D(I, \dashbk)
+\end{array}
+% 
+\qquad \text{and} \qquad
+% 
+\begin{array}[t]{cccc}
+D_\bl\from  &\scat{J}       &\to    &\ftrcat{\scat{I}}{\cat{S}}    \\
+        &J              &\mapsto&D(\dashbk, J).
+\end{array}%
+%
+\ntn{D-upper-lower}
+%
+\]
+Supposing that $\cat{S}$ has all limits, so do the various functor
+categories, by Corollary~\ref{cor:pw-main}.  In particular, there is an
+object $\lt{\scat{I}} D^\bl$ of $\ftrcat{\scat{J}}{\cat{S}}$.  This is
+itself a diagram in $\cat{S}$, so we obtain in turn an object
+$\lt{\scat{J}} \lt{\scat{I}} D^\bl$ of $\cat{S}$.  Alternatively, we can
+take limits in the other order, producing an object $\lt{\scat{I}}
+\lt{\scat{J}} D_\bl$ of $\cat{S}$.  And there is a third possibility:
+taking the limit of $D$ itself, we obtain another object $\lt{\scat{I}
+  \times \scat{J}} D$ of $\cat{S}$.  The next result states that these
+three objects are the same.  That is, it makes no difference what order we
+take limits in.
+
+\begin{propn}[Limits commute with limits] 
+\label{propn:lims-lims}
+%
+\index{limit!commutativity with limits}
+% 
+Let $\scat{I}$ and $\scat{J}$ be small categories.  Let $\cat{S}$ be a
+locally small category with limits of shape $\scat{I}$ and of shape
+$\scat{J}$.  Then for all $D\from \scat{I} \times \scat{J} \to \cat{S}$, we
+have 
+\[
+\lt{\scat{J}} \lt{\scat{I}} D^\bl
+\iso
+\lt{\scat{I} \times \scat{J}} D
+\iso 
+\lt{\scat{I}} \lt{\scat{J}} D_\bl,
+\]
+and all these limits exist.  In particular, $\cat{S}$ has limits of shape
+$\scat{I} \times \scat{J}$.  
+\end{propn}
+% 
+This is sometimes half-jokingly called Fubini's%
+%
+\index{Fubini's theorem}
+%
+theorem, as it is something like changing the order of integration in a
+double integral.  The analogy is more appealing with \emph{co}limits,%
+%
+\index{colimit!integration@and integration}
+%
+since, like integrals, colimits can be thought of as a context-sensitive
+version of sums.
+
+\begin{pf}
+By symmetry, it is enough to prove the first isomorphism.  Since $\cat{S}$
+has limits of shape $\scat{I}$, so does $\ftrcat{\scat{J}}{\cat{S}}$ (by
+Corollary~\ref{cor:pw-main}).  So $\lt{\scat{I}} D^\bl$ exists; it is an
+object of $\ftrcat{\scat{J}}{\cat{S}}$.  Since $\cat{S}$ has limits of
+shape $\scat{J}$, $\lt{\scat{J}} \lt{\scat{I}} D^\bl$ exists; it is an
+object of $\cat{S}$.  Then for $S \in \cat{S}$,
+% 
+%\begin{align*}
+%\cat{S}\biggl( S, \lt{\scat{J}} \lt{\scat{I}} D^\bl \biggr)     &
+%\iso    
+%\ftrcat{\scat{J}}{\cat{S}}
+%\biggl( \Delta S, \lt{\scat{I}} D^\bl \biggr)                   \\
+%        &
+%\iso   
+%\ftrcat{\scat{I}}{\ftrcat{\scat{J}}{\cat{S}}} 
+%(\Delta (\Delta S), D^\bl)                                      \\
+%        &
+%\iso   
+%\ftrcat{\scat{I} \times \scat{J}}{\cat{S}} (\Delta S, D)
+%\end{align*}
+% 
+naturally in $S$.  The first two steps each follow from
+Proposition~\ref{propn:lim-rep}.  The third uses the isomorphism
+$\ftrcat{\scat{I}}{\ftrcat{\scat{J}}{\cat{S}}} \iso \ftrcat{\scat{I} \times
+\scat{J}}{\cat{S}}$, under which $\Delta(\Delta S)$ corresponds to $\Delta S$
+and $D^\bl$ corresponds to $D$.
+
+Hence $\lt{\scat{J}} \lt{\scat{I}} D^\bl$ is
+a representing object for the functor $\ftrcat{\scat{I} \times
+\scat{J}}{\cat{S}}(\Delta\dashbk, D)$.  By Proposition~\ref{propn:lim-rep}
+again, this says that $\lt{\scat{I} \times \scat{J}} D$ exists and is
+isomorphic to $\lt{\scat{J}} \lt{\scat{I}} D^\bl$.
+\end{pf}
+
+\begin{example}        
+\label{eg:lims-lims}
+When $\scat{I} = \scat{J} = \fbox{$\bullet \hspace*{2.5em} \bullet$}\ $,
+Proposition~\ref{propn:lims-lims} says that binary products commute with
+binary products: if $\cat{S}$ has binary products and $S_{11}, S_{12},
+S_{21}, S_{22} \in \cat{S}$ then the 4-fold product $\prod_{i, j \in \{1,
+  2\}} S_{ij}$ exists and satisfies
+\[
+(S_{11} \times S_{21}) \times (S_{12} \times S_{22})
+\iso
+\prod_{i, j \in \{1, 2\}} S_{ij}
+\iso
+(S_{11} \times S_{12}) \times (S_{21} \times S_{22}).
+\]
+More generally, it makes no difference what order we write products in or
+where we put the brackets: there are canonical isomorphisms
+% 
+%\begin{align*}
+%S \times T              &
+%\iso   
+%T \times S,             
+%%
+%\index{product!commutativity of}
+%%
+%\\
+%(S \times T) \times U   &
+%\iso   
+%S \times (T \times U)
+%%
+%\index{product!associativity of}%
+%\index{associativity}
+%% 
+%\end{align*}
+% 
+in any category with binary products.   If there is also a terminal object
+$1$, there are further canonical isomorphisms
+\[
+S \times 1 
+\iso 
+S 
+\iso 
+1 \times S.
+\]
+\end{example}
+
+\begin{warning}
+The dual of Proposition~\ref{propn:lims-lims} states that colimits commute
+with colimits.  For instance,
+\[
+(S_{11} + S_{21}) + (S_{12} + S_{22})
+\iso
+(S_{11} + S_{12}) + (S_{21} + S_{22})
+\]
+in any category $\cat{S}$ with binary sums.  But limits do \emph{not}%
+%
+\index{limit!commutativity with colimits@non-commutativity with colimits}
+%
+in general commute with colimits.  For instance, in general,
+\[
+(S_{11} + S_{21}) \times (S_{12} + S_{22})
+\not\iso
+(S_{11} \times S_{12}) + (S_{21} \times S_{22}).
+\]
+A counterexample is given by taking $\cat{S} = \Set$ and each $S_{ij}$ to be a
+one-element set.  Then the left-hand side has $(1 + 1) \times (1 + 1) = 4$
+elements, whereas the right-hand side has $(1 \times 1) + (1 \times 1) = 2$
+elements.
+\end{warning}
+
+Here are two further consequences of Theorem~\ref{thm:pw}.
+
+\begin{cor}
+%
+\index{presheaf!category of presheaves!limits in}
+% 
+Let $\scat{A}$ be a small category.  Then $\pshf{\scat{A}}$ has all limits and
+colimits, and for each $A \in \scat{A}$, the evaluation functor $\ev_A\from
+\pshf{\scat{A}} \to \Set$ preserves them.
+\end{cor}
+
+\begin{pf}
+Since $\Set$ has all limits and colimits, this is immediate from
+Corollary~\ref{cor:pw-main}.
+\end{pf}
+
+\begin{cor}     
+\label{cor:yoneda-cts}
+%
+\index{Yoneda embedding!preserves limits}%
+\index{functor!representable!limit of representables|(}
+%
+The Yoneda embedding $\h_\bl\from \scat{A} \to \pshf{\scat{A}}$ preserves
+limits, for any small category $\scat{A}$.
+\end{cor}
+
+\begin{pf}
+Let $D\from \scat{I} \to \scat{A}$ be a diagram in $\scat{A}$, and let
+$\biggl( \lt{\scat{I}} D \toby{p_I} D(I) \biggr)_{I \in \scat{I}}$ be a
+limit cone.  For each $A \in \scat{A}$, the composite functor
+\[
+\scat{A} \toby{\h_\bl} \pshf{\scat{A}} \toby{\ev_A} \Set
+\]
+is $\h^A$, which preserves limits (Proposition~\ref{propn:reps-cts}).  So for
+each $A \in \scat{A}$, 
+\[
+\biggl( 
+\ev_A \h_\bl \biggl( \lt{\scat{I}} D \biggr) \,
+\xymatrix@1@C+2em{\mbox{} \ar[r]^{\ev_A \h_\bl (p_I)}&\mbox{}}
+\ev_A \h_\bl (D(I)) 
+\biggr)_{I \in \scat{I}}
+\]
+is a limit cone.  But then, by the `moreover' part of Theorem~\ref{thm:pw}
+applied to the diagram $\h_\bl \of D$ in $\pshf{\scat{A}}$, the cone
+\[
+\biggl( 
+\h_\bl \biggl(\lt{\scat{I}} D\biggr)
+\toby{\h_\bl (p_I)} 
+\h_\bl (D(I)) 
+\biggr)_{I \in \scat{I}}
+\]
+is also a limit, as required.
+\end{pf}
+
+\begin{example}
+Let $\scat{A}$ be a category with binary products.
+Corollary~\ref{cor:yoneda-cts} implies that for all $X, Y \in \scat{A}$,
+% 
+\begin{equation}        
+\label{eq:yon-pres-prods}
+\h_{X \times Y} \iso \h_X \times \h_Y
+\end{equation}
+% 
+in $\ftrcat{\scat{A}^\op}{\Set}$.  When evaluated at a particular object
+$A$, this says that
+\[
+\scat{A}(A, X \times Y) \iso \scat{A}(A, X) \times \scat{A}(A, Y)
+%
+\index{product!map into}
+%
+\]
+(using the fact that products are computed pointwise).  This is the
+isomorphism~\eqref{eq:prod-rep} that we met at the beginning of this
+section.
+
+Suppose that we view $\scat{A}$ as a subcategory of $\pshf{\scat{A}}$,
+identifying $A \in \scat{A}$ with the representable $\h_A \in
+\pshf{\scat{A}}$ as in Figure~\ref{fig:yoneda-embedding}.  Then the
+isomorphism~\eqref{eq:yon-pres-prods} means that given two objects of
+$\scat{A}$ whose product we want to form, it makes no difference whether we
+think of the product as taking place in $\scat{A}$ or $\pshf{\scat{A}}$.
+Similarly, if $\scat{A}$ has all limits, taking limits does not help us to
+escape from $\scat{A}$ into the rest of $\pshf{\scat{A}}$: any limit of
+representable presheaves is again representable.%
+%
+\index{functor!representable!limit of representables|)}
+%
+\end{example}
+
+\begin{warning} 
+\label{warning:yon-colims}
+%
+\index{Yoneda embedding!preserves colimits@does not preserve colimits}
+% 
+The Yoneda embedding does \emph{not} preserve colimits.  For example, if
+$\scat{A}$ has an initial object $0$ then $\h_0$ is not initial, since
+$\h_0(0) = \scat{A}(0, 0)$ is a one-element set, whereas the initial object
+of $\pshf{\scat{A}}$ is the presheaf with constant value $\emptyset$.  We
+investigate colimits of representables next.
+%
+\index{functor!category!limits in|)}%
+\index{limit!functor category@in functor category|)}%
+%
+\end{warning}
+
+
+\minihead{Every presheaf is a colimit of representables}
+%
+\index{presheaf!colimit of representables@as colimit of representables|(}%
+\index{functor!representable!colimit of representables|(}%
+%
+
+We now know that the Yoneda embedding preserves limits but not colimits.
+In fact, the situation for colimits is at the opposite extreme from the
+situation for limits: by taking colimits of representable presheaves, we
+can obtain any presheaf we like!  This is the last main result of this
+section.
+
+Every positive integer can be expressed as a product of primes%
+%
+\index{prime numbers}
+%
+in an essentially unique way.  Somewhat similarly, every presheaf can be
+expressed as a colimit of representables in a canonical (though not unique)
+way.  The representables are the building blocks of presheaves.
+
+For a different analogy, recall that any complex function holomorphic%
+%
+\index{holomorphic function}
+%
+in a neighbourhood of $0$ has a power%
+%
+\index{power!series}
+%
+series expansion, such as
+\[
+e^z 
+=
+1 + z + \frac{z^2}{2!} + \frac{z^3}{3!} + \cdots.
+\]
+In this sense, the power functions $z \mapsto z^n$ are the building blocks
+of holomorphic functions.  We could even take the analogy further:
+$\blank^n$ is like a representable $\Hom(n, \dashbk)$, and in the
+categorical context, quotients and sums are types of colimit.
+
+Before we state and prove the theorem, let us look at an easy special case.
+
+\begin{example} 
+\label{eg:discrete-dense}
+Let $\scat{A}$ be the discrete category with two objects, $K$ and $L$.  A
+presheaf $X$ on $\scat{A}$ is just a pair $(X(K), X(L))$ of sets, and
+$\pshf{\scat{A}} \iso \Set \times \Set$.  There are two representables,
+$\h_K$ and $\h_L$, given by
+\[
+\h_A(B) 
+= 
+\scat{A}(B, A)
+\iso
+\begin{cases}
+1               &\text{if } A = B,    \\
+\emptyset       &\text{if } A \neq B  
+\end{cases}
+\]
+($A, B \in \{ K, L \}$).  Identifying $\pshf{\scat{A}}$ with $\Set \times
+\Set$, we have $\h_K \iso (1, \emptyset)$ and $\h_L \iso (\emptyset, 1)$.
+Every object of $\Set \times \Set$ is a sum of copies of $(1, \emptyset)$
+and $(\emptyset, 1)$.  Suppose, for instance, that $X(K)$ has three elements
+and $X(L)$ has two elements.  Then
+\[
+(X(K), X(L))
+\iso
+(1, \emptyset) + (1, \emptyset) + (1, \emptyset) + 
+(\emptyset, 1) + (\emptyset, 1)
+\]
+in $\Set \times \Set$.  Equivalently,
+\[
+X 
+\iso 
+\h_K + \h_K + \h_K + \h_L + \h_L 
+\]
+in $\pshf{\scat{A}}$, exhibiting $X$ as a sum of representables.  
+\end{example}
+
+In this example, $X$ is expressed as a sum of five representables, that is,
+a sum indexed by the set $X(K) + X(L)$ of `elements' of $X$.  A sum is a
+colimit over a discrete category.  In the general case, a presheaf $X$ on a
+category $\scat{A}$ is expressed as a colimit over a category whose objects
+can be thought of as the `elements' of $X$.  This is made precise by the
+following definition.
+
+\begin{defn}    
+\label{defn:cat-elts}
+Let $\scat{A}$ be a category and $X$ a presheaf on $\scat{A}$.  The
+\demph{category%
+%
+\index{element!category of elements}%
+\index{category!elements@of elements}
+%
+of elements} $\elt{X}$%
+%
+\ntn{cat-elts}
+%
+of $X$ is the category in which:
+% 
+\begin{itemize}
+\item 
+objects are pairs $(A, x)$ with $A \in \scat{A}$ and $x \in X(A)$;
+
+\item 
+maps $(A', x') \to (A, x)$ are maps $f\from A' \to A$ in $\scat{A}$ such
+that $(Xf)(x) = x'$.
+\end{itemize}
+\end{defn}
+% 
+There is a projection functor $P\from \elt{X} \to \scat{A}$ defined by $P(A, x)
+= A$ and $P(f) = f$.
+
+The following `density theorem' states that every presheaf is a colimit of
+representables in a canonical way.  It is secretly dual to the Yoneda
+lemma.  This becomes apparent if one expresses both in suitably lofty
+categorical language (that of ends, or that of bimodules); but that is
+beyond the scope of this book.
+
+\begin{thm}[Density]
+\label{thm:density}
+%
+\index{density}
+% 
+Let $\scat{A}$ be a small category and $X$ a presheaf on $\scat{A}$.  Then $X$
+is the colimit of the diagram
+\[
+\elt{X} \toby{P} \scat{A} \toby{\h_\bl} \pshf{\scat{A}}
+\] 
+in $\pshf{\scat{A}}$; that is, $X \iso \colt{\elt{X}} (\h_\bl \of P)$.
+\end{thm}
+
+\begin{pf}
+First note that since $\scat{A}$ is small, so too is $\elt{X}$.  Hence $\h_\bl
+\of P$ really is a diagram in our customary sense
+(Definition~\ref{defn:diagram}). 
+
+Now let $Y \in \pshf{\scat{A}}$.  A cocone on $\h_\bl \of P$ with vertex $Y$ is
+a family
+\[
+\Bigl(\h_A \toby{\alpha_{A, x}} Y\Bigr)_{A \in \scat{A}, x \in X(A)}
+\]
+of natural transformations with the property that for all maps $A'
+\toby{f} A$ in $\scat{A}$ and all $x \in X(A)$, the diagram
+\[
+\xymatrix@R=1ex{
+\h_{A'} \ar[rd]^-{\alpha_{A', (Xf)(x)}} \ar[dd]_{\h_f}   &       \\
+                                                        &Y      \\
+\h_A \ar[ru]_-{\alpha_{A, x}}
+}
+\]
+commutes.  
+
+Equivalently (by the Yoneda lemma), a cocone on $\h_\bl \of P$ with vertex $Y$
+is a family 
+\[
+(y_{A, x})_{A \in \scat{A}, x \in X(A)},
+\]
+with $y_{A, x} \in Y(A)$, such that for all maps $A' \toby{f} A$ in
+$\scat{A}$ and all $x \in X(A)$,
+\[
+(Yf)(y_{A, x}) = y_{A', (Xf)(x)}.
+\]
+To see this, note that if $\alpha_{A, x} \in \pshf{\scat{A}}(\h_A, Y)$
+corresponds to $y_{A, x} \in Y(A)$, then $\alpha_{A, x} \of \h_f \in
+\pshf{\scat{A}}(\h_{A'}, Y)$ corresponds to $(Yf)(y_{A, x}) \in Y(A')$.
+
+Equivalently (writing $y_{A, x}$ as $\bar{\alpha}_A(x)$), it is a family
+\[
+\Bigl(X(A) \toby{\bar{\alpha}_A} Y(A)\Bigr)_{A \in \scat{A}}
+\] 
+of functions with the property that for all maps $A' \toby{f} A$
+in $\scat{A}$ and all $x \in X(A)$,
+\[
+(Yf)\bigl(\bar{\alpha}_A(x)\bigr) 
+=
+\bar{\alpha}_{A'}\bigl((Xf)(x)\bigr).
+\]
+But this is simply a natural transformation $\bar{\alpha}\from X \to Y$.
+So we have, for each $Y \in \pshf{\scat{A}}$, a canonical bijection
+\[
+\ftrcat{\elt{X}}{\pshf{\scat{A}}} (\h_\bl \of P, \, \Delta Y)
+\iso 
+\pshf{\scat{A}} (X, Y).
+\]
+Hence $X$ is the colimit of $\h_\bl \of P$.
+\end{pf}
+
+\begin{example}
+In Example~\ref{eg:discrete-dense}, we expressed a particular presheaf $X$
+as a sum of representables.  Let us check that the way we did this is a
+special case of the general construction in the density theorem.
+
+Since $\scat{A}$ is discrete, the category of elements $\elt{X}$ is also
+discrete; it is the set $X(K) + X(L)$ with five elements.  The projection
+$P\from \elt{X} \to \scat{A}$ sends three of the elements to $K$ and the
+other two to $L$, so the diagram $\h_\bl \of P\from \elt{X} \to
+\pshf{\scat{A}}$ sends three of the elements to $\h_K$ and two to $\h_L$.
+The colimit of $\h_\bl \of P$ is the sum of these five representables,
+which is $X$, just as in Example~\ref{eg:discrete-dense}.
+\end{example}
+
+\begin{remarks}
+\begin{enumerate}[(b)]
+\item 
+The term `category of elements'%
+%
+\index{element!category of elements}%
+\index{category!elements@of elements}
+%
+is compatible with the generalized%
+%
+\index{element!generalized}
+%
+element terminology introduced in Definition~\ref{defn:gen-elt}.  A
+generalized element of an object $X$ is just a map into $X$, say $Z \to X$;
+but, as explained after that definition, we often focus on certain special
+shapes $Z$.  Now suppose that we are working in a presheaf category
+$\pshf{\scat{A}}$.  Among all presheaves, the representables have a special
+status, so we might be especially interested in generalized elements of
+representable shape.  The Yoneda lemma implies that for a presheaf $X$, the
+generalized elements of $X$ of representable shape correspond to pairs $(A,
+x)$ with $A \in \scat{A}$ and $x \in X(A)$.  In other words, they are the
+objects of the category of elements.
+
+\item 
+In topology, a subspace $A$ of a space $B$ is called dense%
+%
+\index{density}
+%
+if every point in $B$ can be obtained as a limit of points in $A$.  This
+provides some explanation for the name of Theorem~\ref{thm:density}: the
+category $\scat{A}$ is `dense' in $\pshf{\scat{A}}$ because every object of
+$\pshf{\scat{A}}$ can be obtained as a colimit of objects of $\scat{A}$.
+%
+\index{presheaf!colimit of representables@as colimit of representables|)}%
+\index{functor!representable!colimit of representables|)}%
+%
+\end{enumerate}
+\end{remarks}
+
+
+\exs
+
+
+\begin{question}
+Fix a small category $\scat{A}$.
+% 
+\begin{enumerate}[(b)]
+\item
+Let $\cat{S}$ be a locally small category with pullbacks.  Show that a
+natural transformation
+\[
+\xymatrix{
+\scat{A} \rtwocell^X_Y{\alpha} &\cat{S}
+}
+\]
+is monic (as a map in $\ftrcat{\scat{A}}{\cat{S}}$) if and only if $\alpha_A$
+is monic for all $A \in \scat{A}$.  (Hint: use Lemma~\ref{lemma:monic-pb}.)
+
+\item   
+\label{part:monic-epic-transf}
+Describe explicitly the monics and epics in $\pshf{\scat{A}}$.%
+%
+\index{presheaf!category of presheaves!monics and epics in}%
+%
+
+\item 
+Can you do part~\bref{part:monic-epic-transf} without relying on the fact
+that limits and colimits of presheaves are computed pointwise?
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+\begin{enumerate}[(b)]
+\item 
+Prove that representables have the following connectedness%
+%
+\index{connectedness}
+%
+property: given a locally small category $\cat{A}$ and $A \in \cat{A}$, if
+$X, Y \in \pshf{\cat{A}}$ with $\h_A \iso X + Y$, then either $X$ or $Y$ is
+the constant functor $\emptyset$.
+
+\item
+Deduce that the sum%
+%
+\index{functor!representable!sum of representables}
+%
+of two representables is never representable.
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+Show how a category of elements can be described as a comma category.
+\end{question}
+
+
+\begin{question}
+Let $X$ be a presheaf on a locally small category.  Show that $X$ is
+representable if and only if its category of elements has a terminal
+object.
+
+(Since a terminal object is a limit of the empty diagram, this implies that
+the concept of representability can be derived from the concept of limit.
+Since a terminal object of a category $\cat{E}$ is also a right adjoint to
+the unique functor $\cat{E} \to \One$, the concept of representability can
+also be derived from the concept of adjoint.)
+\end{question}
+
+
+\begin{question}
+Prove that every slice%
+%
+\index{presheaf!category of presheaves!slice of}%
+\index{slice category!presheaf category@of presheaf category}
+%
+of a presheaf category is again a presheaf category.
+That is, given a small category $\scat{A}$ and a presheaf $X$ on $\scat{A}$,
+prove that $\pshf{\scat{A}}/X$ is equivalent to $\pshf{\scat{B}}$ for some
+small category $\scat{B}$.
+\end{question}
+
+
+\begin{question}
+\label{ex:kan}
+Let $F\from \scat{A} \to \scat{B}$ be a functor between small categories.
+For each object $B \in \scat{B}$, there is a comma category $\comma{F}{B}$
+(defined dually to the comma category in Example~\ref{eg:comma-obj-ftr}),
+and there is a projection functor $P_B \from \comma{F}{B} \to \scat{A}$.
+% 
+\begin{enumerate}[(b)]
+\item 
+Let $X \from \scat{A} \to \cat{S}$ be a functor from $\scat{A}$ to a
+category $\cat{S}$ with small colimits.  For each $B \in \scat{B}$, let
+$(\Lan_F X)(B)$ be the colimit of the diagram
+\[
+\comma{F}{B} \toby{P_B} \scat{A} \toby{X} \cat{S}.
+\]
+Show that this defines a functor $\Lan_F X\from \scat{B} \to \cat{S}$, and
+that for functors $Y \from \scat{B} \to \cat{S}$, there is a canonical
+bijection between natural transformations $\Lan_F X \to Y$ and natural
+transformations $X \to Y \of F$.
+
+\item
+\label{part:left-kan-exists}
+Deduce that for any category $\cat{S}$ with small colimits, the functor
+\[
+\dashbk \of F \from 
+\ftrcat{\scat{B}}{\cat{S}} \to
+\ftrcat{\scat{A}}{\cat{S}}
+\]
+has a left adjoint.  (This left adjoint, $\Lan_F$, is called
+\demph{left Kan%
+%
+\index{Kan extension}
+%
+extension} along $F$.)
+
+\item
+Part~\bref{part:left-kan-exists} and its dual imply that when $\cat{S}$
+has small limits and colimits, the functor $\dashbk \of F$ has both left
+and right adjoints.  Revisit Exercise~\ref{ex:G-set-adjns} with this
+in mind, taking $F$ to be either the unique functor $\One \to G$%
+%
+\index{group!action of}%
+\index{G-set@$G$-set}%
+\index{representation!group or monoid@of group or monoid!linear}
+%
+or the unique functor $G \to \One$.
+\end{enumerate}
+\end{question}
+
+
+
+\section{Interactions between adjoint functors and limits}
+\label{sec:adj-lim}
+
+
+We saw in Proposition~\ref{propn:ladj-rep} that any set-valued functor with
+a left adjoint is representable, and in Proposition~\ref{propn:reps-cts}
+that any representable preserves limits.  Hence, any set-valued functor
+with a left adjoint preserves limits.  In fact, this conclusion holds not
+only for set-valued functors, but in complete generality.
+
+\begin{thm}     
+\label{thm:adjts-cts}
+%
+\index{limit!preservation of!adjoint@by adjoint}%
+\index{adjunction!limits preserved in}
+%
+Let $\hadjnli{\cat{A}}{\cat{B}}{F}{G}$ be an adjunction.  Then $F$ preserves
+colimits and $G$ preserves limits.
+\end{thm}
+
+\begin{pf}
+By duality, it is enough to prove that $G$ preserves limits.  Let $D\from
+\scat{I} \to \cat{B}$ be a diagram for which a limit exists.  Then
+% 
+%\begin{align}
+%\cat{A} \biggl(A, G\biggl(\lt{\scat{I}} D \biggr)\biggr) &
+%\iso   
+%\cat{B}\biggl(F(A), \lt{\scat{I}} D\biggr)        
+%\label{eq:adj-lim-1}    \\
+%        &
+%\iso   
+%\lt{\scat{I}} \cat{B}(F(A), D)        
+%\label{eq:adj-lim-2}    \\
+%        &
+%\iso   
+%\lt{\scat{I}} \cat{A}(A, G \of D)      
+%\label{eq:adj-lim-3}    \\
+%        &
+%\iso   
+%\Cone(A, G \of D)
+%\label{eq:adj-lim-4}
+%\end{align}
+% 
+naturally in $A \in \cat{A}$.  Here, the isomorphism~\eqref{eq:adj-lim-1}
+is by adjointness, \eqref{eq:adj-lim-2} is because representables preserve
+limits, \eqref{eq:adj-lim-3} is by adjointness again, and
+\eqref{eq:adj-lim-4} is by Lemma~\ref{lemma:cone-rep}.  So
+$G\biggl(\lt{\scat{I}} D\biggr)$ represents $\Cone(\dashbk, G \of D)$; that
+is, it is a limit of $G \of D$.
+\end{pf}
+
+
+\begin{example}
+Forgetful functors from categories of algebras to $\Set$ have left
+adjoints, but hardly ever right adjoints.  Correspondingly, they preserve%
+%
+\index{functor!forgetful!preserves limits}
+%
+all limits, but rarely all colimits.
+\end{example}
+
+\begin{example}
+\label{eg:arith-set}
+Every set $B$ gives rise to an adjunction $(\dashbk \times B) \ladj
+(\dashbk)^B$ of functors from $\Set$ to $\Set$ (Example~\ref{eg:adjn:cc}).  So
+$\dashbk \times B$ preserves colimits  and
+$(\dashbk)^B$ preserves limits.  In particular, $\dashbk \times B$ preserves
+finite sums and $(\dashbk)^B$ preserves finite products, giving isomorphisms
+% 
+%\begin{align}
+%\label{eq:Set-dist}
+%0 \times B &\iso 0,
+%&
+%(A_1 + A_2) \times B &\iso (A_1 \times B) + (A_2 \times B),      \\
+%\label{eq:Set-codist}
+%1^B &\iso 1,
+%&
+%(A_1 \times A_2)^B &\iso A_1^B \times A_2^B.
+%\end{align}
+% 
+These are the analogues of standard rules of arithmetic.%
+%
+\index{arithmetic}
+%
+(See also Example \ref{eg:lims-lims} and the `Digression on arithmetic' on
+page~\pageref{p:arith}.)  Indeed, if we know~\eqref{eq:Set-dist}
+and~\eqref{eq:Set-codist} for just finite sets then by taking cardinality
+on both sides, we obtain exactly these standard rules.  The natural%
+%
+\index{natural numbers}
+%
+numbers are, after all, just the isomorphism classes of finite sets.
+\end{example}
+
+\begin{example}
+Given a category $\cat{A}$ with all limits of shape $\scat{I}$, we have the
+adjunction
+$\hadjnli{\cat{A}}{\ftrcat{\scat{I}}{\cat{A}}}{\Delta}{\lt{\scat{I}}}$
+(Proposition~\ref{propn:lim-const-adjn}).  Hence $\lt{\scat{I}}$ preserves
+limits, or equivalently, limits of shape $\scat{I}$ commute with (all)
+limits.  This gives another proof that limits commute%
+%
+\index{limit!commutativity with limits}
+%
+with limits (Proposition~\ref{propn:lims-lims}), at least in the case where
+the category has all limits of one of the shapes concerned.
+\end{example}
+
+\begin{example} 
+\label{eg:no-free-field}
+Theorem~\ref{thm:adjts-cts} is often used to prove that a functor does
+\emph{not}%
+%
+\index{adjunction!nonexistence of adjoints}
+%
+have an adjoint.  For instance, it was claimed in
+Example~\ref{egs:adjns-alg}\bref{egs:adjns-alg:fields} that the forgetful
+functor $U\from \Field \to \Set$%
+%
+\index{field}
+%
+does not have a left adjoint.  We can now prove this.  If $U$ had a left
+adjoint $F\from \Set \to \Field$, then $F$ would preserve colimits, and in
+particular, initial objects.  Hence $F(\emptyset)$ would be an initial
+object of $\Field$.  But $\Field$ has no initial object, since there are no
+maps between fields of different characteristic.  Further examples of
+nonexistence of adjoints can be found in Exercise~\ref{ex:no-adjt}.
+\end{example}
+
+
+\minihead{Adjoint functor theorems}
+%
+\index{adjoint functor theorems|(}
+%
+
+Every functor with a left adjoint preserves limits, but limit-preservation
+alone does not guarantee the existence of a left adjoint.  For example, let
+$\cat{B}$ be any category.  The unique functor $\cat{B} \to \One$ always
+preserves limits, but by Example~\ref{eg:init-term}, it only has a left
+adjoint if $\cat{B}$ has an initial object.
+
+On the other hand, if we have a limit-preserving functor $G\from \cat{B}
+\to \cat{A}$ \emph{and $\cat{B}$ has all limits}, then there is an
+excellent chance that $G$ has a left adjoint.  It is still not always true,
+but counterexamples are harder to find.  For instance (taking $\cat{A} =
+\One$ again), can you find a category $\cat{B}$ that has all limits but no
+initial object?
+
+The condition of having all limits is so important that it has its own word:
+% 
+\begin{defn}    
+\label{defn:complete}
+A category is \demph{complete}%
+%
+\index{category!complete}%
+\index{complete}
+%
+(or properly, \demph{small complete}) if it has all limits.
+\end{defn}
+
+There are various results called adjoint functor theorems, all of the
+following form:
+% 
+\begin{displaytext} \it
+Let $\cat{A}$ be a category, $\cat{B}$ a complete category, and $G\from \cat{B}
+\to \cat{A}$ a functor.  Suppose that $\cat{A}$, $\cat{B}$ and $G$ satisfy
+certain further conditions.  Then 
+\[
+G \text{ has a left adjoint}
+\iff
+G \text{ preserves limits}.
+\]
+\end{displaytext}
+% 
+The forwards implication is immediate from Theorem~\ref{thm:adjts-cts}.
+It is the backwards implication that concerns us here.
+
+Typically, the `further conditions' involve the distinction between small
+and large collections.  But there is a special%
+%
+\index{ordered set!adjunction between|(}
+%
+case in which these complications disappear, and I will use it to explain
+the main idea behind the proofs of the adjoint functor theorems.  It is the
+case where the categories $\cat{A}$ and $\cat{B}$ are ordered sets.
+
+As we saw in Section~\ref{sec:lims-basics}, limits in ordered sets are
+meets.  More precisely, if $D\from \scat{I} \to \scat{B}$ is a diagram in
+an ordered set $\scat{B}$, then
+\[
+\lt{\scat{I}} D 
+= 
+\Meet_{I \in \scat{I}} D(I), 
+\]
+with one side defined if and only if the other is.  So an ordered set is
+complete if and only if every subset has a meet.  Similarly, a map $G\from
+\scat{B} \to \scat{A}$ of ordered sets preserves limits if and only if
+\[
+G\Biggl(\Meet_{i \in I} B_i\Biggr) 
+= 
+\Meet_{i \in I} G(B_i)
+\]
+whenever $(B_i)_{i \in I}$ is a family of elements of $\scat{B}$ for which a
+meet exists.
+
+
+We now show that for ordered sets, there is an adjoint functor theorem of the
+simplest possible kind: there are no `further conditions' at all.
+
+\begin{propn}[Adjoint functor theorem for ordered sets]
+\label{propn:OAFT}
+Let $\scat{A}$ be an ordered set, $\scat{B}$ a complete ordered set, and
+$G\from \scat{B} \to \scat{A}$ an order-preserving map.  Then
+\[
+G \text{ has a left adjoint}
+\iff
+G \text{ preserves meets}.
+\]
+\end{propn}
+
+\begin{pf}
+Suppose that $G$ preserves meets.  By Corollary~\ref{cor:pre-AFT}, it is
+enough to show that for each $A \in \scat{A}$, the comma category
+$\comma{A}{G}$ has an initial object.  Let $A \in \scat{A}$.  Then
+$\comma{A}{G}$ is an ordered set, namely, $\{ B \in \scat{B} \such A \leq
+G(B) \}$ with the order inherited from $\scat{B}$.  We have to show that
+$\comma{A}{G}$ has a least element.
+
+Since $\scat{B}$ is complete, the meet $\Meet_{B \in \scat{B}\from A \leq
+  G(B)} B$ exists in $\scat{B}$.  This is the meet of all the elements of
+$\comma{A}{G}$, so it suffices to show that the meet is itself an element
+of $\comma{A}{G}$.  And indeed, since $G$ preserves meets, we have
+\[
+G \Biggl( \Meet_{B \in \scat{B}\from A \leq G(B)} B \Biggr)
+=
+\Meet_{B \in \scat{B}\from A \leq G(B)} G(B)
+\geq
+A,
+\]
+as required.
+\end{pf}
+
+In the general setting of Corollary~\ref{cor:pre-AFT}, the initial object
+of $\comma{A}{G}$ is the pair $\Bigl(F(A),\, A \toby{\eta_A} GF(A)\Bigr)$,
+where $F$ is the left adjoint and $\eta$ is the unit map.  So in
+Proposition~\ref{propn:OAFT}, the left adjoint $F$ is given by
+% 
+\begin{equation}        
+\label{eq:ladj-recipe}
+F(A) 
+= 
+\Meet_{B \in \scat{B}\from A \leq G(B)} B.
+\end{equation}
+
+\begin{example} 
+\label{eg:oaft-least}
+%
+\index{limit!colimit@vs.\ colimit|(}
+%
+Consider Proposition~\ref{propn:OAFT} in the case $\scat{A} = \One$.  The
+unique functor $G\from \scat{B} \to \One$ automatically preserves meets,
+and, as observed above, a left adjoint to $G$ is an initial object of
+$\scat{B}$.  So in the case $\scat{A} = \One$, the proposition states that
+a complete ordered set has a least element.  This is not quite trivial,
+since completeness means the existence of all meets, whereas a least
+element is an empty \emph{join}.
+
+By~\eqref{eq:ladj-recipe}, the least%
+%
+\index{least element!meet@as meet}
+%
+element of $\scat{B}$ is $\Meet_{B \in \scat{B}} B$.  Thus, a least element
+is not only a colimit of the functor $\emptyset \to \scat{B}$; it is also a
+limit of the identity functor $\scat{B} \to \scat{B}$.
+
+The synonym `least upper bound' for `join' suggests a theorem: that a poset
+with all meets also has all joins.  Indeed, given a poset $\scat{B}$ with
+all meets, the join of a subset of $\scat{B}$ is simply the meet of its
+upper bounds: quite literally, its least upper bound.%
+%
+\index{limit!colimit@vs.\ colimit|)}
+%
+\end{example}
+
+Let us now attempt to extend Proposition~\ref{propn:OAFT} from ordered sets
+to categories, starting with a limit-preserving functor $G$ from a complete
+category $\cat{B}$ to a category $\cat{A}$.  In the case of ordered sets,
+we had for each $A \in \cat{A}$ an inclusion map $P_A \from \comma{A}{G}
+\incl \scat{B}$, and we showed that the left adjoint $F$ was given by
+% 
+\begin{equation}        
+\label{eq:ladj-po}
+F(A) = \lt{\comma{A}{G}} P_A.  
+\end{equation}
+% 
+In the general case, the analogue of the inclusion functor is the
+projection functor
+% 
+\begin{equation}
+\label{eq:pjn-aft}
+\begin{array}{cccc}
+P_A\from    &\comma{A}{G}                       &\to            &\cat{B}\\
+            &\Bigl(B,\, A \toby{f} G(B)\Bigr)   &\mapsto        &B.
+\end{array}
+\end{equation}
+% 
+The case of ordered sets suggests that in general,
+equation~\eqref{eq:ladj-po} might define a left adjoint $F$ to $G$.  And
+indeed, it can be shown that if this limit in $\cat{B}$ exists and is
+preserved by $G$, then \eqref{eq:ladj-po} really does give a left adjoint
+(Theorem~X.1.2 of \citeCWM).
+
+This might seem to suggest that our adjoint functor theorem generalizes
+smoothly from ordered sets to arbitrary categories, with no need for
+further conditions.  But it does not, for reasons that are quite subtle.
+
+Those reasons are more easily explained if we relax our terminology
+slightly.  When we defined limits, we built in the condition that the shape
+category $\scat{I}$ was small.%
+%
+\index{limit!large|(}%
+\index{limit!small|(}
+%
+However, the definition of limit makes sense for an arbitrary category
+$\scat{I}$.  In this discussion, we will need to refer to this more
+inclusive notion of limit, so let us temporarily suspend the convention
+that the shape categories $\scat{I}$ of limits are always small.
+
+Now, in the template for adjoint functor theorems stated above (after
+Definition~\ref{defn:complete}), it was only required that $\cat{B}$ has, and
+$G$ preserves, \emph{small} limits.  But if $\cat{B}$ is a large category
+then $\comma{A}{G}$ might also be large, since to specify an object or map in
+$\comma{A}{G}$, we have to specify (among other things) an object or map in
+$\cat{B}$.  So, the limit~\eqref{eq:ladj-po} defining the left adjoint is not
+guaranteed to be small.  Hence there is no guarantee that this limit exists in
+$\cat{B}$, nor that it is preserved by $G$.  It follows that the functor $F$
+`defined' by~\eqref{eq:ladj-po} might not be defined at all, let alone a left
+adjoint.
+
+(The reader experiencing difficulty with reasoning about small and large
+collections might usefully compare finite and infinite collections.  For
+instance, if $\cat{B}$ is a finite category and $\cat{A}$ has finite
+hom-sets then $\comma{A}{G}$ is also finite, but otherwise $\comma{A}{G}$
+might be infinite.)
+
+Proposition~\ref{propn:OAFT} still stands, since there we were dealing with
+ordered \emph{sets}, which as categories are small.  We might hope to
+extend it from posets to arbitrary small categories, since the problem just
+described affects only large categories.  But this turns out not to be very
+fruitful, since in fact, complete posets are the \emph{only}%
+%
+\index{ordered set!complete small category is}
+%
+complete small categories (Exercise~\ref{ex:small-complete}).%
+%
+\index{ordered set!adjunction between|)}
+%
+
+Alternatively, we could try to salvage the argument by assuming that
+$\cat{B}$ has, and $G$ preserves, \emph{all} (possibly large) limits.  But
+again, this is unhelpful: there are almost no such categories $\cat{B}$.
+
+The situation therefore becomes more complicated.  Each of the best-known
+adjoint functor theorems imposes further conditions implying that the large
+limit $\lt{\comma{A}{G}} P_A$ can be replaced by a small limit in some
+clever way.  This allows one to proceed with the argument above.%
+%
+\index{limit!large|)}%
+\index{limit!small|)}
+%
+
+The two most famous adjoint functor theorems are the `general' and the
+`special'.  Their exact statements and proofs are perhaps less significant
+than their consequences.
+
+\begin{defn}
+Let $\cat{C}$ be a category.  A \demph{weakly%
+%
+\index{set!weakly initial}%
+\index{weakly initial}
+%
+initial set} in $\cat{C}$ is a set $\scat{S}$ of objects with the property
+that for each $C \in \cat{C}$, there exist an element $S \in \scat{S}$ and
+a map $S \to C$.
+\end{defn}
+% 
+Note that $\scat{S}$ must be a set, that is, small.  So, the existence of a
+weakly initial set is some kind of size restriction.  Such size
+restrictions are comparable to finiteness conditions in algebra.
+
+\begin{thm}[General adjoint functor theorem]     
+\label{thm:gaft}
+%
+\index{adjoint functor theorems!general}%
+\index{general adjoint functor theorem (GAFT)}
+%
+Let $\cat{A}$ be a category, $\cat{B}$ a complete category, and $G\from
+\cat{B} \to \cat{A}$ a functor.  Suppose that $\cat{B}$ is locally small and
+that for each $A \in \cat{A}$, the category $\comma{A}{G}$ has a weakly
+initial set.  Then
+\[
+G \text{ has a left adjoint}
+\iff
+G \text{ preserves limits}.
+\]
+\end{thm}
+
+\begin{pf}
+See the appendix.
+\end{pf}
+
+\begin{example} 
+\label{eg:gaft-free-alg}
+The general adjoint functor theorem (GAFT) implies that for any category
+$\cat{B}$ of algebras ($\Grp$, $\Vect_k$, \ldots), the forgetful%
+%
+\index{functor!forgetful!left adjoint to}
+%
+functor $U\from \cat{B} \to \Set$ has a left adjoint.  Indeed, we saw in
+Example~\ref{eg:lims-alg} that $\cat{B}$ has all limits, and in
+Example~\ref{eg:gp-creation} that $U$ preserves them.  Also, $\cat{B}$ is
+locally small.  To apply GAFT, we now just have to check that for each $A
+\in \Set$, the comma category $\comma{A}{U}$ has a weakly initial set.
+This requires a little cardinal%
+%
+\index{cardinality}%
+\index{arithmetic!cardinal}
+%
+arithmetic, omitted here; see Exercise~\ref{ex:free-gp-card}.
+
+So GAFT tells us that, for instance, the free group%
+%
+\index{group!free}
+%
+functor exists.  In Examples~\ref{egs:free-functors}\bref{eg:free-group}
+and~\ref{egs:adjns-alg}\bref{egs:adjns-alg:gp}, we began to see the
+trickiness of explicitly constructing the free group on a generating set
+$A$.  One has to define the set of `formal expressions' (such as $x^{-1} y
+x^2 z y^{-3}$, with $x, y, z \in A$), then say what it means for two such
+expressions to be equivalent (so that $x^{-2} x^5 y$ is equivalent to $x^3
+y$), then define $F(A)$ to be the set of all equivalence classes, then
+define the group structure, then check the group axioms, then prove that
+the resulting group has the universal property required.  But using GAFT,
+we can avoid these complications entirely.
+
+The price to be paid is that GAFT does not give us an explicit%
+%
+\index{explicit description}
+%
+description of free groups (or left adjoints more generally).  When people
+speak of knowing some object `explicitly', they usually mean knowing its
+elements.  An element of an object is a map \emph{into} it, and we have no
+handle on maps into $F(A)$: since $F$ is a left adjoint, it is maps
+\emph{out} of $F(A)$ that we know about.  This is why explicit descriptions
+of left adjoints are often hard to come by.
+\end{example}
+
+\begin{example}
+More generally, GAFT guarantees that forgetful%
+%
+\index{functor!forgetful!left adjoint to}
+%
+functors between categories of algebras, such as
+\[
+\Ab \to \Grp, 
+\quad
+\Grp \to \Mon,
+\quad
+\Ring \to \Mon,
+\quad
+\Vect_\complexes \to \Vect_\reals,
+\]
+have left adjoints.  (Some of them are described in
+Examples~\ref{egs:adjns-alg}.)  This is `more generally' because $\Set$ can
+be seen as a degenerate example of a category of algebras, in the sense of
+Remark~\ref{rmk:alg-thy}: a group, ring, etc., is a set equipped with some
+operations satisfying some equations, and a set is a set equipped with no
+operations satisfying no equations.
+\end{example}
+
+The special adjoint functor theorem (SAFT) operates under much tighter
+hypotheses than GAFT, and is much less widely applicable.  Its main
+advantage is that it removes the condition on weakly initial sets.  Indeed,
+it removes \emph{all} further conditions on the functor $G$.
+
+\begin{thm}[Special adjoint functor theorem]
+%
+\index{adjoint functor theorems!special}%
+\index{special adjoint functor theorem}%
+\index{SAFT (special adjoint functor theorem)}
+%
+Let $\cat{A}$ be a category, $\cat{B}$ a complete category, and $G\from
+\cat{B} \to \cat{A}$ a functor.  Suppose that $\cat{A}$ and $\cat{B}$ are
+locally small, and that $\cat{B}$ satisfies certain further conditions.  Then
+\[
+G \text{ has a left adjoint}
+\iff
+G \text{ preserves limits}.
+\]
+\end{thm}
+% 
+A precise statement and proof can be found in Section~V.8 of \citeCWM.
+
+\begin{example}
+Here is the classic application of SAFT.  Let $\CptHff$%
+%
+\index{topological space!compact Hausdorff}
+%
+be the category of compact Hausdorff spaces, and $U\from \CptHff \to \Tp$
+the forgetful functor.  SAFT tells us that $U$ has a left adjoint $F$,
+turning any space into a compact Hausdorff space in a canonical way.
+
+The existence of this left adjoint is far from obvious, and verifying the
+hypotheses of SAFT (or indeed, constructing $F$ in any other way) requires
+some deep theorems of topology.  Given a space $X$, the resulting compact
+Hausdorff space $F(X)$ is called its \demph{Stone--\v{C}ech%
+%
+\index{Stone-Cech compactification@Stone--\v{C}ech compactification}
+%
+compactification}.  Provided that $X$ satisfies some mild separation
+conditions, the unit of the adjunction at $X$ is an embedding, so that
+$UF(X)$ contains $X$ as a subspace. 
+
+Another advantage of SAFT is that one can extract from its proof a fairly
+explicit formula for the left adjoint.  In this case, it tells us that
+$F(X)$ is the closure of the image of the canonical map
+\[
+X \to [0, 1]^{\Tp(X, [0, 1])}, 
+\]
+where the codomain is a power of $[0, 1]$ in $\Tp$.  
+%
+\index{adjoint functor theorems|)}
+%
+\end{example}
+
+
+\minihead{Cartesian closed categories}
+%
+\index{category!cartesian closed|(}%
+\index{cartesian closed category|(}
+%
+
+We have seen that for every set $B$, there is an adjunction $(\dashbk\times B)
+\ladj (\dashbk)^B$ (Example~\ref{eg:adjn:cc}), and that for every category
+$\cat{B}$, there is an adjunction $(\dashbk \times \cat{B}) \ladj
+\ftrcat{\cat{B}}{\dashbk}$
+(Remark~\ref{rmks:global-hom}\bref{rmks:global-hom:cc}).
+
+\begin{defn}
+A category $\cat{A}$ is \demph{cartesian closed} if it has finite products
+and for each $B \in \cat{A}$, the functor $\dashbk \times B\from \cat{A}
+\to \cat{A}$ has a right adjoint.
+\end{defn}
+% 
+We write the right adjoint as $(\dashbk)^B$,%
+% 
+\ntn{exp-cc}
+%
+and, for $C \in \cat{A}$, call
+$C^B$ an \demph{exponential}.%
+%
+\index{exponential}
+%
+We may think of $C^B$ as the space of maps from $B$ to $C$.  Adjointness
+says that for all $A, B, C \in \cat{A}$,
+\[
+\cat{A}(A \times B, C)
+\iso
+\cat{A}\bigl(A, C^B\bigr)
+\]
+naturally in $A$ and $C$.  In fact, the isomorphism is natural in $B$ too;
+that comes for free.
+
+\begin{example}
+$\Set$ is cartesian closed; $C^B$ is the function%
+%
+\index{set!functions@of functions}%
+\index{function!set of functions}
+%
+set $\Set(B, C)$.  
+\end{example}
+
+\begin{example}
+\hspace*{-.5pt}%
+$\CAT$ is cartesian closed; $\cat{C}^\cat{B}$ is the functor%
+%
+\index{functor!category}
+%
+category $\ftrcat{\cat{B}}{\cat{C}}$.
+\end{example}
+
+In any cartesian closed category with finite sums, the
+isomorphisms~\eqref{eq:Set-dist} and~\eqref{eq:Set-codist} of
+Example~\ref{eg:arith-set} hold, for the same reasons as stated there.  The
+objects of a cartesian closed category therefore possess an arithmetic%
+%
+\index{arithmetic}
+%
+like that of the natural numbers.  This thought can be developed in several
+interesting directions, but here we just note that these isomorphisms
+provide a way of proving that a category is \emph{not} cartesian closed.
+
+\begin{example}
+$\Vect_k$%
+%
+\index{vector space!category of vector spaces!cartesian closed@is not
+  cartesian closed} 
+%
+is not cartesian closed, for any field $k$.  It does have finite products,
+as we saw in Example~\ref{eg:prod-vs}: binary product is direct sum
+$\oplus$, and the terminal object is the trivial vector space $\{0\}$,
+which is also initial.  But if $\Vect_k$ were cartesian closed then
+equations~\eqref{eq:Set-dist} would hold, so that $\{0\} \oplus B \iso
+\{0\}$ for all vector spaces $B$.  This is plainly false.
+\end{example}
+
+\begin{remark}
+For any vector spaces $V$ and $W$, the set $\Vect_k(V, W)$ of linear maps
+can itself be given the structure of a vector space, as in
+Example~\ref{eg:fns-on-vs}.  Let us now call this vector space $[V, W]$.
+
+Given that exponentials are supposed to be `spaces of maps', you might
+expect $\Vect_k$ to be cartesian closed, with $[\dashbk, \dashbk]$ as its
+exponential.  We have just seen that this cannot be so.  But as it turns
+out, the linear maps $U \to [V, W]$ correspond to the \emph{bi}linear%
+%
+\index{map!bilinear}
+%
+maps $U \times V \to W$, or equivalently the linear maps $U \otimes V \to
+W$.%
+%
+\index{tensor product}
+%
+In the jargon, $\Vect_k$ is an example of a `monoidal%
+%
+\index{monoidal closed category}%
+\index{category!monoidal closed}
+%
+closed category'.  These are like cartesian closed categories, but with the
+cartesian (categorical) product replaced by some other operation called
+`product', in this case the tensor product of vector spaces.
+\end{remark}
+
+For any set $I$, the product category $\Set^I$ is cartesian closed, just
+because $\Set$ is.  (Exponentials in $\Set^I$, as well as products, are
+computed pointwise.)  Put another way, $\pshf{\scat{A}}$ is cartesian
+closed whenever $\scat{A}$ is discrete.  We now show that, in fact,
+$\pshf{\scat{A}}$ is cartesian closed for any small category $\scat{A}$
+whatsoever.  
+
+In preparation for proving this, let us conduct a thought%
+%
+\index{thought experiment}
+%
+experiment.  Write $\psh{\scat{A}}%
+%
+\ntn{psh}
+%
+ = \pshf{\scat{A}}$.  If $\psh{\scat{A}}$ \emph{is} cartesian
+closed, what must exponentials in $\psh{\scat{A}}$ be?  In other words, given
+presheaves $Y$ and $Z$, what must $Z^Y$ be in order that
+% 
+\begin{equation}        
+\label{eq:cc-pshf}
+\psh{\scat{A}}\bigl(X, Z^Y\bigr)
+\iso
+\psh{\scat{A}}(X \times Y, Z)
+\end{equation}
+% 
+for all presheaves $X$?  If this is true for all presheaves $X$, then in
+particular it is true when $X$ is representable, so
+\[
+Z^Y(A)
+\iso
+\psh{\scat{A}}\bigl(\h_A, Z^Y\bigr)
+\iso
+\psh{\scat{A}}(\h_A \times Y, Z) 
+\]
+for all $A \in \scat{A}$, the first step by Yoneda.  This tells us what
+$Z^Y$ must be.  Notice that $Z^Y(A)$ is not simply $Z(A)^{Y(A)}$, as one
+might at first guess: exponentials in a presheaf category are \emph{not}
+generally computed pointwise.%
+%
+\index{pointwise}
+%
+
+
+\begin{thm}     
+\label{thm:pshf-cc}
+For any small category $\scat{A}$, the presheaf%
+%
+\index{presheaf!category of presheaves!cartesian closed@is cartesian closed}
+%
+ category $\psh{\scat{A}}$
+is cartesian closed.
+\end{thm}
+% 
+Here is the strategy of the proof.  The argument in the thought experiment
+gives us the isomorphism~\eqref{eq:cc-pshf} whenever $X$ is representable.
+A general presheaf $X$ is not representable, but it is a colimit of
+representables, and this allows us to bootstrap our way up.
+
+\begin{pf}
+We know that $\psh{\scat{A}}$ has all limits, and in particular, finite
+products.  It remains to show that $\psh{\scat{A}}$ has exponentials.  Fix
+$Y \in \psh{\scat{A}}$.
+
+First we prove that $\dashbk \times Y\from \psh{\scat{A}} \to
+\psh{\scat{A}}$ preserves colimits.  (Eventually we will prove that
+$\dashbk\times Y$ has a right adjoint, from which preservation of colimits
+follows, but our proof that it has a right adjoint will \emph{use}
+preservation of colimits.)  Indeed, since products and colimits in
+$\psh{\scat{A}}$ are computed pointwise, it is enough to prove that for any
+set $S$, the functor $\dashbk \times S\from \Set \to \Set$ preserves
+colimits, and this follows from the fact that $\Set$ is cartesian closed.
+
+For each presheaf $Z$ on $\scat{A}$, let $Z^Y$ be the presheaf defined by
+\[
+Z^Y (A) = \psh{\scat{A}} (\h_A \times Y, Z)
+\]
+for all $A \in \scat{A}$.  This defines a functor $(\dashbk)^Y \from
+\psh{\scat{A}} \to \psh{\scat{A}}$.  
+
+I claim that $(\dashbk \times Y) \ladj (\dashbk)^Y$.  Let $X, Z \in
+\psh{\scat{A}}$.  Write $P\from \elt{X} \to \scat{A}$ for the projection
+(as in Definition~\ref{defn:cat-elts}), and write $\h_P = \h_\bl \of P$.
+Then
+% 
+%\begin{align}
+%\label{eq:pcc:density}
+%\psh{\scat{A}}\bigl(X, Z^Y\bigr) &
+%\iso   
+%\psh{\scat{A}} \biggl( \colt{\elt{X}} \h_P, Z^Y \biggr)  \\      
+%\label{eq:pcc:out}
+%        &
+%\iso   
+%\lt{\elt{X}^{\op}} \psh{\scat{A}}\bigl(\h_P, Z^Y\bigr)   \\
+%\label{eq:pcc:yon}
+%        &
+%\iso   
+%\lt{\elt{X}^{\op}} Z^Y(P)                       \\
+%\label{eq:pcc:defn}
+%        &
+%\iso   
+%\lt{\elt{X}^{\op}} \psh{\scat{A}}(\h_P \times Y, Z)     \\
+%\label{eq:pcc:in}
+%        &
+%\iso   
+%\psh{\scat{A}}\biggl( \colt{\elt{X}} (\h_P \times Y), Z \biggr) \\
+%\label{eq:pcc:cocts} 
+%       &
+%\iso   
+%\psh{\scat{A}}\biggl(\biggl(\colt{\elt{X}} \h_P\biggr) \times Y, Z\biggr) \\
+%\label{eq:pcc:density-again}
+%        &
+%\iso   
+%\psh{\scat{A}}(X \times Y, Z)
+%\end{align}
+% 
+naturally in $X$ and $Z$.  Here~\eqref{eq:pcc:density}
+and~\eqref{eq:pcc:density-again} follow from Theorem~\ref{thm:density};
+\eqref{eq:pcc:out} and~\eqref{eq:pcc:in} are because representables
+preserve limits (as rephrased in Remark~\ref{rmk:rep-pres});
+\eqref{eq:pcc:yon} is by Yoneda; \eqref{eq:pcc:defn} is by definition of
+$Z^Y$; and~\eqref{eq:pcc:cocts} is because $\dashbk\times Y$ preserves
+colimits.
+\end{pf}
+
+This result can be seen as a step along the road to topos%
+%
+\index{topos}
+%
+theory.  A topos is a category with certain special properties.  Topos
+theory unifies, in an extraordinary way, important aspects of logic and
+geometry.
+
+For instance, a topos can be regarded as a `universe of sets':%
+%
+\index{set!category of sets!topos@as topos}
+%
+$\Set$ is the most basic example of a topos, and every topos shares enough
+features with $\Set$ that one can reason with its objects as if they were
+sets of some exotic kind.  On the other hand, a topos can be regarded as a
+generalized topological space:%
+%
+\index{topological space!topos@as topos}
+%
+every space gives rise to a topos (namely, the category of sheaves%
+%
+\index{sheaf}
+%
+on it), and topological properties of the space can be reinterpreted in a
+useful way as categorical properties of its associated topos.
+
+By definition, a topos is a cartesian closed category with finite limits
+and with one further property: the existence of a so-called subobject%
+%
+\index{subobject!classifier}
+%
+classifier.  For example, the two-element%
+%
+\index{set!two-element}
+%
+set $2$ is the subobject classifier of $\Set$, which means, informally,
+that subsets of a set $A$ correspond one-to-one with maps $A \to 2$.
+Exercises~\ref{ex:soc} and~\ref{ex:pshf-topos} give the formal definition
+of subobject classifier, then guide you through the proof that $\Set$, and,
+more generally, every presheaf category, is a topos.%
+%
+\index{category!cartesian closed|)}%
+\index{cartesian closed category|)}
+%
+
+
+\exs
+
+
+\begin{question}        
+\label{ex:no-adjt}
+\begin{enumerate}[(b)]
+\item 
+Prove that the forgetful functor $U\from \Grp \to \Set$ has no right
+adjoint.
+
+\item 
+Prove that the chain of adjunctions $C \ladj D \ladj O \ladj I$%
+%
+\index{category!category of categories!adjunctions with $\Set$}
+%
+in Exercise~\ref{ex:cdoi} extends no further in either direction.
+
+\item
+Does the chain of adjunctions in Exercise~\ref{ex:pshf-adjns} extend
+further in either direction?
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+Let $\cat{A}$ be a locally small category.  For functors $U\from \cat{A}
+\to \Set$, consider the following three conditions: (A)~$U$ has a left
+adjoint; (R)~$U$ is representable; (L)~$U$ preserves limits.  
+% 
+\begin{enumerate}[(b)]
+\item 
+Show that (A) $\textonlyif$ (R) $\textonlyif$ (L).
+
+\item 
+Show that if $\cat{A}$ has sums then (R) $\textonlyif$ (A).%
+%
+\index{functor!representable!adjoints@and adjoints}
+%
+\end{enumerate}
+% 
+(If $\cat{A}$ satisfies the hypotheses of the special adjoint functor
+theorem then also (L) $\textonlyif$ (A), so the three conditions are
+equivalent.)
+\end{question}
+
+
+\begin{question}        
+\label{ex:small-complete}
+\begin{enumerate}[(b)]
+\item 
+Prove that every preordered%
+%
+\index{ordered set!preordered set@vs.\ preordered set}
+%
+set is equivalent (as a category) to an ordered set.
+
+\item 
+Let $\cat{A}$ be a category with all small products.  Suppose that
+$\cat{A}$ is not a preorder, so that there exists a parallel pair of maps
+$\parpairi{A}{B}{f}{g}$ in $\cat{A}$ with $f \neq g$.  By considering the
+maps $A \to B^I$ for each set $I$, prove that $\cat{A}$ is not small.
+
+\item 
+Deduce that every small category with small products is equivalent to a
+complete ordered set.%
+%
+\index{ordered set!complete small category is}
+%
+
+\item 
+Adapt the argument to prove that every finite category with finite
+products is equivalent to a complete ordered set.
+\end{enumerate}
+\end{question}
+
+
+\begin{question}        
+\label{ex:free-gp-card}
+Probably the most important application of the general adjoint functor
+theorem is to proving that forgetful functors between categories of
+algebras have left adjoints (Example~\ref{eg:gaft-free-alg}).  Verifying
+the hypotheses can be done with some cardinal%
+%
+\index{cardinality}%
+\index{arithmetic!cardinal}
+%
+arithmetic.  Here is a typical example.
+% 
+\begin{enumerate}[(b)]
+\item   
+\label{part:gen-subgp-bound}
+Let $A$ be a set.  Prove that for any group $G$ and family $(g_a)_{a \in
+A}$ of elements of $G$, the subgroup of $G$ generated by $\{g_a \such a
+\in A\}$ has cardinality at most $\max \{\crd{\nat}, \crd{A}\}$.
+
+\item   
+\label{part:small-coll-gps}
+Prove that for any set $S$, the collection of isomorphism classes of groups
+of cardinality at most $\crd{S}$ is small.
+
+\item 
+Let $U\from \Grp \to \Set$%
+%
+\index{group!free}
+%
+be the forgetful functor from groups to sets.  Deduce
+from~\bref{part:gen-subgp-bound} and~\bref{part:small-coll-gps} that for
+every set $A$, the comma category $\comma{A}{U}$ has a weakly initial set.
+
+\item 
+Use GAFT to conclude that $U$ has a left adjoint.
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+Let $\scat{A}$ be a small cartesian closed category.  Prove that the
+Yoneda%
+%
+\index{Yoneda embedding!preserves exponentials}%
+\index{exponential!preserved by Yoneda embedding}
+%
+embedding $\scat{A} \to \pshf{\scat{A}}$ preserves the whole cartesian
+closed structure (exponentials as well as products).
+\end{question}
+
+
+\begin{question}        
+\label{ex:soc}
+Recall from Exercise~\ref{ex:subobjects} the notion of subobject.  A 
+category $\cat{A}$ is \demph{well-powered}%
+%
+\index{category!well-powered}%
+\index{well-powered}
+%
+if for each $A \in \cat{A}$, the class of subobjects of $A$ is small, that
+is, a set.  (All of our usual examples of categories are well-powered.)
+Let $\cat{A}$ be a well-powered category with pullbacks, and write
+$\Sub(A)$ for the set of subobjects of an object $A \in \cat{A}$.
+% 
+\begin{enumerate}[(b)]
+\item
+Deduce from Exercise~\ref{ex:pb-monic} that any map $A' \toby{f} A$ in
+$\cat{A}$ induces a map $\Sub(f)\from \Sub(A) \to \Sub(A')$.
+
+\item 
+Show that this determines a functor $\Sub\from \cat{A}^\op \to \Set$.
+(Hint: use Exercise~\ref{ex:pb-pasting}.)
+
+\item 
+For some categories $\cat{A}$, the functor $\Sub$ is representable.  A
+\demph{subobject%
+%
+\index{subobject!classifier}
+%
+classifier} for $\cat{A}$ is an object $\Omega \in
+\cat{A}$ such that $\Sub \iso \h_\Omega$.  Prove that $2$ is a subobject
+classifier for $\Set$.
+\end{enumerate}
+% 
+A \demph{topos}%
+%
+\index{topos}
+%
+is a cartesian closed category with finite limits and a subobject
+classifier.  You have just completed the proof that $\Set$ is a topos.
+\end{question}
+
+
+\begin{question}        
+\label{ex:pshf-topos}
+This exercise follows on from the last, culminating in the proof that every
+presheaf category%
+%
+\index{presheaf!category of presheaves!topos@is topos}
+%
+is a topos.%
+%
+\index{topos}
+%
+Let $\scat{A}$ be a small category.
+% 
+\begin{enumerate}[(b)]
+\item
+By conducting a thought%
+%
+\index{thought experiment}
+%
+experiment similar to the one before the statement of
+Theorem~\ref{thm:pshf-cc}, find out what the subobject classifier $\Omega$
+of $\pshf{\scat{A}}$ must be if it exists.
+
+\item 
+Prove that this $\Omega$ is indeed a subobject classifier.
+
+\item 
+Conclude that $\pshf{\scat{A}}$ is a topos.
+\end{enumerate}
+\end{question}
+
+

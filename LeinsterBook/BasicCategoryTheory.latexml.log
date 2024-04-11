@@ -1,0 +1,2813 @@
+latexml (LaTeXML version 0.8.7; revision 03935b5a) processing BasicCategoryTheory.tex
+(Digesting TeX BasicCategoryTheory...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/TeX.pool.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/eTeX.pool.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/pdfTeX.pool.ltxml... 0.01 sec) 0.09 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/BasicCategoryTheory.tex...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/LaTeX.pool.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/textcomp.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu... 0.01 sec) 0.51 sec) 0.63 sec)
+(Processing definitions /home/jacob/Repos/tac-corpus/LeinsterBook/cambridge7A.cls...
+Info:misdefined:utf-8 input isn't valid under encoding utf-8
+	at cambridge7A.cls; line 340 col 0 - line 340 col 0
+*** Using cambridge7A.cls, authored option [default] ***
+Info:ignore:\tiny Ignoring redefinition (\newcommand) of '\tiny'
+	at cambridge7A.cls; line 450 col 0 - line 450 col 70
+Info:ignore:\footnotesize Ignoring redefinition (\newcommand) of '\footnotesize'
+	at cambridge7A.cls; line 452 col 0 - line 452 col 66
+Info:ignore:\large Ignoring redefinition (\newcommand) of '\large'
+	at cambridge7A.cls; line 455 col 0 - line 455 col 74
+Info:ignore:\Large Ignoring redefinition (\newcommand) of '\Large'
+	at cambridge7A.cls; line 457 col 0 - line 457 col 75
+Info:ignore:\LARGE Ignoring redefinition (\newcommand) of '\LARGE'
+	at cambridge7A.cls; line 458 col 0 - line 458 col 75
+Info:ignore:\huge Ignoring redefinition (\newcommand) of '\huge'
+	at cambridge7A.cls; line 459 col 0 - line 459 col 75
+Info:ignore:\scriptsize Ignoring redefinition (\newcommand) of '\scriptsize'
+	at cambridge7A.cls; line 480 col 0 - line 480 col 65
+Info:ignore:\small Ignoring redefinition (\newcommand) of '\small'
+	at cambridge7A.cls; line 484 col 0 - line 484 col 60
+Info:ignore:\labelenumi Ignoring redefinition (\newcommand) of '\labelenumi'
+	at cambridge7A.cls; line 1089 col 0 - line 1089 col 33
+Info:ignore:\labelenumii Ignoring redefinition (\newcommand) of '\labelenumii'
+	at cambridge7A.cls; line 1090 col 0 - line 1090 col 35
+Info:ignore:\labelenumiii Ignoring redefinition (\newcommand) of '\labelenumiii'
+	at cambridge7A.cls; line 1091 col 0 - line 1091 col 37
+Info:ignore:\labelenumiv Ignoring redefinition (\newcommand) of '\labelenumiv'
+	at cambridge7A.cls; line 1092 col 0 - line 1092 col 35
+Info:ignore:\labelitemi Ignoring redefinition (\newcommand) of '\labelitemi'
+	at cambridge7A.cls; line 1108 col 0 - line 1108 col 33
+Info:ignore:\labelitemii Ignoring redefinition (\newcommand) of '\labelitemii'
+	at cambridge7A.cls; line 1109 col 0 - line 1109 col 37
+Info:ignore:\labelitemiii Ignoring redefinition (\newcommand) of '\labelitemiii'
+	at cambridge7A.cls; line 1110 col 0 - line 1110 col 33
+Info:ignore:\labelitemiv Ignoring redefinition (\newcommand) of '\labelitemiv'
+	at cambridge7A.cls; line 1111 col 0 - line 1111 col 35
+Info:ignore:\descriptionlabel Ignoring redefinition (\newcommand) of '\descriptionlabel'
+	at cambridge7A.cls; line 1115 col 0 - line 1115 col 62
+Info:ignore:\tableofcontents Ignoring redefinition (\newcommand) of '\tableofcontents'
+	at cambridge7A.cls; line 1540 col 0 - line 1540 col 1
+Info:ignore:\listoffigures Ignoring redefinition (\newcommand) of '\listoffigures'
+	at cambridge7A.cls; line 1633 col 0 - line 1633 col 1
+Info:ignore:\listoftables Ignoring redefinition (\newcommand) of '\listoftables'
+	at cambridge7A.cls; line 1670 col 0 - line 1670 col 1
+Info:ignore:\newblock Ignoring redefinition (\newcommand) of '\newblock'
+	at cambridge7A.cls; line 1761 col 0 - line 1761 col 57
+Info:ignore:theindex Ignoring redefinition (\newenvironment) of Environment 'theindex'
+	at cambridge7A.cls; line 1780 col 0 - line 1780 col 68
+Info:ignore:\subitem Ignoring redefinition (\newcommand) of '\subitem'
+	at cambridge7A.cls; line 1809 col 0 - line 1809 col 54
+Info:ignore:\subsubitem Ignoring redefinition (\newcommand) of '\subsubitem'
+	at cambridge7A.cls; line 1810 col 0 - line 1810 col 57
+Info:ignore:\indexspace Ignoring redefinition (\newcommand) of '\indexspace'
+	at cambridge7A.cls; line 1812 col 0 - line 1812 col 71
+Info:ignore:\contentsname Ignoring redefinition (\newcommand) of '\contentsname'
+	at cambridge7A.cls; line 2408 col 0 - line 2408 col 34
+Info:ignore:\listfigurename Ignoring redefinition (\newcommand) of '\listfigurename'
+	at cambridge7A.cls; line 2409 col 0 - line 2409 col 41
+Info:ignore:\listtablename Ignoring redefinition (\newcommand) of '\listtablename'
+	at cambridge7A.cls; line 2410 col 0 - line 2410 col 33
+Info:ignore:\indexname Ignoring redefinition (\newcommand) of '\indexname'
+	at cambridge7A.cls; line 2414 col 0 - line 2414 col 28
+Info:ignore:\figurename Ignoring redefinition (\newcommand) of '\figurename'
+	at cambridge7A.cls; line 2415 col 0 - line 2415 col 30
+Info:ignore:\tablename Ignoring redefinition (\newcommand) of '\tablename'
+	at cambridge7A.cls; line 2416 col 0 - line 2416 col 28
+Info:ignore:\partname Ignoring redefinition (\newcommand) of '\partname'
+	at cambridge7A.cls; line 2417 col 0 - line 2417 col 26
+Info:ignore:\chaptername Ignoring redefinition (\newcommand) of '\chaptername'
+	at cambridge7A.cls; line 2419 col 0 - line 2419 col 32
+Info:ignore:\appendixname Ignoring redefinition (\newcommand) of '\appendixname'
+	at cambridge7A.cls; line 2420 col 0 - line 2420 col 34
+ 0.17 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/macros.tex...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/latexsym.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amssymb.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amsfonts.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amsmath.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amsbsy.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amsgen.sty.ltxml... 0.00 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amstext.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amsopn.sty.ltxml... 0.00 sec) 0.04 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/bbm.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/mathrsfs.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/graphicx.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/graphics.sty.ltxml... 0.00 sec) 0.02 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/color.sty.ltxml... 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/multicol.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/txfonts.sty.ltxml... 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/url.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/makeidx.sty.ltxml... 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/xy.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/xy.tex.ltxml...
+(Processing definitions w/@ other /usr/share/texlive/texmf-dist/tex/generic/xypic/xy.tex...
+Bootstrap'ing:
+catcodes,
+docmode,
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/xypic/xyrecat.tex... 0.00 sec)
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/xypic/xyidioms.tex... 0.01 sec)
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+Loading kernel:
+messages;
+fonts;
+allocations:
+state,
+direction,
+utility macros;
+pictures: \xy,
+positions,
+objects,
+decorations;
+kernel objects:
+directionals,
+circles,
+text;
+options;
+algorithms: directions,
+edges,
+connections;
+ Xy-pic loaded
+ 0.38 sec) 0.39 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/ifpdf.sty.ltxml... 0.00 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyall.tex...
+ Xy-pic option: All features v.3.8
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xycurve.tex...
+ Xy-pic option: Curve and Spline extension v.3.12
+curve,
+circles,
+loaded
+ 0.25 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyframe.tex...
+ Xy-pic option: Frame and Bracket extension v.3.14
+loaded
+ 0.07 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xycmtip.tex...
+ Xy-pic option: Computer Modern tip extension v.3.7
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xytips.tex...
+ Xy-pic option: More Tips extension v.3.11
+loaded
+ 0.01 sec)
+loaded
+ 0.02 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyline.tex...
+ Xy-pic option: Line styles extension v.3.10
+loaded
+ 0.04 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyrotate.tex...
+ Xy-pic option: Rotate and Scale extension v.3.8
+loaded
+ 0.02 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xycolor.tex...
+ Xy-pic option: Colour extension v.3.11
+loaded
+ 0.02 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xymatrix.tex...
+ Xy-pic option: Matrix feature v.3.14
+loaded
+ 0.05 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyarrow.tex...
+ Xy-pic option: Arrow and Path feature v.3.9
+path,
+\ar,
+loaded
+ 0.07 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xygraph.tex...
+ Xy-pic option: Graph feature v.3.11
+loaded
+ 0.03 sec)
+loaded
+ 0.63 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xy2cell.tex...
+ Xy-pic option: Two-cell feature v.3.7
+two-cells,
+loaded
+ 0.06 sec) 1.09 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyarc.tex...
+ Xy-pic option: Circle, Ellipse, Arc feature v.3.8
+circles,
+ellipses,
+elliptical arcs,
+loaded
+ 0.07 sec)
+(Processing content /usr/share/texlive/texmf-dist/tex/generic/xypic/xyrotate.tex...
+ Xy-pic option: Rotate and Scale extension v.3.8
+not reloaded
+ 0.00 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/hyperref.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/ltxcmds.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty... 0.04 sec) 0.05 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/keyval.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty... 0.01 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/kvsetkeys.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty... 0.03 sec) 0.03 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/kvdefinekeys.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty... 0.01 sec) 0.01 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/kvoptions.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty... 0.08 sec) 0.08 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/nameref.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/refcount.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/infwarerr.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty... 0.02 sec) 0.02 sec) 0.05 sec) 0.05 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/gettitlestring.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty... 0.16 sec) 0.16 sec) 0.22 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/bitset.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/intcalc.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty... 0.03 sec) 0.03 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/bigintcalc.sty.ltxml...
+(Processing definitions /usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/pdftexcmds.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/iftex.sty.ltxml... 0.00 sec) 0.01 sec) 0.09 sec) 0.10 sec) 0.22 sec) 0.22 sec) 0.67 sec) 2.00 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/theoremenvts.tex...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/ntheorem.sty.ltxml...
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/amsthm.sty.ltxml... 0.00 sec) 0.01 sec) 0.05 sec)
+(Loading /usr/local/share/perl/5.30.0/LaTeXML/Package/xylatexml.tex.ltxml...
+ Xy-pic option: LaTeXML Driver v.0.8.6
+ 0.08 sec)
+LaTeXML enabling LaTeXML xy driver
+LaTeXML enabling curve
+LaTeXML enabling frame
+LaTeXML enabling tips
+LaTeXML enabling line
+LaTeXML enabling rotate
+LaTeXML enabling color
+LaTeXML enabling matrix
+LaTeXML enabling arrow
+LaTeXML enabling graph
+LaTeXML enabling arc
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/titlepages.tex... 0.02 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/arxivpreface.tex... 0.04 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/front.tex... 0.01 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/preface.tex... 0.04 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/intro.tex...
+<xymatrix
+2x2
+141>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x3
+240>
+<xymatrix
+3x1
+142>
+<xymatrix
+2x2
+194>
+<xymatrix
+3x3
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+351>
+<xymatrix
+2x2
+194>
+ 12.70 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/cfnt.tex...
+<xymatrix
+2x1
+94>
+<xymatrix
+3x2
+231>
+<xymatrix
+2x1
+80>
+<xymatrix
+3x2
+149>
+<xymatrix
+3x2
+313>
+<xymatrix
+1x1
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+193>
+<xymatrix
+2x1
+94>
+<xymatrix
+3x2
+56>
+<xymatrix
+3x2
+63>
+<xymatrix
+3x1
+102>
+<xymatrix
+3x2
+149>
+<xymatrix
+2x1
+94>
+<xymatrix
+4x1
+18>
+<xymatrix
+7x2
+214>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+3x1
+********************************
+
+********************************
+
+24>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+71>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+100>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+64>
+<xymatrix
+3x1
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+34>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x2
+182>
+<xymatrix
+3x1
+********************************
+
+********************************
+
+65>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+3x1
+********************************
+
+********************************
+
+65>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+3x1
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+136>
+ 49.78 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/adj.tex...
+<xymatrix
+2x1
+94>
+<xymatrix
+1x2
+135>
+<xymatrix
+1x2
+135>
+<xymatrix
+1x2
+135>
+<xymatrix
+2x2
+144>
+<xymatrix
+1x2
+149>
+<xymatrix
+1x2
+149>
+<xymatrix
+1x2
+135>
+<xymatrix
+3x1
+196>
+<xymatrix
+2x1
+101>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+94>
+<xymatrix
+3x2
+281>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+100>
+<xymatrix
+5x3
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+298>
+<xymatrix
+1x2
+44>
+<xymatrix
+3x2
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+104>
+<xymatrix
+3x2
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+104>
+<xymatrix
+4x4
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+189>
+<xymatrix
+1x5
+56>
+<xymatrix
+4x4
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+189>
+<xymatrix
+1x5
+56>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+1x2
+135>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x2
+100>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x2
+Error:unexpected:\@@ENDINLINEMATH Attempt to end mode inline_math
+	at adj.tex; line 1578 col 0 - line 1578 col 1
+	current frame is boxing group due to T_BEGIN[{] adj.tex; line 1578 col 0 - line 1578 col 1
+	In Core::Stomach[@0x55bb80362240] /home/jacob/Repos/tac-corpus/LeinsterBook/adj.tex; from line 1578 col 0 to line 1578 col 1
+	 <= Core::Definition::Constructor[\@@ENDI... <= Core::Stomach[@0x55bb80362240] <= Core::Definition::Primitive[\@dollar@... <= ...
+Error:unexpected:\@@ENDINLINEMATH Attempt to end mode inline_math
+	at adj.tex; line 1578 col 0 - line 1578 col 1
+	current frame is boxing group due to T_BEGIN[{] adj.tex; line 1578 col 0 - line 1578 col 1
+	In Core::Stomach[@0x55bb80362240] /home/jacob/Repos/tac-corpus/LeinsterBook/adj.tex; from line 1578 col 0 to line 1578 col 1
+	 <= Core::Definition::Constructor[\@@ENDI... <= Core::Stomach[@0x55bb80362240] <= Core::Definition::Primitive[\@dollar@... <= ...
+212>
+<xymatrix
+3x2
+145>
+<xymatrix
+2x2
+100>
+<xymatrix
+2x2
+103>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x3
+234>
+<xymatrix
+2x3
+********************************
+
+********************************
+
+********************************
+
+326>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x3
+152>
+<xymatrix
+2x3
+********************************
+
+********************************
+
+********************************
+
+326>
+<xymatrix
+3x3
+211>
+<xymatrix
+2x1
+144>
+ 81.91 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/sets.tex...
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+94>
+ 4.45 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/rep.tex...
+<xymatrix
+2x1
+144>
+<xymatrix
+2x2
+168>
+<xymatrix
+2x2
+154>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+3x2
+192>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+188>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+3x2
+198>
+<xymatrix
+2x1
+100>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x2
+154>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x2
+154>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x2
+154>
+<xymatrix
+2x2
+144>
+<xymatrix
+2x1
+144>
+ 25.54 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/lims.tex...
+<xymatrix
+3x2
+108>
+<xymatrix
+3x2
+108>
+<xymatrix
+3x3
+243>
+<xymatrix
+3x2
+108>
+<xymatrix
+3x2
+94>
+<xymatrix
+3x1
+139>
+<xymatrix
+2x1
+94>
+<xymatrix
+3x1
+139>
+<xymatrix
+2x2
+141>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+100>
+<xymatrix
+2x1
+94>
+<xymatrix
+3x1
+142>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+100>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x2
+182>
+<xymatrix
+3x3
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+339>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x2
+182>
+<xymatrix
+3x3
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+********************************
+
+345>
+<xymatrix
+2x2
+154>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+100>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+86>
+<xymatrix
+3x3
+243>
+<xymatrix
+2x3
+149>
+<xymatrix
+2x1
+94>
+<xymatrix
+3x2
+192>
+<xymatrix
+3x1
+139>
+<xymatrix
+2x2
+100>
+<xymatrix
+2x1
+100>
+<xymatrix
+2x1
+100>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+182>
+<xymatrix
+3x1
+139>
+<xymatrix
+2x2
+182>
+<xymatrix
+3x2
+264>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+100>
+<xymatrix
+2x2
+182>
+<xymatrix
+2x3
+145>
+<xymatrix
+3x1
+102>
+<xymatrix
+3x1
+96>
+<xymatrix
+3x3
+235>
+<xymatrix
+3x1
+102>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x2
+82>
+<xymatrix
+2x2
+96>
+<xymatrix
+2x2
+168>
+<xymatrix
+2x2
+154>
+<xymatrix
+2x2
+82>
+<xymatrix
+3x1
+132>
+<xymatrix
+3x1
+118>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+3x1
+99>
+<xymatrix
+2x1
+144>
+ 65.08 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/arl.tex...
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+3x7
+645>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x2
+188>
+<xymatrix
+2x2
+188>
+<xymatrix
+2x2
+188>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+2x1
+94>
+<xymatrix
+3x1
+99>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x2
+188>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+51>
+<xymatrix
+2x3
+151>
+<xymatrix
+2x1
+********************************
+
+********************************
+
+20>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+144>
+<xymatrix
+2x1
+94>
+ 29.90 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/gaft.tex...
+<xymatrix
+3x1
+139>
+<xymatrix
+4x1
+141>
+ 1.92 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/reading.tex... 0.19 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/notation.tex... 0.11 sec)
+(Processing content /home/jacob/Repos/tac-corpus/LeinsterBook/see.tex... 0.05 sec) 274.76 sec) 274.96 sec)
+(Building...
+(Loading compiled schema /usr/local/share/perl/5.30.0/LaTeXML/resources/RelaxNG/LaTeXML.model... 0.01 sec)
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 105 col 0 - line 117 col 2
+	Using id='equationx1a' on <ltx:equation _box="$$\begin{array}[]{ccc}\mathscr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx1" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 187 col 0 - line 192 col 2
+	Using id='equationx2a' on <ltx:equation _box="$$A_{0}\stackrel{{\scriptstyle..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx2" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 198 col 0 - line 200 col 2
+	Using id='equationx3a' on <ltx:equation _box="$$A_{0}\toA_{n}$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx3" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 208 col 0 - line 215 col 2
+	Using id='equationx4a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx4" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 235 col 0 - line 240 col 2
+	Using id='equationx5a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx5" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 415 col 0 - line 420 col 2
+	Using id='equationx6a' on <ltx:equation _box="$$\begin{array}[]{ccc}[0,1)&\t..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx6" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 478 col 0 - line 480 col 2
+	Using id='equationx7a' on <ltx:equation _box="$$\bullet$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx7" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 484 col 0 - line 490 col 2
+	Using id='equationx8a' on <ltx:equation _box="$$\bullet\to\bullet\qquad\text..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx8" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 498 col 0 - line 519 col 2
+	Using id='equationx9a' on <ltx:equation _box="$$\begin{array}[]{c}\lx@xy@svg..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx9" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 1882 col 0 - line 1892 col 14
+	Using id='equation1a' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation1" _ID_counter_m_="1" labels="LABEL:eq:univ-tensor">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 2324 col 0 - line 2327 col 14
+	Using id='equation2a' on <ltx:equation _box="\begin{equation}\lx@xy@svg{\hb..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation2" _ID_counter_m_="1" labels="LABEL:eq:eq-groups">...
+Info:malformed:id Duplicated attribute xml:id
+	at cfnt.tex; line 2331 col 0 - line 2338 col 14
+	Using id='equation3a' on <ltx:equation _box="\begin{equation}G\mathbin{\cir..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation3" _ID_counter_m_="1" labels="LABEL:eq:pushout-vK">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 56 col 0 - line 61 col 14
+	Using id='equation1b' on <ltx:equation _box="\begin{equation}\mathscr{B}(F(..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation1" _ID_counter_m_="1" labels="LABEL:eq:univ-tensor">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 78 col 0 - line 87 col 2
+	Using id='equationx1b' on <ltx:equation _box="$$\begin{array}[]{ccc}\Bigl{(}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx1" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 99 col 0 - line 106 col 14
+	Using id='equation2b' on <ltx:equation _box="\begin{equation}\overline{\Big..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation2" _ID_counter_m_="1" labels="LABEL:eq:eq-groups">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 110 col 0 - line 117 col 14
+	Using id='equation3b' on <ltx:equation _box="\begin{equation}\overline{\Big..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation3" _ID_counter_m_="1" labels="LABEL:eq:pushout-vK">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 136 col 0 - line 142 col 2
+	Using id='equationx2b' on <ltx:equation _box="$$A_{0}\to\cdots\toA_{n},\quad..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx2" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 148 col 0 - line 150 col 2
+	Using id='equationx3b' on <ltx:equation _box="$$A_{0}\toG(B_{m}).$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx3" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 229 col 0 - line 234 col 2
+	Using id='equationx4b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx4" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 247 col 0 - line 252 col 2
+	Using id='equationx5b' on <ltx:equation _box="$$\begin{array}[]{ccc}\mathbf{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx5" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 257 col 0 - line 262 col 2
+	Using id='equationx6b' on <ltx:equation _box="$$\begin{array}[]{ccc}\mathbf{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx6" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 265 col 0 - line 273 col 2
+	Using id='equationx7b' on <ltx:equation _box="$$\bar{\bar{g}}\Biggl{(}\sum_{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx7" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 276 col 0 - line 282 col 2
+	Using id='equationx8b' on <ltx:equation _box="$$\bar{\bar{f}}(s)=\bar{f}(s)=..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx8" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 298 col 0 - line 303 col 2
+	Using id='equationx9b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx9" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 324 col 0 - line 326 col 2
+	Using id='equationx10a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx10' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx10" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 341 col 0 - line 348 col 2
+	Using id='equationx11a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx11' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx11" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 353 col 0 - line 355 col 2
+	Using id='equationx12a' on <ltx:equation _box="$$\mathbf{Ab}(G_{\mathrm{ab}},..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx12' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx12" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 367 col 0 - line 375 col 2
+	Using id='equationx13a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx13' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx13" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 445 col 0 - line 451 col 2
+	Using id='equationx14a' on <ltx:equation _box="$$\cdot{\colon}\linebreak[0]X^..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx14' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx14" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 506 col 0 - line 511 col 2
+	Using id='equationx15a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx15' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx15" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 541 col 0 - line 546 col 2
+	Using id='equationx16a' on <ltx:equation _box="$$\begin{array}[]{cccc}-\times..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx16' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx16" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 549 col 0 - line 554 col 2
+	Using id='equationx17a' on <ltx:equation _box="$$\begin{array}[]{cccc}(-)^{B}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx17' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx17" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 556 col 0 - line 560 col 2
+	Using id='equationx18a' on <ltx:equation _box="$$\mathbf{Set}(A\timesB,C)\con..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx18' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx18" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 564 col 0 - line 566 col 2
+	Using id='equationx19a' on <ltx:equation _box="$$(\bar{g}(a))(b)=g(a,b)$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx19' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx19" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 569 col 0 - line 571 col 2
+	Using id='equationx20a' on <ltx:equation _box="$$\bar{f}(a,b)=(f(a))(b)$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx20' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx20" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 578 col 0 - line 580 col 2
+	Using id='equationx21a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx21' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx21" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 678 col 0 - line 684 col 2
+	Using id='equationx22a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx22' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx22" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 691 col 0 - line 696 col 2
+	Using id='equationx23a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx23' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx23" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 698 col 0 - line 704 col 2
+	Using id='equationx24a' on <ltx:equation _box="$$\mathscr{A}^{\prime\prime}\b..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx24' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx24" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 731 col 0 - line 737 col 2
+	Using id='equationx25a' on <ltx:equation _box="$$\overline{\Bigl{(}A^{\prime}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx25' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx25" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 783 col 0 - line 789 col 2
+	Using id='equationx26a' on <ltx:equation _box="$$\Delta{\colon}\linebreak[0]\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx26' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx26" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 795 col 0 - line 797 col 2
+	Using id='equationx27a' on <ltx:equation _box="$$\Lambda\dashv\Pi\dashv\Delta..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx27' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx27" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 825 col 0 - line 827 col 2
+	Using id='equationx28a' on <ltx:equation _box="$$F(A)\stackrel{{\scriptstyleg..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx28' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx28" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 837 col 0 - line 844 col 2
+	Using id='equationx29a' on <ltx:equation _box="$$\Bigl{(}A\stackrel{{\scripts..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx29' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx29" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 846 col 0 - line 853 col 2
+	Using id='equationx30a' on <ltx:equation _box="$$\Bigl{(}FG(B)\stackrel{{\scr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx30' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx30" _ID_counter_m_="1" labels="LABEL:notn:HOM">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 860 col 0 - line 864 col 2
+	Using id='equationx31a' on <ltx:equation _box="$$\eta{\colon}\linebreak[0]1_{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx31' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx31" _ID_counter_m_="1" labels="LABEL:notn:dual-map">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 877 col 0 - line 887 col 2
+	Using id='equationx32a' on <ltx:equation _box="$$\begin{array}[]{ccccl}\eta_{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx32' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx32" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 890 col 0 - line 892 col 2
+	Using id='equationx33a' on <ltx:equation _box="$$\varepsilon_{V}{\colon}\line..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx33' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx33" _ID_counter_m_="1" labels="LABEL:notn:dashbk LABEL:notn:e...">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 908 col 0 - line 926 col 2
+	Using id='equationx34a' on <ltx:equation _box="$$\begin{array}[]{c}\lx@xy@svg..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx34' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx34" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 970 col 0 - line 976 col 2
+	Using id='equationx35a' on <ltx:equation _box="$$\overline{\Bigl{(}A\stackrel..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx35' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx35" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 992 col 0 - line 994 col 2
+	Using id='equationx36a' on <ltx:equation _box="$$\bar{g}=G(g)\mathbin{\circ}\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx36' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx36" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 996 col 0 - line 998 col 2
+	Using id='equationx37a' on <ltx:equation _box="$$\bar{f}=\varepsilon_{B}\math..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx37' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx37" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1067 col 0 - line 1075 col 2
+	Using id='equationx38a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx38' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx38" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1078 col 0 - line 1084 col 2
+	Using id='equationx39a' on <ltx:equation _box="$$\varepsilon_{B}\mathbin{\cir..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx39' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx39" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1094 col 0 - line 1102 col 2
+	Using id='equationx40a' on <ltx:equation _box="$$\overline{1_{F(A)}}=G(1_{F(A..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx40' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx40" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1147 col 0 - line 1155 col 2
+	Using id='equationx41a' on <ltx:equation _box="$$\foralla\inA,\ a\leqgf(a)\qq..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx41' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx41" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1169 col 0 - line 1174 col 2
+	Using id='equationx42a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx42' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx42" _ID_counter_m_="1" labels="LABEL:notn:double-arrow">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1177 col 0 - line 1181 col 2
+	Using id='equationx43a' on <ltx:equation _box="$$\operatorname{Cl}(A)\subsete..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx43' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx43" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1210 col 0 - line 1220 col 2
+	Using id='equationx44a' on <ltx:equation _box="$$\mathscr{A}\stackrel{{\scrip..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx44' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx44" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1223 col 0 - line 1239 col 2
+	Using id='equationx45a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx45' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx45" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1245 col 0 - line 1259 col 2
+	Using id='equationx46a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx46' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx46" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1271 col 0 - line 1275 col 2
+	Using id='equationx47a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx47' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx47" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1279 col 0 - line 1303 col 2
+	Using id='equationx48a' on <ltx:equation _box="$$\begin{array}[]{c}\lx@xy@svg..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx48' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx48" _ID_counter_m_="1" labels="LABEL:notn:of-nt">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1309 col 0 - line 1349 col 2
+	Using id='equationx49a' on <ltx:equation _box="$$\!\begin{array}[]{c}\lx@xy@s..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx49' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx49" _ID_counter_m_="1" labels="LABEL:notn:ftr-cat-power LABEL...">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1368 col 0 - line 1370 col 2
+	Using id='equationx50a' on <ltx:equation _box="$$f(a)\leqb\iffa\leqg(b);$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx50' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx50" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1461 col 0 - line 1465 col 2
+	Using id='equationx51a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx51' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx51" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1479 col 0 - line 1484 col 2
+	Using id='equationx52a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx52' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx52" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1497 col 0 - line 1502 col 2
+	Using id='equationx53a' on <ltx:equation _box="$$\begin{array}[]{cccc}\eta_{S..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx53' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx53" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1531 col 0 - line 1537 col 2
+	Using id='equationx54a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx54' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx54" _ID_counter_m_="1" labels="LABEL:notn:eqv">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1557 col 0 - line 1564 col 2
+	Using id='equationx55a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx55' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx55" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1572 col 0 - line 1579 col 2
+	Using id='equationx56a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx56' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx56" _ID_counter_m_="1">...
+Error:malformed:ltx:XMTok <ltx:XMTok> isn't allowed in <ltx:inline-block>
+	at adj.tex; line 1578 col 0 - line 1578 col 1
+	Currently in ...<svg:foreignObject _autoopened="1" _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[serif,medium,upright,10,b...">...<ltx:Math _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." mode="inline" xml:id="equationx56a.m1.pic1.m2">...<ltx:XMath _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla...">...<ltx:XMText _autoopened="1" _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla...">...<ltx:inline-block _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,7,blac..." angle="45" depth="0.0pt" height="6.8pt" innerdepth="0.0pt" innerheight="2.6pt" innerwidth="7.0pt" width="6.8pt" xtranslate="-0.12pt" ytranslate="-2.1pt"/>
+	In Core::Document[@0x55bb8078c838] /home/jacob/Repos/tac-corpus/LeinsterBook/adj.tex; from line 1578 col 0 to line 1578 col 1
+	 <= Box[⇒ Font[7,script]] <= Core::Document[@0x55bb8078c838] <= Core::Definition::Constructor[\rotate... <= ...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1598 col 0 - line 1603 col 2
+	Using id='equationx57a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx57' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx57" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1610 col 0 - line 1616 col 2
+	Using id='equationx58a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx58' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx58" _ID_counter_m_="1" labels="LABEL:notn:horiz-comp">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1645 col 0 - line 1651 col 2
+	Using id='equationx59a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx59' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx59" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1655 col 0 - line 1660 col 2
+	Using id='equationx60a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx60' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx60" _ID_counter_m_="1" labels="LABEL:notn:whisker-right">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1764 col 0 - line 1770 col 2
+	Using id='equationx61a' on <ltx:equation _box="$$\Bigl{(}FG(B),\ G(B)\stackre..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx61' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx61" _ID_counter_m_="1" labels="LABEL:notn:whisker-left">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1777 col 0 - line 1781 col 2
+	Using id='equationx62a' on <ltx:equation _box="$$\bigl{(}FG(B),\eta_{G(B)}\bi..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx62' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx62" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1789 col 0 - line 1808 col 2
+	Using id='equationx63a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx63' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx63" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1817 col 0 - line 1824 col 2
+	Using id='equationx64a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx64' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx64" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1827 col 0 - line 1846 col 2
+	Using id='equationx65a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx65' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx65" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at adj.tex; line 1869 col 0 - line 1877 col 2
+	Using id='equationx66a' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx66' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx66" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 59 col 0 - line 61 col 2
+	Using id='equationx1c' on <ltx:equation _box="$$\includegraphics[height=50.0..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx1" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 82 col 0 - line 84 col 2
+	Using id='equationx2c' on <ltx:equation _box="$$\includegraphics[height=50.0..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx2" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 86 col 0 - line 88 col 2
+	Using id='equationx3c' on <ltx:equation _box="$$\includegraphics[height=50.0..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx3" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 90 col 0 - line 92 col 2
+	Using id='equationx4c' on <ltx:equation _box="$$\includegraphics[height=46.0..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx4" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 190 col 0 - line 194 col 2
+	Using id='equationx5c' on <ltx:equation _box="$$(a,b)=(a^{\prime},b^{\prime}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx5" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 206 col 0 - line 210 col 2
+	Using id='equationx6c' on <ltx:equation _box="$$(a_{i})_{i\inI}=(a^{\prime}_..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx6" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 224 col 0 - line 236 col 2
+	Using id='equationx7c' on <ltx:equation _box="$$\begin{array}[]{c}\includegr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx7" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 243 col 0 - line 245 col 2
+	Using id='equationx8c' on <ltx:equation _box="$$A\stackrel{{\scriptstylei}}{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx8" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 344 col 0 - line 351 col 2
+	Using id='equationx9c' on <ltx:equation _box="$$\chi_{S}(a)=\begin{cases}\te..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx9" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 354 col 0 - line 358 col 2
+	Using id='equationx10b' on <ltx:equation _box="$$f^{-1}\{\texttt{true}\}=\{a\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx10' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx10" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 385 col 0 - line 389 col 2
+	Using id='equationx11b' on <ltx:equation _box="$$S=\{a\inA\mathrel{|}\text{so..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx11' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx11" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 393 col 0 - line 395 col 2
+	Using id='equationx12b' on <ltx:equation _box="$$\{a\inA\mathrel{|}f(a)=g(a)\}.$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx12' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx12" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 424 col 0 - line 426 col 2
+	Using id='equationx13b' on <ltx:equation _box="$$p{\colon}\linebreak[0]A\toA/..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx13' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx13" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 431 col 0 - line 438 col 14
+	Using id='equation1c' on <ltx:equation _box="\begin{equation}\foralla,a^{\p..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation1" _ID_counter_m_="1" labels="LABEL:eq:univ-tensor">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 441 col 0 - line 446 col 2
+	Using id='equationx14b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx14' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx14" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 469 col 0 - line 473 col 2
+	Using id='equationx15b' on <ltx:equation _box="$$x_{0}=a,\qquadx_{n+1}=r(x_{n..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx15' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx15" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 684 col 0 - line 686 col 2
+	Using id='equationx16b' on <ltx:equation _box="$$\left|A\right|\leq\left|B\ri..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx16' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx16" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 721 col 16 - line 724 col 14
+	Using id='equation2c' on <ltx:equation _box="\begin{equation}\left|A\right|..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation2" _ID_counter_m_="1" labels="LABEL:eq:eq-groups">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 776 col 0 - line 778 col 2
+	Using id='equationx17b' on <ltx:equation _box="$$A=\operatorname{\mathscr{P}}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx17' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx17" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 782 col 0 - line 784 col 2
+	Using id='equationx18b' on <ltx:equation _box="$$\left|A_{j}\right|\leq\biggl..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx18' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx18" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 941 col 0 - line 943 col 2
+	Using id='equationx19b' on <ltx:equation _box="$$S=\operatorname{\mathscr{P}}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx19' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx19" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 1009 col 0 - line 1011 col 2
+	Using id='equationx20b' on <ltx:equation _box="$$S=\bigcup_{R\in\operatorname..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx20' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx20" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 1031 col 0 - line 1033 col 2
+	Using id='equationx21b' on <ltx:equation _box="$$\{a\inA\mathrel{|}a\not\inf(..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx21' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx21" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at sets.tex; line 1232 col 0 - line 1235 col 2
+	Using id='equationx22b' on <ltx:equation _box="$$\{\emptyset,\{\emptyset\},\{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx22' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx22" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 84 col 0 - line 89 col 2
+	Using id='equationx1d' on <ltx:equation _box="$$H^{A}=\mathscr{A}(A,-){\colo..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx1" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 98 col 0 - line 101 col 2
+	Using id='equationx2d' on <ltx:equation _box="$$H^{A}(g)=\mathscr{A}(A,g){\c..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx2" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 103 col 0 - line 107 col 2
+	Using id='equationx3d' on <ltx:equation _box="$$p\mapstog\mathbin{\circ}p$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx3" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 163 col 0 - line 165 col 2
+	Using id='equationx4d' on <ltx:equation _box="$$H^{1}(B)\congB$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx4" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 186 col 0 - line 192 col 2
+	Using id='equationx5d' on <ltx:equation _box="$$U_{p}(G)=\{\text{elements of..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx5" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 208 col 0 - line 210 col 2
+	Using id='equationx6d' on <ltx:equation _box="$$H^{\mathbf{1}}(\mathscr{B})\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx6" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 254 col 0 - line 256 col 2
+	Using id='equationx7d' on <ltx:equation _box="$$\mathbf{Toph}_{*}\stackrel{{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx7" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 265 col 0 - line 272 col 2
+	Using id='equationx8d' on <ltx:equation _box="$$\mathbf{Bilin}(U,V;-){\colon..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx8" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 276 col 0 - line 278 col 2
+	Using id='equationx9d' on <ltx:equation _box="$$\mathbf{Bilin}(U,V;W)\cong\m..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx9" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 297 col 0 - line 299 col 2
+	Using id='equationx10c' on <ltx:equation _box="$$\mathscr{A}(A,G(-)){\colon}\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx10' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx10" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 306 col 0 - line 308 col 2
+	Using id='equationx11c' on <ltx:equation _box="$$\mathscr{A}(A,G(B))\cong\mat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx11' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx11" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 313 col 0 - line 320 col 2
+	Using id='equationx12c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx12' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx12" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 323 col 0 - line 331 col 2
+	Using id='equationx13c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx13' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx13" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 353 col 0 - line 355 col 2
+	Using id='equationx14c' on <ltx:equation _box="$$G(A)\cong\mathbf{Set}(1,G(A))$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx14' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx14" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 438 col 0 - line 445 col 2
+	Using id='equationx15c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx15' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx15" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 447 col 0 - line 452 col 2
+	Using id='equationx16c' on <ltx:equation _box="$$\begin{array}[]{ccc}H^{A}(B)..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx16' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx16" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 473 col 0 - line 478 col 2
+	Using id='equationx17c' on <ltx:equation _box="$$H^{\bullet}{\colon}\linebrea..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx17' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx17" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 496 col 0 - line 501 col 2
+	Using id='equationx18c' on <ltx:equation _box="$$H_{A}=\mathscr{A}(-,A){\colo..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx18' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx18" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 510 col 0 - line 513 col 2
+	Using id='equationx19c' on <ltx:equation _box="$$H_{A}(g)=\mathscr{A}(g,A)=g^..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx19' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx19" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 515 col 0 - line 519 col 2
+	Using id='equationx20c' on <ltx:equation _box="$$p\mapstop\mathbin{\circ}g$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx20' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx20" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 550 col 0 - line 555 col 2
+	Using id='equationx21c' on <ltx:equation _box="$$\operatorname{\mathscr{P}}{\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx21' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx21" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 577 col 0 - line 586 col 2
+	Using id='equationx22c' on <ltx:equation _box="$$\operatorname{\mathscr{O}}{\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx22' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx22" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 609 col 0 - line 611 col 2
+	Using id='equationx23b' on <ltx:equation _box="$$\mathbf{Top}^{\mathrm{op}}\s..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx23' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx23" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 620 col 0 - line 627 col 2
+	Using id='equationx24b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx24' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx24" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 641 col 0 - line 648 col 2
+	Using id='equationx25b' on <ltx:equation _box="$$\begin{array}[]{ccc}H_{A}(B)..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx25' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx25" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 657 col 0 - line 662 col 2
+	Using id='equationx26b' on <ltx:equation _box="$$H_{\bullet}{\colon}\linebrea..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx26' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx26" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 711 col 0 - line 718 col 2
+	Using id='equationx27b' on <ltx:equation _box="$$\operatorname{Hom}_{\mathscr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx27' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx27" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 720 col 0 - line 729 col 2
+	Using id='equationx28b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx28' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx28" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 760 col 0 - line 764 col 2
+	Using id='equationx29b' on <ltx:equation _box="$$\mathbf{CAT}(\mathscr{A}\tim..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx29' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx29" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 766 col 0 - line 770 col 2
+	Using id='equationx30b' on <ltx:equation _box="$$\operatorname{Hom}_{\mathscr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx30' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx30" _ID_counter_m_="1" labels="LABEL:notn:HOM">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 785 col 0 - line 792 col 2
+	Using id='equationx31b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx31' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx31" _ID_counter_m_="1" labels="LABEL:notn:dual-map">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 797 col 0 - line 803 col 2
+	Using id='equationx32b' on <ltx:equation _box="$$\mathscr{B}(F(-),-),\ \maths..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx32' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx32" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 858 col 0 - line 863 col 2
+	Using id='equationx33b' on <ltx:equation _box="$$\mathbb{Z}[x,y]/(x^{2}+y^{2}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx33' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx33" _ID_counter_m_="1" labels="LABEL:notn:dashbk LABEL:notn:e...">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 868 col 0 - line 870 col 2
+	Using id='equationx34b' on <ltx:equation _box="$$H^{S}{\colon}\linebreak[0]\m..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx34' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx34" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 943 col 0 - line 949 col 2
+	Using id='equationx35b' on <ltx:equation _box="$$\mathscr{B}(F(-),-),\ \maths..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx35' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx35" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 982 col 0 - line 989 col 14
+	Using id='equation1d' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation1" _ID_counter_m_="1" labels="LABEL:eq:univ-tensor">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 992 col 0 - line 994 col 2
+	Using id='equationx36b' on <ltx:equation _box="$$[\mathscr{A}^{\mathrm{op}},\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx36' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx36" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1024 col 0 - line 1027 col 14
+	Using id='equation2d' on <ltx:equation _box="\begin{equation}[\mathscr{A}^{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation2" _ID_counter_m_="1" labels="LABEL:eq:eq-groups">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1051 col 0 - line 1056 col 14
+	Using id='equation3c' on <ltx:equation _box="\begin{equation}[\mathscr{A}^{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation3" _ID_counter_m_="1" labels="LABEL:eq:pushout-vK">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1068 col 0 - line 1072 col 2
+	Using id='equationx37b' on <ltx:equation _box="$$[\mathscr{A}^{\mathrm{op}},\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx37' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx37" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1077 col 0 - line 1087 col 2
+	Using id='equationx38b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx38' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx38" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1093 col 0 - line 1098 col 2
+	Using id='equationx39b' on <ltx:equation _box="$$\begin{array}[]{ccc}\mathscr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx39' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx39" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1103 col 0 - line 1107 col 2
+	Using id='equationx40b' on <ltx:equation _box="$$X^{\prime}=[\mathscr{A}^{\ma..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx40' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx40" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1130 col 0 - line 1133 col 14
+	Using id='equation4a' on <ltx:equation _box="\begin{equation}\lx@xy@svg{\hb..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation4" _ID_counter_m_="1" labels="LABEL:eq:triangle-ids">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1149 col 0 - line 1151 col 2
+	Using id='equationx41b' on <ltx:equation _box="$$\tilde{x}_{B}{\colon}\linebr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx41' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx41" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1156 col 0 - line 1158 col 2
+	Using id='equationx42b' on <ltx:equation _box="$$\tilde{x}_{B}(f)=(X(f))(x)\i..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx42' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx42" _ID_counter_m_="1" labels="LABEL:notn:double-arrow">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1162 col 0 - line 1169 col 2
+	Using id='equationx43b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx43' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx43" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1172 col 0 - line 1180 col 2
+	Using id='equationx44b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx44' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx44" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1185 col 0 - line 1195 col 2
+	Using id='equationx45b' on <ltx:equation _box="$$\hat{\tilde{x}}=\tilde{x}_{A..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx45' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx45" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1205 col 0 - line 1209 col 2
+	Using id='equationx46b' on <ltx:equation _box="$$\Bigl{(}\tilde{\hat{\alpha}}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx46' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx46" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1212 col 0 - line 1218 col 2
+	Using id='equationx47b' on <ltx:equation _box="$$\Bigl{(}\tilde{\hat{\alpha}}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx47' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx47" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1221 col 0 - line 1224 col 14
+	Using id='equation5a' on <ltx:equation _box="\begin{equation}(Xf)(\alpha_{A..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation5" _ID_counter_m_="1" labels="LABEL:eq:adjn-fns">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1227 col 0 - line 1235 col 2
+	Using id='equationx48b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx48' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx48" _ID_counter_m_="1" labels="LABEL:notn:of-nt">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1267 col 0 - line 1274 col 2
+	Using id='equationx49b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx49' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx49" _ID_counter_m_="1" labels="LABEL:notn:ftr-cat-power LABEL...">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1276 col 0 - line 1284 col 2
+	Using id='equationx50b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx50' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx50" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1307 col 0 - line 1311 col 2
+	Using id='equationx51b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx51' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx51" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1313 col 0 - line 1320 col 2
+	Using id='equationx52b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx52' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx52" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1322 col 0 - line 1330 col 2
+	Using id='equationx53b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx53' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx53" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1408 col 0 - line 1414 col 14
+	Using id='equation6a' on <ltx:equation _box="\begin{equation}\parbox{249.60..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation6" _ID_counter_m_="1" labels="LABEL:eq:adjn-order">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1447 col 0 - line 1449 col 2
+	Using id='equationx54b' on <ltx:equation _box="$$\tilde{u}_{B}{\colon}\linebr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx54' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx54" _ID_counter_m_="1" labels="LABEL:notn:eqv">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1464 col 0 - line 1470 col 14
+	Using id='equation7a' on <ltx:equation _box="\begin{equation}\parbox{249.60..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation7" _ID_counter_m_="1" labels="LABEL:eq:vect-univ">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1480 col 0 - line 1487 col 2
+	Using id='equationx55b' on <ltx:equation _box="$$\begin{array}[]{cccc}X=\math..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx55' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx55" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1498 col 0 - line 1501 col 14
+	Using id='equation8a' on <ltx:equation _box="\begin{equation}\mathbf{Vect}_..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation8" _ID_counter_m_="1" labels="LABEL:eq:unit-initial">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1517 col 0 - line 1523 col 2
+	Using id='equationx56b' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx56' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx56" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1542 col 0 - line 1544 col 2
+	Using id='equationx57b' on <ltx:equation _box="$$\mathbf{Vect}_{k}(F(S),V)\st..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx57' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx57" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1561 col 0 - line 1564 col 2
+	Using id='equationx58b' on <ltx:equation _box="$$X=\mathscr{A}(A,G(-)){\colon..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx58' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx58" _ID_counter_m_="1" labels="LABEL:notn:horiz-comp">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1624 col 0 - line 1626 col 2
+	Using id='equationx59b' on <ltx:equation _box="$$H_{\bullet}{\colon}\linebrea..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx59' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx59" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1636 col 0 - line 1642 col 14
+	Using id='equation9a' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation9" _ID_counter_m_="1" labels="LABEL:eq:comma-triangle">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1656 col 0 - line 1664 col 2
+	Using id='equationx60b' on <ltx:equation _box="$$\widehat{H_{f}}=(H_{f})_{A}(..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx60' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx60" _ID_counter_m_="1" labels="LABEL:notn:whisker-right">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1786 col 0 - line 1792 col 2
+	Using id='equationx61b' on <ltx:equation _box="$$H_{A}\congH_{A^{\prime}}\iff..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx61' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx61" _ID_counter_m_="1" labels="LABEL:notn:whisker-left">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1803 col 0 - line 1805 col 2
+	Using id='equationx62b' on <ltx:equation _box="$$H_{A}\congH_{A^{\prime}}\imp..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx62' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx62" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1867 col 0 - line 1869 col 2
+	Using id='equationx63b' on <ltx:equation _box="$$A\cong\mathbf{Set}(1,A)=H_{A..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx63' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx63" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1889 col 0 - line 1895 col 2
+	Using id='equationx64b' on <ltx:equation _box="$$\mathscr{B}(F(A),B)\cong\mat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx64' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx64" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1908 col 0 - line 1913 col 2
+	Using id='equationx65b' on <ltx:equation _box="$$\mathbf{Bilin}(U,V;-){\colon..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx65' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx65" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at rep.tex; line 1917 col 0 - line 1919 col 2
+	Using id='equationx66b' on <ltx:equation _box="$$\mathbf{Bilin}(U,V;W)\cong\m..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx66' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx66" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 58 col 0 - line 60 col 2
+	Using id='equationx1e' on <ltx:equation _box="$$\text{maps }A\toX\timesY$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx1" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 62 col 0 - line 64 col 2
+	Using id='equationx2e' on <ltx:equation _box="$$\text{pairs of maps }(A\toX,..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx2" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 66 col 0 - line 71 col 2
+	Using id='equationx3e' on <ltx:equation _box="$$\begin{array}[]{ccccc}X&\sta..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx3" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 81 col 0 - line 86 col 2
+	Using id='equationx4e' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx4" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 89 col 0 - line 97 col 14
+	Using id='equation1e' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation1" _ID_counter_m_="1" labels="LABEL:eq:univ-tensor">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 101 col 0 - line 111 col 14
+	Using id='equation2e' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation2" _ID_counter_m_="1" labels="LABEL:eq:eq-groups">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 126 col 0 - line 128 col 2
+	Using id='equationx5e' on <ltx:equation _box="$$\framebox{$X\bullet$ \hskip2..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx5" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 172 col 0 - line 174 col 2
+	Using id='equationx6e' on <ltx:equation _box="$$f_{1}(a)=p_{1}(\hat{f}(a))=p..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx6" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 192 col 0 - line 197 col 2
+	Using id='equationx7e' on <ltx:equation _box="$$\begin{array}[]{ccc}A&\to&X\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx7" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 200 col 0 - line 204 col 2
+	Using id='equationx8e' on <ltx:equation _box="$$t\mapstox(t),\qquadt\mapstoy(t)$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx8" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 231 col 0 - line 243 col 2
+	Using id='equationx9e' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx9" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 257 col 0 - line 264 col 2
+	Using id='equationx10d' on <ltx:equation _box="$$\min\{x,y\}\leqx,\qquad\min\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx10' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx10" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 266 col 0 - line 270 col 2
+	Using id='equationx11d' on <ltx:equation _box="$$a\leqx,\qquada\leqy,$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx11' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx11" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 286 col 0 - line 290 col 2
+	Using id='equationx12d' on <ltx:equation _box="$$X\capY\subseteqX,\qquadX\cap..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx12' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx12" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 292 col 0 - line 296 col 2
+	Using id='equationx13d' on <ltx:equation _box="$$A\subseteqX,\qquadA\subseteqY,$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx13' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx13" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 307 col 0 - line 311 col 2
+	Using id='equationx14d' on <ltx:equation _box="$$\gcd(x,y)\mathbin{\mid}x,\qq..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx14' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx14" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 314 col 0 - line 318 col 2
+	Using id='equationx15d' on <ltx:equation _box="$$a\mathbin{\mid}x,\qquada\mat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx15' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx15" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 349 col 0 - line 355 col 2
+	Using id='equationx16d' on <ltx:equation _box="$$x\wedgey=\min\{x,y\},\qquadX..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx16' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx16" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 379 col 0 - line 381 col 2
+	Using id='equationx17d' on <ltx:equation _box="$$\Bigl{(}P\stackrel{{\scripts..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx17' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx17" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 384 col 0 - line 387 col 14
+	Using id='equation3d' on <ltx:equation _box="\begin{equation}\Bigl{(}A\stac..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation3" _ID_counter_m_="1" labels="LABEL:eq:pushout-vK">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 515 col 0 - line 522 col 14
+	Using id='equation4b' on <ltx:equation _box="\begin{equation}\lx@xy@svg{\hb..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation4" _ID_counter_m_="1" labels="LABEL:eq:triangle-ids">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 535 col 0 - line 541 col 2
+	Using id='equationx18d' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx18' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx18" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 545 col 0 - line 553 col 14
+	Using id='equation5b' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation5" _ID_counter_m_="1" labels="LABEL:eq:adjn-fns">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 570 col 0 - line 572 col 2
+	Using id='equationx19d' on <ltx:equation _box="$$E=\{x\inX\mathrel{|}s(x)=t(x..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx19' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx19" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 584 col 0 - line 588 col 2
+	Using id='equationx20d' on <ltx:equation _box="$$\biggl{(}\lx@xy@svg{\hbox{\r..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx20' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx20" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 590 col 0 - line 596 col 2
+	Using id='equationx21d' on <ltx:equation _box="$$\{x\inX\mathrel{|}s_{\lambda..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx21' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx21" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 598 col 0 - line 605 col 2
+	Using id='equationx22d' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx22' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx22" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 647 col 0 - line 656 col 2
+	Using id='equationx23c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx23' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx23" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 693 col 0 - line 701 col 14
+	Using id='equation6b' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation6" _ID_counter_m_="1" labels="LABEL:eq:adjn-order">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 710 col 0 - line 720 col 14
+	Using id='equation7b' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation7" _ID_counter_m_="1" labels="LABEL:eq:vect-univ">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 724 col 0 - line 734 col 14
+	Using id='equation8b' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation8" _ID_counter_m_="1" labels="LABEL:eq:unit-initial">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 738 col 0 - line 751 col 14
+	Using id='equation9b' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation9" _ID_counter_m_="1" labels="LABEL:eq:comma-triangle">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 779 col 0 - line 781 col 2
+	Using id='equationx24c' on <ltx:equation _box="$$P=\{(x,y)\inX\timesY\mathrel..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx24' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx24" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 798 col 0 - line 802 col 2
+	Using id='equationx25c' on <ltx:equation _box="$$f^{-1}Y^{\prime}=\{x\inX\mat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx25' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx25" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 804 col 0 - line 809 col 2
+	Using id='equationx26c' on <ltx:equation _box="$$\begin{array}[]{cccc}f^{\pri..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx26' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx26" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 813 col 0 - line 823 col 14
+	Using id='equation10a' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation10' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation10" _ID_counter_m_="1" labels="LABEL:eq:yoneda-emb-2">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 831 col 0 - line 838 col 2
+	Using id='equationx27c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx27' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx27" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 840 col 0 - line 849 col 2
+	Using id='equationx28c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx28' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx28" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 856 col 0 - line 858 col 2
+	Using id='equationx29c' on <ltx:equation _box="$$f^{\prime}(k(a))=f(k(a))=f(g..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx29' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx29" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 868 col 0 - line 875 col 2
+	Using id='equationx30c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx30' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx30" _ID_counter_m_="1" labels="LABEL:notn:HOM">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1058 col 0 - line 1064 col 2
+	Using id='equationx31c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx31' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx31" _ID_counter_m_="1" labels="LABEL:notn:dual-map">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1164 col 0 - line 1169 col 2
+	Using id='equationx32c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx32' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx32" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1173 col 0 - line 1179 col 2
+	Using id='equationx33c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx33' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx33" _ID_counter_m_="1" labels="LABEL:notn:dashbk LABEL:notn:e...">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1185 col 0 - line 1190 col 2
+	Using id='equationx34c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx34' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx34" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1199 col 0 - line 1201 col 2
+	Using id='equationx35c' on <ltx:equation _box="$$\cdots\stackrel{{\scriptstyl..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx35' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx35" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1204 col 0 - line 1206 col 2
+	Using id='equationx36c' on <ltx:equation _box="$$\cdots\subseteqX_{2}\subsete..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx36' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx36" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1298 col 0 - line 1302 col 2
+	Using id='equationx37c' on <ltx:equation _box="$$(x_{I})_{I\in\mathbf{I}}+(y_..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx37' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx37" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1390 col 0 - line 1392 col 2
+	Using id='equationx38c' on <ltx:equation _box="$$(Du)(x_{J})=x_{K}$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx38' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx38" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1395 col 0 - line 1401 col 2
+	Using id='equationx39c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx39' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx39" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1403 col 0 - line 1411 col 2
+	Using id='equationx40c' on <ltx:equation _box="$$s_{u}\bigl{(}(x_{I})_{I\in\m..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx40' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx40" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1416 col 0 - line 1424 col 2
+	Using id='equationx41c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx41' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx41" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1486 col 0 - line 1490 col 2
+	Using id='equationx42c' on <ltx:equation _box="$$f\mathbin{\circ}x=f\mathbin{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx42' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx42" _ID_counter_m_="1" labels="LABEL:notn:double-arrow">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1539 col 0 - line 1544 col 2
+	Using id='equationx43c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx43' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx43" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1574 col 0 - line 1581 col 2
+	Using id='equationx44c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx44' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx44" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1594 col 0 - line 1606 col 2
+	Using id='equationx45c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx45' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx45" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1648 col 0 - line 1656 col 2
+	Using id='equationx46c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx46' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx46" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1659 col 0 - line 1661 col 2
+	Using id='equationx47c' on <ltx:equation _box="$$\prod_{I\in\mathbf{I}}D(I)\s..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx47' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx47" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1728 col 0 - line 1739 col 2
+	Using id='equationx48c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx48' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx48" _ID_counter_m_="1" labels="LABEL:notn:of-nt">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1797 col 0 - line 1803 col 2
+	Using id='equationx49c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx49' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx49" _ID_counter_m_="1" labels="LABEL:notn:ftr-cat-power LABEL...">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1805 col 0 - line 1807 col 2
+	Using id='equationx50c' on <ltx:equation _box="$$\Bigl{(}D(I)\stackrel{{\scri..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx50' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx50" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1886 col 0 - line 1890 col 2
+	Using id='equationx51c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx51' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx51" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1893 col 0 - line 1897 col 2
+	Using id='equationx52c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx52' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx52" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 1900 col 0 - line 1907 col 2
+	Using id='equationx53c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx53' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx53" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2057 col 0 - line 2059 col 2
+	Using id='equationx54c' on <ltx:equation _box="$$a\rightarrowb\leftarrowc\lef..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx54' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx54" _ID_counter_m_="1" labels="LABEL:notn:eqv">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2062 col 0 - line 2069 col 2
+	Using id='equationx55c' on <ltx:equation _box="$$S=\{(a,a^{\prime})\inA\times..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx55' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx55" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2073 col 0 - line 2085 col 2
+	Using id='equationx56c' on <ltx:equation _box="$$a=a_{0},\ (a_{0},a_{1})\inS,..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx56' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx56" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2143 col 0 - line 2145 col 2
+	Using id='equationx57c' on <ltx:equation _box="$$R=\{(s(x),t(x))\mathrel{|}x\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx57' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx57" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2175 col 0 - line 2185 col 2
+	Using id='equationx58c' on <ltx:equation _box="$$\mathbf{P}^{\mathrm{op}}=\fr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx58' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx58" _ID_counter_m_="1" labels="LABEL:notn:horiz-comp">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2201 col 0 - line 2206 col 2
+	Using id='equationx59c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx59' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx59" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2221 col 0 - line 2229 col 2
+	Using id='equationx60c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx60' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx60" _ID_counter_m_="1" labels="LABEL:notn:whisker-right">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2245 col 0 - line 2253 col 2
+	Using id='equationx61c' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx61' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx61" _ID_counter_m_="1" labels="LABEL:notn:whisker-left">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2277 col 0 - line 2279 col 2
+	Using id='equationx62c' on <ltx:equation _box="$$X_{0}\stackrel{{\scriptstyle..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx62' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx62" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2301 col 0 - line 2308 col 2
+	Using id='equationx63c' on <ltx:equation _box="$$\lim\limits_{\rightarrow\mat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx63' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx63" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2310 col 0 - line 2312 col 2
+	Using id='equationx64c' on <ltx:equation _box="$$x\sim(Du)(x)$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx64' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx64" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2315 col 0 - line 2317 col 2
+	Using id='equationx65c' on <ltx:equation _box="$$\biggl{(}\sumD(I)\biggr{)}\b..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx65' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx65" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2319 col 0 - line 2321 col 2
+	Using id='equationx66c' on <ltx:equation _box="$$f(x)=f\bigl{(}(Du)(x)\bigr{)}$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx66' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx66" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at lims.tex; line 2377 col 0 - line 2379 col 2
+	Using id='equationx67a' on <ltx:equation _box="$$\bigl{\{}(x,y,z)\in\mathbb{R..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx67' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx67" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 74 col 0 - line 79 col 2
+	Using id='equationx1f' on <ltx:equation _box="$$\Delta{\colon}\linebreak[0]\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx1" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 90 col 0 - line 94 col 2
+	Using id='equationx2f' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx2" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 101 col 0 - line 106 col 14
+	Using id='equation1f' on <ltx:equation _box="\begin{equation}\operatorname{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation1" _ID_counter_m_="1" labels="LABEL:eq:univ-tensor">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 122 col 0 - line 124 col 2
+	Using id='equationx3f' on <ltx:equation _box="$$\operatorname{Cone}(-,D){\co..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx3" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 142 col 0 - line 145 col 14
+	Using id='equation2f' on <ltx:equation _box="\begin{equation}\operatorname{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation2" _ID_counter_m_="1" labels="LABEL:eq:eq-groups">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 148 col 0 - line 150 col 2
+	Using id='equationx4f' on <ltx:equation _box="$$(f_{I})_{I\in\mathbf{I}}\map..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx4" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 152 col 0 - line 154 col 2
+	Using id='equationx5f' on <ltx:equation _box="$$(p_{I}\mathbin{\circ}g)_{I\i..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx5" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 176 col 0 - line 197 col 2
+	Using id='equationx6f' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx6" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 206 col 0 - line 212 col 2
+	Using id='equationx7f' on <ltx:equation _box="$$\biggl{(}\lim\limits_{\lefta..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx7" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 224 col 0 - line 231 col 2
+	Using id='equationx8f' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx8" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 239 col 0 - line 246 col 2
+	Using id='equationx9f' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx9" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 248 col 0 - line 255 col 2
+	Using id='equationx10e' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx10' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx10" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 266 col 0 - line 276 col 2
+	Using id='equationx11e' on <ltx:equation _box="$$p^{\prime}_{I}\mathbin{\circ..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx11' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx11" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 304 col 0 - line 310 col 2
+	Using id='equationx12e' on <ltx:equation _box="$$[\mathbf{I},\mathscr{A}](\De..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx12' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx12" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 366 col 0 - line 374 col 14
+	Using id='equation3e' on <ltx:equation _box="\begin{equation}\mathscr{A}(A,..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation3" _ID_counter_m_="1" labels="LABEL:eq:pushout-vK">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 384 col 0 - line 387 col 14
+	Using id='equation4c' on <ltx:equation _box="\begin{equation}A\>\to\>\opera..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation4" _ID_counter_m_="1" labels="LABEL:eq:triangle-ids">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 391 col 0 - line 393 col 2
+	Using id='equationx13e' on <ltx:equation _box="$$s_{*}=\mathscr{A}(A,s){\colo..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx13' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx13" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 397 col 0 - line 399 col 2
+	Using id='equationx14e' on <ltx:equation _box="$$\bigl{(}\mathscr{A}(A,s)\big..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx14' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx14" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 405 col 0 - line 418 col 14
+	Using id='equation5c' on <ltx:equation _box="\begin{equation}\mathscr{A}\bi..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation5" _ID_counter_m_="1" labels="LABEL:eq:adjn-fns">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 425 col 0 - line 430 col 14
+	Using id='equation6c' on <ltx:equation _box="\begin{equation}\mathscr{A}\bi..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation6' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation6" _ID_counter_m_="1" labels="LABEL:eq:adjn-order">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 439 col 0 - line 444 col 2
+	Using id='equationx15e' on <ltx:equation _box="$$\begin{array}[]{cccc}\mathsc..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx15' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx15" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 447 col 0 - line 453 col 2
+	Using id='equationx16e' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx16' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx16" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 461 col 0 - line 468 col 2
+	Using id='equationx17e' on <ltx:equation _box="$$\operatorname{Cone}(A,D)\con..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx17' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx17" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 479 col 0 - line 484 col 14
+	Using id='equation7c' on <ltx:equation _box="\begin{equation}(\mathscr{A}(A..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation7' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation7" _ID_counter_m_="1" labels="LABEL:eq:vect-univ">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 501 col 0 - line 507 col 2
+	Using id='equationx18e' on <ltx:equation _box="$$\mathscr{A}\biggl{(}A,\lim\l..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx18' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx18" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 518 col 0 - line 526 col 14
+	Using id='equation8c' on <ltx:equation _box="\begin{equation}\mathscr{A}\bi..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation8' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation8" _ID_counter_m_="1" labels="LABEL:eq:unit-initial">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 534 col 0 - line 542 col 14
+	Using id='equation9c' on <ltx:equation _box="\begin{equation}\mathscr{A}\bi..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation9' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation9" _ID_counter_m_="1" labels="LABEL:eq:comma-triangle">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 560 col 0 - line 564 col 2
+	Using id='equationx19e' on <ltx:equation _box="$$\mathscr{A}(X+Y,A)\cong\math..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx19' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx19" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 602 col 0 - line 604 col 2
+	Using id='equationx20e' on <ltx:equation _box="$$(X\timesY)(A)=X(A)\timesY(A)$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx20' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx20" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 610 col 0 - line 620 col 2
+	Using id='equationx21e' on <ltx:equation _box="$$\begin{array}[]{cccc}\operat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx21' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx21" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 628 col 0 - line 633 col 2
+	Using id='equationx22e' on <ltx:equation _box="$$\begin{array}[]{cccc}\operat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx22' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx22" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 672 col 0 - line 675 col 14
+	Using id='equation10b' on <ltx:equation _box="\begin{equation}\Bigl{(}L(A)\s..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation10' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation10" _ID_counter_m_="1" labels="LABEL:eq:yoneda-emb-2">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 697 col 0 - line 703 col 2
+	Using id='equationx23d' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx23' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx23" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 707 col 0 - line 717 col 14
+	Using id='equation11a' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation11' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation11" _ID_counter_m_="1" labels="LABEL:eq:prod-data">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 726 col 0 - line 730 col 2
+	Using id='equationx24d' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx24' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx24" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 740 col 0 - line 742 col 2
+	Using id='equationx25d' on <ltx:equation _box="$$\Bigl{(}X(A)\stackrel{{\scri..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx25' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx25" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 778 col 0 - line 784 col 2
+	Using id='equationx26d' on <ltx:equation _box="$$[\mathbf{I},[\mathbf{J},\mat..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx26' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx26" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 788 col 0 - line 803 col 2
+	Using id='equationx27d' on <ltx:equation _box="$$\begin{array}[t]{cccc}D^{\bu..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx27' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx27" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 825 col 0 - line 831 col 2
+	Using id='equationx28d' on <ltx:equation _box="$$\lim\limits_{\leftarrow\math..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx28' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx28" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 890 col 0 - line 896 col 2
+	Using id='equationx29d' on <ltx:equation _box="$$(S_{11}\timesS_{21})\times(S..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx29' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx29" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 919 col 0 - line 925 col 2
+	Using id='equationx30d' on <ltx:equation _box="$$S\times1\congS\cong1\timesS.$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx30' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx30" _ID_counter_m_="1" labels="LABEL:notn:HOM">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 931 col 0 - line 935 col 2
+	Using id='equationx31d' on <ltx:equation _box="$$(S_{11}+S_{21})+(S_{12}+S_{2..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx31' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx31" _ID_counter_m_="1" labels="LABEL:notn:dual-map">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 941 col 0 - line 945 col 2
+	Using id='equationx32d' on <ltx:equation _box="$$(S_{11}+S_{21})\times(S_{12}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx32' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx32" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 982 col 0 - line 984 col 2
+	Using id='equationx33d' on <ltx:equation _box="$$\mathbf{A}\stackrel{{\script..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx33' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx33" _ID_counter_m_="1" labels="LABEL:notn:dashbk LABEL:notn:e...">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 987 col 0 - line 993 col 2
+	Using id='equationx34d' on <ltx:equation _box="$$\biggl{(}\operatorname{ev}_{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx34' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx34" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 996 col 0 - line 1002 col 2
+	Using id='equationx35d' on <ltx:equation _box="$$\biggl{(}H_{\bullet}\biggl{(..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx35' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx35" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1010 col 0 - line 1013 col 14
+	Using id='equation12a' on <ltx:equation _box="\begin{equation}H_{X\timesY}\c..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation12' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation12" _ID_counter_m_="1" labels="LABEL:eq:eq-data">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1017 col 0 - line 1022 col 2
+	Using id='equationx36d' on <ltx:equation _box="$$\mathbf{A}(A,X\timesY)\cong\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx36' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx36" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1087 col 0 - line 1091 col 2
+	Using id='equationx37d' on <ltx:equation _box="$$e^{z}=1+z+\frac{z^{2}}{2!}+\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx37' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx37" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1105 col 0 - line 1114 col 2
+	Using id='equationx38d' on <ltx:equation _box="$$H_{A}(B)=\mathbf{A}(B,A)\con..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx38' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx38" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1120 col 0 - line 1125 col 2
+	Using id='equationx39d' on <ltx:equation _box="$$(X(K),X(L))\cong(1,\emptyset..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx39' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx39" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1127 col 0 - line 1131 col 2
+	Using id='equationx40d' on <ltx:equation _box="$$X\congH_{K}+H_{K}+H_{K}+H_{L..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx40' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx40" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1182 col 0 - line 1184 col 2
+	Using id='equationx41d' on <ltx:equation _box="$$\mathbf{E}(X)\stackrel{{\scr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx41' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx41" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1195 col 0 - line 1197 col 2
+	Using id='equationx42d' on <ltx:equation _box="$$\Bigl{(}H_{A}\stackrel{{\scr..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx42' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx42" _ID_counter_m_="1" labels="LABEL:notn:double-arrow">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1200 col 0 - line 1206 col 2
+	Using id='equationx43d' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx43' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx43" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1211 col 0 - line 1213 col 2
+	Using id='equationx44d' on <ltx:equation _box="$$(y_{A,x})_{A\in\mathbf{A},x\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx44' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx44" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1216 col 0 - line 1218 col 2
+	Using id='equationx45d' on <ltx:equation _box="$$(Yf)(y_{A,x})=y_{A^{\prime},..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx45' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx45" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1224 col 0 - line 1226 col 2
+	Using id='equationx46d' on <ltx:equation _box="$$\Bigl{(}X(A)\stackrel{{\scri..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx46' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx46" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1229 col 0 - line 1233 col 2
+	Using id='equationx47d' on <ltx:equation _box="$$(Yf)\bigl{(}\bar{\alpha}_{A}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx47' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx47" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1236 col 0 - line 1240 col 2
+	Using id='equationx48d' on <ltx:equation _box="$$[\mathbf{E}(X),[\mathbf{A}^{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx48' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx48" _ID_counter_m_="1" labels="LABEL:notn:of-nt">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1308 col 0 - line 1312 col 2
+	Using id='equationx49d' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx49' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx49" _ID_counter_m_="1" labels="LABEL:notn:ftr-cat-power LABEL...">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1394 col 0 - line 1396 col 2
+	Using id='equationx50d' on <ltx:equation _box="$$(F\mathbin{\Rightarrow}B)\st..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx50' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx50" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1405 col 0 - line 1409 col 2
+	Using id='equationx51d' on <ltx:equation _box="$$-\mathbin{\circ}F{\colon}\li..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx51' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx51" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1600 col 0 - line 1604 col 2
+	Using id='equationx52d' on <ltx:equation _box="$$G\text{ has a left adjoint}\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx52' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx52" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1622 col 0 - line 1626 col 2
+	Using id='equationx53d' on <ltx:equation _box="$$\lim\limits_{\leftarrow\math..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx53' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx53" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1630 col 0 - line 1634 col 2
+	Using id='equationx54d' on <ltx:equation _box="$$G\Biggl{(}\bigwedge_{i\inI}B..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx54' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx54" _ID_counter_m_="1" labels="LABEL:notn:eqv">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1646 col 0 - line 1650 col 2
+	Using id='equationx55d' on <ltx:equation _box="$$G\text{ has a left adjoint}\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx55' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx55" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1665 col 0 - line 1671 col 2
+	Using id='equationx56d' on <ltx:equation _box="$$G\Biggl{(}\bigwedge_{B\in\ma..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx56' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx56" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1680 col 0 - line 1685 col 14
+	Using id='equation13a' on <ltx:equation _box="\begin{equation}F(A)=\bigwedge..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation13' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation13" _ID_counter_m_="1" labels="LABEL:eq:pb-data">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1723 col 0 - line 1726 col 14
+	Using id='equation14a' on <ltx:equation _box="\begin{equation}F(A)=\lim\limi..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation14' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation14" _ID_counter_m_="1" labels="LABEL:eq:lim-shapes">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1731 col 0 - line 1737 col 14
+	Using id='equation15a' on <ltx:equation _box="\begin{equation}\begin{array}[..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation15' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation15" _ID_counter_m_="1" labels="LABEL:eq:gen-cone">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1833 col 0 - line 1837 col 2
+	Using id='equationx57d' on <ltx:equation _box="$$G\text{ has a left adjoint}\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx57' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx57" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1896 col 0 - line 1904 col 2
+	Using id='equationx58d' on <ltx:equation _box="$$\mathbf{Ab}\to\mathbf{Grp},\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx58' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx58" _ID_counter_m_="1" labels="LABEL:notn:horiz-comp">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1927 col 0 - line 1931 col 2
+	Using id='equationx59d' on <ltx:equation _box="$$G\text{ has a left adjoint}\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx59' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx59" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1959 col 0 - line 1961 col 2
+	Using id='equationx60d' on <ltx:equation _box="$$X\to[0,1]^{\mathbf{Top}(X,[0..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx60' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx60" _ID_counter_m_="1" labels="LABEL:notn:whisker-right">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 1998 col 0 - line 2002 col 2
+	Using id='equationx61d' on <ltx:equation _box="$$\mathscr{A}(A\timesB,C)\cong..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx61' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx61" _ID_counter_m_="1" labels="LABEL:notn:whisker-left">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 2095 col 0 - line 2100 col 14
+	Using id='equation16a' on <ltx:equation _box="\begin{equation}\hat{\mathbf{A..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation16' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation16" _ID_counter_m_="1" labels="LABEL:eq:gen-cocone">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 2104 col 0 - line 2110 col 2
+	Using id='equationx62d' on <ltx:equation _box="$$Z^{Y}(A)\cong\hat{\mathbf{A}..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx62' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx62" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at arl.tex; line 2150 col 0 - line 2152 col 2
+	Using id='equationx63d' on <ltx:equation _box="$$Z^{Y}(A)=\hat{\mathbf{A}}(H_..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx63' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx63" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at gaft.tex; line 9 col 0 - line 9 col 54
+	Using id='chapter1a' on <ltx:chapter _box="\@@numbered@section{chapter}{t..." _font="Font[serif,medium,upright,10,b..." inlist="toc"/>
+	id='chapter1' already set on <ltx:chapter _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[serif,medium,upright,10,b..." inlist="toc" xml:id="chapter1" labels="LABEL:ch:cfnt" _ID_counter_p_="5">...
+Info:malformed:id Duplicated attribute xml:id
+	at gaft.tex; line 30 col 0 - line 34 col 2
+	Using id='equationx1g' on <ltx:equation _box="$$G\text{ has a left adjoint}\..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx1" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at gaft.tex; line 87 col 0 - line 90 col 14
+	Using id='equation1g' on <ltx:equation _box="\begin{equation}\Bigl{(}0\stac..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equation1' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equation1" _ID_counter_m_="1" labels="LABEL:eq:univ-tensor">...
+Info:malformed:id Duplicated attribute xml:id
+	at gaft.tex; line 99 col 0 - line 103 col 2
+	Using id='equationx2g' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx2' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx2" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at gaft.tex; line 106 col 0 - line 110 col 2
+	Using id='equationx3g' on <ltx:equation _box="$$\lx@xy@svg{\hbox{\raise0.0pt..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx3' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx3" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at gaft.tex; line 112 col 0 - line 114 col 2
+	Using id='equationx4g' on <ltx:equation _box="$$p_{S^{\prime}}(ihp_{S})=(p_{..." _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx4' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx4" _ID_counter_m_="1">...
+Info:malformed:id Duplicated attribute xml:id
+	at gaft.tex; line 118 col 0 - line 120 col 2
+	Using id='equationx5g' on <ltx:equation _box="$$f=fihp_{S}=gihp_{S}=g,$$" _font="Font[math,medium,italic,10,bla..."/>
+	id='equationx5' already set on <ltx:equation _box="LaTeXML::Core::Whatsit=HASH(0x..." _font="Font[math,medium,italic,10,bla..." xml:id="equationx5" _ID_counter_m_="1">...
+ 34.39 sec)
+(Rewriting... 0.63 sec)
+(Math Parsing 6540 formulae ......
+Warning:not_parsed:MULOP.ARROW.MULOP>PUNCT MathParser failed to match rule 'Anything'
+	at cfnt.tex; line 484 col 0 - line 490 col 2
+	In "$$\bullet\to\bullet\qquad\text{or}\qquad A\stackrel{{\scriptstyle f}}{{%
+	\longrightarrow}}B,$$"
+	∙[[MULOP]] →[[ARROW]] ∙[[MULOP]]
+	        > $$\bullet\to\bullet\qquad\text{or}\qquadA\stackrel{{\scriptstylef}}{{\longrightarrow}}B,$$[[PUNCT]] \text{or}[[UNKNOWN]] $$\bullet\to\bullet\qquad\text{or}\qquadA\stackrel{{\scriptstylef}}{{\longrightarrow}}B,$$[[PUNCT]] A[[UNKNOWN]] \stackrel{{\scriptstylef}}{{\longrightarrow}}[[RELOP]] B[[UNKNOWN]]
+Warning:not_parsed:BINOP.METARELOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at cfnt.tex; line 546 col 0 - line 548 col 2
+	In "$$\mathbin{\circ}{\colon}\linebreak[0]\mathscr{A}(A,A)\times\mathscr{A}(A,A)%
+	\to\mathscr{A}(A,A),$$"
+	∘[[BINOP]] :[[METARELOP]]
+	        > A[[UNKNOWN]] ([[OPEN]] A[[UNKNOWN]] ,[[PUNCT]] A[[UNKNOWN]] )[[CLOSE]] ×[[MULOP]] A[[UNKNOWN]] ([[OPEN]] A[[UNKNOWN]] ,[[PUNCT]] A[[UNKNOWN]] )[[CLOSE]] →[[ARROW]] A[[UNKNOWN]] ([[OPEN]] A[[UNKNOWN]] ,[[PUNCT]] A[[UNKNOWN]] )[[CLOSE]]
+Warning:not_parsed:NUMBER.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at cfnt.tex; line 688 col 10 - line 688 col 25
+	In "$2\mathbin{\mid}{-2}$"
+	2[[NUMBER]] ∣[[BINOP]]
+	        > -[[ADDOP]] 2[[NUMBER]]
+Warning:not_parsed:OPFUNCTION>OPEN MathParser failed to match rule 'Anything'
+	at cfnt.tex; line 1413 col 33 - line 1413 col 52
+	In "$\operatorname{\mathbf{Hom}}(\hskip 10.00002pt,W)$"
+	Hom[[OPFUNCTION]]
+	        > ([[OPEN]] ,[[PUNCT]] W[[UNKNOWN]] )[[CLOSE]]
+Warning:not_parsed:UNKNOWN.CLOSE.CLOSE>POSTSUBSCRIPT MathParser failed to match rule 'Anything'
+	at cfnt.tex; line 2869 col 10 - line 2870 col 15
+	In "$\bigl{(}\alpha_{A,B}{\colon}\linebreak[0]F(A,B)\to G(A,B)\bigr{)}_{A\in%
+	\mathscr{A},B\in\mathscr{B}}$"
+	([[OPEN]] α[[UNKNOWN]] _{A,B}[[POSTSUBSCRIPT]] :[[METARELOP]] F[[UNKNOWN]] ([[OPEN]] A[[UNKNOWN]] ,[[PUNCT]] B[[UNKNOWN]] )[[CLOSE]] →[[ARROW]] G[[UNKNOWN]] ([[OPEN]] A[[UNKNOWN]] ,[[PUNCT]] B[[UNKNOWN]] )[[CLOSE]] )[[CLOSE]]
+	        > _{A\in\mathscr{A},B\in\mathscr{B}}[[POSTSUBSCRIPT]]
+Warning:not_parsed:UNKNOWN.CLOSE.CLOSE>POSTSUBSCRIPT MathParser failed to match rule 'Anything'
+	at cfnt.tex; line 2876 col 43 - line 2877 col 29
+	In "$\bigl{(}\alpha_{A,B}{\colon}\linebreak[0]F^{A}(B)\to G^{A}(B)\bigr{)}_{B\in%
+	\mathscr{B}}$"
+	([[OPEN]] α[[UNKNOWN]] _{A,B}[[POSTSUBSCRIPT]] :[[METARELOP]] F[[UNKNOWN]] ^{A}[[POSTSUPERSCRIPT]] ([[OPEN]] B[[UNKNOWN]] )[[CLOSE]] →[[ARROW]] G[[UNKNOWN]] ^{A}[[POSTSUPERSCRIPT]] ([[OPEN]] B[[UNKNOWN]] )[[CLOSE]] )[[CLOSE]]
+	        > _{B\in\mathscr{B}}[[POSTSUBSCRIPT]]
+Warning:not_parsed:UNKNOWN.CLOSE.CLOSE>POSTSUBSCRIPT MathParser failed to match rule 'Anything'
+	at cfnt.tex; line 2880 col 43 - line 2881 col 29
+	In "$\bigl{(}\alpha_{A,B}{\colon}\linebreak[0]F_{B}(A)\to G_{B}(A)\bigr{)}_{A\in%
+	\mathscr{A}}$"
+	([[OPEN]] α[[UNKNOWN]] _{A,B}[[POSTSUBSCRIPT]] :[[METARELOP]] F[[UNKNOWN]] _{B}[[POSTSUBSCRIPT]] ([[OPEN]] A[[UNKNOWN]] )[[CLOSE]] →[[ARROW]] G[[UNKNOWN]] _{B}[[POSTSUBSCRIPT]] ([[OPEN]] A[[UNKNOWN]] )[[CLOSE]] )[[CLOSE]]
+	        > _{A\in\mathscr{A}}[[POSTSUBSCRIPT]]
+Warning:not_parsed:MULOP.METARELOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at adj.tex; line 440 col 67 - line 441 col 15
+	In "$\cdot{\colon}\linebreak[0]X\times X\to X$"
+	⋅[[MULOP]] :[[METARELOP]]
+	        > X[[UNKNOWN]] ×[[MULOP]] X[[UNKNOWN]] →[[ARROW]] X[[UNKNOWN]]
+Warning:not_parsed:MULOP.METARELOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at adj.tex; line 445 col 0 - line 451 col 2
+	In "$$\cdot{\colon}\linebreak[0]X^{2}\to X,\qquad(\hskip 5.0pt)^{-1}{\colon}%
+	\linebreak[0]X^{1}\to X,\qquad e{\colon}\linebreak[0]X^{0}\to X,$$"
+	⋅[[MULOP]] :[[METARELOP]]
+	        > X[[UNKNOWN]] ^{2}[[POSTSUPERSCRIPT]] →[[ARROW]] X[[UNKNOWN]] ,[[PUNCT]] ([[OPEN]] )[[CLOSE]] ^{-1}[[POSTSUPERSCRIPT]] :[[METARELOP]] X[[UNKNOWN]] ^{1}[[POSTSUPERSCRIPT]] →[[ARROW]] X[[UNKNOWN]] ,[[PUNCT]] e[[UNKNOWN]] :[[METARELOP]] X[[UNKNOWN]] ^{0}[[POSTSUPERSCRIPT]] →[[ARROW]] X[[UNKNOWN]]
+Warning:not_parsed:UNKNOWN>MULOP MathParser failed to match rule 'Anything'
+	at adj.tex; line 488 col 18 - line 488 col 46
+	In "$\lambda\cdot-{\colon}\linebreak[0]X\to X$"
+	λ[[UNKNOWN]]
+	        > ⋅[[MULOP]] -[[ADDOP]] :[[METARELOP]] X[[UNKNOWN]] →[[ARROW]] X[[UNKNOWN]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at adj.tex; line 543 col 7 - line 543 col 7
+	In "$$\begin{array}[]{cccc}-\times B{\colon}&\mathbf{Set}&\to&\mathbf{Set}\\
+	&A&\mapsto&A\times B.\end{array}$$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > B[[UNKNOWN]] :[[METARELOP]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at adj.tex; line 579 col 0 - line 579 col 47
+	In "$\scriptstyle{-\times B}$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > B[[UNKNOWN]]
+Warning:not_parsed:UNKNOWN.METARELOP.UNKNOWN>ARROW MathParser failed to match rule 'Anything'
+	at adj.tex; line 783 col 0 - line 789 col 2
+	In "$$\Delta{\colon}\linebreak[0]\mathbf{Set}\to[\operatorname{\mathscr{O}}(X)^{%
+	\mathrm{op}},\mathbf{Set}]$$"
+	Δ[[UNKNOWN]] :[[METARELOP]] Set[[UNKNOWN]]
+	        > →[[ARROW]] [[[OPEN]] O[[OPFUNCTION]] ([[OPEN]] X[[UNKNOWN]] )[[CLOSE]] ^{\mathrm{op}}[[POSTSUPERSCRIPT]] ,[[PUNCT]] Set[[UNKNOWN]] ][[CLOSE]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 124 col 36 - line 124 col 49
+	In "$g\mathbin{\circ}-$"
+	g[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]]
+Warning:not_parsed:UNKNOWN.CLOSE.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 319 col 0 - line 319 col 1
+	In "$\scriptstyle{G(q)\mathbin{\circ}-}$"
+	G[[UNKNOWN]] ([[OPEN]] q[[UNKNOWN]] )[[CLOSE]] ∘[[BINOP]]
+	        > -[[ADDOP]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 319 col 0 - line 319 col 1
+	In "$\scriptstyle{q\mathbin{\circ}-}$"
+	q[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]]
+Warning:not_parsed:ADDOP.BINOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at rep.tex; line 462 col 12 - line 462 col 19
+	In "$-\mathbin{\circ}f$"
+	-[[ADDOP]] ∘[[BINOP]]
+	        > f[[UNKNOWN]]
+Warning:not_parsed:RELOP.UNKNOWN.POSTSUPERSCRIPT>RELOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 510 col 0 - line 513 col 2
+	In "$$H_{A}(g)=\mathscr{A}(g,A)=g^{*}=-\mathbin{\circ}g{\colon}\linebreak[0]%
+	\mathscr{A}(B,A)\to\mathscr{A}(B^{\prime},A)$$"
+	H[[UNKNOWN]] _{A}[[POSTSUBSCRIPT]] ([[OPEN]] g[[UNKNOWN]] )[[CLOSE]] =[[RELOP]] A[[UNKNOWN]] ([[OPEN]] g[[UNKNOWN]] ,[[PUNCT]] A[[UNKNOWN]] )[[CLOSE]] =[[RELOP]] g[[UNKNOWN]] ^{*}[[POSTSUPERSCRIPT]]
+	        > =[[RELOP]] -[[ADDOP]] ∘[[BINOP]] g[[UNKNOWN]] :[[METARELOP]] A[[UNKNOWN]] ([[OPEN]] B[[UNKNOWN]] ,[[PUNCT]] A[[UNKNOWN]] )[[CLOSE]] →[[ARROW]] A[[UNKNOWN]] ([[OPEN]] B[[UNKNOWN]] ^{\prime}[[POSTSUPERSCRIPT]] ,[[PUNCT]] A[[UNKNOWN]] )[[CLOSE]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 636 col 5 - line 636 col 18
+	In "$f\mathbin{\circ}-$"
+	f[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 728 col 0 - line 728 col 1
+	In "$\scriptstyle{g\mathbin{\circ}-\mathbin{\circ}f}$"
+	g[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]] ∘[[BINOP]] f[[UNKNOWN]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at rep.tex; line 756 col 13 - line 756 col 49
+	In "$(-\times B)\dashv(-)^{B}$"
+	> ([[OPEN]] -[[ADDOP]] ×[[MULOP]] B[[UNKNOWN]] )[[CLOSE]] ⊣[[METARELOP]] ([[OPEN]] -[[ADDOP]] )[[CLOSE]] ^{B}[[POSTSUPERSCRIPT]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at rep.tex; line 758 col 2 - line 758 col 58
+	In "$(-\times\mathscr{B})\dashv[\mathscr{B},-]$"
+	> ([[OPEN]] -[[ADDOP]] ×[[MULOP]] B[[UNKNOWN]] )[[CLOSE]] ⊣[[METARELOP]] [[[OPEN]] B[[UNKNOWN]] ,[[PUNCT]] -[[ADDOP]] ][[CLOSE]]
+Warning:not_parsed:OPEN.UNKNOWN.CLOSE>RELOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 1168 col 0 - line 1168 col 1
+	In "$\scriptstyle{H_{A}(g)\>=\>-\mathbin{\circ}g}$"
+	H[[UNKNOWN]] _{A}[[POSTSUBSCRIPT]] ([[OPEN]] g[[UNKNOWN]] )[[CLOSE]]
+	        > =[[RELOP]] -[[ADDOP]] ∘[[BINOP]] g[[UNKNOWN]]
+Warning:not_parsed:OPEN.UNKNOWN.CLOSE>RELOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 1234 col 0 - line 1234 col 1
+	In "$\scriptstyle{H_{A}(f)\>=\>-\mathbin{\circ}f}$"
+	H[[UNKNOWN]] _{A}[[POSTSUBSCRIPT]] ([[OPEN]] f[[UNKNOWN]] )[[CLOSE]]
+	        > =[[RELOP]] -[[ADDOP]] ∘[[BINOP]] f[[UNKNOWN]]
+Warning:not_parsed:ADDOP.BINOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at rep.tex; line 1273 col 0 - line 1273 col 1
+	In "$\scriptstyle{-\mathbin{\circ}H_{f}}$"
+	-[[ADDOP]] ∘[[BINOP]]
+	        > H[[UNKNOWN]] _{f}[[POSTSUBSCRIPT]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 1319 col 0 - line 1319 col 1
+	In "$\scriptstyle{\theta\mathbin{\circ}-}$"
+	θ[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 1977 col 0 - line 1979 col 2
+	In "$$J\mathbin{\circ}-{\colon}\linebreak[0][\mathscr{B},\mathscr{C}]\to[\mathscr{%
+	B},\mathscr{D}]$$"
+	J[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]] :[[METARELOP]] [[[OPEN]] B[[UNKNOWN]] ,[[PUNCT]] C[[UNKNOWN]] ][[CLOSE]] →[[ARROW]] [[[OPEN]] B[[UNKNOWN]] ,[[PUNCT]] D[[UNKNOWN]] ][[CLOSE]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at rep.tex; line 1984 col 51 - line 1984 col 62
+	In "$J\mathbin{\circ}-$"
+	J[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]]
+Warning:not_parsed:UNKNOWN>MULOP MathParser failed to match rule 'Anything'
+	at lims.tex; line 127 col 0 - line 127 col 43
+	In "$X\bullet$"
+	X[[UNKNOWN]]
+	        > ∙[[MULOP]]
+Warning:not_parsed:UNKNOWN.CLOSE.CLOSE>MULOP MathParser failed to match rule 'Anything'
+	at lims.tex; line 2301 col 0 - line 2308 col 2
+	In "$$\lim\limits_{\rightarrow\mathbf{I}}D=\Biggl{(}\sum_{I\in\mathbf{I}}D(I)%
+	\Biggr{)}\Bigg{/}\text{$\sim$}$$"
+	lim[[LIMITOP]] _{\rightarrow\mathbf{I}}[[POSTSUBSCRIPT]] D[[UNKNOWN]] =[[RELOP]] ([[OPEN]] ∑[[SUMOP]] _{I\in\mathbf{I}}[[POSTSUBSCRIPT]] D[[UNKNOWN]] ([[OPEN]] I[[UNKNOWN]] )[[CLOSE]] )[[CLOSE]]
+	        > /[[MULOP]] ∼[[RELOP]]
+Warning:not_parsed:UNKNOWN.CLOSE.CLOSE>MULOP MathParser failed to match rule 'Anything'
+	at lims.tex; line 2315 col 0 - line 2317 col 2
+	In "$$\biggl{(}\sum D(I)\biggr{)}\bigg{/}\text{$\sim$}\>\to A$$"
+	([[OPEN]] ∑[[SUMOP]] D[[UNKNOWN]] ([[OPEN]] I[[UNKNOWN]] )[[CLOSE]] )[[CLOSE]]
+	        > /[[MULOP]] ∼[[RELOP]] →[[ARROW]] A[[UNKNOWN]]
+Warning:not_parsed:ADDOP.BINOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1405 col 0 - line 1409 col 2
+	In "$$-\mathbin{\circ}F{\colon}\linebreak[0][\mathbf{B},\mathscr{S}]\to[\mathbf{A}%
+	,\mathscr{S}]$$"
+	-[[ADDOP]] ∘[[BINOP]]
+	        > F[[UNKNOWN]] :[[METARELOP]] [[[OPEN]] B[[UNKNOWN]] ,[[PUNCT]] S[[UNKNOWN]] ][[CLOSE]] →[[ARROW]] [[[OPEN]] A[[UNKNOWN]] ,[[PUNCT]] S[[UNKNOWN]] ][[CLOSE]]
+Warning:not_parsed:ADDOP.BINOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1419 col 51 - line 1419 col 58
+	In "$-\mathbin{\circ}F$"
+	-[[ADDOP]] ∘[[BINOP]]
+	        > F[[UNKNOWN]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1496 col 44 - line 1497 col 12
+	In "$(-\times B)\dashv(-)^{B}$"
+	> ([[OPEN]] -[[ADDOP]] ×[[MULOP]] B[[UNKNOWN]] )[[CLOSE]] ⊣[[METARELOP]] ([[OPEN]] -[[ADDOP]] )[[CLOSE]] ^{B}[[POSTSUPERSCRIPT]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1498 col 8 - line 1498 col 18
+	In "$-\times B$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > B[[UNKNOWN]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1499 col 56 - line 1499 col 66
+	In "$-\times B$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > B[[UNKNOWN]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1975 col 62 - line 1976 col 18
+	In "$(-\times B)\dashv(-)^{B}$"
+	> ([[OPEN]] -[[ADDOP]] ×[[MULOP]] B[[UNKNOWN]] )[[CLOSE]] ⊣[[METARELOP]] ([[OPEN]] -[[ADDOP]] )[[CLOSE]] ^{B}[[POSTSUPERSCRIPT]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1977 col 36 - line 1978 col 26
+	In "$(-\times\mathscr{B})\dashv[\mathscr{B},-]$"
+	> ([[OPEN]] -[[ADDOP]] ×[[MULOP]] B[[UNKNOWN]] )[[CLOSE]] ⊣[[METARELOP]] [[[OPEN]] B[[UNKNOWN]] ,[[PUNCT]] -[[ADDOP]] ][[CLOSE]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 1983 col 50 - line 1984 col 12
+	In "$-\times B{\colon}\linebreak[0]\mathscr{A}\to\mathscr{A}$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > B[[UNKNOWN]] :[[METARELOP]] A[[UNKNOWN]] →[[ARROW]] A[[UNKNOWN]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 2140 col 28 - line 2141 col 15
+	In "$-\times Y{\colon}\linebreak[0]\hat{\mathbf{A}}\to\hat{\mathbf{A}}$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > Y[[UNKNOWN]] :[[METARELOP]] \hat{\mathbf{A}}[[UNKNOWN]] →[[ARROW]] \hat{\mathbf{A}}[[UNKNOWN]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 2142 col 8 - line 2142 col 17
+	In "$-\times Y$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > Y[[UNKNOWN]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 2146 col 29 - line 2146 col 58
+	In "$-\times S{\colon}\linebreak[0]\mathbf{Set}\to\mathbf{Set}$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > S[[UNKNOWN]] :[[METARELOP]] Set[[UNKNOWN]] →[[ARROW]] Set[[UNKNOWN]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at arl.tex; line 2156 col 15 - line 2156 col 51
+	In "$(-\times Y)\dashv(-)^{Y}$"
+	> ([[OPEN]] -[[ADDOP]] ×[[MULOP]] Y[[UNKNOWN]] )[[CLOSE]] ⊣[[METARELOP]] ([[OPEN]] -[[ADDOP]] )[[CLOSE]] ^{Y}[[POSTSUPERSCRIPT]]
+Warning:not_parsed:ADDOP.MULOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at arl.tex; line 2197 col 51 - line 2197 col 60
+	In "$-\times Y$"
+	-[[ADDOP]] ×[[MULOP]]
+	        > Y[[UNKNOWN]]
+Warning:not_parsed:UNKNOWN.BINOP>ADDOP MathParser failed to match rule 'Anything'
+	at notation.tex; line 50 col 0 - line 50 col 60
+	In "$g\mathbin{\circ}-$"
+	g[[UNKNOWN]] ∘[[BINOP]]
+	        > -[[ADDOP]]
+Warning:not_parsed:ADDOP.BINOP>UNKNOWN MathParser failed to match rule 'Anything'
+	at notation.tex; line 51 col 0 - line 51 col 39
+	In "$-\mathbin{\circ}f$"
+	-[[ADDOP]] ∘[[BINOP]]
+	        > f[[UNKNOWN]]
+Warning:not_parsed:>VERTBAR MathParser failed to match rule 'Anything'
+	at notation.tex; line 63 col 0 - line 63 col 40
+	In "$\left|\hskip 4.0pt\right|$"
+	> \left|[[VERTBAR]] \right|[[VERTBAR]]
+Warning:not_parsed:>OPEN MathParser failed to match rule 'Anything'
+	at notation.tex; line 64 col 0 - line 64 col 57
+	In "$[\hskip 4.0pt,\hskip 4.0pt]$"
+	> [[[OPEN]] ,[[PUNCT]] ][[CLOSE]]
+ 24.86 sec)
+Math parsing succeeded:
+   ltx:XMArg: 3476/3477
+   ltx:XMath: 7032/7079
+   ltx:XMWrap: 48/56
+Symbols assumed as simple identifiers (with # of occurences):
+   'Ab{bold}' (6), 'A{bold}' (104), 'A{italic}' (1256), 'A{script}' (587), 'Bilin{bold}' (5), 'B{bold}' (25), 'B{italic}' (557), 'B{script}' (178), 'CAT{bold}' (5), 'CRing{bold}' (10), 'Cat{bold}' (6), 'CptHff{bold}' (1), 'C{blackboard}' (1), 'C{italic}' (79), 'C{script}' (43), 'Delta' (19), 'D{italic}' (241), 'D{script}' (9), 'Epic{bold}' (3), 'E{bold}' (11), 'E{italic}' (7), 'E{script}' (1), 'FDVect{bold}' (1), 'Field{bold}' (7), 'FinSet{bold}' (1), 'Fix{bold}' (4), 'F{italic}' (504), 'Gamma' (1), 'Grp{bold}' (25), 'G{italic}' (423), 'G{script}' (7), 'H{italic}' (247), 'H{script}' (3), 'I{bold}' (185), 'I{italic}' (213), 'J{bold}' (24), 'J{italic}' (30), 'K{italic}' (20), 'Lambda' (6), 'L{italic}' (37), 'Mat{bold}' (1), 'Monic{bold}' (3), 'Mon{bold}' (9), 'M{italic}' (15), 'M{script}' (1), 'N{blackboard}' (20), 'N{italic}' (2), 'Omega' (1), 'Ord{bold}' (4), 'O{italic}' (3), 'Pi' (1), 'P{bold}' (2), 'P{italic}' (51), 'Q{blackboard}' (3), 'Q{italic}' (10), 'Ring{bold}' (7), 'R{blackboard}' (40), 'R{italic}' (34), 'Set{bold}' (230), 'Sym{bold}' (4), 'S{bold}' (6), 'S{italic}' (245), 'S{script}' (59), 'Toph{bold}' (7), 'Top{bold}' (18), 'T{bold}' (1), 'T{italic}' (25), 'U{italic}' (164), 'Vect{bold}' (60), 'V{italic}' (121), 'W{italic}' (34), 'X{italic}' (521), 'Y{italic}' (186), 'Z{blackboard}' (50), 'Z{italic}' (33), 'alpha' (123), 'a{italic}' (191), 'beta' (8), 'b{italic}' (64), 'chi' (3), 'c{italic}' (10), 'd{italic}' (5), 'eta' (74), 'e{italic}' (10), 'f{italic}' (458), 'g{italic}' (180), 'h{italic}' (41), 'iota' (6), 'i{italic}' (97), 'j{italic}' (35), 'k{italic}' (23), 'lambda' (36), 'mu' (6), 'm{bold}' (1), 'm{italic}' (20), 'n{bold}' (1), 'n{italic}' (46), 'phi' (29), 'pi' (19), 'psi' (11), 'p{italic}' (177), 'q{italic}' (49), 'r{italic}' (8), 's{italic}' (122), 'theta' (21), 't{italic}' (38), 'u{bold}' (2), 'u{italic}' (36), 'varepsilon' (52), 'v{bold}' (2), 'v{italic}' (18), 'w{italic}' (4), 'x{italic}' (311), 'y{italic}' (105), 'z{italic}' (27)
+Set MATHPARSER_SPECULATE to speculate on possible notations.
+(Finalizing... 3.10 sec)
+Conversion complete 48 warnings; 3 errors (See /home/jacob/Repos/tac-corpus/LeinsterBook/BasicCategoryTheory.latexml.log) (reqd. 5m 40.00s)

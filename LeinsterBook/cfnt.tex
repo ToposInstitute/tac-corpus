@@ -1,0 +1,3005 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Chapter 1: Categories, functors and natural transformations
+% 
+
+\chapter{Categories, functors and natural transformations}
+\label{ch:cfnt}
+
+A category is a system of related objects.  The objects do not live in
+isolation: there is some notion of map between objects, binding them
+together.
+
+Typical examples of what `object' might mean are `group' and `topological
+space', and typical examples of what `map' might mean are `homomorphism'
+and `continuous map', respectively.  We will see many examples, and we will
+also learn that some categories have a very different flavour from the two
+just mentioned.  In fact, the `maps' of category theory need not be
+anything like maps in the sense that you are most likely to be familiar
+with.
+
+Categories are \emph{themselves} mathematical objects, and with that in
+mind, it is unsurprising that there is a good notion of `map between
+categories'.  Such maps are called functors.  More surprising, perhaps, is
+the existence of a third level: we can talk about maps between
+\emph{functors}, which are called natural transformations.  These, then,
+are maps between maps between categories.
+
+In fact, it was the desire to formalize the notion of natural
+transformation that led to the birth of category theory.  By the early
+1940s, researchers in algebraic topology had started to use the phrase
+`natural transformation', but only in an informal way.  Two mathematicians,
+Samuel Eilenberg%
+%
+\index{Eilenberg, Samuel}
+%
+and Saunders Mac Lane,%
+%
+\index{Mac~Lane, Saunders}
+%
+saw that a precise definition was needed.  But before they could define
+natural transformation, they had to define functor; and before they could
+define functor, they had to define category.  And so the subject was born.
+
+Nowadays, the uses of category theory have spread far beyond algebraic
+topology.  Its tentacles extend into most parts of pure mathematics.  They
+also reach some parts of applied mathematics; perhaps most notably,
+category theory has become a standard tool in certain parts of computer%
+%
+\index{computer science}
+%
+science.  Applied%
+%
+\index{applied mathematics}
+% 
+mathematics is more than just applied differential equations!
+
+
+
+\section{Categories}
+\label{sec:cats}
+
+
+\begin{defn}
+A \demph{category}%
+%
+\index{category}
+%
+$\cat{A}$ consists of:
+% 
+\begin{itemize}
+\item 
+a collection $\ob(\cat{A})$%
+%
+\ntn{ob}
+%
+of \demph{objects};%
+%
+\index{object}
+%
+
+\item 
+for each $A, B \in \ob(\cat{A})$, a collection $\cat{A}(A, B)$%
+%
+\ntn{hom-set-default}
+%
+of \demph{maps}%
+%
+\index{map}
+%
+or \demph{arrows}%
+%
+\index{arrow}
+%
+or \demph{morphisms}%
+%
+\index{morphism}
+% 
+from $A$ to $B$;
+
+\item 
+for each $A, B, C \in \ob(\cat{A})$, a function
+\[
+\begin{array}{ccc}
+\cat{A}(B, C) \times \cat{A}(A, B) &
+\to	&
+\cat{A}(A, C)	\\
+(g, f)	&
+\mapsto	&
+g \of f,%
+%
+\ntn{of}
+%
+\end{array}
+\]
+called \demph{composition};%
+%
+\index{composition}
+%
+
+\item 
+for each $A \in \ob(\cat{A})$, an element $1_A$%
+%
+\ntn{id-map}
+%
+of $\cat{A}(A, A)$, called the \demph{identity}%
+%
+\index{identity}
+%
+on $A$,
+\end{itemize}
+% 
+satisfying the following axioms:
+% 
+\begin{itemize}
+\item 
+\demph{associativity}:%
+%
+\index{associativity}
+%
+for each $f \in \cat{A}(A, B)$, $g \in \cat{A}(B, C)$ and $h \in \cat{A}(C,
+D)$, we have $(h \of g) \of f = h \of (g \of f)$;
+
+\item 
+\demph{identity%
+%
+\index{identity}
+%
+laws}: for each $f \in \cat{A}(A, B)$, we have $f \of 1_A = f = 1_B \of f$.
+\end{itemize}
+\end{defn}
+
+\begin{remarks}  
+\label{rmks:defn-cat}
+\begin{enumerate}[(b)]
+\item   
+\label{item:defn-cat-notn}
+We often write:
+%
+\begin{displaytext}
+\begin{tabular}{rcl}
+$A \in \cat{A}$			&to mean	&$A \in \ob(\cat{A})$;	\\
+$f\from A\to B$ or $A \toby{f} B$&to mean 	&$f \in \cat{A}(A,B)$;%
+%
+\ntn{arrow}
+%
+\\
+$gf$				&to mean	&$g \of f$.%
+%
+\ntn{juxt}
+%
+\end{tabular}
+\end{displaytext}
+% 
+People also write $\cat{A}(A, B)$ as $\Hom_{\cat{A}}(A, B)$%
+%
+\ntn{Hom}
+%
+or $\Hom (A, B)$.  The notation `$\Hom$' stands for homomorphism, from one
+of the earliest examples of a category.
+
+\item	
+\label{rmk:defn-cat:loosely}
+The definition of category is set up so that in general, from each string
+\[
+A_0 \toby{f_1} 
+A_1 \toby{f_2}
+\ \cdots \ 
+\toby{f_n} A_n
+\]
+of maps in $\cat{A}$, it is possible to construct exactly one%
+%
+\index{uniqueness!constructions@of constructions}
+%
+map
+\[
+A_0 \to A_n
+\]
+(namely, $f_n f_{n - 1} \cdots f_1$).  If we are given extra information
+then we may be able to construct other maps $A_0 \to A_n$; for instance, if
+we happen to know that $A_{n - 1} = A_n$, then $f_{n - 1} f_{n - 2} \cdots
+f_1$ is another such map.  But we are speaking here of the \emph{general}
+situation, in the absence of extra information.
+
+For example, a string like this with $n = 4$ gives rise to maps
+\[
+\xymatrix@=8em{
+A_0
+\ar@<1ex>[r]^{((f_4 f_3)f_2)f_1}
+\ar@<-1ex>[r]_{(f_4(1_{A_3} f_3))((f_2 f_1)1_{A_0})} &
+A_4,
+}
+\]
+but the axioms imply that they are equal.  It is safe to omit the brackets
+and write both as $f_4 f_3 f_2 f_1$.
+
+Here it is intended that $n \geq 0$.  In the case $n = 0$, the statement is
+that for each object $A_0$ of a category, it is possible to construct
+exactly one map $A_0 \to A_0$ (namely, the identity $1_{A_0}$).  An
+identity map can be thought of as a zero-fold%
+%
+\index{identity!zero-fold composite@as zero-fold composite}
+%
+composite, in much the same way that the number $1$ can be thought of as
+the product of zero numbers.
+
+\item 
+We often speak of \demph{commutative%
+%
+\index{diagram!commutative}
+%
+diagrams}.  For instance, given objects and maps
+\[
+\xymatrix{
+A \ar[rr]^f \ar[d]_h    &               &B \ar[d]^g     \\
+C \ar[r]_i              &D \ar[r]_j     &E
+}
+\]
+in a category, we say that the diagram \demph{commutes}%
+%
+\index{commutes}
+%
+if $gf = jih$.  Generally, a diagram is said to commute if whenever there
+are two paths from an object $X$ to an object $Y$, the map from $X$ to $Y$
+obtained by composing along one path is equal to the map obtained by
+composing along the other.
+
+\item 
+The slightly vague word `collection'%
+%
+\index{collection}
+%
+means \emph{roughly} the same as `set', although if you know about such
+things, it is better to interpret it as meaning `class'.%
+%
+\index{class}
+%
+We come back to this in Chapter~\ref{ch:sets}.
+
+\item 
+If $f \in \cat{A}(A, B)$, we call $A$ the \demph{domain}%
+%
+\index{domain}
+%
+and $B$ the \demph{codomain}%
+%
+\index{codomain}
+%
+of $f$.  Every map in every category has a definite domain and a definite
+codomain.  (If you believe it makes sense to form the intersection of an
+arbitrary pair of abstract sets, you should add to the definition of
+category the condition that $\cat{A}(A, B) \cap \cat{A}(A', B') =
+\emptyset$ unless $A = A'$ and $B = B'$.)
+\end{enumerate}
+\end{remarks}
+
+\begin{examples}[Categories \:of \:mathematical \:structures]        
+\label{egs:cats-of}
+% 
+\begin{enumerate}[(b)]
+\item 
+There is a category $\Set$%
+%
+\ntn{Set}
+%
+described as follows.  Its objects are sets.%
+%
+\index{set!category of sets}
+%
+Given sets $A$ and $B$, a map from $A$ to $B$ in the category $\Set$ is
+exactly what is ordinarily called a map (or mapping, or function) from $A$
+to $B$.  Composition in the category is ordinary composition of functions,
+and the identity maps are again what you would expect.
+
+In situations such as this, we often do not bother to specify the
+composition and identities.  We write `the category of sets and functions',
+leaving the reader to guess the rest.  In fact, we usually go further and
+call it just `the category of sets'.
+
+\item 
+There is a category $\Grp$%
+%
+\ntn{Grp}
+%
+of groups,%
+%
+\index{group!category of groups}
+%
+whose objects are groups and whose maps are group homomorphisms.
+
+\item 
+Similarly, there is a category $\Ring$%
+%
+\ntn{Ring}
+%
+of rings%
+%
+\index{ring!category of rings}
+%
+and ring homomorphisms.
+
+\item 
+For each field $k$, there is a category $\Vect_k$%
+%
+\ntn{Vect}
+%
+of vector%
+%
+\index{vector space!category of vector spaces}
+%
+spaces over $k$ and linear maps between them.
+
+\item 
+There is a category $\Tp$%
+%
+\ntn{Top}
+%
+of topological%
+%
+\index{topological space!category of topological spaces}
+%
+spaces and continuous maps.
+\end{enumerate}
+\end{examples}
+
+This chapter is mostly about the interaction \emph{between} categories,
+rather than what goes on \emph{inside} them.  We will, however, need the
+following definition.
+
+\begin{defn}    
+\label{defn:isomorphism}
+A map $f\from A \to B$ in a category $\cat{A}$ is an \demph{isomorphism}%
+%
+\index{isomorphism}
+%
+if there exists a map $g\from B \to A$ in $\cat{A}$ such that $gf = 1_A$
+and $fg = 1_B$.
+\end{defn}
+
+In the situation of Definition~\ref{defn:isomorphism}, we call $g$ the
+\demph{inverse}%
+%
+\index{inverse}
+%
+of $f$ and write $g = f^{-1}$.%
+%
+\ntn{inverse}
+%
+(The word `the' is justified by Exercise~\ref{ex:unique-inverse}.)  If
+there exists an isomorphism from $A$ to $B$, we say that $A$ and $B$ are
+\demph{isomorphic} and write $A \iso B$.%
+%
+\ntn{iso}
+%
+
+\begin{example}
+\label{eg:iso-Set}
+The isomorphisms in $\Set$%
+%
+\index{set!category of sets!isomorphisms in}
+%
+are exactly the bijections.  This\linebreak statement is not quite a logical
+triviality.  It amounts to the assertion that a function has a two-sided
+inverse if and only if it is injective and surjective.
+\end{example}
+
+\begin{example}
+The isomorphisms in $\Grp$%
+%
+\index{group!category of groups!isomorphisms in}
+%
+are exactly the isomorphisms of groups.  Again, this is not quite trivial,
+at least if you were taught that the definition of group isomorphism is
+`bijective homomorphism'.  In order to show that this is equivalent to
+being an isomorphism in $\Grp$, you have to prove that the inverse of a
+bijective homomorphism is also a homomorphism.
+
+Similarly, the isomorphisms in $\Ring$%
+%
+\index{ring!category of rings!isomorphisms in}
+%
+are exactly the isomorphisms of rings.
+\end{example}
+
+\begin{example}
+The isomorphisms in $\Tp$%
+%
+\index{topological space!category of topological spaces!isomorphisms in}
+%
+are exactly the homeomorphisms.  Note that, in contrast to the situation in
+$\Grp$ and $\Ring$, a bijective map in $\Tp$ is not necessarily an
+isomorphism.  A classic example is the map
+\[
+\begin{array}{ccc}
+[0, 1)  &\to            &\{z \in \complexes \such \left|z\right| = 1\}     \\
+t       &\mapsto        &e^{2\pi i t},
+\end{array}
+\]
+which is a continuous bijection but not a homeomorphism.
+\end{example}
+
+The examples of categories mentioned so far are important, but could give a
+false impression.  In each of them, the objects of the category are sets
+with structure (such as a group structure, a topology, or, in the case
+of $\Set$, no structure at all).  The maps are the functions preserving the
+structure, in the appropriate sense.  And in each of them, there is a
+clear sense of what the elements of a given object are.
+
+However, not all categories are like this.  In general, the objects of a
+category are not `sets equipped with extra stuff'.  Thus, in a general
+category, it does not make sense to talk about the `elements' of an object.
+(At least, it does not make sense in an immediately obvious way; we return
+to this in Definition~\ref{defn:gen-elt}.)  Similarly, in a general
+category, the maps need not be mappings or functions in the usual sense.
+So:
+
+\begin{slogan}
+The objects of a category need not be remotely like sets.%
+%
+\index{object!need not resemble set}
+%
+\end{slogan}
+% 
+\begin{slogan}
+The maps in a category need not be remotely like functions.
+%
+\index{map!need not resemble function}
+%
+\end{slogan}
+% 
+The next few examples illustrate these points.  They also show that,
+contrary to the impression that might have been given so far, categories
+need not be enormous.  Some categories are small, manageable structures in
+their own right, as we now see.
+
+\begin{examples}[Categories \,as \,mathematical \,structures]        
+\label{egs:cats-as}
+\begin{enumerate}[(b)]
+\item   
+\label{eg:cats-as:graphs}
+A category can be specified%
+%
+\index{category!drawing of}
+%
+by saying directly what its objects, maps, composition and identities are.
+For example, there is a category $\emptyset$%
+%
+\ntn{empty-cat}
+%
+with no objects or maps at all.  There is a category $\One$%
+%
+\ntn{terminal-cat}
+%
+ with one object
+and only the identity map.  It can be drawn like this:
+\[
+\bullet
+\]
+(Since every object is required to have an identity map on it, we usually
+do not bother to draw the identities.)  There is another category that can
+be drawn as
+\[
+\bullet \to \bullet 
+\qquad
+\text{or}
+\qquad
+A \toby{f} B,
+\]
+with two objects and one non-identity map, from the first object to the
+second.  (Composition is defined in the only possible way.)  To reiterate
+the points made above, it is not obvious what an `element' of $A$ or $B$
+would be, or how one could regard $f$ as a `function' of any sort.
+
+It is easy to make up more complicated examples.  For instance, here are three
+more categories:
+\[
+\begin{array}{c}
+\xymatrix{
+\bullet \ar@<.5ex>[r] \ar@<-.5ex>[r] &\bullet
+}
+\end{array}
+\qquad
+\begin{array}{c}
+\xymatrix{
+        &B \ar[dr]^g    &       \\
+A \ar[ur]^f \ar[rr]_{gf} & &C    
+}
+\end{array}
+\qquad
+\begin{array}{c}
+\xymatrix{
+        &\bullet \ar[dl]_{kj} \ar[r]^f \ar[dr]|{hj=gf} \ar[d]_{j} &
+\bullet \ar[d]^g        \\
+\bullet &\bullet \ar[l]^k \ar[r]_{h}   &\bullet
+}
+\end{array}
+\]
+
+\item   
+\label{eg:cats-as:discrete} 
+Some categories contain no maps at all apart from identities (which, as
+categories, they are obliged to have).  These are called \demph{discrete}%
+%
+\index{category!discrete}
+%
+categories.  A discrete category amounts to just a class of objects.  More
+poetically, a category is a collection of objects related to one another to
+a greater or lesser degree; a discrete category is the extreme case in
+which each object is totally isolated from its companions.
+
+\item   
+\label{eg:cats-as:groups}
+A group is essentially the same thing as a category that has only one%
+%
+\index{category!one-object|(}%
+\index{group!one-object category@as one-object category}
+%
+object and in which all the maps are isomorphisms.
+
+To understand this, first consider a category $\cat{A}$ with just one
+object.  It is not important what letter or symbol we use to denote the
+object; let us call it $A$.  Then $\cat{A}$ consists of a set (or class)
+$\cat{A}(A, A)$, an associative composition function
+\[
+\of\from  \cat{A}(A, A) \times \cat{A}(A, A) \to \cat{A}(A, A),
+\]
+and a two-sided unit $1_A \in \cat{A}(A, A)$.  This would make $\cat{A}(A,
+A)$ into a group, except that we have not mentioned inverses.  However, to
+say that every map in $\cat{A}$ is an isomorphism is exactly to say that
+every element of $\cat{A}(A, A)$ has an inverse with respect to $\of$.
+
+If we write $G$ for the group $\cat{A}(A, A)$, then the situation is this:
+% 
+\begin{displaytext}
+\begin{tabular}{l@{\hspace{2em}}l}
+\emph{category $\cat{A}$ with single object $A$}       &
+\emph{corresponding group $G$}        \\[1ex]
+maps in $\cat{A}$       &elements of $G$                \\
+$\of$ in $\cat{A}$      &$\cdot$ in $G$                 \\
+$1_A$                   &$1 \in G$      \\
+\end{tabular}
+\end{displaytext}
+% 
+The category $\cat{A}$ looks something like this:
+\[
+\SelectTips{cm}{}
+\xymatrix{A \ar@(r,u)@<-.5ex>[]_{} \ar@(u,l) \ar@(ld,rd)[]_{}}
+\]
+The arrows represent different maps $A \to A$, that is, different elements of
+the group $G$. 
+
+What the object of $\cat{A}$ is called makes no difference.  It matters
+exactly as much as whether we choose $x$ or $y$ or $t$ to denote some
+variable in an algebra problem, which is to say, not at all.  Later we will
+define `equivalence' of categories, which will enable us to make a precise
+statement: the category of groups is equivalent to the category of (small)
+one-object categories in which every map is an isomorphism
+(Example~\ref{eg:mon-one-obj-eqv}).
+
+The first time one meets the idea that a group is a kind of category, it is
+tempting to dismiss it as a coincidence or a trick.  But it is not; there
+is real content.
+
+To see this, suppose that your education had been shuffled and that you
+already knew about categories before being taught about groups.  In your
+first group theory class, the lecturer declares that a group is supposed to
+be the system of all symmetries of an object.  A symmetry of an object $X$,
+she says, is a way of mapping $X$ to itself in a reversible or invertible
+manner.  At this point, you realize that she is talking about a very
+special type of category.  In general, a category is a system consisting of
+\emph{all} the mappings (not usually just the invertible ones) between
+\emph{many} objects (not usually just one).  So a group is just a category
+with the special properties that all the maps are invertible and there is
+only one object.
+
+\item   
+\label{eg:cats-as:monoids}
+The inverses played no essential part in the previous example, suggesting that
+it is worth thinking about `groups without inverses'.  These are called
+monoids.  
+
+Formally, a \demph{monoid}%
+%
+\index{monoid}
+%
+is a set equipped with an associative binary operation and a two-sided unit
+element.  Groups describe the reversible transformations, or symmetries,
+that can be applied to an object; monoids describe the
+not-necessarily-reversible transformations.  For instance, given any set
+$X$, there is a group consisting of all bijections $X \to X$, and there is
+a monoid consisting of all functions $X \to X$.  In both cases, the binary
+operation is composition and the unit is the identity function on $X$.
+Another example of a monoid is the set $\nat = \{0, 1, 2, \ldots\}$%
+%
+\ntn{nat}
+%
+of natural%
+%
+\index{natural numbers}
+%
+numbers, with $+$ as the operation and $0$ as the unit.  Alternatively, we
+could take the set $\nat$ with $\cdot$ as the operation and $1$ as the
+unit.
+
+A category with one%
+%
+\index{monoid!one-object category@as one-object category}
+%
+object is essentially the same thing as a monoid, by the same argument as
+for groups.  This is stated formally in Example~\ref{eg:mon-one-obj-eqv}.%
+%
+\index{category!one-object|)}
+%
+
+\item   
+\label{eg:cats-as:orders}
+A \demph{preorder}%
+%
+\index{preorder}
+%
+is a reflexive transitive binary relation.  A \demph{preordered set} $(S,
+\mathord{\leq})$%
+%
+\ntn{leq}
+%
+is a set $S$ together with a preorder $\leq$ on it.  Examples: $S = \reals$
+and $\leq$ has its usual meaning; $S$ is the set of subsets of $\{1,
+\ldots, 10\}$ and $\leq$ is $\sub$ (inclusion); $S = \integers$ and $a \leq
+b$ means that $a$ divides $b$.
+
+A preordered set can be regarded as a category $\cat{A}$ in which, for each
+$A, B \in \cat{A}$, there is at most one map from $A$ to $B$.  To see this,
+consider a category $\cat{A}$ with this property.  It is not important what
+letter we use to denote the unique map from an object $A$ to an object $B$;
+all we need to record is which pairs $(A, B)$ of objects have the property
+that a map $A \to B$ does exist.  Let us write $A \leq B$ to mean that
+there exists a map $A \to B$.
+
+Since $\cat{A}$ is a category, and categories have composition, if $A \leq
+B \leq C$ then $A \leq C$.  Since categories also have identities, $A \leq
+A$ for all $A$.  The associativity and identity axioms are automatic.  So,
+$\cat{A}$ amounts to a collection of objects equipped with a transitive
+reflexive binary relation, that is, a preorder.  One can think of the
+unique map $A \to B$ as the statement or assertion that $A \leq B$.
+
+An \demph{order}%
+%
+\index{ordered set}
+%
+on a set is a preorder $\leq$ with the property that if $A \leq B$ and $B
+\leq A$ then $A = B$.  (Equivalently, if $A \iso B$ in the corresponding
+category then $A = B$.)  Ordered sets are also called \demph{partially
+ordered sets}%
+%
+\index{partially ordered set} 
+%
+or \demph{posets}.%
+%
+\index{poset}
+%
+An example of a preorder that is not%
+%
+\index{ordered set!preordered set@vs.\ preordered set}
+%
+an order is the divisibility relation $\divides$ on $\integers$: for there
+we have $2 \divides {-2}$ and $-2 \divides 2$ but $2 \neq -2$.
+\end{enumerate}
+\end{examples}
+
+Here are two ways of constructing new categories from old. 
+
+{\sloppy
+\begin{constn} 
+\label{constn:op-cat}
+Every category $\cat{A}$ has an \demph{opposite}%
+%
+\index{category!opposite}
+%
+or \demph{dual}%
+%
+\index{duality}
+%
+category $\cat{A}^\op$,%
+%
+\ntn{op}
+%
+defined by reversing the arrows.  Formally, $\ob(\cat{A}^\op) =
+\ob(\cat{A})$ and $\cat{A}^\op(B, A) = \cat{A}(A, B)$ for all objects $A$
+and $B$.  Identities in $\cat{A}^\op$ are the same as in $\cat{A}$.
+Composition in $\cat{A}^\op$ is the same as in $\cat{A}$, but with the
+arguments reversed.  To spell this out: if $A \toby{f} B \toby{g} C$ are
+maps in $\cat{A}^\op$ then $A \otby{f} B \otby{g} C$ are maps in $\cat{A}$;
+these give rise to a map $A \otby{f \of g} C$ in $\cat{A}$, and the
+composite of the original pair of maps is the corresponding map $A \to C$
+in $\cat{A}^\op$.
+
+So, arrows $A \to B$ in $\cat{A}$ correspond to arrows $B \to A$ in
+$\cat{A}^\op$.  According to the definition above, if $f\from A \to B$ is
+an arrow in $\cat{A}$ then the corresponding arrow $B \to A$ in
+$\cat{A}^\op$ is also called $f$.  Some people prefer to give it a
+different name, such as $f^\op$.
+\end{constn}
+}
+
+\begin{remark}  
+\label{rmk:principle-duality}
+The \demph{principle of duality}%
+%
+\index{duality!principle of}
+%
+is fundamental to category theory.  Informally, it states that every
+categorical definition, theorem and proof has a \demph{dual}, obtained by
+reversing all the arrows.  Invoking the principle of duality can save work:
+given any theorem, reversing the arrows throughout its statement and proof
+produces a dual theorem.  Numerous examples of duality appear throughout
+this book.
+\end{remark}
+
+\begin{constn}  
+\label{constn:prod-cat}
+Given categories $\cat{A}$ and $\cat{B}$, there is a \demph{product%
+%
+\index{category!product of categories}
+%
+category} $\cat{A} \times \cat{B}$,%
+%
+\ntn{prod-cat}
+%
+ in which
+% 
+%\begin{align*}
+%\ob(\cat{A} \times \cat{B})     &
+%=      
+%\ob(\cat{A}) \times \ob(\cat{B}),\\
+%(\cat{A} \times \cat{B})((A, B), (A', B'))      &
+%=      
+%\cat{A}(A, A') \times \cat{B}(B, B').
+%\end{align*}
+% 
+Put another way, an object of the product category $\cat{A} \times \cat{B}$
+is a pair $(A, B)$ where $A \in \cat{A}$ and $B \in \cat{B}$.  A map $(A,
+B) \to (A', B')$ in $\cat{A} \times \cat{B}$ is a pair $(f, g)$ where
+$f\from A \to A'$ in $\cat{A}$ and $g\from B \to B'$ in $\cat{B}$.  For the
+definitions of composition and identities in $\cat{A} \times \cat{B}$, see
+Exercise~\ref{ex:prod-cat}.
+\end{constn}
+
+
+\exs
+
+
+\begin{question}
+Find three examples of categories not mentioned above.
+\end{question}
+
+
+\begin{question}        
+\label{ex:unique-inverse}
+Show that a map in a category can have at most one inverse.  That is, given
+a map $f\from A \to B$, show that there is at most one map $g\from B \to A$
+such that $gf = 1_A$ and $fg = 1_B$.  
+\end{question}
+
+
+\begin{question}        
+\label{ex:prod-cat}
+Let $\cat{A}$ and $\cat{B}$ be categories.
+Construction~\ref{constn:prod-cat} defined the product category $\cat{A}
+\times \cat{B}$, except that the definitions of composition and identities
+in $\cat{A} \times \cat{B}$ were not given.  There is only one sensible way
+to define them; write it down.
+\end{question}
+
+
+\begin{question}
+There is a category $\Toph$%
+%
+\ntn{Toph}
+%
+whose objects are topological spaces and whose
+maps $X \to Y$ are homotopy%
+%
+\index{homotopy}
+%
+classes of continuous maps from $X$ to $Y$.  What do you need to know about
+homotopy in order to prove that $\Toph$ is a category?  What does it mean,
+in purely topological terms, for two objects of $\Toph$ to be isomorphic?
+\end{question}
+
+
+
+\section{Functors}
+\label{sec:ftrs}
+
+
+One of the lessons of category theory is that whenever we meet a new type
+of mathematical object, we should always ask whether there is a sensible
+notion of `map' between such objects.  We can ask this about categories
+themselves.  The answer is yes, and a map between categories is called a
+functor.
+
+\begin{defn}
+Let $\cat{A}$ and $\cat{B}$ be categories.  A \demph{functor}%
+%
+\index{functor}
+%
+$F\from \cat{A} \to \cat{B}$ consists of:
+% 
+\begin{itemize}
+\item 
+a function
+\[
+\ob(\cat{A}) \to \ob(\cat{B}),
+\]
+written as $A \mapsto F(A)$;
+
+\item 
+for each $A, A' \in \cat{A}$, a function
+\[
+\cat{A}(A, A') \to \cat{B}(F(A), F(A')),
+\]
+written as $f \mapsto F(f)$,
+\end{itemize}
+% 
+satisfying the following axioms:
+% 
+\begin{itemize}
+\item 
+$F(f' \of f) = F(f') \of F(f)$ whenever $A \toby{f} A' \toby{f'} A''$ in
+$\cat{A}$;
+
+\item 
+$F(1_A) = 1_{F(A)}$ whenever $A \in \cat{A}$.
+\end{itemize}
+\end{defn}
+
+\begin{remarks} 
+\label{rmks:defn-ftr}
+\begin{enumerate}[(b)]       
+\item 
+\label{rmk:defn-ftr:loosely}
+The definition of functor is set up so that from each string
+\[
+A_0 \toby{f_1} \ \cdots\ \toby{f_n} A_n
+\]
+of maps in $\cat{A}$ (with $n \geq 0$), it is possible to construct exactly
+one%
+%
+\index{uniqueness!constructions@of constructions}
+%
+map
+\[
+F(A_0) \to F(A_n)
+\]
+in $\cat{B}$.  For example, given maps
+\[
+A_0 \toby{f_1} A_1 \toby{f_2} A_2 \toby{f_3} A_3 \toby{f_4} A_4
+\]
+in $\cat{A}$, we can construct maps
+\[
+\xymatrix@=10em{
+F(A_0) 
+\ar@<1ex>[r]^{F(f_4 f_3) F(f_2 f_1)}
+\ar@<-1ex>[r]_{F(1_{A_4}) F(f_4) F(f_3 f_2) F(f_1)}     &
+F(A_4)
+}
+\]
+in $\cat{B}$, but the axioms imply that they are equal.  
+
+\item   
+\label{rmk:defn-ftr:comp}
+We are familiar with the idea that structures and the structure-preserving
+maps between them form a category (such as $\Grp$, $\Ring$, etc.).  In
+particular, this applies to categories and functors: there is a category
+$\CAT$%
+%
+\index{category!category of categories}%
+\ntn{CAT}
+%
+whose objects are categories and whose maps are functors.
+
+One part of this statement is that functors can be composed.%
+%
+\index{functor!composition of functors}
+%
+That is, given functors $\cat{A} \toby{F} \cat{B} \toby{G} \cat{C}$, there
+arises a new functor $\cat{A} \toby{G \of F} \cat{C}$,%
+%
+\ntn{of-ftr}
+%
+defined in the obvious way.  Another is that for every category $\cat{A}$,
+there is an identity%
+%
+\index{functor!identity}
+%
+functor $1_\cat{A}\from \cat{A} \to \cat{A}$.%
+%
+\ntn{id-ftr}
+%
+\end{enumerate}
+\end{remarks}
+
+\begin{examples} 
+\label{egs:forgetful-functors}
+Perhaps the easiest examples of functors are the so-called \demph{forgetful%
+%
+\index{functor!forgetful}
+%
+functors}.  (This is an informal term, with no precise definition.)  For
+instance:
+% 
+\begin{enumerate}[(b)]
+\item   
+\label{eg:forgetful-groups}
+There is a functor $U\from \Grp \to \Set$ defined as follows: if $G$ is a
+group then $U(G)$ is the underlying%
+%
+\index{underlying}
+%
+set of $G$ (that is, its set of elements), and if $f\from G \to H$ is a
+group homomorphism then $U(f)$ is the function $f$ itself.  So $U$ forgets
+the group structure of groups and forgets that group homomorphisms are
+homomorphisms.
+
+\item   
+\label{eg:forgetful-ring-vs}
+Similarly, there is a functor $\Ring \to \Set$ forgetting the ring
+structure on rings, and (for any field $k$) there is a functor $\Vect_k
+\to \Set$ forgetting the vector space structure on vector spaces.
+
+\item   
+\label{eg:forgetful-part}
+Forgetful functors do not have to forget \emph{all} the structure.  For
+example, let $\Ab$%
+%
+\ntn{Ab}
+%
+be the category of abelian groups.  There is a functor $\Ring \to \Ab$ that
+forgets the multiplicative structure, remembering just the underlying
+additive group.  Or, let $\Mon$%
+%
+\ntn{Mon}
+%
+be the category of monoids.  There is a functor $U\from \Ring \to \Mon$
+that forgets the additive structure, remembering just the underlying%
+%
+\index{underlying}
+%
+multiplicative monoid.  (That is, if $R$ is a ring then $U(R)$ is the set
+$R$ made into a monoid via $\cdot$ and $1$.)
+
+\item   
+\label{eg:forgetful-ab}
+There is an inclusion functor $U\from \Ab \to \Grp$ defined by $U(A) = A$
+for any abelian group $A$ and $U(f) = f$ for any homomorphism $f$ of abelian
+groups.  It forgets that abelian groups are abelian.
+\end{enumerate}
+
+The forgetful functors in examples
+\bref{eg:forgetful-groups}--\bref{eg:forgetful-part} forget
+\emph{structure} on the objects, but that of
+example~\bref{eg:forgetful-ab} forgets a \emph{property}.  Nevertheless,
+it turns out to be convenient to use the same word, `forgetful', in both
+situations.
+
+Although forgetting is a trivial operation, there are situations in which
+it is powerful.  For example, it is a theorem that the order of any finite
+field is a prime power.  An important step in the proof is to simply forget
+that the field is a field, remembering only that it is a vector space over
+its subfield $\{0, 1, 1 + 1, 1 + 1 + 1, \ldots\}$.
+\end{examples}
+
+\begin{examples}        
+\label{egs:free-functors}
+\demph{Free%
+%
+\index{functor!free}%
+\index{free functor}
+%
+functors} are in some sense dual to forgetful functors (as we will see in
+the next chapter), although they are less elementary.  Again, `free
+functor' is an informal but useful term.
+
+\begin{enumerate}[(b)]
+\item 
+\label{eg:free-group} 
+Given any set $S$, one can build the \demph{free%
+%
+\index{group!free}
+%
+group} $F(S)$ on $S$.  This is a group containing $S$ as a subset and with
+no further properties other than those it is forced to have, in a sense
+made precise in Section~\ref{sec:adj-basics}.  Intuitively, the group
+$F(S)$ is obtained from the set $S$ by adding just enough new elements that
+it becomes a group, but without imposing any equations other than those
+forced by the definition of group.
+
+A little more precisely, the elements of $F(S)$ are formal expressions or
+\demph{words}%
+%
+\index{word}
+%
+such as $x^{-4} y x^2 z y^{-3}$ (where $x, y, z \in S$).  Two such words
+are seen as equal if one can be obtained from the other by the usual
+cancellation rules, so that, for example, $x^3 x y$, $x^4 y$, and $x^2
+y^{-1} y x^2 y$ all represent the same element of $F(S)$.  To multiply two
+words, just write one followed by the other; for instance, $x^{-4} y x$
+times $x z y^{-3}$ is $x^{-4} y x^2 z y^{-3}$.
+
+This construction assigns to each set $S$ a group $F(S)$.  In fact, $F$ is
+a functor: any map of sets $f\from S \to S'$ gives rise to a homomorphism
+of groups $F(f)\from F(S) \to F(S')$.  For instance, take the map of sets
+\[
+f\from \{w, x, y, z\} \to \{u, v\}
+\]
+defined by $f(w) = f(x) = f(y) = u$ and $f(z) = v$.  This gives rise to a
+homomorphism 
+\[
+F(f)\from F(\{w, x, y, z\}) \to F(\{u, v\}),
+\]
+which maps $x^{-4} y x^2 z y^{-3} \in F(\{w, x, y, z\})$ to 
+\[
+u^{-4} u u^2 v u^{-3} 
+=
+u^{-1} v u^{-3}
+\in
+F(\{u, v\}).
+\]
+
+\item 
+\label{eg:free-ring} 
+Similarly, we can construct the free commutative ring $F(S)$ on a set $S$,
+giving a functor $F$ from $\Set$ to the category $\CRing$%
+%
+\ntn{CRing}
+%
+of commutative rings.  In fact, $F(S)$ is something familiar, namely, the
+ring of polynomials%
+%
+\index{ring!polynomial}
+%
+over $\integers$ in commuting variables $x_s$ ($s \in S$).  (A polynomial
+is, after all, just a formal expression built from the variables using
+the ring operations $+$, $-$ and $\cdot$.)  For example, if $S$ is a
+two-element set then $F(S) \iso \integers[x, y]$.
+
+\item   
+\label{eg:free-vs}
+We can also construct the free%
+%
+\index{vector space!free}
+%
+vector space on a set.  Fix a field $k$.  The free functor $F\from \Set \to
+\Vect_k$ is defined on objects by taking $F(S)$ to be a vector space with
+basis $S$.  Any two such vector spaces are isomorphic; but it is perhaps
+not obvious that there is any such vector space at all, so we have to
+construct one.  Loosely, $F(S)$ is the set of all formal $k$-linear
+combinations of elements of $S$, that is, expressions
+\[
+\sum_{s \in S} \lambda_s s
+\]
+where each $\lambda_s$ is a scalar and there are only finitely many values
+of $s$ such that $\lambda_s \neq 0$.  (This restriction is imposed because
+one can only take \emph{finite} sums in a vector space.)  Elements of
+$F(S)$ can be added:
+\[
+\sum_{s \in S} \lambda_s s + \sum_{s \in S} \mu_s s 
+=
+\sum_{s \in S} (\lambda_s + \mu_s) s.
+\]
+There is also a scalar multiplication on $F(S)$:
+\[
+c \cdot \sum_{s \in S} \lambda_s s
+=
+\sum_{s \in S} (c \lambda_s) s
+\]
+($c \in k$).  In this way, $F(S)$ becomes a vector space.
+
+To be completely precise and avoid talking about `expressions', we
+can define $F(S)$ to be the set of all functions $\lambda\from S \to k$ such
+that $\{ s \in S \such \lambda(s) \neq 0\}$ is finite.  (Think of such a
+function $\lambda$ as corresponding to the expression $\sum_{s \in S}
+\lambda(s) s$.)  To define addition on $F(S)$, we must define for each
+$\lambda, \mu \in F(S)$ a sum $\lambda + \mu \in F(S)$; it is given by
+\[
+(\lambda + \mu)(s) = \lambda(s) + \mu(s)
+\]
+($s \in S$). Similarly, the scalar multiplication is given by $(c \cdot
+\lambda)(s) = c\cdot \lambda(s)$ ($c \in k$, $\lambda \in F(S)$, $s \in
+S$).  
+\end{enumerate}
+
+Rings and vector spaces have the special property that it is relatively
+easy to write down an explicit formula for the free functor.  The case of
+groups is much more typical.  For most types of algebraic structure,
+describing the free functor requires as much fussy work as it does for
+groups.  We return to this point in Example~\ref{egs:adjns-alg} and
+Example~\ref{eg:gaft-free-alg} (where we see how to avoid the fussy work
+entirely).
+\end{examples}
+
+\begin{examples}[Functors in algebraic topology]
+\label{egs:functors:homo-homo}
+%
+\index{algebraic topology}   
+%
+Historically, some of the first examples of functors arose in algebraic
+topology.  There, the strategy is to learn about a space by extracting data
+from it in some clever way, assembling that data into an algebraic
+structure, then studying the algebraic structure instead of the original
+space.  Algebraic topology therefore involves many functors from categories
+of spaces to categories of algebras.
+% 
+\begin{enumerate}[(b)]
+\item 
+Let $\Tp_*$%
+%
+\ntn{Top-star}
+%
+ be the category of topological spaces equipped with a
+basepoint, together with the continuous basepoint-preserving maps.  There
+is a functor $\pi_1\from \Tp_* \to \Grp$%
+%
+\ntn{pi-1}
+%
+assigning to each space $X$ with basepoint $x$ the fundamental%
+%
+\index{group!fundamental}
+%
+group $\pi_1(X, x)$ of $X$ at $x$.  (Some texts use the simpler notation
+$\pi_1(X)$, ignoring the choice of basepoint.  This is more or less safe if
+$X$ is path-connected, but strictly speaking, the basepoint should always
+be specified.)
+
+That $\pi_1$ is a functor means that it not only assigns to each
+space-with-basepoint $(X, x)$ a group $\pi_1(X, x)$, but also assigns to
+each basepoint-pre\-ser\-ving continuous map 
+\[
+f\from (X, x) \to (Y, y)
+\]
+a homomorphism 
+\[
+\pi_1(f)\from \pi_1(X, x) \to \pi_1(Y, y).
+\]
+Usually $\pi_1(f)$ is written as $f_*$.  The functoriality axioms say that $(g
+\of f)_* = g_* \of f_*$ and $(1_{(X, x)})_* = 1_{\pi_1(X, x)}$.  
+
+\item 
+For each $n \in \nat$, there is a functor $H_n\from \Tp \to \Ab$%
+%
+\ntn{homology}
+%
+assigning to a space its $n$th homology%
+%
+\index{homology}
+%
+group (in any of several possible senses).
+\end{enumerate}
+\end{examples}
+
+\begin{example}
+Any system of polynomial%
+%
+\index{polynomial}%
+\index{simultaneous equations}
+%
+equations such as
+% 
+%\begin{align}
+%2x^2 + y^2 - 3z^2       &
+%= 
+%1
+%\label{eq:scheme-1}     \\
+%x^3 + x     &
+%=
+%y^2       
+%\label{eq:scheme-2}
+%\end{align}
+% 
+gives rise to a functor $\CRing \to \Set$.  Indeed, for each commutative
+ring $A$, let $F(A)$ be the set of triples $(x, y, z) \in A \times A \times
+A$ satisfying equations~\eqref{eq:scheme-1} and~\eqref{eq:scheme-2}.
+Whenever $f\from A \to B$ is a ring homomorphism and $(x, y, z) \in F(A)$,
+we have $(f(x), f(y), f(z)) \in F(B)$; so the map of rings $f\from A \to B$
+induces a map of sets $F(f) \from F(A) \to F(B)$.  This defines a functor
+$F\from \CRing \to \Set$.
+
+In algebraic%
+%
+\index{algebraic geometry}
+%
+geometry, a \demph{scheme}%
+%
+\index{scheme}
+%
+is a functor $\CRing \to \Set$ with certain properties.  (This is not the
+most common way of phrasing the definition, but it is equivalent.)  The
+functor $F$ above is a simple example.
+\end{example}
+
+\begin{example}
+\label{eg:ftrs-between-monoids}
+Let $G$ and $H$ be monoids (or groups, if you prefer), regarded as
+one-object%
+%
+\index{monoid!homomorphism of monoids}
+%
+categories $\cat{G}$ and $\cat{H}$.  A functor $F\from \cat{G} \to \cat{H}$
+must send the unique object of $\cat{G}$ to the unique object of $\cat{H}$,
+so it is determined by its effect on maps.  Hence, the functor $F \from
+\cat{G} \to \cat{H}$ amounts to a function $F\from G \to H$ such that $F(g'
+g) = F(g') F(g)$ for all $g', g \in G$, and $F(1) = 1$.  In other words, a
+functor $\cat{G} \to \cat{H}$ is just a homomorphism $G \to H$.
+\end{example}
+
+\begin{example}
+\label{eg:functor-action}
+Let $G$ be a monoid,%
+%
+\index{monoid!action of}
+%
+regarded as a one-object category $\cat{G}$.  A functor $F\from \cat{G} \to
+\Set$ consists of a set $S$ (the value of $F$ at the unique object of
+$\cat{G}$) together with, for each $g \in G$, a function $F(g)\from S \to
+S$, satisfying the functoriality axioms.  Writing $(F(g))(s) = g \cdot s$,
+we see that the functor $F$ amounts to a set $S$ together with a function
+\[
+\begin{array}{ccc}
+G \times S      &\to            &S      \\
+(g, s)          &\mapsto        &g \cdot s      
+\end{array}
+\]
+satisfying $(g' g) \cdot s = g' \cdot (g \cdot s)$ and $1 \cdot s = s$ for
+all $g, g' \in G$ and $s \in S$.  In other words, a functor $\cat{G} \to
+\Set$ is a set equipped with a left action by $G$: a \demph{left $G$-set},%
+%
+\index{G-set@$G$-set}
+%
+for short.
+
+Similarly, a functor $\cat{G} \to \Vect_k$ is exactly a $k$-linear
+representation%
+%
+\index{representation!group or monoid@of group or monoid!linear}
+%
+of $G$, in the sense of representation theory.  This can reasonably be
+taken as the \emph{definition} of representation.
+\end{example}
+
+\begin{example}
+\label{eg:functor-orders}
+When $A$ and $B$ are (pre)ordered sets, a functor between the corresponding
+categories is exactly an \demph{order-preserving%
+%
+\index{order-preserving}%
+\index{map!order-preserving}
+%
+map}, that is, a function
+$f\from A \to B$ such that $a \leq a' \implies f(a) \leq f(a')$.
+Exercise~\ref{ex:functor-orders} asks you to verify this.
+\end{example}
+
+Sometimes we meet functor-like operations that reverse the arrows, with a
+map $A \to A'$ in $\cat{A}$ giving rise to a map $F(A) \ot F(A')$ in
+$\cat{B}$.  Such operations are called contravariant functors.
+
+\begin{defn}    
+\label{defn:contravariant}
+Let $\cat{A}$ and $\cat{B}$ be categories.  A \demph{contravariant%
+%
+\index{functor!contravariant}%
+\index{contravariant}
+%
+functor} from $\cat{A}$ to $\cat{B}$ is a functor $\cat{A}^\op \to
+\cat{B}$.
+\end{defn}
+
+To avoid confusion, we write `a contravariant functor from $\cat{A}$ to
+$\cat{B}$' rather than `a contravariant functor $\cat{A} \to \cat{B}$'.
+
+Functors $\cat{C} \to \cat{D}$ correspond one-to-one with functors
+$\cat{C}^\op \to \cat{D}^\op$, and $(\cat{A}^\op)^\op = \cat{A}$, so a
+contravariant functor from $\cat{A}$ to $\cat{B}$ can also be described as
+a functor $\cat{A} \to \cat{B}^\op$.  Which description we use is not
+enormously important, but in the long run, the convention in
+Definition~\ref{defn:contravariant} makes life easier.
+
+An ordinary functor $\cat{A} \to \cat{B}$ is sometimes called a
+\demph{covariant%
+%
+\index{functor!covariant}%
+\index{covariant}
+%
+functor} from $\cat{A}$ to $\cat{B}$, for emphasis.
+
+\begin{example}
+\label{eg:contra-fn-spaces}
+%
+\index{topological space!functions on}%
+\index{ring!functions@of functions}
+%
+We can tell a lot about a space by examining the functions on it.  The
+importance of this principle in twentieth- and twenty-first-century
+mathematics can hardly be exaggerated.
+
+For example, given a topological space $X$, let $C(X)$%
+%
+\ntn{cts-ring}
+%
+be the ring of continuous real-valued functions on $X$.  The ring
+operations are defined `pointwise':%
+%
+\index{pointwise}
+%
+for instance, if $p_1, p_2\from X \to \reals$ are continuous maps then the
+map $p_1 + p_2 \from X \to \reals$ is defined by
+\[
+(p_1 + p_2)(x) = p_1(x) + p_2(x)
+\]
+($x \in X$).  A continuous map $f\from X \to Y$ induces a ring homomorphism
+$C(f)\from C(Y) \to C(X)$, defined at $q \in C(Y)$ by taking $(C(f))(q)$ to be
+the composite map
+\[
+X \toby{f} Y \toby{q} \reals.
+\]
+Note that $C(f)$ goes in the opposite direction from $f$.  After checking
+some axioms (Exercise~\ref{ex:contra-fn-spaces}), we conclude that $C$ is a
+contravariant functor from $\Tp$ to $\Ring$.
+
+While this particular example will not play a large part in this text, it
+is worth close attention.  It illustrates the important idea of a
+structure whose elements are maps (in this case, a ring whose elements are
+continuous functions).  The way in which $C$ becomes a functor, via
+composition, is also important.  Similar constructions will be crucial in
+later chapters.
+
+For certain classes of space, the passage from $X$ to $C(X)$ loses no
+information: there is a way of reconstructing the space $X$ from the ring
+$C(X)$.  For this and related reasons, it is sometimes said that `algebra
+is dual%
+%
+\index{duality!algebra--geometry}
+%
+to geometry'.
+\end{example}
+
+\begin{example}
+\label{eg:fns-on-vs}
+Let $k$ be a field.  For any two vector spaces $V$ and $W$ over $k$, there
+is a vector space
+\[
+\HOM(V, W) 
+=
+\{ \text{linear maps } V \to W \}.%
+%
+\index{vector space!linear maps@of linear maps}
+%
+\ntn{HOM}
+%
+\]
+The elements of this vector space are themselves maps, and the vector space
+operations (addition and scalar multiplication) are defined pointwise, as
+in the last example.
+
+Now fix a vector space $W$.  Any linear map $f\from V \to V'$ induces a linear
+map 
+\[
+f^*\from \HOM(V', W) \to \HOM(V, W),%
+%
+\ntn{dual-map}
+%
+\]
+defined at $q\in \HOM(V', W)$ by taking $f^*(q)$ to be the composite map
+\[
+V \toby{f} V' \toby{q} W.
+\]
+This defines a functor
+\[
+\HOM(\dashbk, W)\from \Vect_k^\op \to \Vect_k.
+\]
+The symbol `$\dashbk$'%
+%
+\ntn{dashbk}
+%
+is a blank or placeholder, into which arguments can be inserted.  Thus, the
+value of $\HOM(\dashbk, W)$ at $V$ is $\HOM(V, W)$.  Sometimes we use a
+blank space%
+%
+\ntn{empty-blank}
+%
+instead of $\dashbk$, as in $\HOM(\hspace*{1em}, W)$.
+
+An important special case is where $W$ is $k$, seen as a one-dimensional
+vector space over itself.  The vector space $\HOM(V, k)$ is called the
+\demph{dual}%
+%
+\index{vector space!functions on}%
+\index{vector space!dual}%
+\index{duality!vector spaces@for vector spaces}
+%
+of $V$, and is written as $V^*$.%
+%
+\ntn{dual-vs}
+%
+So there is a contravariant functor
+\[
+\blank^* = \HOM(\dashbk, k)\from \Vect_k^\op \to \Vect_k
+\]
+sending each vector space to its dual.
+\end{example}
+
+\begin{example}
+For each $n\in\nat$, there is a functor $H^n\from  \Tp^\op
+\to \Ab$%
+%
+\ntn{cohomology}
+%
+assigning to a space its $n$th cohomology%
+%
+\index{cohomology}
+%
+group.
+\end{example}
+
+\begin{example}
+\label{eg:contra-functors:actions}
+Let $G$ be a monoid, regarded as a one-object category $\cat{G}$.  A
+functor $\cat{G}^\op \to \Set$ is a \emph{right} $G$-set,%
+%
+\index{monoid!action of}
+%
+for essentially the same reasons as in Example~\ref{eg:functor-action}.
+
+That left actions are covariant functors and right actions are
+contravariant functors is a consequence of a basic notational choice: we
+write the value of a function $f$ at an element $x$ as $f(x)$, not $(x)f$.
+\end{example}
+
+Contravariant functors whose codomain is $\Set$ are important enough to have
+their own special name.
+
+\begin{defn}    
+\label{defn:presheaf}
+Let $\cat{A}$ be a category.  A \demph{presheaf}%
+%
+\index{presheaf|(}
+%
+on $\cat{A}$ is a functor $\cat{A}^\op \to \Set$.
+\end{defn}
+
+The name comes from the following special case.  Let $X$ be a topological
+space.  Write $\oset(X)$%
+%
+\ntn{oset}
+%
+for the poset of open subsets of $X$, ordered by inclusion.  View
+$\oset(X)$ as a category, as in
+Example~\ref{egs:cats-as}\bref{eg:cats-as:orders}.  Thus, the objects of
+$\oset(X)$ are the open subsets of $X$, and for $U, U' \in \oset(X)$, there
+is one map $U \to U'$ if $U \sub U'$, and there are none otherwise.  A
+\demph{presheaf} on the space $X$ is a presheaf on the category $\oset(X)$.
+For example, given any space $X$, there is a presheaf $F$ on $X$ defined by
+\[
+F(U) = \{ \text{continuous functions } U \to \reals \}
+%
+\index{topological space!functions on}
+%
+\]
+($U \in \oset(X)$) and, whenever $U \sub U'$ are open subsets of $X$, by
+taking the map $F(U') \to F(U)$ to be restriction.  Presheaves, and a
+certain class of presheaves called sheaves,%
+%
+\index{sheaf}
+%
+play an important role in modern geometry.%
+%
+\index{presheaf|)}
+%
+
+\subjectchange
+
+We know very well that for \emph{functions} between \emph{sets}, it is
+sometimes useful to consider special kinds of function such as injections,
+surjections and bijections.  We also know that the notions of injection and
+subset are related: for instance, whenever $B$ is a subset of $A$, there is
+an injection $B \to A$ given by inclusion.  In this section and the next,
+we introduce some similar notions for \emph{functors} between
+\emph{categories}, beginning with the following definitions.
+
+\begin{defn}
+A functor $F\from  \cat{A} \to \cat{B}$ is \demph{faithful}%
+%
+\index{functor!faithful}%
+\index{faithful}
+%
+(respectively, \demph{full})%
+%
+\index{functor!full}
+%
+if for each $A, A' \in \cat{A}$, the function
+\[
+\begin{array}{ccc}
+\cat{A}(A, A')  &\to            &\cat{B}(F(A), F(A'))   \\
+f               &\mapsto        &F(f)
+\end{array}
+\]
+is injective (respectively, surjective).
+\end{defn}
+
+\begin{warning}
+Note the roles of $A$ and $A'$ in the definition.  Faithfulness does
+\emph{not} say that if $f_1$ and $f_2$ are distinct maps in $\cat{A}$ then
+$F(f_1) \neq F(f_2)$ (Exercise~\ref{ex:faithful-not-inj}).
+% 
+\begin{figure}
+\[
+\cat{A}
+\begin{array}{c}
+\fbox{ 
+\xymatrix{
+\ &A\vphantom{F(A)} \ar@{.>}[d]&\ \\ &A'\vphantom{F(A')}
+}
+}
+\end{array}
+\qquad%
+\toby{F}%
+\qquad%
+\begin{array}{c}
+\fbox{ 
+\xymatrix{
+\ &F(A) \ar[d]^g&\  \\ & F(A')
+}
+}
+\end{array}
+\cat{B}
+\]
+\caption{Fullness and faithfulness.}
+\label{fig:ff}
+\end{figure}
+% 
+In the situation of Figure~\ref{fig:ff}, $F$ is faithful if for each $A$,
+$A'$ and $g$ as shown, there is at most one dotted arrow that $F$ sends to
+$g$.  It is full if for each such $A$, $A'$ and $g$, there is at least one
+dotted arrow that $F$ sends to $g$.
+\end{warning}
+
+\begin{defn}
+Let $\cat{A}$ be a category.  A \demph{subcategory}%
+%
+\index{subcategory!full}
+%
+$\cat{S}$ of $\cat{A}$ consists of a subclass $\ob(\cat{S})$ of
+$\ob(\cat{A})$ together with, for each $S, S' \in \ob(\cat{S})$, a subclass
+$\cat{S}(S, S')$ of $\cat{A}(S, S')$, such that $\cat{S}$ is closed under
+composition and identities.  It is a \demph{full}%
+%
+\index{subcategory!full}
+%
+subcategory if $\cat{S}(S, S') = \cat{A}(S, S')$ for all $S, S'
+\in \ob(\cat{S})$.
+\end{defn}
+
+A full subcategory therefore consists of a selection of the objects, with
+all of the maps between them.  So, a full subcategory can be specified
+simply by saying what its objects are.  For example, $\Ab$ is the full
+subcategory of $\Grp$ consisting of the groups that are abelian.
+
+Whenever $\cat{S}$ is a subcategory of a category $\cat{A}$, there is an
+inclusion functor $I: \cat{S} \to \cat{A}$ defined by $I(S) = S$ and $I(f)
+= f$.  It is automatically faithful, and it is full if and only if
+$\cat{S}$ is a full subcategory.
+
+\begin{warning}
+The image%
+%
+\index{functor!image of}%
+\index{image!functor@of functor}
+%
+of a functor need not be a subcategory.  For example, consider the functor
+\[
+\Bigl(
+\begin{array}{c}
+\xymatrix@1{A \ar[r]^-f&B\quad B' \ar[r]^-g&C}
+\end{array}
+\Bigr)
+\qquad
+\toby{F}
+\qquad
+\left(
+\begin{array}{c}
+\xymatrix{
+        &Y \ar[dr]^q    &       \\
+X \ar[ur]^p \ar[rr]_{qp} &&Z
+}
+\end{array}
+\right)
+\]
+defined by $F(A) = X$, $F(B) = F(B') = Y$, $F(C) = Z$, $F(f) = p$, and $F(g) =
+q$.  Then $p$ and $q$ are in the image of $F$, but $qp$ is not.
+\end{warning}
+
+
+\exs
+
+
+\begin{question}
+Find three examples of functors not mentioned above.
+\end{question}
+
+
+\begin{question}        
+\label{ex:ftrs-pres-iso}
+Show that functors preserve isomorphism.%
+%
+\index{isomorphism!preserved by functors}
+%
+That is, prove that if $F\from \cat{A} \to \cat{B}$ is a functor and $A, A'
+\in \cat{A}$ with $A \iso A'$, then $F(A) \iso F(A')$.
+\end{question}
+
+
+\begin{question}
+\label{ex:functor-orders}
+Prove the assertion made in Example~\ref{eg:functor-orders}.  In other
+words, given ordered sets $A$ and $B$, and denoting by $\cat{A}$ and
+$\cat{B}$ the corresponding categories, show that a functor $\cat{A} \to
+\cat{B}$ amounts to an order-preserving%
+%
+\index{order-preserving}%
+\index{map!order-preserving}
+%
+map $A \to B$.
+\end{question}
+
+
+\begin{question}
+Two categories $\cat{A}$ and $\cat{B}$ are \demph{isomorphic},%
+%
+\index{isomorphism!categories@of categories}%
+\index{category!isomorphism of categories}
+%
+written as $\cat{A} \iso \cat{B}$,%
+%
+\ntn{iso-cat}
+%
+if they are isomorphic as objects of $\CAT$.  
+% 
+\begin{enumerate}[(b)]
+\item 
+Let $G$ be a group, regarded as a one-object%
+%
+\index{group!opposite}
+%
+category all of whose maps are isomorphisms.  Then its opposite $G^\op$ is
+also a one-object category all of whose maps are isomorphisms, and can
+therefore be regarded as a group too.  What is $G^\op$, in purely
+group-theoretic terms?  Prove that $G$ is isomorphic to $G^\op$.
+
+\item 
+Find a monoid%
+%
+\index{monoid!opposite}
+%
+not isomorphic to its opposite.
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+Is there a functor $Z \from \Grp \to \Grp$ with the property that $Z(G)$ is
+the centre%
+%
+\index{centre}
+%
+of $G$ for all groups $G$?
+\end{question}
+
+
+\begin{question}        
+\label{ex:ftr-on-product}
+Sometimes we meet functors whose domain is a product%
+%
+\index{category!product of categories}
+%
+$\cat{A} \times \cat{B}$ of categories.  Here you will show that such a
+functor can be regarded as an interlocking pair of families of functors,
+one defined on $\cat{A}$ and the other defined on $\cat{B}$.  (This is very
+like the situation for bilinear and linear maps.)
+% 
+\begin{enumerate}[(b)]
+\item   
+\label{part:prod-ftr-compts} 
+Let $F\from \cat{A} \times \cat{B} \to \cat{C}$ be a functor.  
+Prove that for each $A \in \cat{A}$, there is a functor $F^A\from
+\cat{B} \to \cat{C}$ defined on objects $B \in \cat{B}$ by $F^A(B) = F(A,
+B)$ and on maps $g$ in $\cat{B}$ by $F^A(g) = F(1_A, g)$.  Prove that for
+each $B \in \cat{B}$, there is a functor $F_B \from \cat{A} \to \cat{C}$
+defined similarly.  
+
+\item   
+\label{part:prod-ftr-condns}
+Let $F \from \cat{A} \times \cat{B} \to \cat{C}$ be a functor.  With
+notation as in~\bref{part:prod-ftr-compts}, show that
+the families of functors $(F^A)_{A \in \cat{A}}$ and $(F_B)_{B \in
+  \cat{B}}$ satisfy the following two conditions:
+% 
+\begin{itemize}
+\item 
+if $A \in \cat{A}$ and $B \in \cat{B}$ then $F^A(B) = F_B(A)$;
+
+\item 
+if $f\from A \to A'$ in $\cat{A}$ and $g\from B \to B'$ in $\cat{B}$ then
+$F^{A'}(g) \of F_B(f) = F_{B'}(f) \of F^A(g)$.
+\end{itemize}
+
+\item
+Now take categories $\cat{A}$, $\cat{B}$ and $\cat{C}$, and take families
+of functors $(F^A)_{A \in \cat{A}}$ and $(F_B)_{B \in \cat{B}}$ satisfying
+the two conditions in~\bref{part:prod-ftr-condns}.  Prove that there is a
+unique functor $F\from \cat{A} \times \cat{B} \to \cat{C}$ satisfying the
+equations in~\bref{part:prod-ftr-compts}.  (`There is a unique functor'
+means in particular that there \emph{is} a functor, so you have to prove
+existence as well as uniqueness.)
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+\label{ex:contra-fn-spaces}
+Fill in the details of Example~\ref{eg:contra-fn-spaces}, thus constructing
+a functor $C\from \Tp^\op \to \Ring$.  
+\end{question}
+
+
+\begin{question}
+\label{ex:faithful-not-inj}
+Find an example of a functor $F\from \cat{A} \to \cat{B}$ such that $F$ is
+faithful%
+%
+\index{functor!faithful}%
+\index{faithful}
+%
+but there exist distinct maps $f_1$ and $f_2$ in $\cat{A}$ with $F(f_1) =
+F(f_2)$.
+\end{question}
+
+
+\begin{question}
+\begin{enumerate}[(b)]
+\item
+Of the examples of functors appearing in this section, which are faithful
+and which are full?
+
+\item 
+Write down one example of a functor that is both full and faithful, one
+that is full but not faithful, one that is faithful but not full, and one
+that is neither.
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+\begin{enumerate}[(b)]
+\item
+What are the subcategories of an ordered set?  Which are full?
+
+\item
+What are the subcategories of a group?  (Careful!)  Which are full?
+\end{enumerate}
+\end{question}
+
+
+
+\section{Natural transformations}
+\label{sec:nts}
+
+
+We now know about categories.  We also know about functors, which
+are maps between categories.  Perhaps surprisingly, there is 
+a further notion of `map between functors'.  Such maps are called natural
+transformations.  This notion only applies when the functors have
+the same domain and codomain: 
+\[
+\parpair{\cat{A}}{\cat{B}}{F}{G}.
+\]
+
+To see how this might work, let us consider a special case.  Let $\cat{A}$
+be the discrete category
+(Example~\ref{egs:cats-as}\bref{eg:cats-as:discrete}) whose objects are
+the natural numbers $0, 1, 2$, \ldots.  A functor $F$ from $\cat{A}$ to
+another category $\cat{B}$ is simply a sequence $(F_0, F_1, F_2, \ldots)$
+of objects of $\cat{B}$.  Let $G$ be another functor from $\cat{A}$ to
+$\cat{B}$, consisting of another sequence $(G_0, G_1, G_2, \ldots)$ of
+objects of $\cat{B}$.  It would be reasonable to define a `map' from $F$ to
+$G$ to be a sequence
+\[
+\Bigl(
+F_0 \toby{\alpha_0} G_0, \ 
+F_1 \toby{\alpha_1} G_1, \ 
+F_1 \toby{\alpha_2} G_2, 
+\ \ldots\ 
+\Bigr)
+\]
+of maps in $\cat{B}$.  The situation can be depicted as follows:
+\[
+\cat{A} 
+\begin{array}{c}
+\fbox{
+\xymatrix@C=2ex{0 & 1 & 2 & \cdots}
+}
+\end{array}
+% 
+\qquad
+\qquad
+% 
+\begin{array}{c}
+\fbox{
+\xymatrix@C=2ex{
+&
+F_0 \ar[d]^{\alpha_0} &
+F_1 \ar[d]^{\alpha_1} &
+F_2 \ar[d]^{\alpha_2} &
+{ } \ar@{}[d]^{\textstyle\cdots} &
+&
+\\
+&
+G_0 &
+G_1 &
+G_2 &
+}
+}
+\end{array}
+\cat{B} 
+\]
+(The right-hand diagram should not be understood too literally.  Some of
+the objects $F_i$ or $G_i$ might be equal, and there might be much else in
+$\cat{B}$ besides what is shown.)
+
+This suggests that in the general case, a natural transformation between
+functors $\parpairi{\cat{A}}{\cat{B}}{F}{G}$ should consist of maps
+$\alpha_A\from F(A) \to G(A)$, one for each $A \in \cat{A}$.  In the
+example above, the category $\cat{A}$ had the special property of not
+containing any nontrivial maps.  In general, we demand some kind of
+compatibility between the maps in $\cat{A}$ and the maps $\alpha_A$.
+
+\begin{defn}
+Let $\cat{A}$ and $\cat{B}$ be categories and let
+$\parpairi{\cat{A}}{\cat{B}}{F}{G}$ be functors.  A \demph{natural%
+%
+\index{natural transformation}
+%
+transformation} $\alpha\from F \to G$ is a family $\Bigl( F(A)
+\toby{\alpha_A} G(A) \Bigr)_{A \in \cat{A}}$%
+%
+\ntn{nt-comp}
+%
+of maps in $\cat{B}$ such that
+for every map $A \toby{f} A'$ in $\cat{A}$, the square
+% 
+\begin{equation}        
+\label{eq:nat}
+\begin{array}{c}
+\xymatrix{
+F(A) \ar[r]^{F(f)} \ar[d]_{\alpha_A}    &
+F(A') \ar[d]^{\alpha_{A'}}      \\
+G(A) \ar[r]_{G(f)}      &
+G(A')
+} 
+\end{array}
+\end{equation}
+% 
+commutes.  The maps $\alpha_A$ are called the \demph{components}%
+%
+\index{component!natural transformation@of natural transformation}
+%
+of $\alpha$.
+\end{defn}
+
+\begin{remarks} 
+\label{rmks:defn-nt}
+\begin{enumerate}[(b)]
+\item   
+\label{rmk:defn-nt:loosely}
+The definition of natural transformation is set up so that from each map $A
+\toby{f} A'$ in $\cat{A}$, it is possible to construct exactly one%
+%
+\index{uniqueness!constructions@of constructions}
+%
+map $F(A) \to G(A')$ in $\cat{B}$.  When $f = 1_A$, this map is $\alpha_A$.
+For a general $f$, it is the diagonal of the square~\eqref{eq:nat}, and
+`exactly one' implies that the square commutes.
+
+\item 
+We write
+\[
+\xymatrix{
+\cat{A} \rtwocell^F_G{\alpha} &\cat{B}
+}%
+%
+\ntn{double-arrow}
+%
+\]
+to mean that $\alpha$ is a natural transformation from $F$ to $G$.
+\end{enumerate}
+\end{remarks}
+
+\begin{example}
+Let $\cat{A}$ be a discrete%
+%
+\index{category!discrete!functor out of}
+%
+category, and let $F, G\from \cat{A} \to \cat{B}$ be functors.  Then $F$
+and $G$ are just families $(F(A))_{A \in \cat{A}}$ and $(G(A))_{A \in
+  \cat{A}}$ of objects of $\cat{B}$.  A natural transformation $\alpha\from
+F \to G$ is just a family $\Bigl( F(A) \toby{\alpha_A} G(A) \Bigr)_{A \in
+  \cat{A}}$ of maps in $\cat{B}$, as claimed above in the case $\ob \cat{A}
+= \nat$.  In principle, this family must satisfy the naturality
+axiom~\eqref{eq:nat} for every map $f$ in $\cat{A}$; but the only maps in
+$\cat{A}$ are the identities, and when $f$ is an identity, this axiom holds
+automatically.
+\end{example}
+
+\begin{example}
+Recall from Examples~\ref{egs:cats-as} that a group (or more generally, a
+monoid) $G$ can be regarded as a one-object%
+%
+\index{monoid!action of}
+%
+category.  Also recall from Example~\ref{eg:functor-action} that a functor
+from the category $G$ to $\Set$ is nothing but a left $G$-set.  (Previously
+we used $\cat{G}$ to denote the category corresponding to the group $G$;
+from now on we use $G$%
+%
+\index{monoid!one-object category@as one-object category}
+\ntn{group-one-obj}
+%
+to denote them both.)  Take two $G$-sets, $S$ and $T$.  Since $S$ and $T$
+can be regarded as functors $G \to \Set$, we can ask: what is a natural
+transformation
+\[
+\xymatrix{
+G \rtwocell^S_T{\alpha} &\Set,
+}
+\]
+in concrete terms?
+
+Such a natural transformation consists of a single map in $\Set$ (since $G$
+has just one object), satisfying some axioms.  Precisely, it is a function
+$\alpha\from S \to T$ such that $\alpha(g\cdot s) = g\cdot \alpha(s)$ for
+all $s \in S$ and $g \in G$.  (Why?)  In other words, it is just a map of
+$G$-sets, sometimes called a \demph{$G$-equivariant}%
+%
+\index{equivariant}
+%
+map.
+\end{example}
+
+\begin{example}
+Fix a natural number $n$.  In this example, we will see how `determinant%
+%
+\index{determinant}
+%
+of an $n \times n$ matrix' can be understood as a natural transformation.
+
+For any commutative ring $R$, the $n \times n$ matrices with entries in $R$
+form a monoid $M_n(R)$ under multiplication.  Moreover, any ring
+homomorphism $R \to S$ induces a monoid homomorphism $M_n(R) \to M_n(S)$.
+This defines a functor $M_n\from \CRing \to \Mon$ from the category of
+commutative rings to the category of monoids.
+
+Also, the elements of any ring $R$ form a monoid $U(R)$ under multiplication,
+giving another functor $U\from \CRing \to \Mon$.
+
+Now, every $n \times n$ matrix $X$ over a commutative ring $R$
+has a determinant ${\det}_R(X)$, which is an element of $R$.
+Familiar properties of determinant~--
+\[
+{\det}_R(XY) = {\det}_R(X) {\det}_R(Y),
+\qquad
+{\det}_R(I) = 1
+\]
+-- tell us that for each $R$, the function ${\det}_R\from M_n(R) \to U(R)$
+is a monoid homomorphism.  So, we have a family of maps
+\[
+\Bigl( M_n(R) \toby{\det_R} U(R) \Bigr)_{R \in \CRing},
+\]
+and it makes sense to ask whether they define a natural transformation
+\[
+\xymatrix{
+\CRing \rrtwocell^{M_n}_U{\hspace{.8em}\det} &&\Mon.
+}
+\]
+Indeed, they do.  That the naturality squares commute (check!)\ reflects
+the fact that determinant is defined in the same way for all rings.  We do
+not use one definition of determinant for one ring and a different
+definition for another ring.  Generally speaking, the naturality
+axiom~\eqref{eq:nat} is supposed to capture the idea that the family
+$(\alpha_A)_{A \in \cat{A}}$ is defined in a uniform way across all $A \in
+\cat{A}$.
+\end{example}
+
+\begin{constn}  
+\label{constn:comp-nat}
+Natural transformations are a kind of map, so we would expect to be able to
+compose%
+%
+\index{natural transformation!composition of}
+%
+them.  We can.  Given natural transformations
+% 
+\vspace{-2ex}
+\[
+\xymatrix@C+1.5em{
+\cat{A} 
+\ruppertwocell<8>^F{\alpha}
+\ar[r]|G 
+\rlowertwocell<-8>_H{\beta}
+&
+\cat{B}
+},
+\]
+\vspace{-3ex}\\
+% 
+there is a composite natural transformation
+\[
+\xymatrix@C+1.5em{
+\cat{A} \rtwocell^F_H{\hspace{.8em}\beta\of\alpha} &\cat{B}
+}%
+%
+\ntn{of-nt}
+%
+\]
+defined by $(\beta\of\alpha)_A = \beta_A \of \alpha_A$ for all $A \in
+\cat{A}$.  There is also an identity%
+%
+\index{natural transformation!identity}
+%
+natural transformation
+\[
+\xymatrix@C+1em{
+\cat{A} \rtwocell^F_F{\hspace{.5em}1_F} &\cat{B}
+}%
+%
+\ntn{id-nt}
+%
+\]
+on any functor $F$, defined by $(1_F)_A = 1_{F(A)}$.  So for any two
+categories $\cat{A}$ and $\cat{B}$, there is a category whose objects are
+the functors from $\cat{A}$ to $\cat{B}$ and whose maps are the natural
+transformations between them.  This is called the \demph{functor%
+%
+\index{functor!category}
+%
+category} from $\cat{A}$ to $\cat{B}$, and written as
+$\ftrcat{\cat{A}}{\cat{B}}$%
+%
+\ntn{ftr-cat-bkts}
+%
+ or
+$\cat{B}^\cat{A}$.%
+%
+\ntn{ftr-cat-power}
+%
+\end{constn}
+
+\begin{example}        
+Let $2$%
+%
+\ntn{two-disc-cat}
+%
+be the discrete%
+%
+\index{category!discrete!functor out of}
+%
+category with two objects.  A functor from $2$ to a category $\cat{B}$ is a
+pair of objects of $\cat{B}$, and a natural transformation is a pair of
+maps.  The functor category $\ftrcat{2}{\cat{B}}$ is therefore isomorphic
+to the product category $\cat{B} \times \cat{B}$
+(Construction~\ref{constn:prod-cat}).  This fits well with the alternative
+notation $\cat{B}^2$ for the functor category.
+\end{example}
+
+\begin{example} 
+Let $G$ be a monoid.%
+%
+\index{monoid!action of}
+%
+Then $\ftrcat{G}{\Set}$%
+%
+\ntn{GSet}
+%
+is the category of left $G$-sets, and $\ftrcat{G^\op}{\Set}$ is the
+category of right $G$-sets (Example~\ref{eg:contra-functors:actions}).
+\end{example}
+
+\begin{example}
+\label{eg:ftr-cats-orders}
+Take ordered%
+%
+\index{ordered set}
+%
+sets $A$ and $B$, viewed as categories (as in
+Example~\ref{egs:cats-as}\bref{eg:cats-as:orders}).  Given order-preserving
+maps $\parpairi{A}{B}{f}{g}$, viewed as functors (as in
+Example~\ref{eg:functor-orders}), there is at most one natural
+transformation
+\[
+\xymatrix{
+A \rtwocell^f_g &B,
+}
+\]
+and there is one if and only if $f(a) \leq g(a)$ for all $a \in A$.  (The
+naturality axiom~\eqref{eq:nat} holds automatically, because in an ordered
+set, all diagrams commute.)  So $\ftrcat{A}{B}$ is an ordered set too; its
+elements are the order-preserving maps from $A$ to $B$, and $f \leq g$ if
+and only if $f(a) \leq g(a)$ for all $a \in A$.
+\end{example}
+
+Everyday phrases such as `\emph{the}%
+%
+\index{uniqueness}
+%
+cyclic group of order $6$' and `\emph{the} product of two spaces' reflect
+the fact that given two isomorphic objects of a category, we usually
+neither know nor care%
+% 
+\label{p:care}
+% 
+whether they are actually equal.  This is enormously important.  
+
+In particular, the lesson applies when the category concerned is a functor
+category.  In other words, given two functors $F, G\from \cat{A} \to
+\cat{B}$, we usually do not care whether they are literally equal.
+(Equality would imply that the objects $F(A)$ and $G(A)$ of $\cat{B}$ were
+equal for all $A \in \cat{A}$, a level of detail in which we have just
+declared ourselves to be uninterested.)  What really matters is whether
+they are naturally isomorphic.
+
+\begin{defn}    
+\label{defn:nat-iso}
+Let $\cat{A}$ and $\cat{B}$ be categories.  A \demph{natural%
+%
+\index{isomorphism!natural}
+%
+isomorphism} between functors from $\cat{A}$ to $\cat{B}$ is an isomorphism
+in $\ftrcat{\cat{A}}{\cat{B}}$.
+\end{defn}
+
+An equivalent form of the definition is often useful:
+
+\begin{lemma}   
+\label{lemma:nat-iso-compts}
+Let $\xymatrix@1{\cat{A}\rtwocell^F_G{\alpha} &\cat{B}}$ be a natural
+transformation.  Then $\alpha$ is a natural isomorphism if and only if
+$\alpha_A\from F(A) \to G(A)$ is an isomorphism for all $A \in \cat{A}$.
+\end{lemma}
+
+\begin{pf}
+Exercise~\ref{ex:nat-iso-compts}.
+\end{pf}
+
+Of course, we say that functors $F$ and $G$ are \demph{naturally
+isomorphic} if there exists a natural isomorphism from $F$ to $G$.  Since
+natural isomorphism is just isomorphism in a particular category (namely,
+$\ftrcat{\cat{A}}{\cat{B}}$), we already have notation for this: $F \iso
+G$.%
+%
+\ntn{iso-ftr}
+%
+
+\begin{defn}	
+\label{defn:nat-in}
+Given functors $\parpair{\cat{A}}{\cat{B}}{F}{G}$, we say that
+% 
+\[
+F(A) \iso G(A) \text{ \demph{naturally in} } A 
+%
+\index{naturally}
+%
+\]
+if $F$ and $G$ are naturally isomorphic.  
+\end{defn}
+
+This alternative terminology can be understood as follows.  If $F(A) \iso
+G(A)$ naturally in $A$ then certainly $F(A) \iso G(A)$ for each individual
+$A$, but more is true: we can choose isomorphisms $\alpha_A\from F(A) \to
+G(A)$ in such a way that the naturality axiom~\eqref{eq:nat} is satisfied.
+
+\begin{example}
+Let $F, G\from \cat{A} \to \cat{B}$ be functors from a discrete%
+%
+\index{category!discrete!functor out of}
+%
+category $\cat{A}$ to a category $\cat{B}$.  Then $F \iso G$ if and only if
+$F(A) \iso G(A)$ for all $A \in \cat{A}$.
+
+So in \emph{this} case, $F(A) \iso G(A)$ naturally in $A$ if and only if
+$F(A) \iso G(A)$ for all $A$.  But this is only true because $\cat{A}$ is
+discrete.  In general, it is emphatically false.  There are many examples
+of categories and functors $\parpairi{\cat{A}}{\cat{B}}{F}{G}$ such that
+$F(A) \iso G(A)$ for all $A \in \cat{A}$, but not \emph{naturally} in $A$.
+Exercise~\ref{ex:species} gives an example from combinatorics.
+\end{example}
+
+\begin{example}
+Let $\FDVect$%
+%
+\ntn{FDVect}
+%
+be the category of finite-dimensional vector spaces over some field $k$.
+The dual%
+%
+\index{vector space!dual}%
+\index{duality!vector spaces@for vector spaces}
+%
+vector space construction defines a contravariant functor from $\FDVect$ to
+itself (Example~\ref{eg:fns-on-vs}), and the double dual construction
+therefore defines a covariant functor from $\FDVect$ to itself.
+
+Moreover, we have for each $V \in \FDVect$ a canonical isomorphism
+$\alpha_V\from V \to V^{**}$.  Given $v \in V$, the element $\alpha_V(v)$
+of $V^{**}$ is `evaluation%
+%
+\index{evaluation}
+%
+at $v$'; that is, $\alpha_V(v)\from V^* \to k$ maps $\phi \in V^*$ to
+$\phi(v) \in k$.  That $\alpha_V$ is an isomorphism is a standard result in
+the theory of finite-dimensional vector spaces.
+
+This defines a natural transformation
+\[
+\xymatrix{
+\FDVect 
+\rtwocell<5>^{1_\FDVect}_{\blank^{**}}{\alpha} &
+\FDVect
+}
+\]
+from the identity functor to the double dual functor.  By
+Lemma~\ref{lemma:nat-iso-compts}, $\alpha$ is a natural isomorphism.  So
+$1_\FDVect \iso \blank^{**}$.  Equivalently, in the language of
+Definition~\ref{defn:nat-in}, $V \iso V^{**}$ naturally in $V$.
+
+This is one of those occasions on which category theory makes an intuition
+precise.  In some informal sense, evident before you learn anything about
+category theory, the isomorphism between a finite-dimensional vector space
+and its double dual is `natural' or `canonical': no arbitrary choices are
+needed in order to define it.  In contrast, to specify an isomorphism
+between $V$ and its single dual $V^*$, we need to make an arbitrary choice
+of basis, and the isomorphism really does depend on the basis that we
+choose.
+\end{example}
+
+In the example on vector spaces, the word \demph{canonical}%
+%
+\index{canonical}
+%
+was used.  It is an informal word, meaning something like `God-given' or
+`defined without making arbitrary choices'.  For example, for any two sets
+$A$ and $B$, there is a canonical bijection $A \times B \to B \times A$
+defined by $(a, b) \mapsto (b, a)$, and there is a canonical function $A
+\times B \to A$ defined by $(a, b) \mapsto a$.  But the function $B \to A$
+defined by `choose an element $a_0 \in A$ and send everything to $a_0$' is
+not canonical, because the choice of $a_0$ is arbitrary.
+
+\subjectchange
+
+The concept of natural isomorphism leads unavoidably to another central
+concept: equivalence of categories.
+
+%
+\index{sameness|(}
+%
+Two elements of a set are either equal or not.  Two objects of a category
+can be equal, not equal but isomorphic, or not even isomorphic.  As
+explained before Definition~\ref{defn:nat-iso}, the notion of equality
+between two objects of a category is unreasonably strict; it is usually
+isomorphism that we care about.  So:
+% 
+\begin{itemize}
+\item
+the right notion of sameness of two elements of a set is
+equality;
+
+\item
+the right notion of sameness of two objects of a category is
+isomorphism.
+\end{itemize}
+% 
+When applied to a functor category $\ftrcat{\cat{A}}{\cat{B}}$, the second
+point tells us that:
+% 
+\begin{itemize}
+\item
+the right notion of sameness of two functors $\cat{A} \parpairu
+\cat{B}$ is natural isomorphism. 
+\end{itemize}
+% 
+But what is the right notion of sameness of two \emph{categories}?
+Isomorphism is unreasonably strict, as if $\cat{A} \iso \cat{B}$ then
+there are functors
+% 
+\begin{equation}        
+\label{eq:oppair}
+\oppair{\cat{A}}{\cat{B}}{F}{G}
+\end{equation}
+% 
+such that 
+% 
+\begin{equation}
+\label{eq:inverse-functors}
+G \of F = 1_\cat{A}
+\qquad
+\text{and}
+\qquad
+F \of G = 1_\cat{B}, 
+\end{equation}
+% 
+and we have just seen that the notion of equality between functors is too
+strict.  The most useful notion of sameness of categories, called
+`equivalence', is looser than isomorphism.  To obtain the definition, we
+simply replace the unreasonably strict equalities
+in~\eqref{eq:inverse-functors} by isomorphisms.  This gives
+\[
+G \of F \iso 1_\cat{A}
+\qquad
+\text{and}
+\qquad
+F \of G \iso 1_\cat{B}.
+%
+\index{sameness|)}
+%
+\]
+
+\begin{defn}    
+\label{defn:eqv}
+An \demph{equivalence}%
+%
+\index{equivalence of categories}%
+\index{category!equivalence of categories}
+%
+between categories $\cat{A}$ and $\cat{B}$ consists
+of a pair~\eqref{eq:oppair} of functors together with natural isomorphisms
+\[
+\eta\from 1_\cat{A} \to G \of F,
+\qquad
+\epsln\from F \of G \to 1_\cat{B}.
+\]
+If there exists an equivalence between $\cat{A}$ and $\cat{B}$, we say that
+$\cat{A}$ and $\cat{B}$ are \demph{equivalent}, and write $\cat{A} \eqv
+\cat{B}$.%
+%
+\ntn{eqv}
+%
+We also say that the functors $F$ and $G$ are \demph{equivalences}.
+\end{defn}
+
+The directions of $\eta$ and $\epsln$ are not very important, since they
+are isomorphisms anyway.  The reason for this particular choice will become
+apparent when we come to discuss adjunctions (Section~\ref{sec:adj-units}).
+
+\begin{warning}
+The symbol $\iso$ is used for isomorphism of objects of a category, and in
+particular for isomorphism of categories (which are objects of $\CAT$).
+The symbol $\eqv$ is used for equivalence of categories.  At least, this is
+the convention used in this book and by most category theorists, although
+it is far from universal in mathematics at large.
+\end{warning}
+
+There is a very useful alternative characterization of those functors that
+are equivalences.  First, we need a definition.
+
+\begin{defn} 
+A functor $F\from \cat{A} \to \cat{B}$ is \demph{essentially%
+%
+\index{essentially surjective on objects}%
+\index{functor!essentially surjective on objects}
+%
+surjective on objects} if for all $B \in \cat{B}$, there exists $A \in
+\cat{A}$ such that $F(A) \iso B$.
+\end{defn}
+
+\begin{propn}   
+\label{propn:eqv-ffeso}
+A functor is an equivalence if and only if it is full, faithful and
+essentially surjective on objects.
+\end{propn}
+
+\begin{pf}
+Exercise~\ref{ex:eqv-ffeso}.
+\end{pf}
+
+This result can be compared to the theorem that every bijective group
+homomorphism is an isomorphism (that is, its inverse is also a
+homomorphism), or that a natural transformation whose components are
+isomorphisms is itself an isomorphism (Lemma~\ref{lemma:nat-iso-compts}).
+Those two results are useful because they allow us to show that a map is an
+isomorphism without directly constructing an inverse.
+Proposition~\ref{propn:eqv-ffeso} provides a similar service, enabling us
+to prove that a functor $F$ is an equivalence without actually constructing
+an `inverse' $G$, or indeed an $\eta$ or an $\epsln$ (in the notation of
+Definition~\ref{defn:eqv}).
+
+A corollary of Proposition~\ref{propn:eqv-ffeso} invites us to view full
+and faithful%
+%
+\index{functor!full and faithful}
+%
+functors as, essentially, inclusions of full subcategories:
+
+\begin{cor}     
+\label{cor:ff-emb}
+Let $F\from \cat{C} \to \cat{D}$ be a full and faithful functor.  Then
+$\cat{C}$ is equivalent to the full subcategory $\cat{C}'$ of $\cat{D}$
+whose objects are those of the form $F(C)$ for some $C \in \cat{C}$.
+\end{cor}
+
+\begin{pf}
+The functor $F'\from \cat{C} \to \cat{C}'$ defined by $F'(C) = F(C)$ is
+full and faithful (since $F$ is) and essentially surjective on objects (by
+definition of $\cat{C}'$).
+\end{pf}
+
+This result is true, with the same proof, whether we interpret `of the form
+$F(C)$' to mean `equal to $F(C)$' or `isomorphic to $F(C)$'.
+
+\begin{example}	
+\label{eg:equivs-skellish}
+Let $\cat{A}$ be any category, and let $\cat{B}$ be any full subcategory
+containing at least one object from each isomorphism class of $\cat{A}$.
+Then the inclusion functor $\cat{B} \incl \cat{A}$ is faithful (like any
+inclusion of subcategories), full, and essentially surjective on objects.
+Hence $\cat{B} \eqv \cat{A}$.
+
+So if we take a category and remove some (but not all) of the objects in
+each isomorphism class, the slimmed-down%
+%
+\index{category!slimmed-down}
+%
+version is equivalent to the original.  Conversely, if we take a category
+and throw in some more objects, each of them isomorphic to one of the
+existing objects, it makes no difference: the new, bigger, category is
+equivalent to the old one.
+
+For example, let $\FinSet$%
+%
+\ntn{FinSet}
+%
+be the category of finite%
+%
+\index{set!finite}
+%
+sets and functions between them.  For each natural number $n$, choose a set
+$\lwr{n}$ with $n$ elements, and let $\cat{B}$ be the full subcategory of
+$\FinSet$ with objects $\lwr{0}, \lwr{1}$, \ldots.  Then $\cat{B} \eqv
+\FinSet$, even though $\cat{B}$ is in some sense much smaller than
+$\FinSet$.
+\end{example}
+
+\begin{example}
+\label{eg:equivs-mon}
+In Example~\ref{egs:cats-as}\bref{eg:cats-as:monoids}, we saw that monoids
+are essentially the same thing as one-object%
+%
+\index{monoid!one-object category@as one-object category}
+%
+categories.  With the definition of equivalence in hand, we are nearly
+ready to make this statement precise.  We are missing some set-theoretic
+language, and we will return to this result once we have that language
+(Example~\ref{eg:mon-one-obj-eqv}), but the essential point can be stated
+now.
+
+Let $\cat{C}$ be the full subcategory of $\CAT$ whose objects are the
+one-object categories.  Let $\Mon$ be the category of monoids.  Then
+$\cat{C} \eqv \Mon$.  To see this, first note that given any object $A$ of
+any category, the maps $A \to A$ form a monoid under composition (at least,
+subject to some set-theoretic restrictions).  There is, therefore, a
+canonical functor $F: \cat{C} \to \Mon$ sending a one-object category to
+the monoid of maps from the single object to itself.  This functor $F$ is
+full and faithful (by Example~\ref{eg:ftrs-between-monoids}) and
+essentially surjective on objects.  Hence $F$ is an equivalence.
+\end{example}
+
+\begin{example}
+An equivalence of the form $\cat{A}^\op \eqv \cat{B}$ is sometimes called a
+\demph{duality}%
+%
+\index{duality}
+%
+between $\cat{A}$ and $\cat{B}$.  One says that $\cat{A}$ is \demph{dual}
+to $\cat{B}$.  There are many famous dualities in which $\cat{A}$ is a
+category of algebras and $\cat{B}$ is a category of spaces; recall the
+slogan `algebra is dual%
+%
+\index{duality!algebra--geometry}
+%
+to geometry' from Example~\ref{eg:contra-fn-spaces}.
+
+Here are some quite advanced examples, well beyond the scope of this book.
+% 
+\begin{itemize}
+\item 
+Stone duality:%
+%
+\index{duality!Stone}
+%
+the category of Boolean%
+%
+\index{Boolean algebra}
+%
+algebras is dual to the category of totally disconnected compact Hausdorff
+spaces.
+
+\item 
+Gelfand--Naimark duality:%
+%
+\index{duality!Gelfand--Naimark}
+%
+the category of commutative unital $C^*$-algebras%
+%
+\index{C-algebra@$C^*$-algebra}
+%
+is dual to the category of compact Hausdorff spaces.  ($C^*$-algebras are
+certain algebraic structures important in functional analysis.)
+
+\item 
+Algebraic geometers%
+%
+\index{algebraic geometry}
+%
+have several notions of `space', one of which is `affine variety'.%
+%
+\index{variety}
+%
+Let $k$ be an algebraically closed field.  Then the category of affine
+varieties over $k$ is dual to the category of finitely generated
+$k$-algebras with no nontrivial nilpotents.
+
+\item 
+Pontryagin duality:%
+%
+\index{duality!Pontryagin}
+%
+the category of locally compact abelian topological%
+%
+\index{topological group}%
+\index{group!topological}\linebreak
+%
+groups is dual to itself.  As the words `topological group' suggest, both
+sides of the duality are algebraic \emph{and} geometric.  Pontryagin
+duality is an abstraction of the properties of the Fourier%
+%
+\index{Fourier analysis}
+%
+transform.
+\end{itemize}
+\end{example}
+
+
+\begin{example}
+It is rarely useful to consider a category of structured objects in
+which the maps do not respect that structure.  For instance, let $\cat{A}$
+be the category whose objects are groups%
+%
+\index{group!non-homomorphisms of groups}
+%
+and whose maps are \emph{all} functions between them, not necessarily
+homomorphisms.  Let $\Set_{\neq\emptyset}$ be the category of nonempty
+sets.  The forgetful functor $U\from \cat{A} \to \Set_{\neq\emptyset}$ is
+full and faithful.  It is a (not profound) fact that every nonempty set can
+be given at least one group structure, so $U$ is essentially surjective on
+objects.  Hence $U$ is an equivalence.  This implies that the category
+$\cat{A}$, although defined in terms of groups, is really just the category
+of nonempty sets.
+\end{example}
+
+\begin{remarks} 
+\label{rmks:2-cat-CAT}
+Here is a kind of review of the chapter so far.  We have defined:
+% 
+\begin{itemize}
+\item 
+categories (Section~\ref{sec:cats});
+
+\item 
+functors between categories (Section~\ref{sec:ftrs});
+
+\item 
+natural transformations between functors (Section~\ref{sec:nts});
+
+\item 
+composition of functors 
+\[
+\cdot \to \cdot \to \cdot
+\]
+and the identity functor on any category
+(Remark~\ref{rmks:defn-ftr}\bref{rmk:defn-ftr:comp});
+
+\item 
+composition of natural transformations%
+%
+\index{natural transformation!composition of|(}
+%
+\vspace{-3ex}
+\[
+\xymatrix{
+\cdot
+\ruppertwocell
+\ar[r]
+\rlowertwocell
+&
+\cdot
+}
+\]
+\vspace{-4ex}\\ 
+%
+and the identity natural transformation on any functor
+(Construction~\ref{constn:comp-nat}).
+\end{itemize}
+% 
+This composition of natural transformations is sometimes called
+\demph{vertical%
+%
+\index{composition!vertical}
+%
+composition}.  There is also \demph{horizontal%
+%
+\index{composition!horizontal} 
+%
+composition}, which takes natural transformations
+\[
+\xymatrix@C+.5em{
+\cat{A} \rtwocell<4>^F_G{\alpha}   &
+\cat{A}' \rtwocell<4>^{F'}_{G'}{\alpha'}   &
+\cat{A}''
+}
+\]
+and produces a natural transformation
+\[
+\xymatrix@C+.5em{
+\cat{A} \rtwocell<4>^{F' \of F}_{G' \of G} &\cat{A}'',
+}
+\]
+traditionally written as $\alpha' * \alpha$.%
+%
+\ntn{horiz-comp}
+%
+The component of $\alpha' * \alpha$ at $A \in \cat{A}$ is defined to be
+the diagonal of the naturality square
+\[
+\xymatrix{
+F'(F(A)) \ar[r]^{F'(\alpha_A)} \ar[d]_{\alpha'_{F(A)}}  &
+F'(G(A)) \ar[d]^{\alpha'_{G(A)}}        \\
+G'(F(A)) \ar[r]_{G'(\alpha_A)}  &
+G'(G(A)).
+}
+\]
+In other words, $(\alpha' * \alpha)_A$ can be defined as either 
+$\alpha'_{G(A)} \of F'(\alpha_A)$ or $G'(\alpha_A) \of \alpha'_{F(A)}$; it
+makes no difference which, since they are equal.  
+
+The special%
+% 
+\label{p:special-cases}
+%
+cases of horizontal composition where either $\alpha$ or $\alpha'$ is an
+identity are especially important, and have their own notation.  Thus,
+\[
+\xymatrix@C+.5em{
+\cat{A}
+\ar[r]^F        &
+\cat{A}'
+\rtwocell^{F'}_{G'}{\hspace{.3em}\alpha'}    &
+\cat{A}''
+}
+\qquad
+\text{gives rise to}
+\qquad
+\xymatrix@C+1.5em{
+\cat{A} \rtwocell<4>^{F'\of F}_{G'\of F}{\hspace{.8em}\alpha' F}      &\cat{A}''
+}%
+%
+\ntn{whisker-right}
+%
+\]
+where $(\alpha' F)_A = \alpha'_{F(A)}$, and 
+\[
+\xymatrix@C+.5em{
+\cat{A}
+\rtwocell^F_G{\alpha}   &
+\cat{A}'
+\ar[r]^{F'}     &
+\cat{A}''
+}
+\qquad
+\text{gives rise to}
+\qquad
+\xymatrix@C+1.5em{
+\cat{A} \rtwocell<4>^{F'\of F}_{F' \of G}{\hspace{.8em}F' \alpha} &
+\cat{A}''
+}%
+%
+\ntn{whisker-left}
+%
+\]
+where $(F'\alpha)_A = F'(\alpha_A)$.  
+
+Vertical and horizontal composition interact well: natural transformations
+\[
+\xymatrix{
+\cat{A} 
+\ruppertwocell<8>^F{\alpha}
+\ar[r]|G
+\rlowertwocell<-8>_H{\beta} &
+\cat{A}'
+\ruppertwocell<8>^{F'}{\hspace{.2em}\alpha'}
+\ar[r]|{G'}
+\rlowertwocell<-8>_{H'}{\hspace{.2em}\beta'} &
+\cat{A}''
+}
+\]
+obey the \demph{interchange law},%
+%
+\index{interchange law}
+%
+\[
+(\beta' \of \alpha') * (\beta \of \alpha)
+=
+(\beta' * \beta) \of (\alpha' * \alpha)
+\from
+F' \of F \to H' \of H.
+\]
+As usual, a statement on composition is accompanied by a statement on
+identities: $1_{F'} * 1_F = 1_{F' \of F}$ too.
+
+All of this enables us to construct, for any categories $\cat{A}$,
+$\cat{A}'$ and $\cat{A}''$, a functor
+\[
+\ftrcat{\cat{A}'}{\cat{A}''}
+\times
+\ftrcat{\cat{A}}{\cat{A}'}
+\to
+\ftrcat{\cat{A}}{\cat{A}''},
+%
+\index{functor!category}
+%
+\]
+given on objects by $(F', F) \mapsto F' \of F$ and on maps by $(\alpha',
+\alpha) \mapsto \alpha' * \alpha$.  In particular, if $F' \iso G'$ and $F
+\iso G$ then $F' \of F \iso G' \of G$, since functors preserve isomorphism
+(Exercise~\ref{ex:ftrs-pres-iso}).
+
+(The existence of this functor is similar to the fact that \emph{inside} a
+category $\cat{C}$, we have, for any objects $A$, $A'$ and $A''$, a
+funct\emph{ion}
+\[
+\cat{C}(A', A'') \times \cat{C}(A, A') \to \cat{C}(A, A''),
+\]
+given by $(f', f) \mapsto f' \of f$.)
+
+The diagrams above contain not only objects (0-dimensional) and arrows
+$\to$ (1-dimensional), but also double arrows $\Rightarrow$ sweeping out
+2-dimensional regions between arrows.  What we are implicitly doing is
+called 2-category%
+%
+\index{two-category@2-category}
+%
+theory.  There is a 2-category%
+%
+\index{category!two-category of categories@2-category of categories}
+%
+of categories, functors and natural transformations, whose anatomy we have
+just been describing.  If we are really serious about categories, we have
+to get serious about 2-categories.  And if we are really serious about
+2-categories, we have to get serious about 3-categories\ldots%
+%
+\index{n-category@$n$-category}
+%
+and before we know it, we are studying $\infty$-categories.%
+%
+\index{infinity-category@$\infty$-category}
+%
+But in this book, we climb no higher than the first rung or two of this
+infinite ladder.%
+%
+\index{natural transformation!composition of|)}
+%
+
+\end{remarks}
+
+
+\exs
+
+
+\begin{question}
+Find three examples of natural transformations not mentioned above.
+\end{question}
+
+
+\begin{question}        
+\label{ex:nat-iso-compts}
+Prove Lemma~\ref{lemma:nat-iso-compts}.
+\end{question}
+
+
+\begin{question}
+Let $\cat{A}$ and $\cat{B}$ be categories.  Prove that
+$\ftrcat{\cat{A}^\op}{\cat{B}^\op} \iso \ftrcat{\cat{A}}{\cat{B}}^\op$.
+\end{question}
+
+
+\begin{question}
+Let $A$ and $B$ be sets, and denote by $B^A$ the set of functions from $A$
+to $B$.  Write down:
+% 
+\begin{enumerate}[(b)]
+\item 
+a canonical function $A \times B^A \to B$;%
+%
+\index{canonical}
+%
+
+\item 
+a canonical function $A \to B^{(B^A)}$.
+\end{enumerate}
+% 
+(Although in principle there could be many such canonical functions,
+in both these cases there is only one.)
+\end{question}
+
+
+\begin{question}        
+\label{ex:nat-iso-on-product}
+Here we consider natural transformations between functors whose domain
+is a product%
+%
+\index{category!product of categories}
+%
+category $\cat{A} \times \cat{B}$.  Your task is to show that naturality in
+two variables simultaneously is equivalent to naturality in each variable
+separately.
+
+Take functors $F, G\from \cat{A} \times \cat{B} \to \cat{C}$.  For each $A
+\in \cat{A}$, there are functors $F^A, G^A\from \cat{B} \to \cat{C}$, as in
+Exercise~\ref{ex:ftr-on-product}.  Similarly, for each $B\in\cat{B}$,
+there are functors $F_B, G_B\from \cat{A} \to \cat{C}$.
+
+Let $\bigl(\alpha_{A, B}\from F(A, B) \to G(A, B)\bigr)_{A \in \cat{A}, B
+  \in \cat{B}}$ be a family of maps.  Show that this family is a natural
+transformation $F \to G$ if and only if it satisfies the following two
+conditions: 
+% 
+\begin{itemize}
+\item 
+for each $A \in \cat{A}$, the family $\bigl(\alpha_{A, B}\from F^A(B) \to
+G^A(B)\bigr)_{B \in \cat{B}}$ is a natural transformation $F^A \to G^A$;
+
+\item 
+for each $B \in \cat{B}$, the family $\bigl(\alpha_{A, B}\from F_B(A) \to
+G_B(A)\bigr)_{A \in \cat{A}}$ is a natural transformation $F_B \to G_B$.
+\end{itemize}
+\end{question}
+
+
+\begin{question}
+Let $G$ be a group.%
+%
+\index{group!isomorphism of elements of}
+%
+For each $g \in G$, there is a unique homomorphism
+$\phi\from \integers \to G$%
+%
+\index{Z@$\integers$ (integers)!group@as group}
+%
+satisfying $\phi(1) = g$.  Thus, elements of $G$ are essentially the same
+thing as homomorphisms $\integers \to G$.  When groups are regarded as
+one-object categories, homomorphisms $\integers \to G$ are in turn the same
+as functors $\integers \to G$.  Natural isomorphism defines an equivalence
+relation on the set of functors $\integers \to G$, and, therefore, an
+equivalence relation on $G$ itself.  What is this equivalence relation, in
+purely group-theoretic terms?
+
+(First have a guess.  For a general group $G$, what equivalence
+relations on $G$ can you think of?)
+\end{question}
+
+
+\begin{question}        
+\label{ex:species}
+A \demph{permutation}%
+%
+\index{permutation}
+%
+of a set $X$ is a bijection $X \to X$.  Write $\Sym(X)$ for the set of
+permutations of $X$.  A \demph{total%
+%
+\index{total order}%
+\index{ordered set!totally}
+%
+order} on a set $X$ is an order $\leq$ such that for all $x, y \in X$,
+either $x \leq y$ or $y \leq x$; so a total order on a finite set amounts
+to a way of placing its elements in sequence.  Write $\Ord(X)$ for the set
+of total orders on $X$.
+
+Let $\cat{B}$ denote the category of finite sets and bijections.
+
+\begin{enumerate}[(b)]
+\item 
+Give a definition of $\Sym$ on maps in $\cat{B}$ in such a way that $\Sym$
+becomes a functor $\cat{B} \to \Set$.  Do the same for $\Ord$.  Both your
+definitions should be canonical (no arbitrary choices).
+
+\item 
+Show that there is no natural transformation $\Sym \to \Ord$.
+(Hint: consider identity permutations.)
+
+\item 
+For an $n$-element set $X$, how many elements do the sets $\Sym(X)$
+and\linebreak $\Ord(X)$ have?
+\end{enumerate}
+
+Conclude that $\Sym(X) \iso \Ord(X)$ for all $X \in \cat{B}$, but not
+\emph{naturally} in $X \in \cat{B}$.  (The moral is that for each finite
+set $X$, there are exactly as many permutations of $X$ as there are total
+orders on $X$, but there is no natural way of matching them up.)
+\end{question} 
+
+
+\begin{question} 
+\label{ex:eqv-ffeso}
+In this exercise, you will prove Proposition~\ref{propn:eqv-ffeso}.  Let $F
+\from \cat{A} \to \cat{B}$ be a functor.
+% 
+\begin{enumerate}[(b)]
+\item 
+Suppose that $F$ is an equivalence.  Prove that $F$ is full, faithful and
+essentially surjective on objects.  (Hint: prove faithfulness before
+fullness.)
+
+\item 
+Now suppose instead that $F$ is full, faithful and essentially surjective
+on objects.  For each $B \in \cat{B}$, choose an object $G(B)$ of $\cat{A}$
+and an isomorphism $\epsln_B\from F(G(B)) \to B$.  Prove that $G$ extends
+to a functor in such a way that $(\epsln_B)_{B \in \cat{B}}$ is a natural
+isomorphism $FG \to 1_{\cat{B}}$.  Then construct a natural isomorphism
+$1_{\cat{A}} \to GF$, thus proving that $F$ is an equivalence.
+\end{enumerate}
+\end{question}
+
+
+\begin{question}
+This exercise makes precise the idea that linear algebra can equivalently
+be done with matrices%
+%
+\index{matrix}
+%
+or with linear maps.
+
+Fix a field $k$.  Let $\Mt$ be the category whose objects are the natural
+numbers and with
+\[
+\Mt(m, n) 
+=
+\{ n \times m \text{ matrices over } k \}.
+\]
+Prove that $\Mt$ is equivalent to $\FDVect$, the category of
+finite-dimensional vector%
+%
+\index{vector space}
+%
+spaces over $k$.  Does your equivalence involve a \emph{canonical} functor
+from $\Mt$ to $\FDVect$, or from $\FDVect$ to $\Mt$?
+
+(Part of the exercise is to work out what composition in the category $\Mt$
+is supposed to be; there is only one sensible possibility.
+Proposition~\ref{propn:eqv-ffeso} makes the exercise easier.)
+\end{question}
+
+
+\begin{question}        
+\label{ex:eqv-eq-reln}
+Show that equivalence of categories is an equivalence relation.  (Not as
+obvious as it looks.)
+\end{question}

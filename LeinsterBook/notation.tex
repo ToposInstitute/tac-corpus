@@ -1,0 +1,151 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Index of notation
+% 
+
+\chapter*{Index of notation}
+
+{%
+\footnotesize%
+%
+\setlength{\parindent}{0em}%
+%
+\begin{multicols}{3}
+% 
+% Positioning notation
+% 
+\nuse{\nref{empty-blank}}{blank space}
+\nuse{\nref{juxt}}{$gf$}
+\nuse{\nref{whisker-right}}{$\alpha F$}
+\nuse{\nref{whisker-left}}{$F \alpha$}
+\nuse{\nref{nt-comp}}{$\alpha_A$}
+\nuse{\nref{hom-set-default}}{$\cat{A}(A, B)$}
+\nuse{\nref{hom-out}}{$\cat{A}(A, \dashbk)$}
+\nuse{\nref{hom-in}}{$\cat{A}(\dashbk, A)$}
+\nuse{\nref{hom-out-map-blank}}{$\cat{A}(f, \dashbk)$}
+\nuse{\nref{hom-in-map-blank}}{$\cat{A}(\dashbk, f)$}
+\nuse{\nref{AAD}}{$\cat{A}(A, D)$}
+\nuse{\nref{DblankA}}{$D(\dashbk)(A)$}
+\nuse{\nref{ftr-cat-power}}{$\cat{B}^\cat{A}$}
+\nuse{\nref{exponential-set}, \nref{power-of-obj}, \nref{exp-cc}}{$B^A$}
+\nuse{\nref{map-to-prod}}{$(f_i)_{i \in I}$}
+\nuse{\nref{small-cat-face}}{$\scat{A}, \scat{B}, \ldots$ (typeface)}
+
+% 
+% Symbols
+% 
+\nuse{\nref{dashbk}}{$\dashbk$}
+\nuse{\nref{adj-bar}, \nref{lim-bar}, \nref{colim-bar}}{$\bar{\emptybk}$}
+\nuse{\pageref{eq:yoneda-fns}}{$\ynt{\emptybk}$}
+\nuse{\pageref{eq:yoneda-fns}, \nref{psh}}{$\yel{\emptybk}$}
+\nuse{\nref{D-upper-lower}}{$\blank^\bl$, $\blank_\bl$}
+\nuse{\nref{horiz-comp}}{$*$}
+\nuse{\nref{dual-vs}}{$V^*$}
+\nuse{\nref{dual-map}, \nref{upper-star}}{$f^*$}
+\nuse{\nref{lower-star}, \nref{lower-star-bis}}{$f_*$}
+\nuse{\nref{of}, \nref{of-ftr}, \nref{of-nt}}{$\of$}
+\nuse{\nref{of-blank}, \nref{of-blank-bis}}{$g \of \dashbk$}
+\nuse{\nref{blank-of}}{$\dashbk \of f$}
+\nuse{\nref{forall}}{$\forall$}
+\nuse{\nref{ei}}{$\exists!$}
+\nuse{\nref{arrow}}{$\to$}
+\nuse{\nref{incl}}{$\incl$}
+\nuse{\nref{iso-arrow}}{$\toiso$}
+\nuse{\nref{double-arrow}, \nref{comma-cat}, \nref{comma-fix}}{$\Rightarrow$}
+\nuse{\nref{ladj}}{$\ladj$}
+\nuse{\nref{bot}}{$\bot$, $\top$}
+\nuse{\nref{iso}, \nref{iso-cat}, \nref{iso-ftr}}{$\iso$}
+\nuse{\nref{eqv}}{$\eqv$}
+\nuse{\nref{leq}, \nref{card-leq}}{$\leq$}
+\nuse{\nref{card-leq}}{$\crd{\emptybk}$}
+\nuse{\nref{ftr-cat-bkts}}{$\ftrcat{\emptybk}{\emptybk}$}
+\nuse{\nref{tensor}}{$\otimes$}
+\nuse{\nref{prod-cat}, \nref{prod-set}, \nref{prod-gen}}{$\times$}
+\nuse{\nref{prod-fam-set}, \nref{prod-fam-gen}}{$\prod$}
+\nuse{\nref{sum-set}, \nref{sum-gen}}{$+$}
+\nuse{\nref{sum-fam-set}, \nref{sum-fam-gen}}{$\sum$}
+\nuse{\nref{disjt-union}}{$\amalg$}
+\nuse{\nref{disjt-union-fam-gen}}{$\coprod$}
+\nuse{\nref{direct-sum}}{$\oplus$}
+\nuse{\nref{slice}}{$\cat{A}/A$}
+\nuse{\nref{coslice}}{$A/\cat{A}$}
+\nuse{\nref{qt-set}}{$\qer{A}{\sim}$}
+\nuse{\nref{meet}}{$\meet$}
+\nuse{\nref{Meet}}{$\Meet$}
+\nuse{\nref{join}}{$\join$}
+\nuse{\nref{Join}}{$\Join$}
+
+% 
+% Numbers
+% 
+\nuse{\nref{inverse}}{$\blank^{-1}$}
+\nuse{\nref{empty-cat}}{$\emptyset$}
+\nuse{\nref{initial}}{$0$}
+\nuse{\nref{oneset}, \nref{id-map}, \nref{id-ftr}, \nref{id-nt},
+  \nref{terminal}}{$1$} 
+\nuse{\nref{terminal-cat}}{$\One$}
+\nuse{\nref{two-disc-cat}, \nref{two-set}}{$2$}
+\nuse{\nref{Two}}{$\Two$}
+
+% 
+% Greek letters
+% 
+\nuse{\nref{Delta}, \nref{diag-set}, \nref{diag-gen}}{$\Delta$}
+\nuse{\nref{adj-counit}}{$\epsln$}
+\nuse{\nref{adj-unit}}{$\eta$}
+\nuse{\nref{pi-1}}{$\pi_1$}
+\nuse{\nref{char-fn}}{$\chi$}
+
+% 
+% Latin letters
+% 
+\nuse{\nref{Ab}}{$\Ab$}
+\nuse{\nref{abel}}{$\abel{\blank}$}
+\nuse{\nref{Bilin}}{$\Bilin$}
+\nuse{\nref{cts-ring}}{$C$}
+\nuse{\nref{CAT}}{$\CAT$}
+\nuse{\nref{Cat}}{$\Cat$}
+\nuse{\nref{Cone}}{$\Cone$}
+\nuse{\nref{CptHff}}{$\CptHff$}
+\nuse{\nref{CRing}}{$\CRing$}
+\nuse{\nref{discrete-space}}{$D$}
+\nuse{\pageref{eq:lim-shapes}, \nref{cat-elts}}{$\scat{E}$}
+\nuse{\nref{ev}}{$\ev$}
+\nuse{\nref{FDVect}}{$\FDVect$}
+\nuse{\nref{Field}}{$\Field$}
+\nuse{\nref{FinSet}}{$\FinSet$}
+\nuse{\nref{Grp}}{$\Grp$}
+\nuse{\nref{hom-out}}{$\h^A$}
+\nuse{\nref{hom-in}}{$\h_A$}
+\nuse{\nref{hom-out-map}}{$\h^f$}
+\nuse{\nref{hom-in-map}}{$\h_f$}
+\nuse{\nref{hom-out-blank}}{$\h^\bl$}
+\nuse{\nref{hom-in-blank}}{$\h_\bl$}
+\nuse{\nref{Hom}, \nref{Hom-functor}}{$\Hom$}
+\nuse{\nref{HOM}}{$\HOM$}
+\nuse{\nref{indiscrete-space}}{$I$}
+\nuse{\nref{lim}}{$\lt{}$}
+\nuse{\nref{colim}}{$\colt{}$}
+\nuse{\nref{Mon}}{$\Mon$}
+\nuse{\nref{nat}}{$\nat$}
+\nuse{\nref{oset}, \nref{oset-ftr}}{$\oset$}
+\nuse{\nref{ob}}{$\ob$}
+\nuse{\nref{op}}{$\blank^\op$}
+\nuse{\pageref{eq:lim-shapes}}{$\scat{P}$}
+\nuse{\nref{power-set}, \nref{power-set-precise}, \nref{power-set-ftr}}{$\pset$}
+\nuse{\pageref{eq:pjn-aft}}{$P_A$}
+\nuse{\nref{Ring}}{$\Ring$}
+\nuse{\nref{circle}}{$S^1$}
+\nuse{\nref{Set}}{$\Set$}
+\nuse{\pageref{eq:lim-shapes}}{$\scat{T}$}
+\nuse{\nref{Top}}{$\Tp$}
+\nuse{\nref{Top-star}}{$\Tp_*$}
+\nuse{\nref{Toph}}{$\Toph$}
+\nuse{\nref{Toph-star}}{$\Toph_*$}
+\nuse{\nref{Vect}}{$\Vect_k$}
+\nuse{\nref{poly-one}}{$\integers[x]$}
+\end{multicols}%
+}

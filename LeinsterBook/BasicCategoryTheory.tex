@@ -1,0 +1,50 @@
+% Basic Category Theory
+% Tom Leinster <Tom.Leinster@ed.ac.uk>
+% 
+% Copyright (c) Tom Leinster 2014-2016
+% 
+% Root file.  Run pdflatex on this file.
+% 
+
+\documentclass[spanningrule]{cambridge7a}
+
+\input{macros}          % Macros
+\input{theoremenvts}    % Theorem environments
+
+
+\begin{document}
+
+
+\include{titlepages}    % Title and copyright pages
+\include{arxivpreface}  % Preface to the arXiv version
+\include{front}         % Table of contents
+\include{preface}       % Note to the reader
+
+
+\mainmatter
+
+\include{intro} % Introduction
+
+\include{cfnt}  % Chapter 1: Categories, functors and nat transfs
+\include{adj}   % Chapter 2: Adjoints
+\include{sets}  % Chapter 3: Interlude on sets
+\include{rep}   % Chapter 4: Representables
+\include{lims}  % Chapter 5: Limits
+\include{arl}   % Chapter 6: Adjoints, representables and limits
+
+
+\backmatter
+
+% Appendix
+\addtocontents{toc}{\vspace{.2\baselineskip}} 
+% Add small vertical space to table of contents
+\oneappendix    % Style command saying that there's only one appendix
+\include{gaft}  % Appendix: Proof of the General Adjoint Functor Thm
+\endappendix
+
+\include{reading}       % Further reading
+\include{notation}      % Index of notation
+\input{see}             % Cross-references for index
+\printindex             % Index
+
+\end{document}
