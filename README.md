@@ -12,7 +12,7 @@ You can read about the project in the blog posts:
 
 There are also the preprints:
 
-* https://arxiv.org/abs/2406.11577 (Parmesan3)
+* [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/abs/2406.11577) (Parmesan3)
 * https://arxiv.org/abs/2311.12649 (MathGloss)
 * https://arxiv.org/abs/2309.00642 (MathAnnotator)
 * https://arxiv.org/abs/2307.06699 (Parmesan2)
