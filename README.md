@@ -12,7 +12,7 @@ You can read about the project in the blog posts:
 
 There are also the preprints:
 
-* [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/abs/2406.11577) (Parmesan3)
+* [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/abs/2406.11577) (Parmesan3) was presented at LREC-COLING 2024, a short video is [here](https://www.youtube.com/watch?v=n_5U5Dyy-8M).
 * https://arxiv.org/abs/2311.12649 (MathGloss)
 * https://arxiv.org/abs/2309.00642 (MathAnnotator)
 * [Parmesan: mathematical concept extraction for education](https://arxiv.org/abs/2307.06699) (Parmesan2)
