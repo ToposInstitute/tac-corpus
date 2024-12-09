@@ -15,7 +15,7 @@ There are also the preprints:
 * [Mathematical Entities: Corpora and Benchmarks](https://arxiv.org/abs/2406.11577) (Parmesan3)
 * https://arxiv.org/abs/2311.12649 (MathGloss)
 * https://arxiv.org/abs/2309.00642 (MathAnnotator)
-* https://arxiv.org/abs/2307.06699 (Parmesan2)
+* [Parmesan: mathematical concept extraction for education](https://arxiv.org/abs/2307.06699) (Parmesan2)
 * [“Extracting Mathematical Concepts from Text”](https://aclanthology.org/2022.wnut-1.2/), presented at 
 8th Workshop on Noisy User-generated Text 2022[(W-NUT)](http://noisy-text.github.io/2022/) associated with COLING 2022.
 Here's a short [video](https://www.youtube.com/watch?v=-ZhZjMn1Zpk) about the work.
